@@ -15,7 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout</h1>
         <table>
-            <form action="/paypaljavatestes/ExpressCheckoutController" method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <tr>
                 <td>Quer ver os parametros antes de redirecionar? </td>
                 <td>

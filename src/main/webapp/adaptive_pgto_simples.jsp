@@ -14,7 +14,7 @@
     <body>
         <h1>PayPal Java Testes - Adaptative - Pagamento simples</h1>
         <table>
-            <form action="/paypaljavatestes/AdaptiveController" method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <tr>
                 <td>Assinatura : </td>
                 <td>

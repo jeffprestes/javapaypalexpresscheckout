@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,7 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout - Pagamento simples - Sem pagamento paralelo</h1>
         <table>
-            <form action="/paypaljavatestes/ExpressCheckoutController" method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <tr>
                 <td>Quer ver os parametros antes de redirecionar? </td>
                 <td>
