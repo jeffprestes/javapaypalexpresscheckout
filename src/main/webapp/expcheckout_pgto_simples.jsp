@@ -97,14 +97,14 @@
                 <td>
                     Url de retorno (RETURNURL): </td>
                 <td>
-                    <input type="text" value="http://localhost:8080/paypaljavatestes/expcheckout_retorno.jsp" name="RETURNURL" id="RETURNURL" size="100" />
+                    <input type="text" value='http://<c:out value="${pageContext.servletContext.serverName}${pageContext.servletContext.contextPath}" />/expcheckout_retorno.jsp' name="RETURNURL" id="RETURNURL" size="100" />
                 </td>
             </tr>
             <tr>
                 <td>
                     Url de cancelamento (CANCELURL): </td>
                 <td>
-                    <input type="text" value="http://localhost:8080/paypaljavatestes/retorno.jsp" name="CANCELURL" id="CANCELURL" size="100" />
+                    <input type="text" value='http://<c:out value="${pageContext.servletContext.serverName}${pageContext.servletContext.contextPath}" />/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
                 </td>
             </tr>
             <tr>
