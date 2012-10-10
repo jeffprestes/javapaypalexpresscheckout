@@ -14,6 +14,7 @@
     <body>
         <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <ul>
+            <li><a href="wps.html">WPS - Venda e doação</a></li>
             <li><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></li>
             <li><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></li>
             <li><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></li>
