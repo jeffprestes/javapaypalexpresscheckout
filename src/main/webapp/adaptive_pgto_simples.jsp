@@ -14,7 +14,7 @@
     <body>
         <h1>PayPal Java Testes - Adaptative - Pagamento simples</h1>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/AdaptiveController' method="POST">
             <tr>
                 <td>Assinatura : </td>
                 <td>
@@ -85,14 +85,14 @@
                 <td>
                     Url de retorno : </td>
                 <td>
-                    <input type="text" value="http://localhost:8080/paypaljavatestes/retorno.jsp" name="urlRetorno" id="urlRetorno" size="100" />
+                    <input type="text" value="http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/retorno.jsp" name="urlRetorno" id="urlRetorno" size="100" />
                 </td>
             </tr>
             <tr>
                 <td>
                     Url de cancelamento : </td>
                 <td>
-                    <input type="text" value="http://localhost:8080/paypaljavatestes/retorno.jsp" name="urlCancelamento" id="urlCancelamento" size="100" />
+                    <input type="text" value="http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/retorno.jsp" name="urlCancelamento" id="urlCancelamento" size="100" />
                 </td>
             </tr>
             <tr>
