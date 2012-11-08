@@ -14,6 +14,7 @@ import br.com.paypalbrasil.x.domain.adaptive.ResponsavelPagamentoTaxa;
 import br.com.paypalbrasil.x.domain.Resposta;
 import br.com.paypalbrasil.x.facade.adaptive.OperacaoPagar;
 import br.com.paypalbrasil.x.domain.Credenciais;
+import br.com.paypalbrasil.x.domain.adaptive.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -87,7 +88,7 @@ public class AdaptiveController extends HttpServlet {
             }
             
             OperacaoPagar op = new OperacaoPagar(credenciais, pra, recebedores, ResponsavelPagamentoTaxa.EACHRECEIVER);
-            Resposta rp = op.executar();
+            RespostaPagamento rp = op.executar();
            
             RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/adaptive_apos_obter_chave_pagto.jsp");
             request.setAttribute("resposta", rp);
