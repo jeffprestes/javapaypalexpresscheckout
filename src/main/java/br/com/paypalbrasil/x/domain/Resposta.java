@@ -42,6 +42,10 @@ public class Resposta {
     public void setVersao(String versao) {
         this.versao = versao;
     }
+    
+    public CabecalhoResposta getEnvelope()  {
+        return this.getCabecalho();
+    }
 
     @Override
     public boolean equals(Object obj) {
