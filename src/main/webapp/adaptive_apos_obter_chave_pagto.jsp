@@ -58,7 +58,6 @@
         <hr />
         <h1>Full redirect Sandbox</h1>
         <form action="https://www.sandbox.paypal.com/webapps/adaptivepayment/flow/pay" class="standard">
-            <input id="expType" type="hidden" name="expType" value="mini">
             <input id="country.x" type="hidden" name="country.x" value="br">
             <input id="locale" type="hidden" name="locale" value="pt_BR">
             <input id="change_locale" type="hidden" name="change_locale" value="1">
