@@ -56,6 +56,7 @@
             var embeddedPPFlow = new PAYPAL.apps.DGFlowMini({ trigger: 'submitBtn' }); 
 	</script>
         <hr />
+        <hr/>
         <h1>Full redirect Sandbox</h1>
         <form action="https://www.sandbox.paypal.com/webapps/adaptivepayment/flow/pay" class="standard">
             <input id="expType" type="hidden" name="expType" value="mini">
