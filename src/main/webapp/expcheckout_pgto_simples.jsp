@@ -1,5 +1,5 @@
 <%-- 
-    Document   : adaptive_pgto_simples
+    Document   : expcheckout_pgto_simples.jsp
     Created on : 05/06/2012, 14:36:18
     Author     : jeffprestes
 --%>
