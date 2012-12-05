@@ -66,6 +66,7 @@
             <input type="submit" id="submitFullRedirectSandBox" value="Pay with PayPal">
         </form>        
         <hr />
+        <hr/>
         <h1>Minibrowser Produção</h1>
         <form action="https://www.paypal.com/webapps/adaptivepayment/flow/pay" target="PPDGFrame"  class="standard">
             <input id="expType" type="hidden" name="expType" value="mini">
