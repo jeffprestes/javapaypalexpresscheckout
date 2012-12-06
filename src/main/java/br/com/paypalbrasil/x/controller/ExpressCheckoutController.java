@@ -20,6 +20,7 @@ import javax.servlet.http.HttpSession;
 import org.apache.log4j.Logger;
 
 /**
+ * Classe controla o fluxo do Express Checkout.
  *
  * @author jprestes
  */
