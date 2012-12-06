@@ -110,6 +110,7 @@ public class ExpressCheckoutController extends HttpServlet {
                     
                     request.setAttribute("resposta", resp);
                     RequestDispatcher rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_resposta.jsp");
+                    logger.info("TOKEN=" + resp.getToken());
                     rd.forward(request, response);
                 }
             }
