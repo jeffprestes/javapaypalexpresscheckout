@@ -137,17 +137,18 @@ public class PagamentoSimples {
             
             String data;
             
+            
             logger.info("Retorno da chamada: ");
             while ((data = reader.readLine()) != null) {
-                param.append(data);
-                if(data.contains("TOKEN")){
-                    param.append("---------------------------------------------------------------");
-                }
-                
+                param.append(data);        
             }
                    
             data = param.toString();
             logger.info(data);
+            
+            if(data.contains("TOKEN")){
+                    param.append("==================================================");
+                }
             
         } catch (IOException ex)    {
             logger.fatal("Erro ao executar GetExpressCheckoutDetails: " + ex.getLocalizedMessage(), ex);
