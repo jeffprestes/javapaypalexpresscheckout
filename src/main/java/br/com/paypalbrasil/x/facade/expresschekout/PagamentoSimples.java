@@ -140,6 +140,10 @@ public class PagamentoSimples {
             logger.info("Retorno da chamada: ");
             while ((data = reader.readLine()) != null) {
                 param.append(data);
+                if(data.contains("TOKEN")){
+                    param.append("---------------------------------------------------------------");
+                }
+                
             }
                    
             data = param.toString();
