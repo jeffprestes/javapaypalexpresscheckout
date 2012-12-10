@@ -22,9 +22,6 @@
                     <c:out value="${resposta.token}"/>
                 </td>
             </tr>
-            <tr>
-                <td colspan="2">&nbsp;</td>
-            </tr>
             <tr>    
                 <td>Texto Livre (---): </td>
                 <td>
