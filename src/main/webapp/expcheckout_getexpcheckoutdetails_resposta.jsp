@@ -35,7 +35,13 @@
                 </td>
             </tr>
             <tr>    
-                <td>Versão (VERSION): </td>
+                <td>Vers&atilde;o (VERSION): </td>
+                <td>
+                    <c:out value="${resposta.versao}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Build (BUILD): </td>
                 <td>
                     <c:out value="${resposta.cabecalho.build}"/>
                 </td>
@@ -43,7 +49,7 @@
             <tr>    
                 <td>E-mail Comprador (EMAIL): </td>
                 <td>
-                    <c:out value="${resposta.comprador.emailComprador}"/>
+                    <c:out value="${resposta.comprador}"/>
                 </td>
             </tr>
             <tr>    
