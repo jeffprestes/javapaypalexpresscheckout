@@ -148,11 +148,15 @@ public class PagamentoSimples {
                 param.append(data);
             }
 
-            if (data.contains("TOKEN")) {
+            /*if (data.contains("TOKEN")) {
                 param.append("==================================================");
-            }
+            }*/
             
             data = param.toString();
+            
+            GetExpressCheckoutDetailsParser parser = GetExpressCheckoutDetailsParser.getInstance();
+            resp = parser.parse(data);
+            
             logger.info(data);
 
 
