@@ -16,6 +16,7 @@
         <h1>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout - Retorno</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
+            <tr>    
                 <td>Token (TOKEN): </td>
                 <td>
                     <c:out value="${resposta.token}"/>
@@ -23,6 +24,18 @@
             </tr>
             <tr>
                 <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>    
+                <td>Texto Livre (---): </td>
+                <td>
+                    <c:out value="${resposta.textoLivre}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>N&uacute;mero de Pedido (---): </td>
+                <td>
+                    <c:out value="${resposta.nroPedido}"/>
+                </td>
             </tr>
             </form>
         </table>
