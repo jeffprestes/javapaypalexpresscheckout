@@ -399,7 +399,33 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     if ("PAYMENTREQUEST_0_TRANSACTIONID".equals(chave))      {
                         resp.setTransactionId(valor);
                     }
-                    
+                    /*Tive de comentar este if, pois ele entrava direto nele e causava este erro:
+                     * 
+                     * 2012/12/10 11:06:24,412 ERROR [org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/].[ExpressCheckoutController]] (http--127.11.46.129-8080-1) Servlet.service() for servlet ExpressCheckoutController threw exception: java.lang.NumberFormatException: For input string: ""
+        at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) [rt.jar:1.7.0_09-icedtea]
+        at java.lang.Integer.parseInt(Integer.java:504) [rt.jar:1.7.0_09-icedtea]
+        at java.lang.Integer.valueOf(Integer.java:582) [rt.jar:1.7.0_09-icedtea]
+        at br.com.paypalbrasil.x.facade.expresschekout.GetExpressCheckoutDetailsParser.inicializaItensCompra(GetExpressCheckoutDetailsParser.java:420) [classes:]
+        at br.com.paypalbrasil.x.facade.expresschekout.GetExpressCheckoutDetailsParser.parse(GetExpressCheckoutDetailsParser.java:405) [classes:]
+        at br.com.paypalbrasil.x.facade.expresschekout.PagamentoSimples.getExpressCheckoutDetails(PagamentoSimples.java:158) [classes:]
+        at br.com.paypalbrasil.x.controller.ExpressCheckoutController.processRequest(ExpressCheckoutController.java:109) [classes:]
+        at br.com.paypalbrasil.x.controller.ExpressCheckoutController.doPost(ExpressCheckoutController.java:151) [classes:]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.0.Final.jar:1.0.0.Final]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:329) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:248) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:275) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161) [jbossweb-7.0.10.Final.jar:]
+        at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:154) [jboss-as-web-7.1.0.Final.jar:7.1.0.Final]
+        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:368) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:877) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:671) [jbossweb-7.0.10.Final.jar:]
+        at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:930) [jbossweb-7.0.10.Final.jar:]
+        at java.lang.Thread.run(Thread.java:722) [rt.jar:1.7.0_09-icedtea]
+*/
                     /*if (chave.startsWith("L_PAYMENTREQUEST_0"))         {
                         
                         inicializaItensCompra(itensVenda, chave, valor);
