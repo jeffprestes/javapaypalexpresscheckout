@@ -37,7 +37,7 @@
             <tr>    
                 <td>Versão (VERSION): </td>
                 <td>
-                    <c:out value="${resposta.cabecalho.versao}"/>
+                    <c:out value="${resposta.cabecalho.build}"/>
                 </td>
             </tr>
             <tr>    
