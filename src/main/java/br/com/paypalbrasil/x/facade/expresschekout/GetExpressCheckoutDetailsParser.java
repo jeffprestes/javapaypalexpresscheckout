@@ -75,7 +75,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.setToken(valor);
                     }
                     
-                    if ("VERSION".equals(chave))    {
+                    if ("VERSION".equalsIgnoreCase(chave))    {
                         resp.setVersao(valor);
                     }
                     
