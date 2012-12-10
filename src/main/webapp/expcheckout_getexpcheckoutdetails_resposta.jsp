@@ -37,7 +37,7 @@
             <tr>    
                 <td>Versão (VERSION): </td>
                 <td>
-                    <c:out value="${resposta.cabecalho}"/>
+                    <c:out value="${resposta.cabecalho.versao}"/>
                 </td>
             </tr>
             <tr>    
@@ -55,7 +55,7 @@
             <tr>    
                 <td>Status (CHECKOUTSTATUS): </td>
                 <td>
-                    <c:out value="${resposta.cabecalho}"/>
+                    <c:out value="${resposta.statusCheckout}"/>
                 </td>
             </tr>
             </form>
