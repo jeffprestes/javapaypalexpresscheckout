@@ -34,6 +34,30 @@
                     <c:out value="${resposta.nroPedido}"/>
                 </td>
             </tr>
+            <tr>    
+                <td>Versão (VERSION): </td>
+                <td>
+                    <c:out value="${resposta.cabecalho}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>E-mail Comprador (EMAIL): </td>
+                <td>
+                    <c:out value="${resposta.comprador.emailComprador}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Moeda (PAYMENTREQUEST_0_CURRENCYCODE): </td>
+                <td>
+                    <c:out value="${resposta.moeda}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Status (CHECKOUTSTATUS): </td>
+                <td>
+                    <c:out value="${resposta.cabecalho}"/>
+                </td>
+            </tr>
             </form>
         </table>
     </body>
