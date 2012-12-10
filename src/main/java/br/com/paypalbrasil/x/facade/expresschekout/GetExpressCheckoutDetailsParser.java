@@ -99,7 +99,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         
                     }
                     
-                    if ("INVNUM".equals(chave))      {
+                    if ("INVNUM".equalsIgnoreCase(chave))      {
                         resp.setNroPedido(valor);
                     }
                     
