@@ -400,10 +400,10 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.setTransactionId(valor);
                     }
                     
-                    if (chave.startsWith("L_PAYMENTREQUEST_0"))         {
+                    /*if (chave.startsWith("L_PAYMENTREQUEST_0"))         {
                         
                         inicializaItensCompra(itensVenda, chave, valor);
-                    }
+                    }*/
                     
                 }
             }   catch(UnsupportedEncodingException ex)  {
