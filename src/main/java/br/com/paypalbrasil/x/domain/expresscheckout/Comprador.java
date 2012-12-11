@@ -6,6 +6,7 @@ package br.com.paypalbrasil.x.domain.expresscheckout;
 
 import br.com.paypalbrasil.x.domain.StatusPagador;
 import java.util.Objects;
+import org.apache.log4j.Logger;
 
 /**
  * Armazena dados do Comprador
@@ -26,7 +27,10 @@ public class Comprador {
     private String sufixoNome;
     private TipoRegistroReceita tipoRegistroReceita;
     private String nroRegistroReceita;
+    private Logger logger = Logger.getLogger(this.getClass());
 
+    public Comprador()  {   }
+    
     public String getEmailComprador() {
         return emailComprador;
     }
