@@ -64,12 +64,9 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                      
                     logger.info(chave + "=" + valor);
                     
-                    Comprador comprador = new Comprador();
-                    resp.setComprador(comprador);
+                    Comprador comprador = null;
                     DadosEntrega dadosEntrega = null;
-                    resp.setDadosEntrega(dadosEntrega);
                     DadosPagamento dPagto = null;
-                    resp.setDadosPagamento(dPagto);
                     
                     List<ItemVenda> itensVenda = new ArrayList<ItemVenda>();
                     resp.setItens(itensVenda);
@@ -127,34 +124,34 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     if ("BUYERMARKETINGMAIL".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setEmailCompradorMarketing(valor);
                     }
                     
                     if ("EMAIL".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setEmailComprador(valor);
                     }
                     
                     if ("PAYERID".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setPayerId(valor);
                     }
                     
                     if ("PAYERSTATUS".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         if ("unverified".equals(StatusPagador.unverified.name()))     {
                             resp.getComprador().setStatusPagador(StatusPagador.unverified);
                         } else if ("verified".equals(StatusPagador.verified.name()))    {
@@ -164,74 +161,74 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     if ("COUNTRYCODE".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setPaisComprador(valor);
                     }
                     
                     if ("BUSINESS".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setNomeCompradorNegocio(valor);
                     }
                     
                     if ("FIRSTNAME".equals(chave))      {
-                        /*if (comprador == null)  { 
+                        if (comprador == null)  { 
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setPrimeiroNome(valor);
                     }
                     
                     if ("LASTNAME".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setUltimoNome(valor);
                     }
                     
                     if ("MIDDLENAME".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setNomeDoMeio(valor);
                     }
                     
                     if ("SALUTATION".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setSaudacao(valor);
                     }
                     
                     if ("SUFFIX".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setSufixoNome(valor);
                     }
                     
                     if ("TAXID".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         resp.getComprador().setNroRegistroReceita(valor);
                     }
                     
                     if ("TAXIDTYPE".equals(chave))      {
-                        /*if (comprador == null)  {
+                        if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }*/
+                        }
                         if ("BR_CPF".equals(valor))     {
                             resp.getComprador().setTipoRegistroReceita(TipoRegistroReceita.CPF);
                         }   else if ("BR_CNPJ".equals(valor))     {
