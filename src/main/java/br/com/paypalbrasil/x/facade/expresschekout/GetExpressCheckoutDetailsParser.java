@@ -137,7 +137,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
                         }*/
-                        resp.getComprador().setEmailComprador(valor);
+                        comprador.setEmailComprador(valor);
                     }
                     
                     if ("PAYERID".equals(chave))      {
