@@ -48,6 +48,8 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
         ErroResposta erroResp = null;
         
         for (String current : pairs) {
+            
+            logger.info(current);
 
             String[] pair = current.split("=");
             
@@ -64,8 +66,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                      
                     logger.info(chave + "=" + valor);
                     
-                    Comprador comprador = new Comprador();
-                    resp.setComprador(comprador);
+                    Comprador comprador = null;
                     DadosEntrega dadosEntrega = null;
                     DadosPagamento dPagto = null;
                     
