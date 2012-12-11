@@ -88,6 +88,12 @@
                     <c:out value="${resposta.dadosPagamento}"/>
                 </td>
             </tr>
+            <tr>    
+                <td>Total (PAYMENTREQUEST_0_AMT): </td>
+                <td>
+                    <c:out value="${resposta.total}"/>
+                </td>
+            </tr>
             </form>
         </table>
     </body>
