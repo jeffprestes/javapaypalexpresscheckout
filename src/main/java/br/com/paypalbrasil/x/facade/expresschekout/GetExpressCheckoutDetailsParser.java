@@ -48,6 +48,8 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
         ErroResposta erroResp = null;
         
         for (String current : pairs) {
+            
+            logger.info(current);
 
             String[] pair = current.split("=");
             
