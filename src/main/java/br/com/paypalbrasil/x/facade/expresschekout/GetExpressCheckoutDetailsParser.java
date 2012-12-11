@@ -64,7 +64,8 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                      
                     logger.info(chave + "=" + valor);
                     
-                    Comprador comprador = null;
+                    Comprador comprador;
+                    comprador = new Comprador();
                     resp.setComprador(comprador);
                     DadosEntrega dadosEntrega = null;
                     resp.setDadosEntrega(dadosEntrega);
