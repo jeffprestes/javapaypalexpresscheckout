@@ -76,6 +76,12 @@
                     <c:out value="${resposta.statusCheckout}"/>
                 </td>
             </tr>
+            <tr>    
+                <td>Dados Entrega (---): </td>
+                <td>
+                    <c:out value="${resposta.dadosEntrega}"/>
+                </td>
+            </tr>
             </form>
         </table>
     </body>
