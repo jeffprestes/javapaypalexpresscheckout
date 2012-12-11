@@ -65,7 +65,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     logger.info(chave + "=" + valor);
                     
                     Comprador comprador = new Comprador();
-                            
+                    resp.setComprador(comprador);
                     DadosEntrega dadosEntrega = null;
                     DadosPagamento dPagto = null;
                     
@@ -236,7 +236,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                             resp.getComprador().setTipoRegistroReceita(TipoRegistroReceita.CNPJ);
                         }                        
                     }
-                    resp.setComprador(comprador);
+                    
                     
                     if ("PAYMENTREQUEST_0_SHIPTONAME".equals(chave))      {
                         if (dadosEntrega==null)     {
