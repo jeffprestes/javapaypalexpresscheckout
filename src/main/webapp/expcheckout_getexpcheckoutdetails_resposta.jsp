@@ -53,6 +53,18 @@
                 </td>
             </tr>
             <tr>    
+                <td>Telefone (PHONENUM): </td>
+                <td>
+                    <c:out value="${resposta.telefone}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Nota (NOTE): </td>
+                <td>
+                    <c:out value="${resposta.telefone}"/>
+                </td>
+            </tr>
+            <tr>    
                 <td>Moeda (PAYMENTREQUEST_0_CURRENCYCODE): </td>
                 <td>
                     <c:out value="${resposta.moeda}"/>

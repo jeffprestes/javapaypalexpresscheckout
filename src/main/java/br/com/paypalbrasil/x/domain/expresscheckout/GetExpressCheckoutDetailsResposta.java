@@ -23,6 +23,7 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     private String paypalAdjustment;
     private String nota;
     private CheckoutStatus statusCheckout;
+    private List<Vendedor> vendedor;
     private String mensagemPresente;
     private String perguntaOpiniao;
     private String respostaPerguntaOpiniao;
