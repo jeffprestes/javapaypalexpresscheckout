@@ -82,6 +82,12 @@
                     <c:out value="${resposta.dadosEntrega}"/>
                 </td>
             </tr>
+            <tr>    
+                <td>Dados Pagamento (---): </td>
+                <td>
+                    <c:out value="${resposta.dadosPagamento}"/>
+                </td>
+            </tr>
             </form>
         </table>
     </body>
