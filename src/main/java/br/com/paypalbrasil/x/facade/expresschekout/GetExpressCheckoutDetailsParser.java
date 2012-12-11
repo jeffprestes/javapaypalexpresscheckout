@@ -229,10 +229,10 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     if ("TAXIDTYPE".equals(chave))      {
-                        if (comprador == null)  {
+                        /*if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }
+                        }*/
                         if ("BR_CPF".equals(valor))     {
                             resp.getComprador().setTipoRegistroReceita(TipoRegistroReceita.CPF);
                         }   else if ("BR_CNPJ".equals(valor))     {
