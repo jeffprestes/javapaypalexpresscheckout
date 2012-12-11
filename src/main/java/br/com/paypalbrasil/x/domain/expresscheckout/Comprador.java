@@ -132,7 +132,7 @@ public class Comprador {
         this.tipoRegistroReceita = tipoRegistroReceita;
     }
 
-    @Override
+    /*@Override
     public boolean equals(Object obj) {
         if (obj == null) {
             return false;
@@ -160,7 +160,7 @@ public class Comprador {
             return false;
         }
         return true;
-    }
+    }*/
 
     @Override
     public int hashCode() {
