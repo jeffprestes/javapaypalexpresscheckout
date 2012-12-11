@@ -221,10 +221,10 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     if ("TAXID".equals(chave))      {
-                        if (comprador == null)  {
+                        /*if (comprador == null)  {
                             comprador = new Comprador();
                             resp.setComprador(comprador);
-                        }
+                        }*/
                         resp.getComprador().setNroRegistroReceita(valor);
                     }
                     
