@@ -23,15 +23,9 @@
                 </td>
             </tr>
             <tr>    
-                <td>Texto Livre (---): </td>
+                <td>ID de transação (PAYMENTREQUEST_0_TRANSACTIONID): </td>
                 <td>
-                    <c:out value="${resposta.textoLivre}"/>
-                </td>
-            </tr>
-            <tr>    
-                <td>N&uacute;mero de Pedido (---): </td>
-                <td>
-                    <c:out value="${resposta.nroPedido}"/>
+                    <c:out value="${resposta.transactionId}"/>
                 </td>
             </tr>
             <tr>    
@@ -47,21 +41,9 @@
                 </td>
             </tr>
             <tr>    
-                <td>E-mail Comprador (EMAIL): </td>
+                <td>Dados do Comprador (---): </td>
                 <td>
                     <c:out value="${resposta.comprador}"/>
-                </td>
-            </tr>
-            <tr>    
-                <td>Telefone (PHONENUM): </td>
-                <td>
-                    <c:out value="${resposta.telefone}"/>
-                </td>
-            </tr>
-            <tr>    
-                <td>Nota (NOTE): </td>
-                <td>
-                    <c:out value="${resposta.telefone}"/>
                 </td>
             </tr>
             <tr>    
