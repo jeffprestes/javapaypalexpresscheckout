@@ -25,7 +25,7 @@
             <tr>    
                 <td>ID de Correlação (CORRELATIONID): </td>
                 <td>
-                    <c:out value="${resposta.transactionId}"/>
+                    <c:out value="${resposta.correlationId}"/>
                 </td>
             </tr>
             <tr>    
