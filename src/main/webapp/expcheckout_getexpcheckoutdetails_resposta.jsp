@@ -23,7 +23,7 @@
                 </td>
             </tr>
             <tr>    
-                <td>ID de transação (PAYMENTREQUEST_0_TRANSACTIONID): </td>
+                <td>ID de Correlação (CORRELATIONID): </td>
                 <td>
                     <c:out value="${resposta.transactionId}"/>
                 </td>
