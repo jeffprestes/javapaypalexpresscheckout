@@ -33,6 +33,7 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     private String moeda;
     private DadosPagamento dadosPagamento;
     private String transactionId;
+    private String correlationId;
     private String paymentRequestId;
     private List<ItemVenda> itens;
     private ErroResposta erro;
@@ -235,6 +236,20 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     @Override
     public String toString() {
         return "GetExpressCheckoutDetailsResposta{" + "token=" + token + ", textoLivre=" + textoLivre + ", nroPedido=" + nroPedido + ", telefone=" + telefone + ", paypalAdjustment=" + paypalAdjustment + ", nota=" + nota + ", statusCheckout=" + statusCheckout + ", mensagemPresente=" + mensagemPresente + ", perguntaOpiniao=" + perguntaOpiniao + ", respostaPerguntaOpiniao=" + respostaPerguntaOpiniao + ", comprador=" + comprador.toString() + ", dadosEntrega=" + dadosEntrega + ", total=" + total + ", moeda=" + moeda + ", item=" + dadosPagamento + ", transactionId=" + transactionId + ", paymentRequestId=" + paymentRequestId + ", itens=" + itens.toString() + '}';
+    }
+
+    /**
+     * @return the correlationId
+     */
+    public String getCorrelationId() {
+        return correlationId;
+    }
+
+    /**
+     * @param correlationId the correlationId to set
+     */
+    public void setCorrelationId(String correlationId) {
+        this.correlationId = correlationId;
     }
     
     
