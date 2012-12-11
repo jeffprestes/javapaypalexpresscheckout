@@ -105,7 +105,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     if ("CORRELATIONID".equalsIgnoreCase(chave))      {
-                        resp.setNroPedido(valor);
+                        resp.setCorrelationId(valor);
                     }
                     
                     if ("PHONENUM".equals(chave))      {
