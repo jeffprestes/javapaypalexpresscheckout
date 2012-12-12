@@ -23,9 +23,21 @@
                 </td>
             </tr>
             <tr>    
+                <td>Status (CHECKOUTSTATUS): </td>
+                <td>
+                    <c:out value="${resposta.statusCheckout}"/>
+                </td>
+            </tr>
+            <tr>    
                 <td>ID de Correlação (CORRELATIONID): </td>
                 <td>
                     <c:out value="${resposta.correlationId}"/>
+                </td>
+            </tr>
+            <tr>    
+                <td>Ack (ACK): </td>
+                <td>
+                    <c:out value="${resposta.ack}"/>
                 </td>
             </tr>
             <tr>    
@@ -52,12 +64,7 @@
                     <c:out value="${resposta.moeda}"/>
                 </td>
             </tr>
-            <tr>    
-                <td>Status (CHECKOUTSTATUS): </td>
-                <td>
-                    <c:out value="${resposta.statusCheckout}"/>
-                </td>
-            </tr>
+            
             <tr>    
                 <td>Dados Entrega (---): </td>
                 <td>

@@ -102,6 +102,10 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.setNroPedido(valor);
                     }
                     
+                    if ("ACK".equalsIgnoreCase(chave))      {
+                        resp.setAck(valor);
+                    }
+                    
                     if ("CORRELATIONID".equalsIgnoreCase(chave))      {
                         resp.setCorrelationId(valor);
                     }

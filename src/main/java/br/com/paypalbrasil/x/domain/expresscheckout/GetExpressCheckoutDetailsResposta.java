@@ -16,6 +16,7 @@ import java.util.Objects;
 public class GetExpressCheckoutDetailsResposta extends Resposta {
     
     private CabecalhoResposta cabecalho;
+    private String ack;
     private String token;
     private String textoLivre;
     private String nroPedido;
@@ -250,6 +251,20 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
      */
     public void setCorrelationId(String correlationId) {
         this.correlationId = correlationId;
+    }
+
+    /**
+     * @return the ack
+     */
+    public String getAck() {
+        return ack;
+    }
+
+    /**
+     * @param ack the ack to set
+     */
+    public void setAck(String ack) {
+        this.ack = ack;
     }
     
     
