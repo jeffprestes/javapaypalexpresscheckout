@@ -213,7 +213,7 @@
             <tr>    
                 <td>Total de impostos (TAXAMT): </td>
                 <td>
-                    <c:out value="${resposta.dadosPagamento.totalImpostos}"/>
+                    <c:out value="${resposta.dadosPagamento.totalImposto}"/>
                 </td>
             </tr>
             <tr>    
