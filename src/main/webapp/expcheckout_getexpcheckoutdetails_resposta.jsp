@@ -17,7 +17,10 @@
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
                 <tr>
-                <b> Dados de Transação </b>
+                <h2> Dados de Transação </h2>
+                <br>
+                </tr>
+                <tr>
                 <br>
                 </tr>
                 <tr>    
@@ -74,12 +77,13 @@
             <hr>
             <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
-                <br>
                 <tr>
                     </hr>
-                <b> Dados do Comprador </b>
+                <h2> Dados do Comprador </h2>
                 </tr>
+                <tr>
                 <br>
+                </tr>
 
                 <tr>    
                     <td>E-mail do Comprador = </td>
@@ -140,13 +144,13 @@
                 </table>
             <hr>
             <table>
-
-                <br>
                 <tr>
                     </hr>
-                <b> Dados de Entrega </b>
+                <h2> Dados de Entrega </h2>
                 </tr>
+                <tr>
                 <br>
+                </tr>
 
                 <tr>    
                     <td>Nome do endereço de entrega = </td>
