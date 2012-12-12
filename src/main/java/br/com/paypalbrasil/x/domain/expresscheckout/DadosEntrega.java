@@ -18,7 +18,8 @@ public class DadosEntrega {
     private String cidadeEntrega;
     private String estadoEntrega;
     private String cepEntrega;
-    private String paisEntrega;
+    private String codPaisEntrega;
+    private String nomePaisEntrega;
     private String telefoneEntrega;
     private String statusEnderecoEntrega;
 
@@ -70,14 +71,6 @@ public class DadosEntrega {
         this.nomeEntrega = nomeEntrega;
     }
 
-    public String getPaisEntrega() {
-        return paisEntrega;
-    }
-
-    public void setPaisEntrega(String paisEntrega) {
-        this.paisEntrega = paisEntrega;
-    }
-
     public String getStatusEnderecoEntrega() {
         return statusEnderecoEntrega;
     }
@@ -121,7 +114,10 @@ public class DadosEntrega {
         if (!Objects.equals(this.cepEntrega, other.cepEntrega)) {
             return false;
         }
-        if (!Objects.equals(this.paisEntrega, other.paisEntrega)) {
+        if (!Objects.equals(this.codPaisEntrega, other.codPaisEntrega)) {
+            return false;
+        }
+        if (!Objects.equals(this.nomePaisEntrega, other.nomePaisEntrega)) {
             return false;
         }
         if (!Objects.equals(this.telefoneEntrega, other.telefoneEntrega)) {
@@ -147,7 +143,35 @@ public class DadosEntrega {
 
     @Override
     public String toString() {
-        return "DadosEntrega{" + "nomeEntrega=" + nomeEntrega + ", enderecoEntrega=" + enderecoEntrega + ", complementoEnderecoEntrega=" + complementoEnderecoEntrega + ", cidadeEntrega=" + cidadeEntrega + ", estadoEntrega=" + estadoEntrega + ", cepEntrega=" + cepEntrega + ", paisEntrega=" + paisEntrega + ", telefoneEntrega=" + telefoneEntrega + ", statusEnderecoEntrega=" + statusEnderecoEntrega + '}';
+        return "DadosEntrega{" + "nomeEntrega=" + nomeEntrega + ", enderecoEntrega=" + enderecoEntrega + ", complementoEnderecoEntrega=" + complementoEnderecoEntrega + ", cidadeEntrega=" + cidadeEntrega + ", estadoEntrega=" + estadoEntrega + ", cepEntrega=" + cepEntrega + ", codPaisEntrega=" + codPaisEntrega+ ", nomePaisEntrega=" + nomePaisEntrega + ", telefoneEntrega=" + telefoneEntrega + ", statusEnderecoEntrega=" + statusEnderecoEntrega + '}';
+    }
+
+    /**
+     * @return the codPaisEntrega
+     */
+    public String getCodPaisEntrega() {
+        return codPaisEntrega;
+    }
+
+    /**
+     * @param codPaisEntrega the codPaisEntrega to set
+     */
+    public void setCodPaisEntrega(String codPaisEntrega) {
+        this.codPaisEntrega = codPaisEntrega;
+    }
+
+    /**
+     * @return the nomePaisEntrega
+     */
+    public String getNomePaisEntrega() {
+        return nomePaisEntrega;
+    }
+
+    /**
+     * @param nomePaisEntrega the nomePaisEntrega to set
+     */
+    public void setNomePaisEntrega(String nomePaisEntrega) {
+        this.nomePaisEntrega = nomePaisEntrega;
     }
     
     

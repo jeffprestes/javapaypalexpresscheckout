@@ -17,6 +17,7 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     
     private CabecalhoResposta cabecalho;
     private String ack;
+    private String timestamp;
     private String token;
     private String textoLivre;
     private String nroPedido;
@@ -266,6 +267,18 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     public void setAck(String ack) {
         this.ack = ack;
     }
-    
-    
+
+    /**
+     * @return the timestamp
+     */
+    public String getTimestamp() {
+        return timestamp;
+    }
+
+    /**
+     * @param timestamp the timestamp to set
+     */
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
+    }
 }

@@ -102,6 +102,10 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.setNroPedido(valor);
                     }
                     
+                    if ("TIMESTAMP".equalsIgnoreCase(chave))      {
+                        resp.setTimestamp(valor);
+                    }
+                    
                     if ("ACK".equalsIgnoreCase(chave))      {
                         resp.setAck(valor);
                     }
@@ -244,7 +248,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                     }
                     
                     
-                    if ("PAYMENTREQUEST_0_SHIPTONAME".equals(chave))      {
+                    if ("SHIPTONAME".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -252,7 +256,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setNomeEntrega(valor);
                     }                    
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOSTREET".equals(chave))      {
+                    if ("SHIPTOSTREET".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -260,7 +264,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setEnderecoEntrega(valor);
                     }                    
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOSTREET2".equals(chave))      {
+                    if ("SHIPTOSTREET2".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -268,15 +272,16 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setComplementoEnderecoEntrega(valor);
                     }                    
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOCITY".equals(chave))      {
+                    if ("SHIPTOCITY".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
                         }
                         resp.getDadosEntrega().setCidadeEntrega(valor);
-                    }                    
+                    }  
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOZIP".equals(chave))      {
+                    
+                    if ("SHIPTOZIP".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -284,15 +289,23 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setCepEntrega(valor);
                     }                    
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE".equals(chave))      {
+                    if ("SHIPTOCOUNTRYCODE".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
                         }
-                        resp.getDadosEntrega().setPaisEntrega(valor);
-                    }                    
+                        resp.getDadosEntrega().setCodPaisEntrega(valor);
+                    }     
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOSTATE".equals(chave))      {
+                    if ("SHIPTOCOUNTRYNAME".equals(chave))      {
+                        if (dadosEntrega==null)     {
+                            dadosEntrega = new DadosEntrega();
+                            resp.setDadosEntrega(dadosEntrega);
+                        }
+                        resp.getDadosEntrega().setNomePaisEntrega(valor);
+                    }  
+                    
+                    if ("SHIPTOSTATE".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -300,7 +313,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setEstadoEntrega(valor);
                     }                    
                     
-                    if ("PAYMENTREQUEST_0_SHIPTOPHONE".equals(chave))      {
+                    if ("SHIPTOPHONE".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -308,7 +321,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setTelefoneEntrega(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_ADDRESSSTATUS".equals(chave))      {
+                    if ("ADDRESSSTATUS".equals(chave))      {
                         if (dadosEntrega==null)     {
                             dadosEntrega = new DadosEntrega();
                             resp.setDadosEntrega(dadosEntrega);
@@ -316,15 +329,15 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosEntrega().setStatusEnderecoEntrega(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_AMT".equals(chave))      {
+                    if ("AMT".equals(chave))      {
                         resp.setTotal(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_CURRENCYCODE".equals(chave))      {
+                    if ("CURRENCYCODE".equals(chave))      {
                         resp.setMoeda(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_SHIPPINGAMT".equals(chave))      {
+                    if ("SHIPPINGAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
@@ -332,7 +345,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setTotalEntrega(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_INSURANCEAMT".equals(chave))      {
+                    if ("INSURANCEAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
@@ -340,7 +353,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setTotalSeguro(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_SHIPDISCAMT".equals(chave))      {
+                    if ("_SHIPDISCAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
@@ -348,7 +361,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setTotalDescontoEntrega(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_NOTETEXT".equals(chave))      {
+                    if ("NOTETEXT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
@@ -356,7 +369,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setNota(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_HANDLINGAMT".equals(chave))      {
+                    if ("HANDLINGAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
@@ -364,12 +377,20 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setTotalManuseio(valor);
                     }
                     
-                    if ("PAYMENTREQUEST_0_TAXAMT".equals(chave))      {
+                    if ("TAXAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);
                         }
                         resp.getDadosPagamento().setTotalImposto(valor);
+                    }
+                     
+                    if ("ITEMAMT".equals(chave))      {
+                        if (dPagto==null)       {
+                            dPagto = new DadosPagamento();
+                            resp.setDadosPagamento(dPagto);
+                        }
+                        resp.getDadosPagamento().setTotalItem(valor);
                     }
                     
                     if ("PAYMENTREQUEST_0_DESC".equals(chave))      {
