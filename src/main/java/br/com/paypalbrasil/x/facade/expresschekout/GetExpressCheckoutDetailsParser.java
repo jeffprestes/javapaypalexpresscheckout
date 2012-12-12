@@ -353,7 +353,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                         resp.getDadosPagamento().setTotalSeguro(valor);
                     }
                     
-                    if ("_SHIPDISCAMT".equals(chave))      {
+                    if ("SHIPDISCAMT".equals(chave))      {
                         if (dPagto==null)       {
                             dPagto = new DadosPagamento();
                             resp.setDadosPagamento(dPagto);

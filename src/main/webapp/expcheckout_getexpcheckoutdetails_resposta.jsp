@@ -223,7 +223,7 @@
                 </td>
             </tr>
             <tr>    
-                <td>Total de desconto na entrega (SHIPPINGAMT): </td>
+                <td>Total de desconto na entrega (SHIPDISCAMT): </td>
                 <td>
                     <c:out value="${resposta.dadosPagamento.totalDescontoEntrega}"/>
                 </td>
