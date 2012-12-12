@@ -16,8 +16,10 @@
         <h1>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout - Retorno</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
-            <h2> Dados de Transação </h2>
+            <tr>
+                <h2> Dados de Transação </h2>
             <br>
+            </tr>
                 <tr>    
                 <td>Token (TOKEN): </td>
                 <td>
@@ -62,8 +64,10 @@
             </tr>
             
             <br>
+            <tr>
             </hr>
             <h2> Dados do Comprador </h2>
+            </tr>
             <br>
             
             <tr>    
@@ -116,8 +120,10 @@
             </tr>
             
             <br>
+            <tr>
             </hr>
             <h2> Dados de Entrega </h2>
+            </tr>
             <br>
             
             <tr>    
@@ -176,8 +182,10 @@
             </tr>
             
             <br>
+            <tr>
             </hr>
             <h2> Dados do Pagamento </h2>
+            </tr>
             <br>
             
             <tr>    
