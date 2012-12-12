@@ -69,7 +69,9 @@
                     <c:out value="${resposta.cabecalho.build}"/>
                 </td>
             </tr>
-            
+            </form>
+                </hr>
+                <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <br>
             <tr>
             </hr>
