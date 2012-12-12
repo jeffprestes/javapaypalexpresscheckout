@@ -70,7 +70,7 @@
                 </td>
                 </tr>
             </form>
-                </table>
+            </table>
             <hr>
             <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
@@ -137,6 +137,9 @@
                 <c:out value="${resposta.comprador.nroRegistroReceita}"/>
                 </td>
                 </tr>
+                </table>
+            <hr>
+            <table>
 
                 <br>
                 <tr>
@@ -208,6 +211,9 @@
                 <c:out value="${resposta.dadosEntrega.statusEnderecoEntrega}"/>
                 </td>
                 </tr>
+                </table>
+            <hr>
+            <table>
 
                 <br>
                 <tr>
