@@ -214,13 +214,13 @@
                 </table>
             <hr>
             <table>
-
-                <br>
                 <tr>
-                    </hr>
-                <b> Dados do Pagamento </b>
+                </hr>
+                <h2> Dados do Pagamento </h2>
                 </tr>
+                <tr>
                 <br>
+                </tr>
 
                 <tr>    
                     <td>Moeda = </td>
