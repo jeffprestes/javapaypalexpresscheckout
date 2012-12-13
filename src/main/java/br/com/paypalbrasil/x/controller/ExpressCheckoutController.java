@@ -143,9 +143,9 @@ public class ExpressCheckoutController extends HttpServlet {
                             }
                             */
 
-                            if (request.getParameter("NAOENVIAR_TIPOFLUXO").contains("commit"))  {
-                                url.append("&useraction=commit");
-                            }   
+                            //if (request.getParameter("NAOENVIAR_TIPOFLUXO").contains("commit"))  {
+                               // url.append("&useraction=commit");
+                            //}   
 
                             url.append("&token=");
                             url.append(resp.getToken());
