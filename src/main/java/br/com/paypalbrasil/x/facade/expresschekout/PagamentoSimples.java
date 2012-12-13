@@ -7,6 +7,7 @@ package br.com.paypalbrasil.x.facade.expresschekout;
 import br.com.paypalbrasil.x.domain.Credenciais;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
 import br.com.paypalbrasil.x.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;

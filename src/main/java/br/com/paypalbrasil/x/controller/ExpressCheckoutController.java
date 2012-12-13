@@ -8,6 +8,7 @@ import br.com.paypalbrasil.x.domain.CodigoACK;
 import br.com.paypalbrasil.x.domain.Credenciais;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
 import br.com.paypalbrasil.x.facade.expresschekout.PagamentoSimples;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -121,7 +122,7 @@ public class ExpressCheckoutController extends HttpServlet {
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
 
                     PagamentoSimples ps = new PagamentoSimples(cr);
-                    SetExpressCheckoutResposta resp = ps.setExpressCheckout(request.getParameterMap());
+                    DoExpressCheckoutPaymentResposta resp = ps.doExpressCheckoutPayment(request.getParameterMap());
 
                     if (resp.getCabecalho().getAck()==CodigoACK.Success)     {
                         if (resp.getToken()!= null)     {
