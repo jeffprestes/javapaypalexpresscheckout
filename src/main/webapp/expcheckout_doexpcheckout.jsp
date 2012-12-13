@@ -66,6 +66,12 @@
                     <input type="text" value='<c:out value="SALE" />' size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
                 </td>
             </tr>
+            </tr>
+                <td>Versão (VERSION): </td>
+                <td>
+                    <input type="text" value='<c:out value="91.0" />' size="60" name="VERSION" id="VERSION" />
+                </td>
+            </tr>
             <tr>
                 <td colspan="2">&nbsp;</td>
             </tr>
