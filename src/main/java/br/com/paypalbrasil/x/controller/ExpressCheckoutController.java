@@ -155,9 +155,6 @@ public class ExpressCheckoutController extends HttpServlet {
                             sessao.setAttribute("token", resp.getToken());
 
                             if (resp.getCabecalho().getAck()==CodigoACK.Success)  {
-                                logger.info("- Redirecionando o usuario para: " + url.toString());
-                                response.sendRedirect(url.toString());
-                            }   else    {
                                 request.setAttribute("resposta", resp);
                                 request.setAttribute("url", url.toString());
                                 RequestDispatcher rd = request.getRequestDispatcher("expcheckout_retorno_setEC.jsp");
