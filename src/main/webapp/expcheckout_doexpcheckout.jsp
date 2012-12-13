@@ -78,6 +78,12 @@
                     <input type="text" value='<c:out value="${resposta.total}" />' size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
                 </td>
             </tr>
+            </tr>
+                <td>Moeda (PAYMENTREQUEST_0_CURRENCYCODE): </td>
+                <td>
+                    <input type="text" value='<c:out value="${resposta.moeda}" />' size="60" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" />
+                </td>
+            </tr>
             <tr>
                 <td colspan="2">&nbsp;</td>
             </tr>
