@@ -7,7 +7,7 @@ package br.com.paypalbrasil.x.facade.expresschekout;
 import br.com.paypalbrasil.x.domain.CabecalhoResposta;
 import br.com.paypalbrasil.x.domain.CodigoACK;
 import br.com.paypalbrasil.x.domain.expresscheckout.ErroResposta;
-import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import org.apache.log4j.Logger;
@@ -18,8 +18,8 @@ import org.apache.log4j.Logger;
  */
 public class DoExpressCheckoutPaymentParser extends ParserBasico     {
 
-    private static SetExpressCheckoutParser instance = null;
-    private static Logger logger = Logger.getLogger(SetExpressCheckoutParser.class);
+    private static DoExpressCheckoutPaymentParser instance = null;
+    private static Logger logger = Logger.getLogger(DoExpressCheckoutPaymentParser.class);
     
     protected DoExpressCheckoutPaymentParser()    {       }
     
@@ -64,6 +64,9 @@ public class DoExpressCheckoutPaymentParser extends ParserBasico     {
                         resp.setToken(valor);
                     }
                     
+                    if ("VERSION".equals(chave))    {
+                        resp.setVersao(valor);
+                    }
                     if ("VERSION".equals(chave))    {
                         resp.setVersao(valor);
                     }
