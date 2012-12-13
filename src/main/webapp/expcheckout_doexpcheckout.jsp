@@ -31,34 +31,21 @@
                     <input type="text" value="DoExpressCheckoutPayment" size="60" name="METHOD" id="METHOD" />
                 </td>
             </tr>
-            <tr>
-                <td>Usuario (USER): </td>
-                <td>
-                    <input type="text" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
-                </td>
-            </tr>
-            <tr>
-                <td>Senha (PWD): </td>
-                <td>
-                    <input type="text" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
-                </td>
-            </tr>
-            <tr>
-                <td>Assinatura (SIGNATURE): </td>
-                <td>
-                    <input type="text" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
-                </td>
-            </tr>
-            <tr>
-                <td>Versao (VERSION - Para saber a ultima versão vá a pagina paypal.com e veja no fonte da pagina os 3 primeiros digitos do campo webversion) : </td>
-                <td>
-                    <input type="text" value="91.0" size="10" name="VERSION" id="VERSION" />
-                </td>
-            </tr>
-            <tr>
                 <td>Token (TOKEN): </td>
                 <td>
                     <input type="text" value='<c:out value="${sessionScope.token}" />' size="60" name="TOKEN" id="TOKEN" />
+                </td>
+            </tr>
+            </tr>
+                <td>Id do Comprador (PAYERID): </td>
+                <td>
+                    <input type="text" value='<c:out value="${resposta.comprador.payerId}" />' size="60" name="PAYERID" id="PAYERID" />
+                </td>
+            </tr>
+            </tr>
+                <td>Ação (PAYMENTREQUEST_0_PAYMENTACTION): </td>
+                <td>
+                    <input type="text" value='<c:out value="SALE" />' size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
                 </td>
             </tr>
             <tr>
