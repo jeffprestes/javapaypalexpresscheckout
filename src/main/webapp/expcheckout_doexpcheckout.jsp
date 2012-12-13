@@ -69,7 +69,13 @@
             </tr>
                 <td>Versão (VERSION): </td>
                 <td>
-                    <input type="text" value='<c:out value="91.0" />' size="60" name="VERSION" id="VERSION" />
+                    <input type="text" value="91.0" size="60" name="VERSION" id="VERSION" />
+                </td>
+            </tr>
+            </tr>
+                <td>Total (PAYMENTREQUEST_0_AMT): </td>
+                <td>
+                    <input type="text" value='<c:out value="${resposta.total}" />' size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
                 </td>
             </tr>
             <tr>

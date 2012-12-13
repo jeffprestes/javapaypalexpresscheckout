@@ -18,6 +18,5 @@
         <br />
         <h2>Ir para:</h2>
         <div style="text-align: center"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Formulário GetExpressCheckoutDetails</a></div>
-        <div style="text-align: center"><a href="expcheckout_doexpcheckout.jsp">Formulário DoExpressCheckout</a></div>
     </body>
 </html>
