@@ -154,7 +154,7 @@ public class ExpressCheckoutController extends HttpServlet {
                             HttpSession sessao = request.getSession();
                             sessao.setAttribute("token", resp.getToken());
 
-                            /*if (request.getParameter("NAOENVIAR_OPCREDIRECT").equals("0"))  {
+                            if (resp.getCabecalho().getAck()==CodigoACK.Success)  {
                                 logger.info("- Redirecionando o usuario para: " + url.toString());
                                 response.sendRedirect(url.toString());
                             }   else    {
@@ -162,7 +162,7 @@ public class ExpressCheckoutController extends HttpServlet {
                                 request.setAttribute("url", url.toString());
                                 RequestDispatcher rd = request.getRequestDispatcher("expcheckout_retorno_setEC.jsp");
                                 rd.forward(request, response);
-                            }*/
+                            }
 
                         }
 
