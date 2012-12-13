@@ -67,9 +67,6 @@ public class DoExpressCheckoutPaymentParser extends ParserBasico     {
                     if ("VERSION".equals(chave))    {
                         resp.setVersao(valor);
                     }
-                    if ("VERSION".equals(chave))    {
-                        resp.setVersao(valor);
-                    }
 
                 }
             }   catch(UnsupportedEncodingException ex)  {

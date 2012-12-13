@@ -190,7 +190,7 @@ public class PagamentoSimples {
             }
 
             OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
-            //logger.info("Chamada: " + param.toString());
+            logger.info("Chamada a: " + conn.getURL() + " com os parametros: " + param.toString());
 
             writer.write(param.toString());
             writer.flush();
