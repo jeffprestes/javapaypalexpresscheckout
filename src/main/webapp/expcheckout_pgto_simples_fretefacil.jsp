@@ -61,6 +61,11 @@
                     <input type="text"  size="60" value="0.5" name="PESO" id="PESO" />
                 </td>
             </tr>
+            <tr>
+                <td colspan="2" style="vertical-align: middle; text-align: center">
+                    <input type="submit" name="Submit" value="Submit" />
+                </td>
+            </tr>
             </form>
         </table>
     </body>
