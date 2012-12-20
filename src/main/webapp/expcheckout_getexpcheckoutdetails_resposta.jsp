@@ -1,7 +1,7 @@
 <%-- 
-    Document   : expcheckout_getexpcheckoutdetails_resposta.jsp
-    Created on : 05/06/2012, 14:36:18
-    Author     : jeffprestes
+    Document   : expcheckout_pgto_simples_fretefacil
+    Created on : Dec 19, 2012, 9:52:37 AM
+    Author     : aalonso
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
