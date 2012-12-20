@@ -13,10 +13,18 @@
         <servlet-class>br.com.paypalbrasil.x.controller.ExpressCheckoutController</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>FreteFacilController</servlet-name>
+        <servlet-class>br.com.paypalbrasil.x.controller.FreteFacilController</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>Faces Servlet</servlet-name>
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>FreteFacilController</servlet-name>
+        <url-pattern>/FreteFacilController</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AdaptiveController</servlet-name>
         <url-pattern>/AdaptiveController</url-pattern>
