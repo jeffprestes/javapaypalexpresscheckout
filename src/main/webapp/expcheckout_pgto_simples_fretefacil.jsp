@@ -25,37 +25,40 @@
             <tr>
                 <td>CEP de origem: </td>
                 <td>
-                    <input type="text" size="60" name="CEPORIGEM" id="METHOD" />
+                    <input type="text" value="09291-230" size="60" name="CEPORIGEM" id="CEPORIGEM" />
                 </td>
             </tr>
             <tr>
-                <td>CEP de origem: </td>
+                <td>CEP de destino: </td>
                 <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    <input type="text" value="02721-110" size="60" name="CEPDESTINO" id="CEPDESTINO" />
                 </td>
             </tr>
             <tr>
-                <td>CEP de origem: </td>
+                <th>Características físicas do Produto: </th>
+            </tr>
+            <tr>
+                <td>Largura : </td>
                 <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    <input type="text" value="6" size="60" name="LARGURA" id="LARGURA" />
                 </td>
             </tr>
             <tr>
-                <td>CEP de origem: </td>
+                <td>Altura: </td>
                 <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    <input type="text" value="12" size="60" name="ALTURA" id="ALTURA" />
                 </td>
             </tr>
             <tr>
-                <td>CEP de origem: </td>
+                <td>Profundidade: </td>
                 <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    <input type="text" size="60" value="10" name="PROFUNDIDADE" id="PROFUNDIDADE" />
                 </td>
             </tr>
             <tr>
-                <td>CEP de origem: </td>
+                <td>Peso (Kg): </td>
                 <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    <input type="text"  size="60" value="0.5" name="PESO" id="PESO" />
                 </td>
             </tr>
             </form>

@@ -43,7 +43,7 @@ public class WSFretesPayPal {
 	 * @throws SOAPException
 	 */
 	private SOAPMessage createRequest(String cepOrigem, String cepDestino,
-			int largura, int altura, int profundidade, int peso)
+			int largura, int altura, int profundidade, float peso)
 			throws SOAPException {
 
 		final MessageFactory mf = MessageFactory.newInstance();
@@ -108,7 +108,7 @@ public class WSFretesPayPal {
 	 * @return O valor do frete.
 	 */
 	public float getPreco(String cepOrigem, String cepDestino, int largura,
-			int altura, int profundidade, int peso) {
+			int altura, int profundidade, float peso) {
 		float preco = 0;
 
 		try {
@@ -129,11 +129,11 @@ public class WSFretesPayPal {
 		return preco;
 	}
 
-	public static void main(String argv[]) {
+	/*public static void main(String argv[]) {
 		final WSFretesPayPal ff = new WSFretesPayPal();
 
-		final float preco = ff.getPreco("01419001", "14412300", 15, 2, 30, 1);
+		final float preco = ff.getPreco("01419001", "14412300", 15, 2, 30, 1.0f);
 
 		System.out.println(preco);
-	}
+	}*/
 }

@@ -1,6 +1,5 @@
 package br.com.paypalbrasil.x.controller;
 
-import br.com.paypalbrasil.x.facade.expresschekout.PagamentoSimples;
 import br.com.paypalbrasil.x.facade.expresschekout.WSFretesPayPal;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -44,7 +43,15 @@ public class FreteFacilController extends HttpServlet {
                 
                     WSFretesPayPal wsf = new WSFretesPayPal();
                     
-                    wsf.getPreco(null, null, largura, altura, profundidade, peso); 
+                    
+                    
+                    float temp; 
+                    temp = wsf.getPreco(request.getParameter("CEPORIGEM"), request.getParameter("CEPDESTINO"), Integer.parseInt(request.getParameter("LARGURA")), Integer.parseInt(request.getParameter("ALTURA")), Integer.parseInt(request.getParameter("PROFUNDIDADE")), Float.parseFloat(request.getParameter("PESO")));
+                    
+                    HttpSession sessao = request.getSession();
+                    sessao.setAttribute("precoFrete", temp);
+                    
+                    response.sendRedirect("expcheckout_pgto_simples_fretefacil_retorno.jsp");
                 }
             }
             
