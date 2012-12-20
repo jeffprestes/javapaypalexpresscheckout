@@ -34,9 +34,10 @@
                     <input type="text" value="02721-110" size="60" name="CEPDESTINO" id="CEPDESTINO" />
                 </td>
             </tr>
+            <tr><br></tr>
             <tr>
-                <th>Características físicas do Produto: </th>
-            </tr>
+                <th>Características físicas do Produto </th>
+            </tr>            
             <tr>
                 <td>Largura : </td>
                 <td>
