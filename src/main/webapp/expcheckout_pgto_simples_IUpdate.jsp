@@ -168,7 +168,7 @@
             </tr>
             <tr>                
                 <td>
-                    Total máximo esperado (PAYMENTREQUEST_0_SHIPPINGAMT)
+                    Total da taxa de entrega (PAYMENTREQUEST_0_SHIPPINGAMT)
                 </td>
                 <td>
                     <input type="text" value="4.00" name="PAYMENTREQUEST_0_SHIPPINGAMT" id="PAYMENTREQUEST_0_SHIPPINGAMT" size="100" />
