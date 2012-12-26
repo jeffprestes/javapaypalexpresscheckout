@@ -109,6 +109,13 @@
             </tr>
             <tr>
                 <td>
+                    Url de callback (CALLBACK): </td>
+                <td>
+                    <input type="text" value='http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/expcheckout_retorno.jsp' name="CALLBACK" id="CALLBACK" size="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>
                     Localização (LOCALECODE) : </td>
                 <td>
                     <input type="text" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
@@ -139,7 +146,7 @@
                     TOTAL Geral (PAYMENTREQUEST_0_AMT)
                 </td>
                 <td>
-                    <input type="text" value="10.32" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" size="100" />
+                    <input type="text" value="14.32" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" size="100" />
                 </td>
             </tr>
             
@@ -156,7 +163,7 @@
                     Total máximo esperado (PAYMENTREQUEST_0_MAXAMT)
                 </td>
                 <td>
-                    <input type="text" value="15.32" name="PAYMENTREQUEST_0_MAXAMT" id="PAYMENTREQUEST_0_MAXAMT" size="100" />
+                    <input type="text" value="14.32" name="PAYMENTREQUEST_0_MAXAMT" id="PAYMENTREQUEST_0_MAXAMT" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -307,7 +314,7 @@
                     Nome da entrega (L_SHIPPINGOPTIONAMOUNT0)
                 </td>
                 <td>
-                    <input type="text" value="3.50" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
+                    <input type="text" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
                 </td>
             </tr> 
             <tr>
