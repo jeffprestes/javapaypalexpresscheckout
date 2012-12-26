@@ -272,6 +272,45 @@
                 <td colspan="2">&nbsp;</td>
             </tr>
             <tr>
+                <td colspan="2"><hr /></td>
+            </tr>
+            <tr>  
+                <td colspan="2">Informações sobre as entregas disponiveis</td>
+            </tr> 
+            <tr>
+                 <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>  
+                <td colspan="2">&nbsp;&nbsp;Entrega 1</td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>                
+                <td>
+                    Entrega padrão (L_SHIPPINGOPTIONISDEFAULT0)
+                </td>
+                <td>
+                    <input type="text" value="true" name="L_SHIPPINGOPTIONISDEFAULT0" id="L_SHIPPINGOPTIONISDEFAULT0" size="100" />
+                </td>
+            </tr> 
+            <tr>                
+                <td>
+                    Nome da entrega (L_SHIPPINGOPTIONNAME0)
+                </td>
+                <td>
+                    <input type="text" value="Sedex" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
+                </td>
+            </tr> 
+            <tr>                
+                <td>
+                    Nome da entrega (L_SHIPPINGOPTIONAMOUNT0)
+                </td>
+                <td>
+                    <input type="text" value="3.50" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
+                </td>
+            </tr> 
+            <tr>
                 <td colspan="2" style="vertical-align: middle; text-align: center">
                     <input type="submit" name="Submit" value="Submit" />
                 </td>
