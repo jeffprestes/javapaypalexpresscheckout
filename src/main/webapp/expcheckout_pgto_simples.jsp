@@ -102,6 +102,13 @@
             </tr>
             <tr>
                 <td>
+                    Url de callback (CALLBACK): </td>
+                <td>
+                    <input type="text" value='http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/expcheckout_retorno.jsp' name="CALLBACK" id="CALLBACK" size="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>
                     Url de cancelamento (CANCELURL): </td>
                 <td>
                     <input type="text" value='http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
