@@ -20,6 +20,8 @@
             <li><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></li>
             <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Pagamento simples - Formulário simples (com Frete-Fácil)</a></li>
             <li><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></li>
+            <li>Teste</li>
+            <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update</a></li>
         </ul>
     </body>
 </html>
