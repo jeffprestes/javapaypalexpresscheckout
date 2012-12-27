@@ -35,9 +35,13 @@ public class FreteServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
                     Enumeration<String> temp = request.getParameterNames();
-                    
                     logger.info(temp.toString());
-            
+                    while(temp.hasMoreElements()){
+                    logger.info(temp.nextElement().toString());
+                    }
+                    
+                    
+
             
             /* TODO output your page here. You may use following sample code. */
             out.println("<html>");
