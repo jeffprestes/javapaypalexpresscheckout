@@ -12,13 +12,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
+
 /**
  *
  * @author aalonso
  */
 public class FreteServlet extends HttpServlet {
 
-     private static Logger logger = Logger.getLogger(FreteServlet.class);
+    private static Logger logger = Logger.getLogger(FreteServlet.class);
+
     /**
      * Processes requests for both HTTP
      * <code>GET</code> and
@@ -34,21 +36,15 @@ public class FreteServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-                    Enumeration<String> name = request.getParameterNames();
-                    while(name.hasMoreElements()){
-                    String temp = name.nextElement().toString();
-                    String[] valuetemp = request.getParameterValues(temp);
-                    logger.info(temp+" = "+valuetemp[0]);
-                    }
-                    
-                    
-                    
-                    
-
-            
+            Enumeration<String> name = request.getParameterNames();
+            while (name.hasMoreElements()) {
+                String temp = name.nextElement().toString();
+                String[] valuetemp = request.getParameterValues(temp);
+                logger.info(temp + " = " + valuetemp[0]);
+            }
             /* TODO output your page here. You may use following sample code. */
             out.write("METHOD=CallbackResponse &L_SHIPPINGOPTIONNAME0=UPS Next Day Air &L_SHIPPINGOPTIONAMOUNT0=20.00 &L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true ");
-        } finally {            
+        } finally {
             out.close();
         }
     }
