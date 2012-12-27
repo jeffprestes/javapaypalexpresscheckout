@@ -270,10 +270,10 @@
             </tr>
             <tr>                
                 <td>
-                    Profundidade ((L_ITEMLENGTHVALUE0)
+                    Profundidade (L_ITEMLENGTHVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="10" name="(L_ITEMLENGTHVALUE0" id="L_ITEMLENGTHVALUE0" size="100" />
+                    <input type="text" value="10" name="L_ITEMLENGTHVALUE0" id="L_ITEMLENGTHVALUE0" size="100" />
                 </td>
             </tr>
             <tr>
