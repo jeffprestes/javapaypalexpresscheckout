@@ -37,7 +37,8 @@ public class FreteServlet extends HttpServlet {
                     Enumeration<String> name = request.getParameterNames();
                     while(name.hasMoreElements()){
                     String temp = name.nextElement().toString();
-                    logger.info(temp+" = "+request.getParameterValues(temp).toString());
+                    String[] valuetemp = request.getParameterValues(temp);
+                    logger.info(temp+" = "+valuetemp[0]);
                     }
                     
                     
