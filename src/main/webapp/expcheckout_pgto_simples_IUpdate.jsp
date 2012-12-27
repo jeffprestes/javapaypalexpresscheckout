@@ -129,6 +129,13 @@
                 </td>
             </tr>
             <tr>
+                <td>
+                    Código Postal Destino (PAYMENTREQUEST_0_SHIPTOZIP) : </td>
+                <td>
+                    <input type="text" value="09291230" name="PAYMENTREQUEST_0_SHIPTOZIP" id="PAYMENTREQUEST_0_SHIPTOZIP" size="6" />
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2">&nbsp;</td>
             </tr>
             <tr>
