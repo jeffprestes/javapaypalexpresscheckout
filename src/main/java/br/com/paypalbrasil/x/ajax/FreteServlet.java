@@ -42,17 +42,12 @@ public class FreteServlet extends HttpServlet {
                     }
                     
                     
+                    
+                    
 
             
             /* TODO output your page here. You may use following sample code. */
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet FreteServlet</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet FreteServlet at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            out.println("METHOD=CallbackResponse &L_SHIPPINGOPTIONNAME0=UPS Next Day Air &L_SHIPPINGOPTIONAMOUNT0=20.00 &L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=false ");
         } finally {            
             out.close();
         }
