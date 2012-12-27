@@ -21,6 +21,10 @@
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>FreteServlet</servlet-name>
+        <servlet-class>br.com.paypalbrasil.x.ajax.FreteServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FreteFacilController</servlet-name>
         <url-pattern>/FreteFacilController</url-pattern>
@@ -36,6 +40,10 @@
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FreteServlet</servlet-name>
+        <url-pattern>/FreteServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
