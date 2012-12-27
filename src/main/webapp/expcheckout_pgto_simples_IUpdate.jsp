@@ -116,6 +116,13 @@
             </tr>
             <tr>
                 <td>
+                    Tempo de resposta do CallBack (CALLBACKTIMEOUT): </td>
+                <td>
+                    <input type="text" value='3' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>
                     Localização (LOCALECODE) : </td>
                 <td>
                     <input type="text" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
