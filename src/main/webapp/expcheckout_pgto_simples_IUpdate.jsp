@@ -160,10 +160,10 @@
             </tr>
             <tr>                
                 <td>
-                    Total máximo esperado (PAYMENTREQUEST_0_MAXAMT)
+                    Total máximo esperado (MAXAMT)
                 </td>
                 <td>
-                    <input type="text" value="14.32" name="PAYMENTREQUEST_0_MAXAMT" id="PAYMENTREQUEST_0_MAXAMT" size="100" />
+                    <input type="text" value="14.32" name="MAXAMT" id="MAXAMT" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -311,7 +311,7 @@
             </tr> 
             <tr>                
                 <td>
-                    Nome da entrega (L_SHIPPINGOPTIONAMOUNT0)
+                    Taxa da entrega (L_SHIPPINGOPTIONAMOUNT0)
                 </td>
                 <td>
                     <input type="text" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
