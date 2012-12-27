@@ -47,7 +47,7 @@ public class FreteServlet extends HttpServlet {
 
             
             /* TODO output your page here. You may use following sample code. */
-            out.println("METHOD=CallbackResponse &L_SHIPPINGOPTIONNAME0=UPS Next Day Air &L_SHIPPINGOPTIONAMOUNT0=20.00 &L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true ");
+            out.write("METHOD=CallbackResponse &L_SHIPPINGOPTIONNAME0=UPS Next Day Air &L_SHIPPINGOPTIONAMOUNT0=20.00 &L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true ");
         } finally {            
             out.close();
         }
