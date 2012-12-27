@@ -34,10 +34,11 @@ public class FreteServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-                    Enumeration<String> temp = request.getParameterNames();
-                    logger.info(temp.toString());
-                    while(temp.hasMoreElements()){
-                    logger.info(temp.nextElement().toString());
+                    Enumeration<String> name = request.getParameterNames();
+                    while(name.hasMoreElements()){
+                    name.nextElement();
+                    String temp = name.toString();
+                    logger.info(temp+" = "+request.getParameterValues(temp));
                     }
                     
                     
