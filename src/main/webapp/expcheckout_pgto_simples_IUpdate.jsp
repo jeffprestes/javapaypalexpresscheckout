@@ -235,7 +235,47 @@
                 <td>
                     <input type="text" value="1" name="L_PAYMENTREQUEST_0_QTY0" id="L_PAYMENTREQUEST_0_QTY0" size="100" />
                 </td>
-            </tr> 
+            </tr>
+            <tr>                
+                <td>
+                    Medida do peso (L_ITEMWEIGHTUNIT0)
+                </td>
+                <td>
+                    <input type="text" value="kgs" name="L_ITEMWEIGHTUNIT0" id="L_ITEMWEIGHTUNIT0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Peso (L_ITEMWEIGHTVALUE0)
+                </td>
+                <td>
+                    <input type="text" value="0.3" name="L_ITEMWEIGHTVALUE0" id="L_ITEMWEIGHTVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Altura (L_ITEMHEIGHTVALUE0)
+                </td>
+                <td>
+                    <input type="text" value="3" name="L_ITEMHEIGHTVALUE0" id="L_ITEMHEIGHTVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Largura (L_ITEMWIDTHVALUE0)
+                </td>
+                <td>
+                    <input type="text" value="5" name="L_ITEMWIDTHVALUE0" id="L_ITEMWIDTHVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Profundidade ((L_ITEMLENGTHVALUE0)
+                </td>
+                <td>
+                    <input type="text" value="10" name="(L_ITEMLENGTHVALUE0" id="L_ITEMLENGTHVALUE0" size="100" />
+                </td>
+            </tr>
             <tr>
                  <td colspan="2">&nbsp;</td>
             </tr>
@@ -281,7 +321,47 @@
                 <td>
                     <input type="text" value="1" name="L_PAYMENTREQUEST_0_QTY1" id="L_PAYMENTREQUEST_0_QTY1" size="100" />
                 </td>
-            </tr> 
+            </tr>
+            <tr>                
+                <td>
+                    Medida do peso (L_ITEMWEIGHTUNIT1)
+                </td>
+                <td>
+                    <input type="text" value="kgs" name="L_ITEMWEIGHTUNIT0" id="L_ITEMWEIGHTUNIT0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Peso (L_ITEMWEIGHTVALUE1)
+                </td>
+                <td>
+                    <input type="text" value="0.5" name="L_ITEMWEIGHTVALUE0" id="L_ITEMWEIGHTVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Altura (L_ITEMHEIGHTVALUE1)
+                </td>
+                <td>
+                    <input type="text" value="2" name="L_ITEMHEIGHTVALUE0" id="L_ITEMHEIGHTVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Largura (L_ITEMWIDTHVALUE1)
+                </td>
+                <td>
+                    <input type="text" value="6" name="L_ITEMWIDTHVALUE0" id="L_ITEMWIDTHVALUE0" size="100" />
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    Profundidade ((L_ITEMLENGTHVALUE1)
+                </td>
+                <td>
+                    <input type="text" value="4" name="(L_ITEMLENGTHVALUE0" id="L_ITEMLENGTHVALUE0" size="100" />
+                </td>
+            </tr>
             <tr>
                 <td colspan="2">&nbsp;</td>
             </tr>
