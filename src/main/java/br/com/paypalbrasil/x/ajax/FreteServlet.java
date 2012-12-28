@@ -40,7 +40,7 @@ public class FreteServlet extends HttpServlet {
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
                 String[] valuetemp = request.getParameterValues(temp);
-                logger.info(temp + " = " + valuetemp[0]);
+                logger.info(temp + " = " + valuetemp[1]);
             }
             /* TODO output your page here. You may use following sample code. */
              out.println("<HTML>");
