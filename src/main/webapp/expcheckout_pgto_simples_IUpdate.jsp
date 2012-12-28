@@ -118,7 +118,7 @@
                 <td>
                     Tempo de resposta do CallBack (CALLBACKTIMEOUT): </td>
                 <td>
-                    <input type="text" value='3' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
+                    <input type="text" value='9' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
                 </td>
             </tr>
             <tr>
