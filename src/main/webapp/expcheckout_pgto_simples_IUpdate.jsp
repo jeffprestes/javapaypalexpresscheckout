@@ -393,7 +393,7 @@
                     Nome da entrega (L_SHIPPINGOPTIONNAME0)
                 </td>
                 <td>
-                    <input type="text" value="PAC" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
+                    <input type="text" value="Padrão 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
                 </td>
             </tr> 
             <tr>                
@@ -423,7 +423,7 @@
                     Nome da entrega (L_SHIPPINGOPTIONNAME1)
                 </td>
                 <td>
-                    <input type="text" value="E-Sedex" name="L_SHIPPINGOPTIONNAME1" id="L_SHIPPINGOPTIONNAME1" size="100" />
+                    <input type="text" value="Padrão 2" name="L_SHIPPINGOPTIONNAME1" id="L_SHIPPINGOPTIONNAME1" size="100" />
                 </td>
             </tr> 
             <tr>                
