@@ -43,9 +43,9 @@ public class FreteServlet extends HttpServlet {
                 logger.info(temp + " = " + valuetemp[0]);
             }
             /* TODO output your page here. You may use following sample code. */
-             out.println("<HTML>");
-             out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
-             out.println("<BODY>");
+             //out.println("<HTML>");
+             //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
+            // out.println("<BODY>");
              //out.println("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0=UPS Next Day Air&L_SHIPPINGOPTIONAMOUNT0=20.00&L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true");
              out.println("METHOD=CallbackResponse"
                      + "&OFFERINSURANCEOPTION=true"
@@ -64,7 +64,7 @@ public class FreteServlet extends HttpServlet {
                      + "&L_TAXAMT2=1.99"
                      + "&L_INSURANCEAMOUNT2=1.28"
                      + "&L_SHIPPINGOPTIONISDEFAULT2=false");
-             out.println("</BODY></HTML>");
+            // out.println("</BODY></HTML>");
         } finally {
             out.close();
         }
