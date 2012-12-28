@@ -249,7 +249,7 @@
                     Peso (L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="0.3" name="L_ITEMWEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" size="100" />
+                    <input type="text" value="0.3" name="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
