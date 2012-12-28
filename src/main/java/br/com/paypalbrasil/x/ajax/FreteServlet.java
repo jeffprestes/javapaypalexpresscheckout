@@ -42,29 +42,28 @@ public class FreteServlet extends HttpServlet {
                 String[] valuetemp = request.getParameterValues(temp);
                 logger.info(temp + " = " + valuetemp[0]);
             }
-            /* TODO output your page here. You may use following sample code. */
              //out.println("<HTML>");
              //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
-            // out.println("<BODY>");
+             //out.println("<BODY>");
              //out.println("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0=UPS Next Day Air&L_SHIPPINGOPTIONAMOUNT0=20.00&L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true");
-             out.println("METHOD=CallbackResponse"
+               out.println("METHOD=CallbackResponse"
                      + "&OFFERINSURANCEOPTION=true"
-                     + "&L_SHIPPINGOPTIONNAME0=UPS Next Day Air"
+                     + "&L_SHIPPINGOPTIONNAME0=Sedex Hoje"
                      + "&L_SHIPPINGOPTIONAMOUNT0=20.00"
                      + "&L_TAXAMT0=2.20"
                      + "&L_INSURANCEAMOUNT0=1.51"
                      + "&L_SHIPPINGOPTIONISDEFAULT0=false"
-                     + "&L_SHIPPINGOPTIONNAME1=UPS Express 2 Days"
-                     + "&L_SHIPPINGOPTIONAMOUNT1=10.00"
+                     + "&L_SHIPPINGOPTIONNAME1=Sedex 10"
+                     + "&L_SHIPPINGOPTIONAMOUNT1=15.00"
                      + "&L_TAXAMT1=2.00"
                      + "&L_INSURANCEAMOUNT1=1.35"
                      + "&L_SHIPPINGOPTIONISDEFAULT1=true"
-                     + "&L_SHIPPINGOPTIONNAME2=UPS Ground2 to 7 Days"
+                     + "&L_SHIPPINGOPTIONNAME2=Sedex"
                      + "&L_SHIPPINGOPTIONAMOUNT2=9.99"
                      + "&L_TAXAMT2=1.99"
                      + "&L_INSURANCEAMOUNT2=1.28"
                      + "&L_SHIPPINGOPTIONISDEFAULT2=false");
-            // out.println("</BODY></HTML>");
+             //out.println("</BODY></HTML>");
         } finally {
             out.close();
         }
