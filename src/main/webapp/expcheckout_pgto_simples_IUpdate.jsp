@@ -238,18 +238,18 @@
             </tr>
             <tr>                
                 <td>
-                    Medida do peso (L_ITEMWEIGHTUNIT0)
+                    Medida do peso (L_PAYMENTREQUEST_0_ITEMWEIGHTUNIT0)
                 </td>
                 <td>
-                    <input type="text" value="kgs" name="L_ITEMWEIGHTUNIT0" id="L_ITEMWEIGHTUNIT0" size="100" />
+                    <input type="text" value="kgs" name="L_PAYMENTREQUEST_0_ITEMWEIGHTUNIT0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTUNIT0" size="100" />
                 </td>
             </tr>
             <tr>                
                 <td>
-                    Peso (L_ITEMWEIGHTVALUE0)
+                    Peso (L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="0.3" name="L_ITEMWEIGHTVALUE0" id="L_ITEMWEIGHTVALUE0" size="100" />
+                    <input type="text" value="0.3" name="L_ITEMWEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
