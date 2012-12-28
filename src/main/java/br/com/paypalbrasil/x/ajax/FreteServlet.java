@@ -59,7 +59,7 @@ public class FreteServlet extends HttpServlet {
              * "&L_SHIPPINGOPTIONISDEFAULT2=false");
              **/
             //out.println("</BODY></HTML>");
-            out.print("METHOD=CallbackResponse");
+            out.println("METHOD=CallbackResponse");
             out.println("&OFFERINSURANCEOPTION=true");
             out.println("&L_SHIPPINGOPTIONNAME0=SedexHoje");
             out.println("&L_SHIPPINGOPTIONAMOUNT0=20.00");
