@@ -42,28 +42,41 @@ public class FreteServlet extends HttpServlet {
                 String[] valuetemp = request.getParameterValues(temp);
                 logger.info(temp + " = " + valuetemp[0]);
             }
-             //out.println("<HTML>");
-             //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
-             //out.println("<BODY>");
-             //out.println("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0=UPS Next Day Air&L_SHIPPINGOPTIONAMOUNT0=20.00&L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true");
-               out.println("METHOD=CallbackResponse"
-                     + "&OFFERINSURANCEOPTION=true"
-                     + "&L_SHIPPINGOPTIONNAME0=Sedex Hoje"
-                     + "&L_SHIPPINGOPTIONAMOUNT0=20.00"
-                     + "&L_TAXAMT0=2.20"
-                     + "&L_INSURANCEAMOUNT0=1.51"
-                     + "&L_SHIPPINGOPTIONISDEFAULT0=false"
-                     + "&L_SHIPPINGOPTIONNAME1=Sedex 10"
-                     + "&L_SHIPPINGOPTIONAMOUNT1=15.00"
-                     + "&L_TAXAMT1=2.00"
-                     + "&L_INSURANCEAMOUNT1=1.35"
-                     + "&L_SHIPPINGOPTIONISDEFAULT1=true"
-                     + "&L_SHIPPINGOPTIONNAME2=Sedex"
-                     + "&L_SHIPPINGOPTIONAMOUNT2=9.99"
-                     + "&L_TAXAMT2=1.99"
-                     + "&L_INSURANCEAMOUNT2=1.28"
-                     + "&L_SHIPPINGOPTIONISDEFAULT2=false");
-             //out.println("</BODY></HTML>");
+            //out.println("<HTML>");
+            //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
+            //out.println("<BODY>");
+            //out.println("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0=UPS Next Day Air&L_SHIPPINGOPTIONAMOUNT0=20.00&L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true");
+            /**
+             * out.println("METHOD=CallbackResponse" +
+             * "&OFFERINSURANCEOPTION=true" + "&L_SHIPPINGOPTIONNAME0=Sedex
+             * Hoje" + "&L_SHIPPINGOPTIONAMOUNT0=20.00" + "&L_TAXAMT0=2.20" +
+             * "&L_INSURANCEAMOUNT0=1.51" + "&L_SHIPPINGOPTIONISDEFAULT0=false"
+             * + "&L_SHIPPINGOPTIONNAME1=Sedex 10" +
+             * "&L_SHIPPINGOPTIONAMOUNT1=15.00" + "&L_TAXAMT1=2.00" +
+             * "&L_INSURANCEAMOUNT1=1.35" + "&L_SHIPPINGOPTIONISDEFAULT1=true" +
+             * "&L_SHIPPINGOPTIONNAME2=Sedex" + "&L_SHIPPINGOPTIONAMOUNT2=9.99"
+             * + "&L_TAXAMT2=1.99" + "&L_INSURANCEAMOUNT2=1.28" +
+             * "&L_SHIPPINGOPTIONISDEFAULT2=false");
+                     *
+             */
+            //out.println("</BODY></HTML>");
+            out.print("METHOD=CallbackResponse");
+            out.print("&OFFERINSURANCEOPTION=true");
+            out.print("&L_SHIPPINGOPTIONNAME0=Sedex Hoje");
+            out.print("&L_SHIPPINGOPTIONAMOUNT0=20.00");
+            out.print("&L_TAXAMT0=2.20");
+            out.print("&L_INSURANCEAMOUNT0=1.51");
+            out.print("&L_SHIPPINGOPTIONISDEFAULT0=false");
+            out.print("&L_SHIPPINGOPTIONNAME1=Sedex10");
+            out.print("&L_SHIPPINGOPTIONAMOUNT1=15.00");
+            out.print("&L_TAXAMT1=2.00");
+            out.print("&L_INSURANCEAMOUNT1=1.35");
+            out.print("&L_SHIPPINGOPTIONISDEFAULT1=true");
+            out.print("&L_SHIPPINGOPTIONNAME2=Sedex");
+            out.print("&L_SHIPPINGOPTIONAMOUNT2=9.99");
+            out.print("&L_TAXAMT2=1.99");
+            out.print("&L_INSURANCEAMOUNT2=1.28");
+            out.print("&L_SHIPPINGOPTIONISDEFAULT2=false");
         } finally {
             out.close();
         }
