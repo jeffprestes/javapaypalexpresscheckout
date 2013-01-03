@@ -257,7 +257,7 @@
                     Peso (L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="0.3" name="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" size="100" />
+                    <input type="text" value="0.8" name="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMWEIGHTVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -265,7 +265,7 @@
                     Altura (L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="3" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" size="100" />
+                    <input type="text" value="13" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -273,7 +273,7 @@
                     Largura (L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="5" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" size="100" />
+                    <input type="text" value="8" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -281,7 +281,7 @@
                     Profundidade (L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="10" name="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0" size="100" />
+                    <input type="text" value="19" name="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE0" size="100" />
                 </td>
             </tr>
             <tr>
@@ -351,7 +351,7 @@
                     Altura (L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE1)
                 </td>
                 <td>
-                    <input type="text" value="2" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE1" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE1" size="100" />
+                    <input type="text" value="5" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE1" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE1" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -359,7 +359,7 @@
                     Largura (L_PAYMENTREQUEST_0_ITEMWIDTHVALUE1)
                 </td>
                 <td>
-                    <input type="text" value="6" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE1" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE1" size="100" />
+                    <input type="text" value="14" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE1" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE1" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -367,7 +367,7 @@
                     Profundidade (L_PAYMENTREQUEST_0_ITEMLENGTHVALUE1)
                 </td>
                 <td>
-                    <input type="text" value="4" name="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE1" id="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE1" size="100" />
+                    <input type="text" value="24" name="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE1" id="L_PAYMENTREQUEST_0_ITEMLENGTHVALUE1" size="100" />
                 </td>
             </tr>
             <tr>

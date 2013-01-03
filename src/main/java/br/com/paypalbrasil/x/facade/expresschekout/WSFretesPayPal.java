@@ -132,7 +132,7 @@ public class WSFretesPayPal {
 	/*public static void main(String argv[]) {
 		final WSFretesPayPal ff = new WSFretesPayPal();
 
-		final float preco = ff.getPreco("01419001", "14412300", 15, 2, 30, 1.0f);
+		final float preco = ff.getPreco("01419001", "09291230", 12, 5, 20, 1.5f);
 
 		System.out.println(preco);
 	}*/
