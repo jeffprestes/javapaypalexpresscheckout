@@ -59,8 +59,9 @@ public class FreteServlet extends HttpServlet {
                 if(temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE1")){
                     item2.setPeso(Float.parseFloat(valuetemp[0]));
                 }
+                
                 if(temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")){
-                    item.setAltura(Integer.parseInt(valuetemp[0]));
+                    item.setAltura((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE1")){
                     item2.setAltura(Integer.parseInt(valuetemp[0]));
