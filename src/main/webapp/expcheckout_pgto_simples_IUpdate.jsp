@@ -401,7 +401,7 @@
                     Nome da entrega (L_SHIPPINGOPTIONNAME0)
                 </td>
                 <td>
-                    <input type="text" value="Padr&atilde;o 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
+                    <input type="text" value="Padrao 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
                 </td>
             </tr> 
             <tr>                
@@ -410,36 +410,6 @@
                 </td>
                 <td>
                     <input type="text" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
-                </td>
-            </tr> 
-            <tr>  
-                <td colspan="2">&nbsp;&nbsp;Entrega 2</td>
-            </tr>
-            <tr>
-                <td colspan="2">&nbsp;</td>
-            </tr>
-            <tr>                
-                <td>
-                    Entrega padrão (L_SHIPPINGOPTIONISDEFAULT1)
-                </td>
-                <td>
-                    <input type="text" value="false" name="L_SHIPPINGOPTIONISDEFAULT1" id="L_SHIPPINGOPTIONISDEFAULT1" size="100" />
-                </td>
-            </tr> 
-            <tr>                
-                <td>
-                    Nome da entrega (L_SHIPPINGOPTIONNAME1)
-                </td>
-                <td>
-                    <input type="text" value="Padr&atilde;o 2" name="L_SHIPPINGOPTIONNAME1" id="L_SHIPPINGOPTIONNAME1" size="100" />
-                </td>
-            </tr> 
-            <tr>                
-                <td>
-                    Taxa da entrega (L_SHIPPINGOPTIONAMOUNT1)
-                </td>
-                <td>
-                    <input type="text" value="8.00" name="L_SHIPPINGOPTIONAMOUNT1" id="L_SHIPPINGOPTIONAMOUNT1" size="100" />
                 </td>
             </tr> 
             <tr>

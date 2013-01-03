@@ -111,7 +111,7 @@ public class FreteServlet extends HttpServlet {
             out.print("&L_SHIPPINGOPTIONISDEFAULT2=false");**/
             
             
-            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONNAME0=SedexHoje&L_SHIPPINGOPTIONAMOUNT0=20.00&L_SHIPPINGOPTIONISDEFAULT0=false&L_SHIPPINGOPTIONNAME1=Sedex10&L_SHIPPINGOPTIONAMOUNT1=15.00&L_SHIPPINGOPTIONISDEFAULT1=true&L_SHIPPINGOPTIONNAME2=Sedex&L_SHIPPINGOPTIONAMOUNT2=9.99&L_SHIPPINGOPTIONISDEFAULT2=false");
+            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONNAME0="+valor.getNomeEntrega()+"&L_SHIPPINGOPTIONAMOUNT0="+valor.getTotal()+"&L_SHIPPINGOPTIONISDEFAULT0=true");
         } finally {
             out.close();
         }
