@@ -1,4 +1,4 @@
- n<%-- 
+ <%-- 
     Document   : expcheckout_pgto_simples.jsp
     Created on : 05/06/2012, 14:36:18
     Author     : jeffprestes
@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PayPal Java Testes - Express Checkout - Pagamento simples</title>
+        <title>PayPal Java Testes - Express Checkout - Pagamento simples com Instant Update</title>
     </head>
     <body>
-        <h1>PayPal Java Testes - Express Checkout - Pagamento simples - Sem pagamento paralelo</h1>
+        <h1>PayPal Java Testes - Express Checkout - Pagamento simples com Instant Update - FreteFacil</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <tr>

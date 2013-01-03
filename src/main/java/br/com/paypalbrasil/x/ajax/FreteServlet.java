@@ -12,7 +12,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
-
+import br.com.paypalbrasil.x.domain.expresscheckout.ItemVenda;
+import br.com.paypalbrasil.x.facade.expresschekout.WSFretesPayPal;
 /**
  *
  * @author aalonso
@@ -35,13 +36,54 @@ public class FreteServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
+        WSFretesPayPal frete = new WSFretesPayPal();
+        FreteData item = new FreteData();
+        FreteData item2 = new FreteData();
+        FreteValor valor = new FreteValor();
         try {
             Enumeration<String> name = request.getParameterNames();
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
                 String[] valuetemp = request.getParameterValues(temp);
                 logger.info(temp + " = " + valuetemp[0]);
+                
+                if(temp == ("SHIPTOZIP")){
+                    item.setCepDestino(valuetemp[0]);
+                    item2.setCepDestino(valuetemp[0]);
+                }
+                if(temp == ("L_ITEMWEIGHTVALUE0")){
+                    item.setPeso(Float.parseFloat(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMWEIGHTVALUE1")){
+                    item2.setPeso(Float.parseFloat(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMHEIGHTVALUE0")){
+                    item.setAltura(Integer.parseInt(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMHEIGHTVALUE1")){
+                    item2.setAltura(Integer.parseInt(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMWIDTHVALUE0")){
+                    item.setLargura(Integer.parseInt(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMWIDTHVALUE1")){
+                    item2.setLargura(Integer.parseInt(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMLENGTHVALUE0")){
+                    item.setProfundidade(Integer.parseInt(valuetemp[0]));
+                }
+                if(temp == ("L_ITEMLENGTHVALUE1")){
+                    item2.setProfundidade(Integer.parseInt(valuetemp[0]));
+                }
+                
             }
+            item.setNomeEntrega("FreteFacil");
+            item2.setNomeEntrega("FreteFacil");
+            item.setValorEntrega(frete.getPreco(item.getCepOrigem(),item.getCepDestino(),item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
+            item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),item2.getCepDestino(),item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
+            valor.setItens(item,item2);
+            valor.setTotal();
+            logger.info("TOTAL DA ENTREGA = "+valor.getTotal());
             //out.println("<HTML>");
             //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
             //out.println("<BODY>");

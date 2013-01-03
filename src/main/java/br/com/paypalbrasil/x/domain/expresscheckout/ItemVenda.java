@@ -18,6 +18,11 @@ public class ItemVenda {
     private String total;
     private CategoriaItem categoria;
     private int quantidade;
+    private int altura;
+    private int largura;
+    private int profundidade;
+    private float peso;
+    private String medida_peso;
 
     public ItemVenda() {
     }
@@ -101,6 +106,76 @@ public class ItemVenda {
     @Override
     public String toString() {
         return "ItemVenda{" + "nome=" + nome + ", descricao=" + descricao + ", qtde: " + quantidade + ", total=" + total + ", categoria=" + categoria + '}';
+    }
+
+    /**
+     * @return the altura
+     */
+    public int getAltura() {
+        return altura;
+    }
+
+    /**
+     * @param altura the altura to set
+     */
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    /**
+     * @return the largura
+     */
+    public int getLargura() {
+        return largura;
+    }
+
+    /**
+     * @param largura the largura to set
+     */
+    public void setLargura(int largura) {
+        this.largura = largura;
+    }
+
+    /**
+     * @return the profundidade
+     */
+    public int getProfundidade() {
+        return profundidade;
+    }
+
+    /**
+     * @param profundidade the profundidade to set
+     */
+    public void setProfundidade(int profundidade) {
+        this.profundidade = profundidade;
+    }
+
+    /**
+     * @return the peso
+     */
+    public float getPeso() {
+        return peso;
+    }
+
+    /**
+     * @param peso the peso to set
+     */
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    /**
+     * @return the medida_peso
+     */
+    public String getMedida_peso() {
+        return medida_peso;
+    }
+
+    /**
+     * @param medida_peso the medida_peso to set
+     */
+    public void setMedida_peso(String medida_peso) {
+        this.medida_peso = medida_peso;
     }
     
     
