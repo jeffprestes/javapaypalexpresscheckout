@@ -45,7 +45,7 @@ public class FreteServlet extends HttpServlet {
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
                 String[] valuetemp = request.getParameterValues(temp);
-                logger.info(temp + " = " + valuetemp[0]);
+                //logger.info(temp + " = " + valuetemp[0]);
                 
                 if(temp == ("SHIPTOZIP")){
                     String[] pair = valuetemp[0].split("-");
