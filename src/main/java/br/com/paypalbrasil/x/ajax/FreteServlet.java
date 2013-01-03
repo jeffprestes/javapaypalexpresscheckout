@@ -80,6 +80,9 @@ public class FreteServlet extends HttpServlet {
                 }
                 
             }
+            logger.info("Chamada Frete Facil");
+            logger.info(item.getCepOrigem()+", "+item.getCepDestino()+", "+item.getLargura()+", "+item.getAltura()+", "+item.getProfundidade()+", "+item.getPeso());
+            logger.info(item2.getCepOrigem()+", "+item2.getCepDestino()+", "+item2.getLargura()+", "+item2.getAltura()+", "+item2.getProfundidade()+", "+item2.getPeso());
             item.setValorEntrega(frete.getPreco(item.getCepOrigem(),item.getCepDestino(),item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
             item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),item2.getCepDestino(),item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item,item2);
