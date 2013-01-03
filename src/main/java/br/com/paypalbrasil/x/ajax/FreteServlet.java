@@ -64,19 +64,19 @@ public class FreteServlet extends HttpServlet {
                     item.setAltura((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE1")){
-                    item2.setAltura(Integer.parseInt(valuetemp[0]));
+                    item2.setAltura((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")){
-                    item.setLargura(Integer.parseInt(valuetemp[0]));
+                    item.setLargura((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMWIDTHVALUE1")){
-                    item2.setLargura(Integer.parseInt(valuetemp[0]));
+                    item2.setLargura((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")){
-                    item.setProfundidade(Integer.parseInt(valuetemp[0]));
+                    item.setProfundidade((int)Float.parseFloat(valuetemp[0]));
                 }
                 if(temp.equalsIgnoreCase("L_ITEMLENGTHVALUE1")){
-                    item2.setProfundidade(Integer.parseInt(valuetemp[0]));
+                    item2.setProfundidade((int)Float.parseFloat(valuetemp[0]));
                 }
                 
             }
