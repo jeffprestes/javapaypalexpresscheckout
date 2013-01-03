@@ -45,43 +45,42 @@ public class FreteServlet extends HttpServlet {
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
                 String[] valuetemp = request.getParameterValues(temp);
-                //logger.info(temp + " = " + valuetemp[0]);
+                logger.info(temp + " = " + valuetemp[0]);
                 
                 if(temp.equalsIgnoreCase("SHIPTOZIP")){
                     String[] pair = valuetemp[0].split("-");
                     valuetemp[0] = pair[0]+""+pair[1];
-                    logger.info("ZIP CONVERTIDO = "+valuetemp[0]);
                     item.setCepDestino(valuetemp[0]);
                     item2.setCepDestino(valuetemp[0]);
                 }
-                if(temp == ("L_ITEMWEIGHTVALUE0")){
+                if(temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE0")){
                     item.setPeso(Float.parseFloat(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMWEIGHTVALUE1")){
+                if(temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE1")){
                     item2.setPeso(Float.parseFloat(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMHEIGHTVALUE0")){
+                if(temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")){
                     item.setAltura(Integer.parseInt(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMHEIGHTVALUE1")){
+                if(temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE1")){
                     item2.setAltura(Integer.parseInt(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMWIDTHVALUE0")){
+                if(temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")){
                     item.setLargura(Integer.parseInt(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMWIDTHVALUE1")){
+                if(temp.equalsIgnoreCase("L_ITEMWIDTHVALUE1")){
                     item2.setLargura(Integer.parseInt(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMLENGTHVALUE0")){
+                if(temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")){
                     item.setProfundidade(Integer.parseInt(valuetemp[0]));
                 }
-                if(temp == ("L_ITEMLENGTHVALUE1")){
+                if(temp.equalsIgnoreCase("L_ITEMLENGTHVALUE1")){
                     item2.setProfundidade(Integer.parseInt(valuetemp[0]));
                 }
                 
             }
-            item.setValorEntrega(frete.getPreco(item.getCepOrigem(),"09291230",item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
-            item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),"09291230",item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
+            item.setValorEntrega(frete.getPreco(item.getCepOrigem(),item.getCepDestino(),item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
+            item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),item2.getCepDestino(),item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item,item2);
             valor.setTotal();
             logger.info("TOTAL DA ENTREGA = "+valor.getTotal());
