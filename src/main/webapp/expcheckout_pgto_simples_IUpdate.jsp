@@ -265,7 +265,7 @@
                     Altura (L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="13" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" size="100" />
+                    <input type="text" value="6" name="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" id="L_PAYMENTREQUEST_0_ITEMHEIGHTVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
@@ -273,7 +273,7 @@
                     Largura (L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0)
                 </td>
                 <td>
-                    <input type="text" value="8" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" size="100" />
+                    <input type="text" value="15" name="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" id="L_PAYMENTREQUEST_0_ITEMWIDTHVALUE0" size="100" />
                 </td>
             </tr>
             <tr>                
