@@ -10,7 +10,6 @@ package br.com.paypalbrasil.x.ajax;
  */
 public class FreteData {
 
-    private String nomeEntrega;
     private String cepOrigem="01419001";
     private String cepDestino;
     private int largura;
@@ -116,20 +115,5 @@ public class FreteData {
     public void setValorEntrega(float valorEntrega) {
         this.valorEntrega = valorEntrega;
     }
-
-    /**
-     * @return the nomeEntrega
-     */
-    public String getNomeEntrega() {
-        return nomeEntrega;
-    }
-
-    /**
-     * @param nomeEntrega the nomeEntrega to set
-     */
-    public void setNomeEntrega(String nomeEntrega) {
-        this.nomeEntrega = nomeEntrega;
-    }
-    
-    
+  
 }

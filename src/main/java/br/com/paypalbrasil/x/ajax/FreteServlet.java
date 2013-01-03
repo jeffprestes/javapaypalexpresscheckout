@@ -77,10 +77,8 @@ public class FreteServlet extends HttpServlet {
                 }
                 
             }
-            item.setNomeEntrega("FreteFacil");
-            item2.setNomeEntrega("FreteFacil");
-            item.setValorEntrega(frete.getPreco(item.getCepOrigem(),item.getCepDestino(),item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
-            item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),item2.getCepDestino(),item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
+            item.setValorEntrega(frete.getPreco(item.getCepOrigem(),"09291230",item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
+            item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(),"09291230",item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item,item2);
             valor.setTotal();
             logger.info("TOTAL DA ENTREGA = "+valor.getTotal());

@@ -12,6 +12,7 @@ public class FreteValor {
     
     private FreteData[] itens;
     private float total;
+    private String nomeEntrega="FreteFacil";
 
     /**
      * @return the itens
@@ -41,6 +42,13 @@ public class FreteValor {
      */
     public void setTotal() {
         total = itens[0].getValorEntrega() + itens[1].getValorEntrega();
+    }
+
+    /**
+     * @return the nomeEntrega
+     */
+    public String getNomeEntrega() {
+        return nomeEntrega;
     }
     
     
