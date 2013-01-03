@@ -47,7 +47,7 @@ public class FreteServlet extends HttpServlet {
                 String[] valuetemp = request.getParameterValues(temp);
                 //logger.info(temp + " = " + valuetemp[0]);
                 
-                if(temp == ("SHIPTOZIP")){
+                if(temp.equalsIgnoreCase("SHIPTOZIP")){
                     String[] pair = valuetemp[0].split("-");
                     valuetemp[0] = pair[0]+""+pair[1];
                     logger.info("ZIP CONVERTIDO = "+valuetemp[0]);
