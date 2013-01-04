@@ -117,8 +117,8 @@ public class FreteServlet extends HttpServlet {
             out.print("&L_SHIPPINGOPTIONAMOUNT2=9.99");
             out.print("&L_SHIPPINGOPTIONISDEFAULT2=false");**/
             
-            
-            out.print("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0="+valor.getNomeEntrega()+"&L_SHIPINGPOPTIONLABEL0="+valor.getNomeEntrega()+"-Sedex"+"&L_SHIPPINGOPTIONAMOUNT0="+valor.getTotal()+"&L_SHIPPINGOPTIONISDEFAULT0=true");
+            out.print("METHOD=CallbackResponse&L_SHIPPINGOPTIONAMOUNT0=20.79&L_SHIPPINGOPTIONNAME0=UPS+Ground&L_SHIPPINGOPTIONLABEL0=%28No+service+guarantee%29&L_SHIPPINGOPTIONAMOUNT1=28.32&L_SHIPPINGOPTIONNAME1=UPS+3-Day&L_SHIPPINGOPTIONLABEL1=%283+days%29&L_SHIPPINGOPTIONAMOUNT2=37.25&L_SHIPPINGOPTIONNAME2=UPS+2nd+Day+AM&L_SHIPPINGOPTIONLABEL2=%282+days%2F10%3A30+A.M.%29&L_SHIPPINGOPTIONISDEFAULT0=true");
+            //out.print("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0="+valor.getNomeEntrega()+"&L_SHIPINGPOPTIONLABEL0="+valor.getNomeEntrega()+"-Sedex"+"&L_SHIPPINGOPTIONAMOUNT0="+valor.getTotal()+"&L_SHIPPINGOPTIONISDEFAULT0=true");
         } finally {
             out.close();
         }
