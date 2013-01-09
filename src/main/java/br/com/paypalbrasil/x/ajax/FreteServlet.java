@@ -79,7 +79,7 @@ public class FreteServlet extends HttpServlet {
                     item2.setProfundidade((int)Float.parseFloat(valuetemp[0]));
                 }
                 
-            }
+            }/**
             logger.info("Chamada Frete Facil");
             logger.info(item.getCepOrigem()+", "+item.getCepDestino()+", "+item.getLargura()+", "+item.getAltura()+", "+item.getProfundidade()+", "+item.getPeso());
             logger.info(item2.getCepOrigem()+", "+item2.getCepDestino()+", "+item2.getLargura()+", "+item2.getAltura()+", "+item2.getProfundidade()+", "+item2.getPeso());
@@ -88,7 +88,8 @@ public class FreteServlet extends HttpServlet {
             valor.setItens(item,item2);
             logger.info("Valor de cada entrega: item 1 ="+item.getValorEntrega()+" Item 2 ="+item2.getValorEntrega());
             valor.setTotal();
-            logger.info("TOTAL DA ENTREGA = "+valor.getTotal());
+            logger.info("TOTAL DA ENTREGA = "+valor.getTotal());**/
+            
             //out.println("<HTML>");
             //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
             //out.println("<BODY>");

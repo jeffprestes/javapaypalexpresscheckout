@@ -41,19 +41,19 @@
             <tr>
                 <td>Largura : </td>
                 <td>
-                    <input type="text" value="6" size="60" name="LARGURA" id="LARGURA" />
+                    <input type="text" value="19" size="60" name="LARGURA" id="LARGURA" />
                 </td>
             </tr>
             <tr>
                 <td>Altura: </td>
                 <td>
-                    <input type="text" value="12" size="60" name="ALTURA" id="ALTURA" />
+                    <input type="text" value="9" size="60" name="ALTURA" id="ALTURA" />
                 </td>
             </tr>
             <tr>
                 <td>Profundidade: </td>
                 <td>
-                    <input type="text" size="60" value="10" name="PROFUNDIDADE" id="PROFUNDIDADE" />
+                    <input type="text" size="60" value="16" name="PROFUNDIDADE" id="PROFUNDIDADE" />
                 </td>
             </tr>
             <tr>
