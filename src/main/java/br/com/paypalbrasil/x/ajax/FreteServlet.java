@@ -42,7 +42,7 @@ public class FreteServlet extends HttpServlet {
         FreteData item2 = new FreteData();
         FreteValor valor = new FreteValor();
         
-        try {
+        try {/**
             Enumeration<String> name = request.getParameterNames();
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
@@ -81,7 +81,7 @@ public class FreteServlet extends HttpServlet {
                     item2.setProfundidade((int)Float.parseFloat(valuetemp[0]));
                 }
                 
-            }/**
+            }
             logger.info("Chamada Frete Facil");
             logger.info(item.getCepOrigem()+", "+item.getCepDestino()+", "+item.getLargura()+", "+item.getAltura()+", "+item.getProfundidade()+", "+item.getPeso());
             logger.info(item2.getCepOrigem()+", "+item2.getCepDestino()+", "+item2.getLargura()+", "+item2.getAltura()+", "+item2.getProfundidade()+", "+item2.getPeso());
