@@ -29,7 +29,7 @@
             </tr>
             <tr>
                 <td>TransactionID : </td>
-                <td><c:out value="${resposta.transactionId}" /></td>
+                <td><c:out value="---" /></td>
             </tr>
             <tr>
                 <td>Build : </td>
