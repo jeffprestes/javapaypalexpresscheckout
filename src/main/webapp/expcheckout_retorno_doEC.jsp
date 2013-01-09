@@ -28,6 +28,10 @@
                 <td><c:out value="${resposta.cabecalho.idCorrelacao}" /></td>
             </tr>
             <tr>
+                <td>TransactionID : </td>
+                <td><c:out value="${resposta.transactionId}" /></td>
+            </tr>
+            <tr>
                 <td>Build : </td>
                 <td><c:out value="${resposta.cabecalho.build}" /></td>
             </tr>
