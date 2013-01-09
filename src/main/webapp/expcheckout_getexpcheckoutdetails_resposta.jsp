@@ -287,7 +287,7 @@
                 </tr>
             </form>
         </table>
-                
+                <% if ()%>
                 <div style="text-align: center">
                     <form action="expcheckout_doexpcheckout.jsp" method="POST">
                        <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />

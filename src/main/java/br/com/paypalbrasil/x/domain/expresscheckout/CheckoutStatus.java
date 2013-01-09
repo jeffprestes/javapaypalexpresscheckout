@@ -10,6 +10,6 @@ package br.com.paypalbrasil.x.domain.expresscheckout;
  */
 public enum CheckoutStatus {
     
-    PaymentActionNotInitiated, PaymentActionFailed, PaymentActionInProgress, PaymentCompleted
+    PaymentActionNotInitiated, PaymentActionFailed, PaymentActionInProgress, PaymentActionCompleted
     
 }

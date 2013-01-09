@@ -92,8 +92,8 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico     {
                             resp.setStatusCheckout(CheckoutStatus.PaymentActionFailed);
                         }
                         
-                        if ("PaymentCompleted".equals(valor))      {
-                            resp.setStatusCheckout(CheckoutStatus.PaymentCompleted);
+                        if ("PaymentActionCompleted".equals(valor))      {
+                            resp.setStatusCheckout(CheckoutStatus.PaymentActionCompleted);
                         }
                         
                     }
