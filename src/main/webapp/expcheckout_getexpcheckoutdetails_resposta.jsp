@@ -285,7 +285,7 @@
             </form>
         </table>
                 <%
-                if(${resposta.statusCheckout} != "PaymentActionCompleted"){
+                if(${resposta.statusCheckout} != "PaymentActionCompleted"){%>
                 <div style="text-align: center">
                     <form action="expcheckout_doexpcheckout.jsp" method="POST">
                        <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
@@ -294,7 +294,7 @@
                        <input type="submit" value="DoExpressCheckout">
                     </form>
                 </div>
-                }
+                <%}
                 %>
     </body>
 </html>
