@@ -81,6 +81,7 @@ public class ExpressCheckoutController extends HttpServlet {
                             url.append("&token=");
                             url.append(resp.getToken());
 
+
                             //Armazena o token na Sessao
                             HttpSession sessao = request.getSession();
                             sessao.setAttribute("token", resp.getToken());

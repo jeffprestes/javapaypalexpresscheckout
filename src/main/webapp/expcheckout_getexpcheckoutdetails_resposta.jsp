@@ -97,6 +97,8 @@
                     <td>(PAYERID): </td>
                     <td>
                 <c:out value="${resposta.comprador.payerId}"/>
+                <%! HttpSession sessao = request.getSession(); %>
+                <%! sessao.setAttribute("payerId", "${resposta.comprador.payerId}"); %>
                 </td>
                 </tr>
                 <tr>    
@@ -284,6 +286,5 @@
                 </tr>
             </form>
         </table>
-                <div style="text-align: center"><a href="expcheckout_doexpcheckout.jsp">Formulário DoExpressCheckout</a></div>
     </body>
 </html>

@@ -57,7 +57,7 @@
             </tr>
                 <td>Id do Comprador (PAYERID): </td>
                 <td>
-                    <input type="text" value='<c:out value="${resposta.comprador.payerId}" />' size="60" name="PAYERID" id="PAYERID" />
+                    <input type="text" value='<c:out value="${sessionScope.payerId}" />' size="60" name="PAYERID" id="PAYERID" />
                 </td>
             </tr>
             </tr>
@@ -75,13 +75,13 @@
             </tr>
                 <td>Total (PAYMENTREQUEST_0_AMT): </td>
                 <td>
-                    <input type="text" value='<c:out value="${resposta.total}" />' size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
+                    <input type="text" value='<c:out value="${sessionScope.total}" />' size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
                 </td>
             </tr>
             </tr>
                 <td>Moeda (PAYMENTREQUEST_0_CURRENCYCODE): </td>
                 <td>
-                    <input type="text" value='<c:out value="${resposta.moeda}" />' size="60" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" />
+                    <input type="text" value='<c:out value="${sessionScope.moeda}" />' size="60" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" />
                 </td>
             </tr>
             <tr>
