@@ -286,5 +286,6 @@
                 </tr>
             </form>
         </table>
+                <div style="text-align: center"><a href="expcheckout_doexpcheckout.jsp">Formulário DoExpressCheckout</a></div>
     </body>
 </html>
