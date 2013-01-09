@@ -57,7 +57,7 @@
             </tr>
                 <td>Id do Comprador (PAYERID): </td>
                 <td>
-                    <input type="text" value=<%=request.getParameter("payerId")%> size="60" name="payerId" id="payerId" />
+                    <input type="text" value=<%=request.getParameter("payerId")%> size="60" name="PAYERID" id="PAYERID" />
                 </td>
             </tr>
             </tr>
@@ -75,13 +75,13 @@
             </tr>
                 <td>Total (PAYMENTREQUEST_0_AMT): </td>
                 <td>
-                    <input type="text" value='<c:out value="${sessionScope.total}" />' size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
+                    <input type="text" value=<%=request.getParameter("total")%> size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
                 </td>
             </tr>
             </tr>
                 <td>Moeda (PAYMENTREQUEST_0_CURRENCYCODE): </td>
                 <td>
-                    <input type="text" value='<c:out value="${sessionScope.moeda}" />' size="60" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" />
+                    <input type="text" value=<%=request.getParameter("moeda")%> size="60" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" />
                 </td>
             </tr>
             <tr>

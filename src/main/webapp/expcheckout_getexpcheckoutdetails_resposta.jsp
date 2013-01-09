@@ -287,12 +287,14 @@
                 </tr>
             </form>
         </table>
-                <form action="expcheckout_doexpcheckout.jsp" method="POST">
-                    <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
-                    <input type="hidden" value="${resposta.total}" size="60" name="total" id="total" />
-                    <input type="hidden" value="${resposta.moeda}" size="60" name="moeda" id="moeda" />
-                    <input type="submit" value="DoExpressCheckout">
-                </form>
                 
+                <div style="text-align: center">
+                    <form action="expcheckout_doexpcheckout.jsp" method="POST">
+                       <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
+                       <input type="hidden" value="${resposta.total}" size="60" name="total" id="total" />
+                       <input type="hidden" value="${resposta.moeda}" size="60" name="moeda" id="moeda" />
+                       <input type="submit" value="DoExpressCheckout">
+                    </form>
+                </div>
     </body>
 </html>
