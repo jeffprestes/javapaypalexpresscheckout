@@ -18,10 +18,9 @@
             <li><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></li>
             <li><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></li>
             <li><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></li>
-            <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Pagamento simples - Formulário simples (com Frete-Fácil)</a></li>
+            <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></li>
             <li><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></li>
-            <li>Teste</li>
-            <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update</a></li>
+            <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></li>
         </ul>
     </body>
 </html>
