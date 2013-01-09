@@ -43,6 +43,6 @@
         <br />
         <div style="text-align: center">Para mais detalhes veja no log do servidor</div>
         <br />
-        <div style="text-align: center"><a href="expcheckout_getexpcheckoutdetails_resposta.jsp"> GetExpressCheckoutPaymentDetails </a></div>
+        <div style="text-align: center"><a href="expcheckout_getexpcheckoutdetails_retornoDoEC.jsp"> GetExpressCheckoutPaymentDetails </a></div>
     </body>
 </html>
