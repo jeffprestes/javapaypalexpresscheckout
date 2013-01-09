@@ -111,8 +111,8 @@
                 <td>
                     Url de callback (CALLBACK): </td>
                 <td>
-                    <%--<input type="text" value='http://java-ppbrasil.rhcloud.com/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />--%>
-                    <input type="text" value='http://ppbrec-ggodoi.rhcloud.com/SetEC_InstantUpdate_CallRequest.php' name="CALLBACK" id="CALLBACK" size="100" />
+                    <input type="text" value='http://java-ppbrasil.rhcloud.com/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />
+                    <%--<input type="text" value='http://ppbrec-ggodoi.rhcloud.com/SetEC_InstantUpdate_CallRequest.php' name="CALLBACK" id="CALLBACK" size="100" />--%>
                 </td>
             </tr>
             <tr>
@@ -171,7 +171,7 @@
                     Total máximo esperado (MAXAMT)
                 </td>
                 <td>
-                    <input type="text" value="14.32" name="MAXAMT" id="MAXAMT" size="100" />
+                    <input type="text" value="50.32" name="MAXAMT" id="MAXAMT" size="100" />
                 </td>
             </tr>
             <tr>                
