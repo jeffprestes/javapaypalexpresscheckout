@@ -57,7 +57,7 @@
             </tr>
                 <td>Id do Comprador (PAYERID): </td>
                 <td>
-                    <input type="text" value='<c:out value="${sessionScope.payerId}" />' size="60" name="PAYERID" id="PAYERID" />
+                    <input type="text" value='request.getParameter("payerId")' size="60" name="payerId" id="payerId" />
                 </td>
             </tr>
             </tr>

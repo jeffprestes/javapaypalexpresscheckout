@@ -97,6 +97,7 @@
                     <td>(PAYERID): </td>
                     <td>
                 <c:out value="${resposta.comprador.payerId}"/>
+                
                 <% HttpSession sessao = request.getSession(); %>
                 <% sessao.setAttribute("payerId", "teste"); %>
                 </td>
@@ -286,6 +287,12 @@
                 </tr>
             </form>
         </table>
-                <div style="text-align: center"><a href="expcheckout_doexpcheckout.jsp">Formulário DoExpressCheckout</a></div>
+                <form action="expcheckout_doexpcheckout.jsp" method="POST">
+                    <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
+                    <input type="hidden" value="${resposta.total}" size="60" name="total" id="total" />
+                    <input type="hidden" value="${resposta.moeda}" size="60" name="moeda" id="moeda" />
+                    <input type="submit" value="DoExpressCheckout">
+                </form>
+                
     </body>
 </html>

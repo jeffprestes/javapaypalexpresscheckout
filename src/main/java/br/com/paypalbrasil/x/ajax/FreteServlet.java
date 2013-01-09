@@ -36,10 +36,12 @@ public class FreteServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
+        
         WSFretesPayPal frete = new WSFretesPayPal();
         FreteData item = new FreteData();
         FreteData item2 = new FreteData();
         FreteValor valor = new FreteValor();
+        
         try {
             Enumeration<String> name = request.getParameterNames();
             while (name.hasMoreElements()) {
