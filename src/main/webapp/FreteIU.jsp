@@ -4,5 +4,4 @@
     Author     : aalonso
 --%>
 
-<% System.out.print("oi");
-%>
+<%= "oi"%>
