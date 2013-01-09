@@ -17,11 +17,6 @@
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
                 <tr>
-                <td>
-                    <input type="hidden" value="GetExpressCheckoutDetails" size="60" name="METHOD" id="METHOD" />
-                </td>
-                </tr>
-                <tr>
                 <h2> Dados de Transação </h2>
                 <br>
                 </tr>

@@ -37,7 +37,7 @@
             <tr>
                 <td>Metodo (METHOD): </td>
                 <td>
-                    <input type="text" value="GetExpressCheckoutDetails" size="60" name="METHOD" id="METHOD" />
+                    <input type="text" value="GetExpressCheckoutDetails2" size="60" name="METHOD" id="METHOD" />
                 </td>
             </tr>
             <tr>
