@@ -98,7 +98,7 @@
                     <td>
                 <c:out value="${resposta.comprador.payerId}"/>
                 <% HttpSession sessao = request.getSession(); %>
-                <% sessao.setAttribute("payerId", <c:out value="${resposta.comprador.payerId}"/>); %>
+                <% sessao.setAttribute("payerId", "teste"); %>
                 </td>
                 </tr>
                 <tr>    
