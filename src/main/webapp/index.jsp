@@ -11,10 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body style="font-family: arial, helvetica">
+    <body style="font-family: arial, helvetica; background-color: #ebebeb">
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
-            <col style="background-color: #6374AB; color: #ffffff" />
+            <col style="background-color: #0b0c8d; color: #ffffff; font-color: #000000" />
         <tr>
             <td width="30%">WPS</td>
             <td><a href="wps.html">WPS - Venda e doação</a></td>
@@ -29,7 +29,6 @@
         <tr>
             <td>&nbsp;</td>
             </tr>
-        <tr>
         <tr>
             <td width="30%">ExpressCheckout</td>
             <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
