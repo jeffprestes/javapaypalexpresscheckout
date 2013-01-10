@@ -14,7 +14,7 @@
     <body style="font-family: arial, helvetica; background-color: #f6f6f6">
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
-            <col style="background-color: #0b0c8d; color: #ffffff;" />
+            <col style="background-color: #000000; color: #ffffff;" />
         <tr>
             <td width="30%">WPS</td>
             <td><a href="wps.html">WPS - Venda e doação</a></td>
