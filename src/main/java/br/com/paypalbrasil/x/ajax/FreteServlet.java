@@ -83,6 +83,19 @@ public class FreteServlet extends HttpServlet {
                 }
 
             }
+            
+            item.setCepDestino("09291230");
+            item2.setCepDestino("09291230");
+            item.setPeso(0.8f);
+            item2.setPeso(0.9f);
+            item.setAltura(19);
+            item2.setAltura(20);
+            item.setLargura(8);
+            item2.setLargura(10);
+            item.setProfundidade(17);
+            item2.setProfundidade(18);
+
+
             logger.info("Chamada Frete Facil");
             logger.info(item.getCepOrigem() + ", " + item.getCepDestino() + ", " + item.getLargura() + ", " + item.getAltura() + ", " + item.getProfundidade() + ", " + item.getPeso());
             logger.info(item2.getCepOrigem() + ", " + item2.getCepDestino() + ", " + item2.getLargura() + ", " + item2.getAltura() + ", " + item2.getProfundidade() + ", " + item2.getPeso());
