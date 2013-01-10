@@ -22,14 +22,14 @@
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>Adaptive</b></td>
+            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>ExpressCheckout</b></td>
+            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
         </tr>
         <td></td>
@@ -37,7 +37,7 @@
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;">-Detalhes-</td>
+        <td style="background-color: #ffffff; color: #000000;">-Detalhes-</td>
     <tr>
         <td>&nbsp;</td>
         <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
@@ -46,7 +46,7 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>ExpressCheckout & Frete Facil</b></td>
+        <td width="30%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Facil</b></td>
         <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
     </tr>
     <tr>
