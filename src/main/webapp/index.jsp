@@ -46,12 +46,12 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Facil </b></td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFacil)</a></td>
+        <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Fácil </b></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFácil)</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFacil) </a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFácil) </a></td>
     </tr>
 </table>
 </body>
