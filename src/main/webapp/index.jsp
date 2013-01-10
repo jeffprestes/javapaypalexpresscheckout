@@ -11,10 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body style="font-family: arial, helvetica; background-color: #ebebeb">
+    <body style="font-family: arial, helvetica; background-color: #f6f6f6">
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
-            <col style="background-color: #0b0c8d; color: #ffffff; font-color: #000000" />
+            <col style="background-color: #0b0c8d; color: #ffffff;" />
         <tr>
             <td width="30%">WPS</td>
             <td><a href="wps.html">WPS - Venda e doação</a></td>
