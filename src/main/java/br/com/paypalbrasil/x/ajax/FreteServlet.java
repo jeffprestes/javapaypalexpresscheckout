@@ -111,6 +111,7 @@ public class FreteServlet extends HttpServlet {
 
             out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + valor.getTotal() + "&L_TAXAMT0=2.20&L_INSURANCEAMOUNT0=1.51&L_SHIPPINGOPTIONISDEFAULT0=true");
 
+            logger.info("Fim da response");
         } finally {
             out.close();
         }
