@@ -11,37 +11,38 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body>
+    <body style="font-family: new century schoolbook">
         <table>
-            <tr>
-                <th>
+            <th>
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         </th>
-    </tr>
-
-    <tr>
-        <td colspan="2">WPS</td>
-        <td><a href="wps.html">WPS - Venda e doação</a></td>
-    </tr>
-    <br>
-    <tr>
-    <td colspan="2">Adaptive</td>
-    <td><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
-    </tr>
-    <br>
-    <tr>
-    <td colspan="2">ExpressCheckout</td>
-    <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a>
-    <a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
-    </tr>
-    <p>-Detalhes-</p>
-    <a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a>
-    <br>
-    <tr>
-    <td colspan="2">ExpressCheckout & Frete Facil</td>
-    <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a>
-    <a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
-    </tr>
-</table>
+        <tr>
+            <td>WPS</td>
+            <td><a href="wps.html">WPS - Venda e doação</a></td>
+        </tr>
+        <br>
+        <tr>
+            <td>Adaptive</td>
+            <td><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
+        </tr>
+        <br>
+        <tr>
+            <td>ExpressCheckout</td>
+            <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a>
+                <a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><p>-Detalhes-</p></td>
+        <tr>
+            <td>&nbsp;</td>
+            <td><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
+        </tr>
+        <tr>
+            <td>ExpressCheckout & Frete Facil</td>
+            <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a>
+                <a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
+        </tr>
+    </table>
 </body>
 </html>
