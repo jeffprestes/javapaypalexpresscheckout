@@ -14,10 +14,17 @@
     <body>
         <table>
             <tr>
-        <h1>PayPal Java Testes - Lista de cenário de testes</h1>
-        <a href="wps.html">WPS - Venda e doação</a>
-        <br>
-        <h4>Adaptive</h4>
+                <th>
+            <h1>PayPal Java Testes - Lista de cenário de testes</h1>
+        </th>
+    </tr>
+
+    <tr>
+        <td>WPS</td>
+        <td><a href="wps.html">WPS - Venda e doação</a></td>
+    </tr>
+    <br>
+    <h4>Adaptive</h4>
     <li><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></li>
     <br>
     <h4>ExpressCheckout</h4>
@@ -29,10 +36,6 @@
     <h4>ExpressCheckout & Frete Facil</h4>
     <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></li>
     <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></li>
-</tr>
-<tr>
-    WPS
-    </tr>
-        </table>
-        </body>
+</table>
+</body>
 </html>
