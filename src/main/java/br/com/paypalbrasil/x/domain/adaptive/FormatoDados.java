@@ -9,5 +9,6 @@ package br.com.paypalbrasil.x.domain.adaptive;
  * @author jeffprestes
  */
 public enum FormatoDados {
+
     JSON, NV, SOAP
 }

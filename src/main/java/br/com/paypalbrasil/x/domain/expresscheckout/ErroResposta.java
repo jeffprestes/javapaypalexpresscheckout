@@ -10,21 +10,21 @@ import java.util.Objects;
 
 /**
  * Objeto que armazena o retorno de erro do Express Checkout
+ *
  * @author jprestes
  */
 public class ErroResposta {
-    
+
     private String version;
     private int codigoErro;
     private String mensagemCurta;
     private String mensagemLonga;
     private String codigoSeveridade;
 
-    public ErroResposta()   {
+    public ErroResposta() {
         super();
     }
-    
-        
+
     public int getCodigoErro() {
         return codigoErro;
     }
@@ -102,7 +102,4 @@ public class ErroResposta {
     public String toString() {
         return "ErroResposta{" + "version=" + version + ", codigoErro=" + codigoErro + ", mensagemCurta=" + mensagemCurta + ", mensagemLonga=" + mensagemLonga + ", codigoSeveridade=" + codigoSeveridade + '}';
     }
-    
-    
-   
 }

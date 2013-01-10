@@ -29,28 +29,28 @@
         <tr>
             <td>ExpressCheckout</td>
             <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
-                </tr>
-                <td></td>
-                <td><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
         </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>-Detalhes-</td>
-        <tr>
-            <td>&nbsp;</td>
-            <td><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>ExpressCheckout & Frete Facil</td>
-            <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
-        </tr>
-    </table>
+        <td></td>
+        <td><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>-Detalhes-</td>
+    <tr>
+        <td>&nbsp;</td>
+        <td><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>ExpressCheckout & Frete Facil</td>
+        <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
+    </tr>
+</table>
 </body>
 </html>

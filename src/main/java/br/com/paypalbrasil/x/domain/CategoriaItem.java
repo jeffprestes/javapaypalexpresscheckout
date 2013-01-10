@@ -6,8 +6,10 @@ package br.com.paypalbrasil.x.domain;
 
 /**
  * Categoria do item vendido: Digital ou Fisico
+ *
  * @author jprestes
  */
 public enum CategoriaItem {
+
     Digital, Fisico
 }

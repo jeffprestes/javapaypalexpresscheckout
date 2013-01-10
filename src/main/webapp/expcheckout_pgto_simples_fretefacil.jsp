@@ -16,57 +16,57 @@
         <h1>PayPal Java Testes - Express Checkout - Pagamento simples com Frete Fácil</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/FreteFacilController' method="POST">      
-            <tr>
-                <td>Metodo (METHOD): </td>
-                <td>
-                    <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
-                </td>
-            </tr>
-            <tr>
-                <td>CEP de origem: </td>
-                <td>
-                    <input type="text" value="09291-230" size="60" name="CEPORIGEM" id="CEPORIGEM" />
-                </td>
-            </tr>
-            <tr>
-                <td>CEP de destino: </td>
-                <td>
-                    <input type="text" value="02721-110" size="60" name="CEPDESTINO" id="CEPDESTINO" />
-                </td>
-            </tr>
-            <tr><br></tr>
-            <tr>
-                <th>Características físicas do Produto </th>
-            </tr>            
-            <tr>
-                <td>Largura : </td>
-                <td>
-                    <input type="text" value="19" size="60" name="LARGURA" id="LARGURA" />
-                </td>
-            </tr>
-            <tr>
-                <td>Altura: </td>
-                <td>
-                    <input type="text" value="9" size="60" name="ALTURA" id="ALTURA" />
-                </td>
-            </tr>
-            <tr>
-                <td>Profundidade: </td>
-                <td>
-                    <input type="text" size="60" value="16" name="PROFUNDIDADE" id="PROFUNDIDADE" />
-                </td>
-            </tr>
-            <tr>
-                <td>Peso (Kg): </td>
-                <td>
-                    <input type="text"  size="60" value="0.5" name="PESO" id="PESO" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="vertical-align: middle; text-align: center">
-                    <input type="submit" name="Submit" value="Submit" />
-                </td>
-            </tr>
+                <tr>
+                    <td>Metodo (METHOD): </td>
+                    <td>
+                        <input type="text" value="CalculateFrete" size="60" name="METHOD" id="METHOD" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>CEP de origem: </td>
+                    <td>
+                        <input type="text" value="09291-230" size="60" name="CEPORIGEM" id="CEPORIGEM" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>CEP de destino: </td>
+                    <td>
+                        <input type="text" value="02721-110" size="60" name="CEPDESTINO" id="CEPDESTINO" />
+                    </td>
+                </tr>
+                <tr><br></tr>
+                <tr>
+                    <th>Características físicas do Produto </th>
+                </tr>            
+                <tr>
+                    <td>Largura : </td>
+                    <td>
+                        <input type="text" value="19" size="60" name="LARGURA" id="LARGURA" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Altura: </td>
+                    <td>
+                        <input type="text" value="9" size="60" name="ALTURA" id="ALTURA" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Profundidade: </td>
+                    <td>
+                        <input type="text" size="60" value="16" name="PROFUNDIDADE" id="PROFUNDIDADE" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Peso (Kg): </td>
+                    <td>
+                        <input type="text"  size="60" value="0.5" name="PESO" id="PESO" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="vertical-align: middle; text-align: center">
+                        <input type="submit" name="Submit" value="Submit" />
+                    </td>
+                </tr>
             </form>
         </table>
     </body>

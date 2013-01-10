@@ -54,7 +54,7 @@
         </form>
         <script type="text/javascript" charset="UTF-8"> 
             var embeddedPPFlow = new PAYPAL.apps.DGFlowMini({ trigger: 'submitBtn' }); 
-	</script>
+        </script>
         <hr />
         <hr/>
         <h1>Full redirect Sandbox</h1>
@@ -78,6 +78,6 @@
         </form>
         <script type="text/javascript" charset="UTF-8"> 
             var embeddedPPFlow = new PAYPAL.apps.DGFlowMini({ trigger: 'submitBtnProd' }); 
-	</script>
+        </script>
     </body>
 </html>

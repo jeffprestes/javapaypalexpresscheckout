@@ -6,10 +6,11 @@ package br.com.paypalbrasil.x.domain.adaptive;
 
 /**
  * Classe que armazena os erros retornados pelos WebServices da PayPal
+ *
  * @author jeffprestes
  */
 public class Erro {
-    
+
     private long idErro;
     private String dominio;
     private String severidade;
@@ -17,20 +18,20 @@ public class Erro {
     private String mensagem;
     private String idExcecao;
     private String parametroErro;
-    
-    public Erro()   {
-        
+
+    public Erro() {
     }
 
     /**
      * Construtor com todos os campos da classe.
+     *
      * @param idErro
      * @param dominio
      * @param severidade
      * @param categoria
      * @param mensagem
      * @param idExcecao
-     * @param parametroErro 
+     * @param parametroErro
      */
     public Erro(long idErro, String dominio, String severidade, String categoria, String mensagem, String idExcecao, String parametroErro) {
         this.idErro = idErro;
@@ -143,7 +144,4 @@ public class Erro {
         hash = 41 * hash + (this.parametroErro != null ? this.parametroErro.hashCode() : 0);
         return hash;
     }
-    
-    
-    
 }

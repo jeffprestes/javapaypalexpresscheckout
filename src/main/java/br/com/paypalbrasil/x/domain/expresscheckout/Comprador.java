@@ -10,10 +10,11 @@ import org.apache.log4j.Logger;
 
 /**
  * Armazena dados do Comprador
+ *
  * @author jprestes
  */
 public class Comprador {
-    
+
     private String emailComprador;
     private String emailCompradorMarketing;
     private String payerId;
@@ -29,8 +30,9 @@ public class Comprador {
     private String nroRegistroReceita;
     private Logger logger = Logger.getLogger(this.getClass());
 
-    public Comprador()  {   }
-    
+    public Comprador() {
+    }
+
     public String getEmailComprador() {
         return emailComprador;
     }
@@ -47,7 +49,6 @@ public class Comprador {
         this.emailCompradorMarketing = emailCompradorMarketing;
     }
 
-    
     public String getNomeCompradorNegocio() {
         return nomeCompradorNegocio;
     }
@@ -183,8 +184,4 @@ public class Comprador {
     public String toString() {
         return "Comprador{" + "emailComprador=" + emailComprador + ", payerId=" + payerId + ", statusPagador=" + statusPagador + ", paisComprador=" + paisComprador + ", nomeCompradorNegocio=" + nomeCompradorNegocio + ", saudacao=" + saudacao + ", primeiroNome=" + primeiroNome + ", nomeDoMeio=" + nomeDoMeio + ", ultimoNome=" + ultimoNome + ", sufixoNome=" + sufixoNome + ", tipoRegistroReceita=" + tipoRegistroReceita + ", nroRegistroReceita=" + nroRegistroReceita + '}';
     }
-
-    
-    
-    
 }

@@ -33,29 +33,29 @@ public class FreteFacilController extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         Logger logger = Logger.getLogger(this.getClass());
-        
+
         try {
-            
+
             //ACAO PARA FreteFacilCheckout
-            if (request.getParameter("METHOD")!=null && !"".equals(request.getParameter("METHOD")))  {
-                
-                if ("CALCULATEFRETE".equalsIgnoreCase(request.getParameter("METHOD")))    {
-                
+            if (request.getParameter("METHOD") != null && !"".equals(request.getParameter("METHOD"))) {
+
+                if ("CALCULATEFRETE".equalsIgnoreCase(request.getParameter("METHOD"))) {
+
                     WSFretesPayPal wsf = new WSFretesPayPal();
-                    
-                    
-                    
-                    float temp; 
+
+
+
+                    float temp;
                     temp = wsf.getPreco(request.getParameter("CEPORIGEM"), request.getParameter("CEPDESTINO"), Integer.parseInt(request.getParameter("LARGURA")), Integer.parseInt(request.getParameter("ALTURA")), Integer.parseInt(request.getParameter("PROFUNDIDADE")), Float.parseFloat(request.getParameter("PESO")));
-                    
+
                     HttpSession sessao = request.getSession();
                     sessao.setAttribute("precoFrete", temp);
-                    
+
                     response.sendRedirect("expcheckout_pgto_simples_fretefacil_retorno.jsp");
                 }
             }
-            
-        } finally {            
+
+        } finally {
             out.close();
         }
     }

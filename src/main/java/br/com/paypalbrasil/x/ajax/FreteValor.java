@@ -9,10 +9,10 @@ package br.com.paypalbrasil.x.ajax;
  * @author aalonso
  */
 public class FreteValor {
-    
+
     private FreteData[] itens;
     private float total;
-    private String nomeEntrega="FreteFacil";
+    private String nomeEntrega = "FreteFacil";
 
     /**
      * @return the itens
@@ -26,7 +26,7 @@ public class FreteValor {
      */
     public void setItens(FreteData item, FreteData item2) {
         itens = new FreteData[2];
-        this.itens[0] = item; 
+        this.itens[0] = item;
         this.itens[1] = item2;
     }
 
@@ -50,6 +50,4 @@ public class FreteValor {
     public String getNomeEntrega() {
         return nomeEntrega;
     }
-    
-    
 }

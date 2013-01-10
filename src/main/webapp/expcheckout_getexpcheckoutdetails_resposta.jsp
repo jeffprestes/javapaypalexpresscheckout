@@ -80,9 +80,9 @@
                 </td>
                 </tr>
             </form>
-            </table>
-            <hr>
-            <table>
+        </table>
+        <hr>
+        <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                 <tr>
                     </hr>
@@ -148,156 +148,156 @@
                 <c:out value="${resposta.comprador.nroRegistroReceita}"/>
                 </td>
                 </tr>
-                </table>
-            <hr>
-            <table>
-                <tr>
-                    </hr>
-                <h2> Dados de Entrega </h2>
-                </tr>
-                <tr>
-                <br>
-                </tr>
-
-                <tr>    
-                    <td>Nome do endereço de entrega = </td>
-                    <td>(SHIPTONAME): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.nomeEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Endereço de entrega = </td>
-                    <td>(SHIPTOSTREET): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.enderecoEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Complemento = </td>
-                    <td>(SHIPTOSTREET2): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.complementoEnderecoEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Cidade = </td>
-                    <td>(SHIPTOCITY): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.cidadeEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Estado = </td>
-                    <td>(SHIPTOSTATE): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.estadoEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>CEP = </td>
-                    <td>(SHIPTOZIP): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.cepEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Código do país = </td>
-                    <td>(SHIPTOCOUNTRYCODE): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.codPaisEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Nome do país = </td>
-                    <td>(SHIPTOCOUNTRYNAME): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.nomePaisEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Status do endereço = </td>
-                    <td>(ADDRESSSTATUS): </td>
-                    <td>
-                <c:out value="${resposta.dadosEntrega.statusEnderecoEntrega}"/>
-                </td>
-                </tr>
-                </table>
-            <hr>
-            <table>
-                <tr>
-                </hr>
-                <h2> Dados do Pagamento </h2>
-                </tr>
-                <tr>
-                <br>
-                </tr>
-
-                <tr>    
-                    <td>Moeda = </td>
-                    <td>(CURRENCYCODE): </td>
-                    <td>
-                <c:out value="${resposta.moeda}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total = </td>
-                    <td>(AMT): </td>
-                    <td>
-                <c:out value="${resposta.total}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de itens = </td>
-                    <td>(ITEMAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalItem}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de entrega = </td>
-                    <td>(SHIPPINGAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalEntrega}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de manuseio = </td>
-                    <td>(HANDLINGAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalManuseio}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de impostos = </td>
-                    <td>(TAXAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalImposto}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de seguro = </td>
-                    <td>(INSURANCEAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalSeguro}"/>
-                </td>
-                </tr>
-                <tr>    
-                    <td>Total de desconto na entrega = </td>
-                    <td>(SHIPDISCAMT): </td>
-                    <td>
-                <c:out value="${resposta.dadosPagamento.totalDescontoEntrega}"/>
-                </td>
-                </tr>
-            </form>
         </table>
-                <div style="text-align: center">
-                    <form action="expcheckout_doexpcheckout.jsp" method="POST">
-                       <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
-                       <input type="hidden" value="${resposta.total}" size="60" name="total" id="total" />
-                       <input type="hidden" value="${resposta.moeda}" size="60" name="moeda" id="moeda" />
-                       <input type="submit" value="DoExpressCheckout">
-                    </form>
-                </div>
-    </body>
+        <hr>
+        <table>
+            <tr>
+                </hr>
+            <h2> Dados de Entrega </h2>
+        </tr>
+        <tr>
+        <br>
+        </tr>
+
+        <tr>    
+            <td>Nome do endereço de entrega = </td>
+            <td>(SHIPTONAME): </td>
+            <td>
+        <c:out value="${resposta.dadosEntrega.nomeEntrega}"/>
+    </td>
+</tr>
+<tr>    
+    <td>Endereço de entrega = </td>
+    <td>(SHIPTOSTREET): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.enderecoEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Complemento = </td>
+    <td>(SHIPTOSTREET2): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.complementoEnderecoEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Cidade = </td>
+    <td>(SHIPTOCITY): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.cidadeEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Estado = </td>
+    <td>(SHIPTOSTATE): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.estadoEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>CEP = </td>
+    <td>(SHIPTOZIP): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.cepEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Código do país = </td>
+    <td>(SHIPTOCOUNTRYCODE): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.codPaisEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Nome do país = </td>
+    <td>(SHIPTOCOUNTRYNAME): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.nomePaisEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Status do endereço = </td>
+    <td>(ADDRESSSTATUS): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.statusEnderecoEntrega}"/>
+</td>
+</tr>
+</table>
+<hr>
+<table>
+    <tr>
+        </hr>
+    <h2> Dados do Pagamento </h2>
+</tr>
+<tr>
+<br>
+</tr>
+
+<tr>    
+    <td>Moeda = </td>
+    <td>(CURRENCYCODE): </td>
+    <td>
+<c:out value="${resposta.moeda}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total = </td>
+    <td>(AMT): </td>
+    <td>
+<c:out value="${resposta.total}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de itens = </td>
+    <td>(ITEMAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalItem}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de entrega = </td>
+    <td>(SHIPPINGAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalEntrega}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de manuseio = </td>
+    <td>(HANDLINGAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalManuseio}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de impostos = </td>
+    <td>(TAXAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalImposto}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de seguro = </td>
+    <td>(INSURANCEAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalSeguro}"/>
+</td>
+</tr>
+<tr>    
+    <td>Total de desconto na entrega = </td>
+    <td>(SHIPDISCAMT): </td>
+    <td>
+<c:out value="${resposta.dadosPagamento.totalDescontoEntrega}"/>
+</td>
+</tr>
+</form>
+</table>
+<div style="text-align: center">
+    <form action="expcheckout_doexpcheckout.jsp" method="POST">
+        <input type="hidden" value="${resposta.comprador.payerId}" size="60" name="payerId" id="payerId" />
+        <input type="hidden" value="${resposta.total}" size="60" name="total" id="total" />
+        <input type="hidden" value="${resposta.moeda}" size="60" name="moeda" id="moeda" />
+        <input type="submit" value="DoExpressCheckout">
+    </form>
+</div>
+</body>
 </html>

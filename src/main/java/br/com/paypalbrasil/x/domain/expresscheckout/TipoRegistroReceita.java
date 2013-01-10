@@ -9,5 +9,6 @@ package br.com.paypalbrasil.x.domain.expresscheckout;
  * @author jprestes
  */
 public enum TipoRegistroReceita {
+
     CNPJ, CPF
 }

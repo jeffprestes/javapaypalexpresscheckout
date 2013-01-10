@@ -9,7 +9,6 @@ package br.com.paypalbrasil.x.domain.adaptive;
  * @author jeffprestes
  */
 public enum ResponsavelPagamentoTaxa {
-    
+
     PRIMARYRECEIVER, EACHRECEIVER, SECONDARYONLY
-    
 }

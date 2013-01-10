@@ -8,10 +8,11 @@ import java.util.Objects;
 
 /**
  * Armazena dados sobre a entrega dos itens.
+ *
  * @author jprestes
  */
 public class DadosEntrega {
-    
+
     private String nomeEntrega;
     private String enderecoEntrega;
     private String complementoEnderecoEntrega;
@@ -143,7 +144,7 @@ public class DadosEntrega {
 
     @Override
     public String toString() {
-        return "DadosEntrega{" + "nomeEntrega=" + nomeEntrega + ", enderecoEntrega=" + enderecoEntrega + ", complementoEnderecoEntrega=" + complementoEnderecoEntrega + ", cidadeEntrega=" + cidadeEntrega + ", estadoEntrega=" + estadoEntrega + ", cepEntrega=" + cepEntrega + ", codPaisEntrega=" + codPaisEntrega+ ", nomePaisEntrega=" + nomePaisEntrega + ", telefoneEntrega=" + telefoneEntrega + ", statusEnderecoEntrega=" + statusEnderecoEntrega + '}';
+        return "DadosEntrega{" + "nomeEntrega=" + nomeEntrega + ", enderecoEntrega=" + enderecoEntrega + ", complementoEnderecoEntrega=" + complementoEnderecoEntrega + ", cidadeEntrega=" + cidadeEntrega + ", estadoEntrega=" + estadoEntrega + ", cepEntrega=" + cepEntrega + ", codPaisEntrega=" + codPaisEntrega + ", nomePaisEntrega=" + nomePaisEntrega + ", telefoneEntrega=" + telefoneEntrega + ", statusEnderecoEntrega=" + statusEnderecoEntrega + '}';
     }
 
     /**
@@ -173,7 +174,4 @@ public class DadosEntrega {
     public void setNomePaisEntrega(String nomePaisEntrega) {
         this.nomePaisEntrega = nomePaisEntrega;
     }
-    
-    
-    
 }

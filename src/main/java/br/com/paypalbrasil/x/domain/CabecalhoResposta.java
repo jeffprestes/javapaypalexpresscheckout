@@ -8,12 +8,13 @@ import br.com.paypalbrasil.x.domain.CodigoACK;
 import java.util.Date;
 
 /**
- * Classe que representa o cabecalho/envelope de resposta retornado pela 
- * PayPal após chamadas aos seus WebServices 
+ * Classe que representa o cabecalho/envelope de resposta retornado pela PayPal
+ * após chamadas aos seus WebServices
+ *
  * @author jeffprestes
  */
 public class CabecalhoResposta {
-    
+
     private String timestamp;
     private CodigoACK ack;
     private String idCorrelacao;
@@ -21,10 +22,11 @@ public class CabecalhoResposta {
 
     /**
      * Construtor com todos os valores deste POJO
+     *
      * @param timestamp Dia e horário em que o WebService foi chamado.
      * @param ack Codigo de ACK retornado pelo sistema PayPal
-     * @param idCorrelacao ID de Correlação utilizado pelo suporte MTS PayPal na
-     * resolução de problemas.
+     * @param idCorrelacao ID de Correlação utilizado pelo suporte MTS PayPal
+     * na resolução de problemas.
      * @param build A versão do sistema PayPal quando o WebService foi chamado.
      */
     public CabecalhoResposta(String timestamp, CodigoACK ack, String idCorrelacao, String build) {
@@ -33,12 +35,11 @@ public class CabecalhoResposta {
         this.idCorrelacao = idCorrelacao;
         this.build = build;
     }
-    
+
     /**
      * Construtor vazio.
      */
-    public CabecalhoResposta()   {
-        
+    public CabecalhoResposta() {
     }
 
     public CodigoACK getAck() {
@@ -107,7 +108,4 @@ public class CabecalhoResposta {
     public String toString() {
         return "EnvelopeResposta{" + "timestamp=" + timestamp + ", ack=" + ack + ", idCorrelacao=" + idCorrelacao + ", build=" + build + '}';
     }
-    
-    
-    
 }

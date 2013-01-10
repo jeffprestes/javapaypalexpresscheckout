@@ -10,9 +10,10 @@ import java.util.Objects;
 
 /**
  * Representa a resposta a chamada ao WebService SetExpressCheckout
+ *
  * @author jprestes
  */
-public class SetExpressCheckoutResposta extends Resposta    {
+public class SetExpressCheckoutResposta extends Resposta {
 
     private String token;
     private ErroResposta erro;
@@ -40,8 +41,7 @@ public class SetExpressCheckoutResposta extends Resposta    {
     public void setErro(ErroResposta erro) {
         this.erro = erro;
     }
-    
-    
+
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -68,6 +68,4 @@ public class SetExpressCheckoutResposta extends Resposta    {
     public String toString() {
         return "SetExpressCheckoutResposta{" + "token=" + token + ", Resposta: " + super.toString() + '}';
     }
-
-    
 }

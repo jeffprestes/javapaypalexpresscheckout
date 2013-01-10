@@ -9,22 +9,25 @@ import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
 
 /**
- * Metodos utilitarios 
+ * Metodos utilitarios
+ *
  * @author jprestes
  */
 public class Util {
-    
+
     /**
-     * Obtem objeto para conexao HTTPS necessario para executar chamadas aos webservices da PayPal
+     * Obtem objeto para conexao HTTPS necessario para executar chamadas aos
+     * webservices da PayPal
+     *
      * @param spec A URL a ser chamada
      * @return Objeto que permite conexao HTTPS
-     * @throws IOException 
+     * @throws IOException
      */
-    public static final HttpsURLConnection getConexaoHttps(String spec) throws IOException     {
-        
+    public static final HttpsURLConnection getConexaoHttps(String spec) throws IOException {
+
         URL url;
         HttpsURLConnection conn;
- 
+
         url = new URL(spec);
 
         conn = (HttpsURLConnection) url.openConnection();
@@ -34,6 +37,6 @@ public class Util {
         conn.setRequestProperty("Content-Language", "pt-BR");
 
         return conn;
-            
+
     }
 }

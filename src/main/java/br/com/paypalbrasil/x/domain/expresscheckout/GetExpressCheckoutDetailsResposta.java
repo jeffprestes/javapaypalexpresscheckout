@@ -10,11 +10,13 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * Classe que armazena os dados de resposta do WebService GetExpressCheckoutDetails
+ * Classe que armazena os dados de resposta do WebService
+ * GetExpressCheckoutDetails
+ *
  * @author jprestes
  */
 public class GetExpressCheckoutDetailsResposta extends Resposta {
-    
+
     private CabecalhoResposta cabecalho;
     private String ack;
     private String timestamp;
@@ -54,7 +56,7 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     public void setErro(ErroResposta erro) {
         this.erro = erro;
     }
-    
+
     public CabecalhoResposta getCabecalho() {
         return cabecalho;
     }
@@ -62,8 +64,6 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     public void setCabecalho(CabecalhoResposta cabecalho) {
         this.cabecalho = cabecalho;
     }
-    
-    
 
     public Comprador getComprador() {
         return comprador;

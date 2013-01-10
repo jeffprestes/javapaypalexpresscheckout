@@ -9,10 +9,11 @@ import java.util.Objects;
 
 /**
  * Armazena detalhes sobe o item de venda
+ *
  * @author jprestes
  */
 public class ItemVenda {
-    
+
     private String nome;
     private String descricao;
     private String total;
@@ -66,8 +67,6 @@ public class ItemVenda {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
-    
-    
 
     @Override
     public boolean equals(Object obj) {
@@ -177,6 +176,4 @@ public class ItemVenda {
     public void setMedida_peso(String medida_peso) {
         this.medida_peso = medida_peso;
     }
-    
-    
 }

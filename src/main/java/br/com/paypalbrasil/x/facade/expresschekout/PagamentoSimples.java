@@ -150,14 +150,14 @@ public class PagamentoSimples {
             }
 
             /*if (data.contains("TOKEN")) {
-                param.append("==================================================");
-            }*/
-            
+             param.append("==================================================");
+             }*/
+
             data = param.toString();
-            
+
             GetExpressCheckoutDetailsParser parser = GetExpressCheckoutDetailsParser.getInstance();
             resp = parser.parse(data);
-            
+
             logger.info(data);
 
 
@@ -168,7 +168,7 @@ public class PagamentoSimples {
 
         return resp;
     }
-    
+
     public DoExpressCheckoutPaymentResposta doExpressCheckoutPayment(Map<String, String[]> parametros) throws IllegalStateException {
 
         StringBuilder param = new StringBuilder();

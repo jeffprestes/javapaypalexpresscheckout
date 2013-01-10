@@ -10,20 +10,21 @@ import java.util.Objects;
 /**
  * Classe generica que armazena as respostas vindas dos WebServices do Adaptive
  * Payments do PayPal.
+ *
  * @author jeffprestes
  */
 public class Resposta {
-    
+
     /**
      * Envelope de resposta
      */
     protected CabecalhoResposta cabecalho;
     protected String versao;
 
-    public Resposta()   {
+    public Resposta() {
     }
-    
-    public Resposta(CabecalhoResposta envelope)  {
+
+    public Resposta(CabecalhoResposta envelope) {
         this.setCabecalho(envelope);
     }
 
@@ -42,8 +43,8 @@ public class Resposta {
     public void setVersao(String versao) {
         this.versao = versao;
     }
-    
-    public CabecalhoResposta getEnvelope()  {
+
+    public CabecalhoResposta getEnvelope() {
         return this.getCabecalho();
     }
 
@@ -77,6 +78,4 @@ public class Resposta {
     public String toString() {
         return "Resposta{" + "cabecalho=" + cabecalho + ", versao=" + versao + '}';
     }
-
-    
 }

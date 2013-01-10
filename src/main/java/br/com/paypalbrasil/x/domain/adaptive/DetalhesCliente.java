@@ -5,26 +5,28 @@
 package br.com.paypalbrasil.x.domain.adaptive;
 
 /**
- * Classe que armazena detalhes do cliente (dispositivo, browser, etc, do usuario da loja).
+ * Classe que armazena detalhes do cliente (dispositivo, browser, etc, do
+ * usuario da loja).
+ *
  * @author jeffprestes
  */
 public class DetalhesCliente {
-    
+
     private String idAplicacao;
     private String enderecoIp;
 
     /**
      * Construtor com os parametros mínimos recomendados
-     * @param idAplicacao   Pode ser uma chave que identifica a loja da plaforma 
-     *                      que o cliente estava ou o browser. Depende da necessidade
-     *                      da plataforma.
-     * @param enderecoIp    Endereço IP do cliente final.
+     *
+     * @param idAplicacao Pode ser uma chave que identifica a loja da plaforma
+     * que o cliente estava ou o browser. Depende da necessidade da plataforma.
+     * @param enderecoIp Endereço IP do cliente final.
      */
     public DetalhesCliente(String idAplicacao, String enderecoIp) {
         this.idAplicacao = idAplicacao;
         this.enderecoIp = enderecoIp;
     }
-    
+
     public String getEnderecoIp() {
         return enderecoIp;
     }
@@ -69,7 +71,4 @@ public class DetalhesCliente {
     public String toString() {
         return "DetalhesCliente{" + "idAplicacao=" + idAplicacao + ", enderecoIp=" + enderecoIp + '}';
     }
-    
-    
-    
 }

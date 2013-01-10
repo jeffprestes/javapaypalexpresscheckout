@@ -10,22 +10,24 @@ import br.com.paypalbrasil.x.domain.CabecalhoResposta;
 /**
  * Classe que representa a resposta ao metedo PAY dos WebServices do Adaptive
  * Payments do PayPal.
+ *
  * @author jeffprestes
  */
-public class RespostaPagamento extends Resposta    {
-    
+public class RespostaPagamento extends Resposta {
+
     private String chavePagamento;
     private StatusExecucaoPagamemto statusExecucaoPagamento;
-    
-    public RespostaPagamento()  {
+
+    public RespostaPagamento() {
         super();
     }
 
     /**
      * Construtor com todos os campos da classe.
+     *
      * @param chavePagamento
-     * @param statusExecucaoPagamento 
-     * @param cabecalho 
+     * @param statusExecucaoPagamento
+     * @param cabecalho
      */
     public RespostaPagamento(String chavePagamento, StatusExecucaoPagamemto statusExecucaoPagamento, CabecalhoResposta envelope) {
         super(envelope);
@@ -49,7 +51,6 @@ public class RespostaPagamento extends Resposta    {
         this.statusExecucaoPagamento = statusExecucaoPagamento;
     }
 
-    
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -80,7 +81,4 @@ public class RespostaPagamento extends Resposta    {
     public String toString() {
         return "RespostaPagamento{" + "chavePagamento=" + chavePagamento + ", statusExecucaoPagamento=" + statusExecucaoPagamento + ", envelopeResposta=" + cabecalho.toString() + "}";
     }
-    
-    
-    
 }

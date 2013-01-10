@@ -9,5 +9,6 @@ package br.com.paypalbrasil.x.domain;
  * @author jprestes
  */
 public enum StatusPagador {
+
     verified, unverified
 }

@@ -5,12 +5,13 @@
 package br.com.paypalbrasil.x.domain.adaptive;
 
 /**
- * Classe (POJO) que representa parametros genericos da transação. Pode ser 
+ * Classe (POJO) que representa parametros genericos da transação. Pode ser
  * utilizada em diversas transações payment.
+ *
  * @author jeffprestes
  */
 public class ParametroRequisicao {
-    
+
     private String servidor;
     private boolean servidorProducao;
     private DetalhesCliente detalheCliente;
@@ -23,13 +24,14 @@ public class ParametroRequisicao {
     private FormatoDados formatoDadosRequisicao;
     private FormatoDados formatoDadosResposta;
     private String codigoLocalizacao;
-    
-    public ParametroRequisicao()    {
-        
+
+    public ParametroRequisicao() {
     }
 
     /**
-     * Construtor com as informações necessárias para processamento de um adaptive payment
+     * Construtor com as informações necessárias para processamento de um
+     * adaptive payment
+     *
      * @param servidor
      * @param servidorProducao
      * @param detalheCliente
@@ -50,10 +52,9 @@ public class ParametroRequisicao {
         this.setUrlRetorno(urlRetorno);
         this.setFormatoDadosRequisicao(formatoDadosRequisicao);
         this.setFormatoDadosResposta(formatoDadosResposta);
-        
+
     }
 
-    
     public String getCodigoLocalizacao() {
         return codigoLocalizacao;
     }
@@ -103,9 +104,9 @@ public class ParametroRequisicao {
     }
 
     public String getMemo() {
-        if (memo == null)   {
+        if (memo == null) {
             return "";
-        }   else    {
+        } else {
             return memo;
         }
     }
@@ -153,7 +154,7 @@ public class ParametroRequisicao {
     public void setUrlRetorno(String urlRetorno) {
         this.urlRetorno = urlRetorno;
     }
-    
+
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -207,6 +208,4 @@ public class ParametroRequisicao {
     public String toString() {
         return "ParametroRequisicaoAdaptive{" + "servidor=" + servidor + ", servidorProducao=" + servidorProducao + ", detalheCliente=" + detalheCliente + ", codigoMoeda=" + codigoMoeda + ", tipoAcaoPagamento=" + tipoAcaoPagamento + ", memo=" + memo + ", linguagemMensagemErro=" + linguaMensagemErro + ", urlRetorno=" + urlRetorno + ", urlCancelamento=" + urlCancelamento + ", formatoDadosRequisicao=" + formatoDadosRequisicao + ", formatoDadosResposta=" + formatoDadosResposta + ", codigoLocalizacao=" + codigoLocalizacao + '}';
     }
-    
-    
 }

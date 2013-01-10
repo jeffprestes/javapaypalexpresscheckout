@@ -6,10 +6,11 @@ package br.com.paypalbrasil.x.domain;
 
 /**
  * Classe que armazena as credenciais da plataforma junto ao PayPal
+ *
  * @author jeffprestes
  */
 public class Credenciais {
-    
+
     private String usuario;
     private String senha;
     private String assinatura;
@@ -17,9 +18,12 @@ public class Credenciais {
 
     /**
      * Construtor da classe que recebe informações básicas de credenciais
-     * @param usuario Campo que armazena o valor X-PAYPAL-SECURITY-USERID ou USER
+     *
+     * @param usuario Campo que armazena o valor X-PAYPAL-SECURITY-USERID ou
+     * USER
      * @param senha Campo que armazena o valor X-PAYPAL-SECURITY-PASSWORD ou PWD
-     * @param assinatura Campo que armazena o valor X-PAYPAL-SECURITY-SIGNATURE ou SIGNATURE
+     * @param assinatura Campo que armazena o valor X-PAYPAL-SECURITY-SIGNATURE
+     * ou SIGNATURE
      */
     public Credenciais(String usuario, String senha, String assinatura) {
         this.setUsuario(usuario);
@@ -28,17 +32,22 @@ public class Credenciais {
     }
 
     /**
-     * Construtor da classe que recebe informações básicas de credenciais e com o ID da aplicação
-     * @param usuario Campo que armazena o valor X-PAYPAL-SECURITY-USERID ou USER
-     * @param senha Campo que armazena o valor X-PAYPAL-SECURITY-PASSWORD  ou PWD
-     * @param assinatura Campo que armazena o valor X-PAYPAL-SECURITY-SIGNATURE ou SIGNATURE
-     * @param appId Campo que armazena o valor X-PAYPAL-APPLICATION-ID, usado somente em aplicacoes Adaptive
+     * Construtor da classe que recebe informações básicas de credenciais e
+     * com o ID da aplicação
+     *
+     * @param usuario Campo que armazena o valor X-PAYPAL-SECURITY-USERID ou
+     * USER
+     * @param senha Campo que armazena o valor X-PAYPAL-SECURITY-PASSWORD ou PWD
+     * @param assinatura Campo que armazena o valor X-PAYPAL-SECURITY-SIGNATURE
+     * ou SIGNATURE
+     * @param appId Campo que armazena o valor X-PAYPAL-APPLICATION-ID, usado
+     * somente em aplicacoes Adaptive
      */
-    public Credenciais(String usuario, String senha, String assinatura, String appId)       {
+    public Credenciais(String usuario, String senha, String assinatura, String appId) {
         this(usuario, senha, assinatura);
         this.setAppId(appId);
     }
-    
+
     public String getAppId() {
         return appId;
     }
@@ -102,7 +111,4 @@ public class Credenciais {
     public String toString() {
         return "Credenciais{" + "usuario=" + usuario + ", senha=" + senha + ", assinatura=" + assinatura + ", appId=" + appId + '}';
     }
-    
-    
-    
 }

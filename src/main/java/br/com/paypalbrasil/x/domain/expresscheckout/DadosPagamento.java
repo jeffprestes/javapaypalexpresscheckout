@@ -8,10 +8,11 @@ import java.util.Objects;
 
 /**
  * Armazena dados de um item de compra
+ *
  * @author jprestes
  */
 public class DadosPagamento {
-    
+
     private String totalItem;
     private String totalEntrega;
     private String totalSeguro;
@@ -23,13 +24,10 @@ public class DadosPagamento {
     private String nroPedido;
     private String urlNotificacao;
     private String nota;
-    
 
     public DadosPagamento() {
     }
 
-    
-    
     public String getDescricao() {
         return descricao;
     }
@@ -148,7 +146,4 @@ public class DadosPagamento {
     public String toString() {
         return "ItemCompra{" + "totalItem=" + totalItem + ", totalEntrega=" + totalEntrega + ", totalSeguro=" + totalSeguro + ", totalDescontoEntrega=" + totalDescontoEntrega + ", totalImposto=" + totalImposto + ", totalManuseio=" + totalManuseio + ", descricao=" + descricao + ", textoCustomizado=" + textoCustomizado + ", nroPedido=" + nroPedido + ", urlNotificacao=" + urlNotificacao + ", nota=" + nota + '}';
     }
-    
-    
-    
 }

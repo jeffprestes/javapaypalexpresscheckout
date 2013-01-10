@@ -12,7 +12,7 @@ import java.util.Objects;
  *
  * @author aalonso
  */
-public class DoExpressCheckoutPaymentResposta extends Resposta{
+public class DoExpressCheckoutPaymentResposta extends Resposta {
 
     private String token;
     private ErroResposta erro;
@@ -40,8 +40,7 @@ public class DoExpressCheckoutPaymentResposta extends Resposta{
     public void setErro(ErroResposta erro) {
         this.erro = erro;
     }
-    
-    
+
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -68,6 +67,4 @@ public class DoExpressCheckoutPaymentResposta extends Resposta{
     public String toString() {
         return "DoExpressCheckoutPaymentResposta{" + "token=" + token + ", Resposta: " + super.toString() + '}';
     }
-
-    
 }

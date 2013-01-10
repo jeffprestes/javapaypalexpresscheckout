@@ -8,12 +8,13 @@ import br.com.paypalbrasil.x.domain.adaptive.Recebedor;
 import java.util.List;
 
 /**
- * Classe que armazena os valores de possíveis erros de pagamento retornados 
+ * Classe que armazena os valores de possíveis erros de pagamento retornados
  * pelos WebServices da PayPal por Recebedor.
+ *
  * @author jeffprestes
  */
 public class ErroPagamento {
-    
+
     private Recebedor recebedor;
     private Erro erro;
 
@@ -23,10 +24,11 @@ public class ErroPagamento {
     public ErroPagamento() {
     }
 
-    /** 
+    /**
      * Construtor da classe com todos os campos.
+     *
      * @param recebedor
-     * @param erro 
+     * @param erro
      */
     public ErroPagamento(Recebedor recebedor, Erro erro) {
         this.recebedor = recebedor;
@@ -74,8 +76,4 @@ public class ErroPagamento {
         hash = 59 * hash + (this.erro != null ? this.erro.hashCode() : 0);
         return hash;
     }
-    
-    
-    
-    
 }

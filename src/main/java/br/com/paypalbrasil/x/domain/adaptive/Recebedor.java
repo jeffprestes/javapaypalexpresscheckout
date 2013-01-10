@@ -9,21 +9,19 @@ package br.com.paypalbrasil.x.domain.adaptive;
  * @author jeffprestes
  */
 public class Recebedor {
-    
+
     private double valor;
     private String email;
     private boolean primario;
     private String notafiscal;
     private String tipoPagamento;
     private String subtipoPagamento;
-    
 
     public Recebedor(double valor, String email, boolean primario) {
         this.setValor(valor);
         this.setEmail(email);
         this.setPrimario(primario);
     }
-    
 
     public String getEmail() {
         return email;
@@ -101,7 +99,4 @@ public class Recebedor {
     public String toString() {
         return "Recebedor{" + "valor=" + valor + ", email=" + email + ", primario=" + primario + ", notafiscal=" + notafiscal + ", tipoPagamento=" + tipoPagamento + ", subtipoPagamento=" + subtipoPagamento + '}';
     }
-    
-   
-    
 }

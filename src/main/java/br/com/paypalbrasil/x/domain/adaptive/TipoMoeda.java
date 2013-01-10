@@ -9,17 +9,19 @@ import java.math.BigDecimal;
 
 /**
  * Classe que representa um valor total dentro de uma determinada moeda.
+ *
  * @author jeffprestes
  */
 public class TipoMoeda {
-    
+
     private CodigoMoeda moeda;
     private BigDecimal total;
 
     /**
      * Construtor com todos os campos.
+     *
      * @param moeda
-     * @param total 
+     * @param total
      */
     public TipoMoeda(CodigoMoeda moeda, BigDecimal total) {
         this.moeda = moeda;
@@ -70,6 +72,4 @@ public class TipoMoeda {
         hash = 17 * hash + (this.total != null ? this.total.hashCode() : 0);
         return hash;
     }
-    
-    
 }
