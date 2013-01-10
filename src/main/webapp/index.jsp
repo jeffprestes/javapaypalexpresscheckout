@@ -15,21 +15,21 @@
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
+            <td width="35%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
+            <td width="35%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout</b></td>
+            <td width="35%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
         </tr>
         <td></td>
@@ -46,7 +46,7 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td width="30%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Facil</b></td>
+        <td width="35%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Facil</b></td>
         <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFacil)</a></td>
     </tr>
     <tr>
