@@ -117,18 +117,7 @@ public class ExpressCheckoutController extends HttpServlet {
                     logger.info("VERSION=" + resp.getVersao());
                     rd.forward(request, response);
                 }
-                if ("GetExpressCheckoutDetails2".equalsIgnoreCase(request.getParameter("METHOD")))     {
-                     
-                    PagamentoSimples ps = new PagamentoSimples();
-                    GetExpressCheckoutDetailsResposta resp = ps.getExpressCheckoutDetails(request.getParameterMap());
-                    
-                    request.setAttribute("resposta", resp);
-                    RequestDispatcher rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_retornoDoEC.jsp");
-                    logger.info("TOKEN=" + resp.getToken());
-                    logger.info("INVNUM=" + resp.getNroPedido());
-                    logger.info("VERSION=" + resp.getVersao());
-                    rd.forward(request, response);
-                }
+                
                 //DoExpressCheckoutPayment
                 if ("DOEXPRESSCHECKOUTPAYMENT".equalsIgnoreCase(request.getParameter("METHOD")))    {
                 

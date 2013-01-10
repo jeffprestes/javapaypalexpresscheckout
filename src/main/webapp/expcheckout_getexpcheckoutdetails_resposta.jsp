@@ -52,6 +52,13 @@
                 </td>
                 </tr>
                 <tr>    
+                    <td>ID da Transação = </td>
+                    <td>(TRANSACTIONID): </td>
+                    <td>
+                <c:out value="${resposta.transactionId}"/>
+                </td>
+                </tr>
+                <tr>    
                     <td>Ack = </td>
                     <td>(ACK): </td>
                     <td>
