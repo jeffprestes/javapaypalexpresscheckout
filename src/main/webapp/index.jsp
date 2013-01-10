@@ -20,22 +20,28 @@
     </tr>
 
     <tr>
-        <td>WPS</td>
+        <td colspan="2">WPS</td>
         <td><a href="wps.html">WPS - Venda e doação</a></td>
     </tr>
     <br>
-    <h4>Adaptive</h4>
-    <li><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></li>
+    <tr>
+    <td colspan="2">Adaptive</td>
+    <td><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
+    </tr>
     <br>
-    <h4>ExpressCheckout</h4>
-    <li><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></li>
-    <li><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></li>
+    <tr>
+    <td colspan="2">ExpressCheckout</td>
+    <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a>
+    <a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
+    </tr>
     <p>-Detalhes-</p>
-    <li><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></li>
+    <a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a>
     <br>
-    <h4>ExpressCheckout & Frete Facil</h4>
-    <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></li>
-    <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></li>
+    <tr>
+    <td colspan="2">ExpressCheckout & Frete Facil</td>
+    <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a>
+    <a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
+    </tr>
 </table>
 </body>
 </html>
