@@ -14,45 +14,44 @@
     <body style="font-family: arial, helvetica; background-color: #f6f6f6">
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
-            <col style="background-color: #ffffff; color: #ffffff;" />
         <tr>
-            <td width="30%"><b>WPS</b></td>
+            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>WPS</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%">Adaptive</td>
-            <td><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
+            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>Adaptive</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="30%">ExpressCheckout</td>
-            <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
+            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>ExpressCheckout</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
         </tr>
         <td></td>
-        <td><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td>-Detalhes-</td>
+        <td style="background-color: #ffffff; color: #ffffff;">-Detalhes-</td>
     <tr>
         <td>&nbsp;</td>
-        <td><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td width="30%">ExpressCheckout & Frete Facil</td>
-        <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
+        <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>ExpressCheckout & Frete Facil</b></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
     </tr>
 </table>
 </body>
