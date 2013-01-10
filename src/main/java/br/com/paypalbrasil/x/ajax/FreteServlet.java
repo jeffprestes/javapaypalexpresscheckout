@@ -83,17 +83,18 @@ public class FreteServlet extends HttpServlet {
                 }
 
             }
-            
+            item.setCepOrigem(request.getParameter("CEP-O"));
+            item2.setCepOrigem(request.getParameter("CEP-O"));
             item.setCepDestino(request.getParameter("CEP"));
             item2.setCepDestino(request.getParameter("CEP"));
-            item.setPeso(0.8f);
-            item2.setPeso(0.5f);
-            item.setAltura(6);
-            item2.setAltura(5);
-            item.setLargura(15);
-            item2.setLargura(14);
-            item.setProfundidade(19);
-            item2.setProfundidade(24);
+            item.setPeso(Float.parseFloat(request.getParameter("PESO")));
+            item2.setPeso(Float.parseFloat(request.getParameter("PESO")));
+            item.setAltura((int)Float.parseFloat(request.getParameter("ALT")));
+            item2.setAltura((int)Float.parseFloat(request.getParameter("ALT")));
+            item.setLargura((int)Float.parseFloat(request.getParameter("LAR")));
+            item2.setLargura((int)Float.parseFloat(request.getParameter("LAR")));
+            item.setProfundidade((int)Float.parseFloat(request.getParameter("PROF")));
+            item2.setProfundidade((int)Float.parseFloat(request.getParameter("PROF")));
 
 
             logger.info("Chamada Frete Facil");
