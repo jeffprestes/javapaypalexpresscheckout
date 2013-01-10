@@ -42,7 +42,7 @@ public class FreteServlet extends HttpServlet {
         FreteData item2 = new FreteData();
         FreteValor valor = new FreteValor();
         
-        try {/**
+        try {
             Enumeration<String> name = request.getParameterNames();
             while (name.hasMoreElements()) {
                 String temp = name.nextElement().toString();
@@ -90,39 +90,11 @@ public class FreteServlet extends HttpServlet {
             valor.setItens(item,item2);
             logger.info("Valor de cada entrega: item 1 ="+item.getValorEntrega()+" Item 2 ="+item2.getValorEntrega());
             valor.setTotal();
-            logger.info("TOTAL DA ENTREGA = "+valor.getTotal());**/
+            logger.info("TOTAL DA ENTREGA = "+valor.getTotal());
             
-            //out.println("<HTML>");
-            //out.println("<HEAD><TITLE>Response</TITLE></HEAD>");
-            //out.println("<BODY>");
-            //out.println("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0=UPS Next Day Air&L_SHIPPINGOPTIONAMOUNT0=20.00&L_TAXAMT0=2.20 &L_SHIPPINGOPTIONISDEFAULT0=true");
-            /**
-             * out.println("METHOD=CallbackResponse" +
-             * "&OFFERINSURANCEOPTION=true" + "&L_SHIPPINGOPTIONNAME0=Sedex
-             * Hoje" + "&L_SHIPPINGOPTIONAMOUNT0=20.00" + "&L_TAXAMT0=2.20" +
-             * "&L_INSURANCEAMOUNT0=1.51" + "&L_SHIPPINGOPTIONISDEFAULT0=false"
-             * + "&L_SHIPPINGOPTIONNAME1=Sedex 10" +
-             * "&L_SHIPPINGOPTIONAMOUNT1=15.00" + "&L_TAXAMT1=2.00" +
-             * "&L_INSURANCEAMOUNT1=1.35" + "&L_SHIPPINGOPTIONISDEFAULT1=true" +
-             * "&L_SHIPPINGOPTIONNAME2=Sedex" + "&L_SHIPPINGOPTIONAMOUNT2=9.99"
-             * + "&L_TAXAMT2=1.99" + "&L_INSURANCEAMOUNT2=1.28" +
-             * "&L_SHIPPINGOPTIONISDEFAULT2=false");
-             **/
-            //out.print("</BODY></HTML>");
-            /**out.print("METHOD=CallbackResponse");
-            out.print("&L_SHIPPINGOPTIONNAME0=SedexHoje");
-            out.print("&L_SHIPPINGOPTIONAMOUNT0=20.00");
-            out.print("&L_SHIPPINGOPTIONISDEFAULT0=false");
-            out.print("&L_SHIPPINGOPTIONNAME1=Sedex10");
-            out.print("&L_SHIPPINGOPTIONAMOUNT1=15.00");
-            out.print("&L_SHIPPINGOPTIONISDEFAULT1=true");
-            out.print("&L_SHIPPINGOPTIONNAME2=Sedex");
-            out.print("&L_SHIPPINGOPTIONAMOUNT2=9.99");
-            out.print("&L_SHIPPINGOPTIONISDEFAULT2=false");**/
             
-              out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=e-Sedex&L_SHIPPINGOPTIONAMOUNT0=25.00&L_TAXAMT0=2.20&L_INSURANCEAMOUNT0=1.51&L_SHIPPINGOPTIONISDEFAULT0=false&L_SHIPPINGOPTIONLABEL1=Sedex&L_SHIPPINGOPTIONAMOUNT1=12.00&L_TAXAMT1=2.00&L_INSURANCEAMOUNT1=1.35&L_SHIPPINGOPTIONISDEFAULT1=true");
-            //out.print("METHOD=CallbackResponse&L_SHIPPINGOPTIONAMOUNT0=20.79&L_SHIPPINGOPTIONNAME0=UPS+Ground&L_SHIPPINGOPTIONLABEL0=%28No+service+guarantee%29&L_SHIPPINGOPTIONAMOUNT1=28.32&L_SHIPPINGOPTIONNAME1=UPS+3-Day&L_SHIPPINGOPTIONLABEL1=%283+days%29&L_SHIPPINGOPTIONAMOUNT2=37.25&L_SHIPPINGOPTIONNAME2=UPS+2nd+Day+AM&L_SHIPPINGOPTIONLABEL2=%282+days%2F10%3A30+A.M.%29&L_SHIPPINGOPTIONISDEFAULT0=true");
-            //out.print("METHOD=CallbackResponse&L_SHIPPINGOPTIONNAME0="+valor.getNomeEntrega()+"&L_SHIPINGPOPTIONLABEL0="+valor.getNomeEntrega()+"-Sedex"+"&L_SHIPPINGOPTIONAMOUNT0="+valor.getTotal()+"&L_SHIPPINGOPTIONISDEFAULT0=true");
+            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0="+valor.getNomeEntrega()+"&L_SHIPPINGOPTIONAMOUNT0="+valor.getTotal()+"&L_TAXAMT0=2.20&L_INSURANCEAMOUNT0=1.51&L_SHIPPINGOPTIONISDEFAULT0=true");
+           
         } finally {
             out.close();
         }
