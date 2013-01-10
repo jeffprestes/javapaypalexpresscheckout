@@ -37,7 +37,7 @@
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #000000;">-Detalhes-</td>
+        <td style="background-color: #ffffff; color: #000000;"><i>- Detalhes do EC -</i></td>
     <tr>
         <td>&nbsp;</td>
         <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
