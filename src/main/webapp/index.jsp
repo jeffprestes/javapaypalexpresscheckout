@@ -15,7 +15,7 @@
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
         <tr>
-            <td width="30%" style="background-color: #ffffff; color: #ffffff;"><b>WPS</b></td>
+            <td width="30%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
