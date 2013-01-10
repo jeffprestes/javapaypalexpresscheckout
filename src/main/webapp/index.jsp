@@ -37,21 +37,21 @@
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td><i><small>- Detalhes do EC -</small></i></td>
+        <td><i><small>- GetExpressCheckoutDetails -</small></i></td>
     <tr>
         <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout (GetExpressCheckoutDetails)</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
     </tr>
     <tr>
         <td width="30%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Facil</b></td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFacil)</a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></td>
+        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFacil)</a></td>
     </tr>
 </table>
 </body>
