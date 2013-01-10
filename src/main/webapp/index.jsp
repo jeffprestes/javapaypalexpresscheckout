@@ -11,12 +11,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body style="font-family: arial, helvetica; background-color: #f6f6f6">
+    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6">
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <table>
         <tr>
             <td width="30%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html"><b>WPS - Venda e doação</b></a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
