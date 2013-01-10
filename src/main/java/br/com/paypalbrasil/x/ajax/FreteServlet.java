@@ -84,8 +84,8 @@ public class FreteServlet extends HttpServlet {
 
             }
             
-            item.setCepDestino("09291230");
-            item2.setCepDestino("09291230");
+            item.setCepDestino(request.getParameter("CEP"));
+            item2.setCepDestino(request.getParameter("CEP"));
             item.setPeso(0.8f);
             item2.setPeso(0.5f);
             item.setAltura(6);
