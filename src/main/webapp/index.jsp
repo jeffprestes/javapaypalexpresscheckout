@@ -16,10 +16,11 @@
     <body>
         <div id="pagewidth" >
             <div id="wrapper" class="clearfix">
+                <div id="maincol">
         <h1>PayPal Java Testes - Lista de cenário de testes</h1>
         <ul>
-            <div id="leftcol"><h4>WPS</h4></div>
-            <li><a href="wps.html">WPS - Venda e doação</a></li>
+            
+            <><li><a href="wps.html">WPS - Venda e doação</a></li>
             <br>
             <h4>Adaptive</h4>
             <li><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></li>
@@ -34,6 +35,8 @@
             <li><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></li>
             <li><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento simples - Instant Update (com FreteFacil)</a></li>
         </ul>
+        </div>
+                <div id="leftcol"><h4>WPS</h4></div>
         </div>
         </div>
     </body>
