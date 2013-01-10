@@ -16,7 +16,7 @@
         <table>
         <tr>
             <td width="30%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html"><b>WPS - Venda e doação</b></a></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
