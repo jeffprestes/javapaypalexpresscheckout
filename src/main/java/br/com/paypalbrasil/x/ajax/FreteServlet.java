@@ -59,30 +59,31 @@ public class FreteServlet extends HttpServlet {
                 if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE0")) {
                     item.setPeso(Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE1")) {
+                if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE0")) {
                     item2.setPeso(Float.parseFloat(valuetemp[0]));
                 }
 
                 if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")) {
                     item.setAltura((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE1")) {
+                if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")) {
                     item2.setAltura((int) Float.parseFloat(valuetemp[0]));
                 }
                 if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")) {
                     item.setLargura((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE1")) {
+                if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")) {
                     item2.setLargura((int) Float.parseFloat(valuetemp[0]));
                 }
                 if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")) {
                     item.setProfundidade((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE1")) {
+                if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")) {
                     item2.setProfundidade((int) Float.parseFloat(valuetemp[0]));
                 }
 
             }
+            /**
             item.setCepOrigem(request.getParameter("CEP-O"));
             item2.setCepOrigem(request.getParameter("CEP-O"));
             item.setCepDestino(request.getParameter("CEP"));
@@ -95,7 +96,7 @@ public class FreteServlet extends HttpServlet {
             item2.setLargura((int)Float.parseFloat(request.getParameter("LAR")));
             item.setProfundidade((int)Float.parseFloat(request.getParameter("PROF")));
             item2.setProfundidade((int)Float.parseFloat(request.getParameter("PROF")));
-
+**/
 
             logger.info("Chamada Frete Facil");
             logger.info(item.getCepOrigem() + ", " + item.getCepDestino() + ", " + item.getLargura() + ", " + item.getAltura() + ", " + item.getProfundidade() + ", " + item.getPeso());
