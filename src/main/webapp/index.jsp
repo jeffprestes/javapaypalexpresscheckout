@@ -12,19 +12,17 @@
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
     <body style="font-family: arial, helvetica">
-        <table>
-            <th>
             <h1>PayPal Java Testes - Lista de cenário de testes</h1>
-        </th>
+        <table>
         <tr>
-            <td width="40%">WPS</td>
+            <td width="30%"><h4>WPS</h4></td>
             <td><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
-            <td width="40%">Adaptive</td>
+            <td width="30%"><h4>Adaptive</h4></td>
             <td><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
         </tr>
         <tr>
@@ -32,7 +30,7 @@
             </tr>
         <tr>
         <tr>
-            <td width="40%">ExpressCheckout</td>
+            <td width="30%"><h4>ExpressCheckout</h4></td>
             <td><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
         </tr>
         <td></td>
@@ -49,7 +47,7 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td width="40%">ExpressCheckout & Frete Facil</td>
+        <td width="30%"><h4>ExpressCheckout & Frete Facil</h4></td>
         <td><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de FreteFacil (Exemplo)</a></td>
     </tr>
     <tr>
