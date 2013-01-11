@@ -59,26 +59,26 @@ public class FreteServlet extends HttpServlet {
                 if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE0")) {
                     item.setPeso(Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE0")) {
+                if (temp.equalsIgnoreCase("L_ITEMWEIGHTVALUE1")) {
                     item2.setPeso(Float.parseFloat(valuetemp[0]));
                 }
 
                 if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")) {
                     item.setAltura((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE0")) {
+                if (temp.equalsIgnoreCase("L_ITEMHEIGHTVALUE1")) {
                     item2.setAltura((int) Float.parseFloat(valuetemp[0]));
                 }
                 if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")) {
                     item.setLargura((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE0")) {
+                if (temp.equalsIgnoreCase("L_ITEMWIDTHVALUE1")) {
                     item2.setLargura((int) Float.parseFloat(valuetemp[0]));
                 }
                 if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")) {
                     item.setProfundidade((int) Float.parseFloat(valuetemp[0]));
                 }
-                if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE0")) {
+                if (temp.equalsIgnoreCase("L_ITEMLENGTHVALUE1")) {
                     item2.setProfundidade((int) Float.parseFloat(valuetemp[0]));
                 }
 
