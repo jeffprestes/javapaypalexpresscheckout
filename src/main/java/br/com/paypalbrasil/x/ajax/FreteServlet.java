@@ -102,7 +102,7 @@ public class FreteServlet extends HttpServlet {
             logger.info(item.getCepOrigem() + ", " + item.getCepDestino() + ", " + item.getLargura() + ", " + item.getAltura() + ", " + item.getProfundidade() + ", " + item.getPeso());
             logger.info(item2.getCepOrigem() + ", " + item2.getCepDestino() + ", " + item2.getLargura() + ", " + item2.getAltura() + ", " + item2.getProfundidade() + ", " + item2.getPeso());
             item.setValorEntrega(frete.getPreco(item.getCepOrigem(), item.getCepDestino(), item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
-            if(item.getCepDestino()==null){
+            if(item2.getCepDestino()==null){
                 
                 out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + item.getValorEntrega() + "&L_TAXAMT0=2.20&L_INSURANCEAMOUNT0=1.51&L_SHIPPINGOPTIONISDEFAULT0=true");
             }else{
