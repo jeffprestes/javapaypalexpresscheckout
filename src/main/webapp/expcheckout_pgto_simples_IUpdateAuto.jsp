@@ -32,7 +32,7 @@
                         <input type="hidden" value='9' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
                         <input type="hidden" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
                         <input type="hidden" value="BRL" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" size="100" />
-                        <input type="hidden" value="188.00" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" size="100" />
+                        <input type="hidden" value="192.00" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" size="100" />
                         <input type="hidden" value="188.00" name="PAYMENTREQUEST_0_ITEMAMT" id="PAYMENTREQUEST_0_ITEMAMT" size="100" />
                         <input type="hidden" value="250.00" name="MAXAMT" id="MAXAMT" size="100" />
                         <input type="hidden" value="4.00" name="PAYMENTREQUEST_0_SHIPPINGAMT" id="PAYMENTREQUEST_0_SHIPPINGAMT" size="100" />
