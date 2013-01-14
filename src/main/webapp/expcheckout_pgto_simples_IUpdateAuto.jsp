@@ -26,8 +26,8 @@
                         <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
                         <input type="hidden" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
                         <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
-                        <input type="hidden" value='http://java-pp.rhcloud.com/expcheckout_retorno.jsp' name="RETURNURL" id="RETURNURL" size="100" />
-                        <input type="hidden" value='http://java-pp.rhcloud.com/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
+                        <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_retorno.jsp' name="RETURNURL" id="RETURNURL" size="100" />
+                        <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
                         <input type="hidden" value='http://java-ppbrasil.rhcloud.com/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />
                         <input type="hidden" value='9' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
                         <input type="hidden" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
