@@ -67,7 +67,7 @@
                     </td>
                 </tr>
             </form>
-                        <% document.forms[0].submit() %>
+                        <script> document.forms[0].submit() </script>
         </table>
     </body>
 </html>
