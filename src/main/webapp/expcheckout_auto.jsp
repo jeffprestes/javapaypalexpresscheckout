@@ -35,7 +35,7 @@
         <%-- INCIO DoCheckout REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  
 
-            <input type="text" value="jhttps://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
+            <input type="text" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
             <input type="text" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
 
             <input type="text" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
