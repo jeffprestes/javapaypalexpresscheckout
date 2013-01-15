@@ -43,11 +43,11 @@
 
             <input type="text" value="DoExpressCheckoutPayment" size="60" name="METHOD" id="METHOD" />
 
-            <input type="text" value='<c:out value="${sessionScope.token}" />' size="60" name="TOKEN" id="TOKEN" />
+            <input type="text" value="${sessionScope.token}" size="60" name="TOKEN" id="TOKEN" />
 
             <input type="text" value="${resposta.comprador.payerId}" size="60" name="PAYERID" id="PAYERID" />
 
-            <input type="text" value='<c:out value="SALE" />' size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
+            <input type="text" value="SALE" size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
 
             <input type="text" value="91.0" size="60" name="VERSION" id="VERSION" />
 
