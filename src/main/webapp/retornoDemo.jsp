@@ -6,6 +6,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
 <head>
+    <% PrintWriter out = response.getWriter();
+    %>
 	
 	<!-- Início do Head -->
 
@@ -336,7 +338,7 @@ function __doPostBack(eventTarget, eventArgument) {
 								</div>
 					            <p class="pass_disclaimer">
                                                         DADOS DA COMPRA:
-                                                        <form action="">
+                                                        TOKEN = <%= request.getParameter("TOKEN") %>
 					            </p>
 				            </fieldset>
 			            </div>
