@@ -34,6 +34,7 @@
         
         
          <%-- INICIO dos DADOS --%>
+         <%--
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
                 <tr>
@@ -311,5 +312,6 @@
 </tr>
 </form>
 </table>
+         --%>
     </body>
 </html>
