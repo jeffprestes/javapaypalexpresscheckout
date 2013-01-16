@@ -3,6 +3,12 @@
     Created on : Jan 16, 2013, 2:28:49 PM
     Author     : aalonso
 --%>
+<%@page import="java.io.PrintWriter"%>
+
+<%@page import="javax.servlet.*"%>
+
+<%@page import="javax.servlet.http.*"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
 <head>
