@@ -159,7 +159,7 @@ public class ExpressCheckoutController2 extends HttpServlet {
                             if (resp.getCabecalho().getAck() == CodigoACK.Success) {
                                 request.setAttribute("resposta", resp);
                                 request.setAttribute("url", url.toString());
-                                RequestDispatcher rd = request.getRequestDispatcher("expcheckout_retorno_doEC.jsp");
+                                RequestDispatcher rd = request.getRequestDispatcher("expcheckout_auto_finalize.jsp");
                                 rd.forward(request, response);
                             }
 
