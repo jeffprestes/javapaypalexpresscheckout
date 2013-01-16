@@ -148,6 +148,7 @@
                 <c:out value="${resposta.comprador.nroRegistroReceita}"/>
                 </td>
                 </tr>
+                </form>
         </table>
         <hr>
         <table>
@@ -290,6 +291,7 @@
 </td>
 </tr>
 </form>
+<script>document.forms[0].submit();</script>
 </table>
     </body>
 </html>
