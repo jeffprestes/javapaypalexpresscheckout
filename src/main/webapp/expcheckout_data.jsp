@@ -15,7 +15,7 @@
     <body>
         <%-- INICIO dos DADOS --%>
         <table>
-            <form action="retornoDemo.html" method="POST">   
+            <form action="retornoDemo.jsp" method="POST">   
                 <tr>
                 <h2> Dados de Transação </h2>
                 <br>
