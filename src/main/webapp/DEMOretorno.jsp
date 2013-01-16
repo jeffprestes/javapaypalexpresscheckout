@@ -227,7 +227,7 @@
 
                                     <div id="">	
                                         <br>&nbsp;			
-                                            <a href="http://www.paypal.com.br"><img src="images/LogoS.png"/></a>
+                                            <a href="http://www.paypal.com.br"><img src="images/LogoTS.png"/></a>
                                     </div> 
 
 
@@ -341,7 +341,7 @@
                                                                                         <br>&nbsp;
                                                                                     </div>
                                                                                     <p class="pass_disclaimer">
-                                                                                        DADOS DA COMPRA:</br></br>&nbsp;
+                                                                                        DADOS DA COMPRA:</br></br>
                                                                                         Token : <%= request.getParameter("TOKEN")%></br>
                                                                                         Status : <%= request.getParameter("STATUS")%></br>
                                                                                         Timestamp : <%= request.getParameter("TIMESTAMP")%></br>

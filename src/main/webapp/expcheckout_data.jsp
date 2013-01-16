@@ -18,7 +18,7 @@
         <h4>Redirecionando...</h4>
         <%-- INICIO dos DADOS --%>
         <table>
-            <form action="retornoDemo.jsp" method="POST">   
+            <form action="DEMOretorno.jsp" method="POST">   
 
                 <input type="hidden" value='<c:out value="${resposta.token}"/>' name="TOKEN" id="TOKEN">
 
