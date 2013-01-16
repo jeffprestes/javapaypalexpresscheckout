@@ -116,7 +116,7 @@ public class ExpressCheckoutController2 extends HttpServlet {
                     {
                     rd = request.getRequestDispatcher("/expcheckout_data.jsp");
                     }else{
-                    rd = request.getRequestDispatcher("/expcheckout_auto.jsp");
+                    rd = request.getRequestDispatcher("/expcheckout_auto_do.jsp");
                     }
                     logger.info("TOKEN=" + resp.getToken());
                     logger.info("INVNUM=" + resp.getNroPedido());
