@@ -46,7 +46,7 @@ Efetuando Transacao...2
             </tr>
         </form>
             
-            <script> document.form[0].submit(); </script>
+            <script> document.forms[0].submit(); </script>
             <%-- FIM DoCheckout REQUEST --%>
          
     </body>
