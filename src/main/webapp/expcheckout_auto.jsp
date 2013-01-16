@@ -61,12 +61,11 @@ Efetuando Transacao...
             <input type="hidden" value="91.0" size="10" name="VERSION" id="VERSION" />
             <input type="hidden" value='<c:out value="${sessionScope.token}" />' size="60" name="TOKEN" id="TOKEN" />
             <tr>
-                <td colspan="2" style="vertical-align: middle; text-align: center">
-                </td>
+                <td colspan="2" style="vertical-align: middle; text-align: center"></td>
             </tr>
         </form>
             
-            <script> document.form[0].submit(); </script>
+            <script> document.forms[0].submit(); </script>
         <%-- FIM GetDetails REQUEST --%>
         
         

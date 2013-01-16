@@ -30,7 +30,7 @@
                 </td>
             </tr>
         </form>
-            <script> document.form[0].submit(); </script>
+            <script> document.forms[0].submit(); </script>
         
     </body>
 </html>
