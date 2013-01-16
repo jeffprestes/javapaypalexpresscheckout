@@ -15,7 +15,7 @@
     <body>
         <%-- INICIO dos DADOS --%>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
+            <form action="retornoDemo.html" method="POST">   
                 <tr>
                 <h2> Dados de Transação </h2>
                 <br>
@@ -27,7 +27,7 @@
                     <td>Token = </td>
                     <td>(TOKEN): </td>
                     <td>
-                <c:out value="${resposta.token}"/>
+                <input type="hidden" value='<c:out value="${resposta.token}"/>' name="TOKEN" id="TOKEN">
                 </td>
                 </tr>
                 <tr>    
