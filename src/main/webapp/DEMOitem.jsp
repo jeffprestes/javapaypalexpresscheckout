@@ -326,7 +326,7 @@ Itens Inclusos
 			
 				
 				<div id="">					
-					<a href="index.html"><img src="checkout/IMG/LogoS.png"/></a>
+					<a href="index.html"><img src="images/LogoS.png"/></a>
 				</div> 
 				
 				
