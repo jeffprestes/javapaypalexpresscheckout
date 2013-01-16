@@ -109,9 +109,15 @@ public class ExpressCheckoutController2 extends HttpServlet {
 
                     PagamentoSimples ps = new PagamentoSimples();
                     GetExpressCheckoutDetailsResposta resp = ps.getExpressCheckoutDetails(request.getParameterMap());
-
+                    
                     request.setAttribute("resposta", resp);
-                    RequestDispatcher rd = request.getRequestDispatcher("/expcheckout_auto.jsp");
+                    RequestDispatcher rd;
+                    if("final".equalsIgnoreCase(request.getParameter("SENDPOINT")))
+                    {
+                    rd = request.getRequestDispatcher("/expcheckout_data.jsp");
+                    }else{
+                    rd = request.getRequestDispatcher("/expcheckout_auto.jsp");
+                    }
                     logger.info("TOKEN=" + resp.getToken());
                     logger.info("INVNUM=" + resp.getNroPedido());
                     logger.info("VERSION=" + resp.getVersao());
