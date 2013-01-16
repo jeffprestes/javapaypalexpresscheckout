@@ -14,7 +14,7 @@
     </head>
     <body>
 
-Efetuando Transacao.
+<h3>Efetuando Transacao .</h3>
 
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
