@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PAYPAL-SHOP Instant UPDATE</title>
+        <title>Test Shop Pagamento</title>
     </head>
     <body>
         <td colspan="2" style="vertical-align: middle; text-align: center">
