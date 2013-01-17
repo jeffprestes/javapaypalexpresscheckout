@@ -276,18 +276,18 @@
                                                             <!-- CONTEUDO PRINCIPAL -->
                                                             <div id="main">
 
-                                                                <!--<div id="breadcrumbs_carrinho_container">
+                                                                <div id="breadcrumbs_carrinho_container">
                                                                         <dl id="breadcrumbs_carrinho">
                                                                                 <dt>
                                                                                         Etapas
                                                                                 </dt>
                                                                                 <dd class="fst icoPasso1">
-                                                                                        <span >
+                                                                                        <span class="selected">
                                                                                                 Passo 1 - Compra
                                                                                         </span>
                                                                                 </dd>
                                                                                 <dd class="icoPasso2">
-                                                                                        <span  class="selected">
+                                                                                        <span  >
                                                                                                 Passo 2 - Identificação
                                                                                         </span>
                                                                                 </dd>
@@ -309,7 +309,7 @@
                                                                                 </dd>							
                                                                                 
                                                                         </dl>
-                                                                </div>-->				
+                                                                </div>				
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
            
                                                   
