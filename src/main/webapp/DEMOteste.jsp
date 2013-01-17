@@ -270,7 +270,7 @@
                                                     <!-- Fim Google Code for Tag de remarketing --> 
                                                     <!-- MIOLO -->
                                                     <hr />
-                                                    <div id="body">
+                                                    <div id="" >
                                                         
 
                                                                 <!--<div id="breadcrumbs_carrinho_container">
