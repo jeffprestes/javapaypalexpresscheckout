@@ -357,13 +357,13 @@
 					            <ul class="botoesCarrinho_dir">
             						
 						            <li>
-							            <a href="javascript:FecharPedido('GHDPKwGHDOKwGIDL')"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
+							            <a href="DEMOlogin.jsp"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
 						            </li>
 					            </ul>
             					</br>
 					            
             					
-                                                                <table class="tabelaCarrinho" border="2" cellpadding="1" cellspacing="0">
+                                                                <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
 						            <thead>
 							            <tr>
 								            <td class="tdProduto">
@@ -429,14 +429,16 @@
 
 						            </tbody>
 						            <tfoot>
-						                
+						                <tr><td></br></td></tr>
 						                <tr class="subTotal">
+                                                                    
 				                            <td class="tdTitSubTotal" colspan="6">Subtotal:</td>
 				                            <td class="tdSubTotal">R$ 188,00</td>
 				                        </tr>
 				                        <tr id="LinhaFrete">
 								            <td class="tdCEP" colspan="6">
                                                 <span>
+                                                    <tr><td></br></td></tr>
                                                     <span class="tdTit">Frete:</span>
 										            <label for="stCEP_1">
 											            Insira o CEP do endereço de entrega
