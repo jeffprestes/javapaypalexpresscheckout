@@ -224,7 +224,7 @@ function __doPostBack(eventTarget, eventArgument) {
 		
 			<div id="">	
 <br>&nbsp;			
-					<a href="http://www.paypal.com.br"><img src="images/LogoTS.png"/></a>
+					<a href="https://java-ppbrasil.rhcloud.com/DEMOindex.jsp"><img src="images/LogoTS.png"/></a>
 				</div> 
 			
 			
