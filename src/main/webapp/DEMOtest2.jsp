@@ -68,7 +68,7 @@ loja de informatica" />
     
 
 	
-    <link rel="stylesheet" type="text/css" href="http://www.megamamute.com.br/includes/minify.aspx?jcarousel.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="jcarousel.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="http://www.megamamute.com.br/includes/minify.aspx?jalerts.css" media="screen" />
     
     <script type="text/javascript" src="http://www.megamamute.com.br/script/jquery-1.4.2.min.js"></script>
