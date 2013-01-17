@@ -438,7 +438,7 @@
 				                        <tr id="LinhaFrete">
 								            <td class="tdCEP" colspan="6">
                                                 <span>
-                                                    <tr><td></br></td></tr>
+                                                    
                                                     <span class="tdTit">Frete:</span>
 										            <label for="stCEP_1">
 											            Insira o CEP do endereço de entrega
