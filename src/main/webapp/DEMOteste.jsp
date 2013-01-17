@@ -249,9 +249,10 @@ loja de informatica" />
 			<div class="container"> 
 			
 				
-				<div id="logo">								
-					<a href="http://www.megamamute.com.br">MegaMamute</a>
-				</div> 
+				<div id="">	
+                                        <br>&nbsp;			
+                                            <a href="http://www.paypal.com.br"><img src="images/LogoTS.png"/></a>
+                                    </div> 
 				
 				
 				<ul id="user-contact">
@@ -260,9 +261,8 @@ loja de informatica" />
 				
                 	<li class="auto-atend first" class="atendimento first"><a href="http://www.megamamute.com.br/institucionais/index.aspx">Autoatendimento</a></li>
 				
-				    <li class="atendimento">Televendas: Regiões Metropolitanas <span class="highlights">4007 1307</span></li>
+				    <li class="atendimento">Televendas: <span class="highlights">XXXX - XXXX</span></li>
 				    <!--<br clear='all' />-->
-				    <li class="last" style="float:right;"> Demais Localidades <span class="highlights">0800 604 8200</span></li>
 				</ul>
 				
 				<div id="user-info">
@@ -1906,9 +1906,6 @@ loja de informatica" />
                                             
                    					    
                         <div class="banner side-nav">
-    <ul>
-	    <li id='item-banner-1' class='item-banner'></li>
-    </ul>
 </div>
         <script language="javascript">
             <!--
@@ -1985,11 +1982,6 @@ loja de informatica" />
  </script>
                     
                                             <div class="banner side-nav">
-    <ul>
-	    <li id='item-banner-3' class='item-banner'></li>
-	    <li id='item-banner-4' class='item-banner'></li>
-	    <li id='item-banner-5' class='item-banner'></li>
-    </ul>
 </div>
         <script language="javascript">
             <!--
@@ -2029,10 +2021,6 @@ loja de informatica" />
  
 
 				    <div class="banner side-nav">
-    <ul>
-	    <li id='item-banner-8' class='item-banner'></li>
-	    <li id='item-banner-10' class='item-banner'></li>
-    </ul>
 </div>
         <script language="javascript">
             <!--
@@ -2107,7 +2095,7 @@ loja de informatica" />
 			        <div id="pnlTituloPagina">
 		
 			            <div id="tituloPagina">
-			                <h1>As melhores ofertas do MegaMamute</h1>
+			                <h1>As melhores ofertas do Test Shop</h1>
 			            </div>
 			        
 	</div>
@@ -2346,8 +2334,8 @@ loja de informatica" />
 				            
 		                                <li class="fst">
 		                                    <div class="ec-info">
-		                                        <a class="ec-photo" href="http://www.megamamute.com.br/Mochila-para-Notebook-de-154-FORTREK-353602.aspx/p">
-                                                    <img class="imgOfertas" src="http://www.megamamute.com.br/Imagens/produtos/19/34419/34419_Vitrine.jpg" alt="Mochila para Notebook de 15,4" FORTREK" title="Mochila para Notebook de 15,4" FORTREK" />
+		                                        <a class="ec-photo" href="DEMOitem.jsp">
+                                                    <img class="imgOfertas" src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Vitrine.jpg" alt="Celular R236 ZTE" title="Celular R236 ZTE" />
                                                 </a>
                                                                                                                                                                   
                                                 
@@ -2360,24 +2348,24 @@ loja de informatica" />
                                                 
                                                 
                                                 <div class="ec-name">
-                                                    <a href="http://www.megamamute.com.br/Mochila-para-Notebook-de-154-FORTREK-353602.aspx/p">
-                                                        Mochila para Notebook de 15,4" FORTREK
+                                                    <a href="DEMOitem.jsp">
+                                                        Celular Desbloqueado Dual Chip R236 Preto ZTE
+
                                                     </a>
                                                 </div>
                                                 	<p class="price">
-		<a href='http://www.megamamute.com.br/Mochila-para-Notebook-de-154-FORTREK-353602.aspx/p'>
-			<span class="block1">de: <del>R$ 98,00</del></span>
-			<span class="block2">por: <strong>R$ 84,00</strong></span>
-			<span class="block3">Preço para você: <strong>R$ 71,40</strong></span>
+		<a href='DEMOitem.jsp'>
+			<span class="block1">de: <del>R$ 234,80</del></span>
+			<span class="block2">por: <strong>R$ 188,00</strong></span>
 		</a>
 	</p>
 	<p class="condition">
-		<a href='http://www.megamamute.com.br/Mochila-para-Notebook-de-154-FORTREK-353602.aspx/p'>
-			<span class="block1">ou em <strong>4x</strong> de <strong>R$ 21,52</strong> com juros </br></span>
+		<a href='DEMOitem.jsp'>
+			<span class="block1">ou em <strong>4x</strong> de <strong>R$ 48</strong> com juros </br></span>
 		</a>
 	</p>
 	<p class="frete_container">
-		<a href='http://www.megamamute.com.br/Mochila-para-Notebook-de-154-FORTREK-353602.aspx/p'>
+		<a href='DEMOitem.jsp'>
 		    <span id='Selo_0_353602'><img src='http://www.megamamute.com.br/Imagens/promocao/3617.jpg' alt='20130104 Mega Verão 15% Suprimentos Mochilas e Acessórios Áudio CD Players MP3 / DVD RefrigeradoresPerformance Acessórios[PAULO]' title='20130104 Mega Verão 15% Suprimentos Mochilas e Acessórios Áudio CD Players MP3 / DVD RefrigeradoresPerformance Acessórios[PAULO]' class='seloCesta'></span><br />
 		</a>
 	</p>
@@ -2386,8 +2374,8 @@ loja de informatica" />
 			Veja mais:
 		</dt>
 			<dd>
-				<a href='http://www.megamamute.com.br/FORTREK-953.aspx/f'>
-					FORTREK
+				<a href='DEMOitem.jsp'>
+					ZTE
 				</a>
 			</dd>
 			<dd>
@@ -3845,10 +3833,7 @@ loja de informatica" />
 				    </dd>
 				    -->
 				    <dd>
-					    Televendas 0800 604 82 00
-				    </dd>
-				    <dd>
-					    Televendas Região Metropolitana 4007 1307
+					    Televendas XXXX - XXXX
 				    </dd>
 				    <!--
 				    <dd id="rodape_CompraSegura">
@@ -3955,7 +3940,7 @@ loja de informatica" />
 	    <div id="footer-rakuten">
 		    <div class="container">
 			    <p id="left">
-				    &copy; 2010 - 2013, MegaMamute. Todos os direitos reservados.
+				    &copy; 2010 - 2013, Test Shop. Todos os direitos reservados.
 			    </p>
 			    <span id="logo-rakuten">
 				    <a href="http://www.rakuten.com.br/ecservice/" target="_blank">
