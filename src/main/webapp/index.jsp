@@ -60,7 +60,7 @@
 
     <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Test Shop DEMO</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="DEMOindex.jsp"><img src="LogoTS.png"></a></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="DEMOindex.jsp"><img src="images/LogoTS.png"></a></td>
         </tr>
     
 </table>
