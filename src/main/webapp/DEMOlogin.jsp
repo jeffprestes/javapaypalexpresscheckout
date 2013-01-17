@@ -277,8 +277,22 @@ function __doPostBack(eventTarget, eventArgument) {
 		<div class="container">
 			<!-- CONTEUDO PRINCIPAL -->
 			<div id="main">
-				
-					<div id="breadcrumbs_carrinho_container">
+                            <script>
+function bigImg(x)
+{
+x.src="IMG/passos4.png"
+}
+
+function normalImg(x)
+{
+x.src="IMG/passos2.png"
+}
+</script>
+				<div id="breadcrumbs_carrinho_container">
+							<img id="passos2" src="IMG/passos2.png" >
+							</br>
+					</div>
+                            <%--<div id="breadcrumbs_carrinho_container">
 						<dl id="breadcrumbs_carrinho">
 							<dt>
 								Etapas
@@ -311,10 +325,18 @@ function __doPostBack(eventTarget, eventArgument) {
 							</dd>							
 							
 						</dl>
-					</div>
-                            <script type="text/javascript">
-                                $('#comprapaypal')
-                                .hover(function() { $('#icoPasso3 span[name=end]').attr('class',"selected");})
+					</div>--%>
+<script>
+function changeImg(x)
+{
+x.src="LogoTS.png"
+}
+
+function backImg(x)
+{
+x.style.height="32px";
+x.style.width="32px";
+}
 </script>
 					<!-- CONTEUDO INTERNO (CENTRO) -->
 				<div id="box_login" class="box_910_container">
@@ -322,11 +344,11 @@ function __doPostBack(eventTarget, eventArgument) {
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
 			            <div class="containerLogin box_login">
-                                        <img src="images/msgcomprapaypal.png" id="comprapaypal">
+                                        <img src="images/msgcomprapaypal.png" onmouseover="changeImg('end')" onmouseout="backImg('end')" id="comprapaypal">
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
-						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_compra_express.png"title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
+						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_compra_express.png" onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
 								<br>&nbsp;
 								<p class="pass_disclaimer">
 						            Use sua conta PayPal e finalize seu pedido com mais agilidade.
