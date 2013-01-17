@@ -271,9 +271,7 @@
                                                     <!-- MIOLO -->
                                                     <hr />
                                                     <div id="body">
-                                                        <div class="container">
-                                                            <!-- CONTEUDO PRINCIPAL -->
-                                                            <div id="main">
+                                                        
 
                                                                 <!--<div id="breadcrumbs_carrinho_container">
                                                                         <dl id="breadcrumbs_carrinho">
@@ -311,6 +309,7 @@
                                                                 </div>-->				
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
 
+                                                                
                                                                 <div class="ec-section-products ec-vitrine-1">
 			                        <div class="title">
                                         <span id="repVitrineLancamentos_ctl00_lblLancamentos"><h2>Ofertas</h2></span>
@@ -1382,11 +1381,7 @@
 		                        </div>
 		                    
 				        <!-- FIM DE LANCAMENTOS -->
-                                                                
-                                                                                                            <!-- FIM DO CONTEUDO INTERNO (CENTRO) -->
-                                                                                                            </div>
-                                                                                                            <!-- FIM DO CONTEUDO PRINCIPAL -->
-                                                                                                            </div>
+                                                                                                    
                                                                                                             </div>
                                                                                                             <!-- FIM DO MIOLO -->
 
