@@ -317,294 +317,202 @@
                                                                 </div>-->				
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
            
-                                                                                                          <div id="main">
-
-
-                                                                <ul id="breadcrumbs">
-                                                                    <li>		Celular Desbloqueado Dual Chip R236 Preto ZTE</li>
-                                                                </ul>
-
-
-                                                                <hr />
-                                                                <!-- BANNERS PRINCIPAIS (TOPO) -->
-                                                                <!--
-                                                                        para banners em flash, coloque, mesmo assim o link do banner no div em que o flash será escrito.
-                                                                        caso o banner não seja um flash, remova a chamada de javascript logo abaixo do div
-                                                                -->
-                                                                <div class="banner banner_main" id="banner_content_topo">
-                                                                    <!-- Banner Superior  -->
-
-                                                                    <script language="javascript">
-
-                                                                    </script>
-                                                                    <!-- Fim Banner Superior -->
-                                                                </div>
-                                                                <!-- FIM DOS BANNERS PRINCIPAIS (TOPO) -->
-
-
-
-
-
-                                                                <div class="content">
-                                                                    <div class="top">
-                                                                        <div class="mid">
-                                                                            <div class="bot">
-                                                                                <div class="product-container">
-
-                                                                                    <div id="photo-details">
-
-                                                                                        <img src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Detalhes.jpg" alt="Celular Desbloqueado Dual Chip R236 Preto ZTE" title="Celular Desbloqueado Dual Chip R236 Preto ZTE" name="ProdutoImagemAux" id="ProdutoImagemAux" style="display:none;"/>
-
-                                                                                        <div id="big_photo_container">
-                                                                                            <a title="" id="Zoom1" rel="zoom-width:497px;zoom-height:333px;zoom-position:right;" href="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" class="MagicZoom"  style="cursor:hand;">
-                                                                                                <img name="ProdutoImagem" id="ProdutoImagem" onload="carregaImgAux(this);" src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Detalhes.jpg" imgAmp="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" />
-                                                                                            </a>
-                                                                                        </div>
-                                                                                        <div id="big_video_container" class="big_video_container" style="display:none;"></div>
-
-                                                                                        <div class="enlarge">
-                                                                                            <div id="enlargeItens">
-                                                                                                <p class="cliqueParaAmpliar">
-                                                                                                    <a href="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" class="Amplaida" id="lnkAmpliada">Ampliar imagem</a>
-                                                                                                </p>
-                                                                                                <p class="passeMouseParaAmpliar">
-                                                                                                    Passe o mouse para ampliar
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </div>							
-                                                                                        <div id="pnlThumbs" class="lstThumbs">
-
-                                                                                            <a id="lnkThumb1" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe1'))" style="display:none;"><img id="ImgDetalhe1" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
-                                                                                            <a id="lnkThumb2" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe2'))" style="display:none;"><img id="ImgDetalhe2" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
-                                                                                            <a id="lnkThumb3" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe3'))" style="display:none;"><img id="ImgDetalhe3" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
-                                                                                            <a id="lnkThumb4" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe4'))" style="display:none;"><img id="ImgDetalhe4" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
-                                                                                            <a id="lnkThumb5" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe5'))" style="display:none;"><img id="ImgDetalhe5" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
-
-                                                                                        </div>
-
-                                                                                    </div>
-
-
-                                                                                    <div id="info-details">
-                                                                                        <div class="header">
-                                                                                            <h1>
-                                                                                                Celular Desbloqueado Dual Chip R236 Preto ZTE
-                                                                                            </h1>
-                                                                                            <fieldset class="form_buy">
-                                                                                                </br>
-                                                <a href="DEMOfinalize.jsp"><img src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif"/></a>
-                                                                                            </fieldset>
-                                                                                            
-                                                                                            <dl class="reference">
-                                                                                                <dt class="fst">
-                                                                                                    </br>
-                                                                                                    Fabricante:
-                                                                                                </dt>
-                                                                                                <dd>
-                                                                                                    <a href="http://www.megamamute.com.br/ZTE-814.aspx/x">ZTE</a>
-                                                                                                    <!--<a href="http://www.megamamute.com.br/vit_f/814/zte.aspx"></a>-->
-                                                                                                </dd>
-
-                                                                                                <dt>
-                                                                                                    Cód. do produto:
-                                                                                                </dt>
-                                                                                                <dd>
-                                                                                                    26202
-                                                                                                </dd>
-
-                                                                                            </dl>
-                                                                                            <div id="delivery">
-                                                                                                <p>
-                                                                                                    <a href="http://www.megamamute.com.br/consultaPrazoEntrega.aspx?Pc=349210" id="lnkSaibaMaisEntrega" class="consultaPrazoEntrega iframe">Saiba mais</a>
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </div>
-
-
-                                                                                        <div class="section">							    
-
-                                                                                            <p class="price">
-                                                                                                </br>
-                                                                                                <span id="spanPreco" class="block1-inline">de: R$ 234,80</span>
-                                                                                                <span id="spanPrecoPor" class="block2-inline">por: R$ 188,00</span>
-                                                                                                 </br>
-                                                                                            </p>
-
-                                                                                            <p class="promocao">
-
-                                                                                            </p>
-
-                                                                                            <p class="condition">
-                                                                                                <span id="spanParcelamento1" class="block1"><strong>9x</strong> de <strong>R$ 20,89</strong> sem juros</span>
-                                                                                                <span id="spanParcelamento2" class="block2"></span>
-                                                                                                <span id="spanOutroParc" class="block3"></span>
-                                                                                            </p>
-                                                                                            <span class='BolAvista' style='margin: 0;'>Pague no boleto: R$ <b>174,84</b> (Desconto de <b>7%</b>)</strong></span>
-
-
-                                                                                            <div id="parcel-selos">
-                                                                                                <div class='parcel-container'>    <div id="tituloParcelamento">Parcelamento no cartão de crédito</div>    <div class='mid'><ul class='first'>    <li>1x de R$ 188,00 sem juros</li>    <li>2x de R$ 94,00 sem juros</li>    <li>3x de R$ 62,67 sem juros</li>    <li>4x de R$ 47,00 sem juros</li>    <li>5x de R$ 37,60 sem juros</li></ul><ul>    <li>6x de R$ 31,33 sem juros</li>    <li>7x de R$ 26,86 sem juros</li>    <li>8x de R$ 23,50 sem juros</li>    <li>9x de R$ 20,89 sem juros</li></ul>    </div></div>
-                                                                                                <!-- SELOS -->
-                                                                                                <ul class="selos_container">
-
-
-
-
-
-                                                                                                    <li class="ec-selo">
-                                                                                                        <span id="spanOutros">
-                                                                                                            <span id="spanSelos" class="listaselos"></span>
-                                                                                                        </span>
-                                                                                                    </li>
-                                                                                                </ul>
-
-                                                                                            </div>
-
-
-                                                                                            <fieldset class="opcoes_produtos">
-                                                                                                <legend>Opções produto</legend>
-                                                                                                <span id="spanSKU">
-                                                                                                    <dl>
-
-                                                                                                    </dl>
-                                                                                                </span>
-                                                                                            </fieldset>
-
-                                                                                        </div>
-
-                                                                                        <div class="footer">
-                                                                                            <ul id="user-options">
-                                                                                                <li class="invite">
-                                                                                                    <a href="#I">
-                                                                                                        Indicar a um amigo
-                                                                                                    </a>
-                                                                                                </li>
-                                                                                                <li class="add">
-                                                                                                    <a href="javascript:;" onclick="javascript:AdicionarListaDesejo();return false;">
-                                                                                                        Adicionar a uma lista
-                                                                                                    </a>
-                                                                                                </li>
-                                                                                            </ul>
-                                                                                            <a class="tags" href="#aTags" title="TAG's">
-                                                                                                TAG's
-                                                                                            </a>
-                                                                                            <!-- Aqui aplica o Iframe do FaceBook -->
-                                                                                            <p class="facebook" style="margin-top:-20px; margin-left:50px">
-                                                                                                <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.megamamute.com.br/Celular-Desbloqueado-Dual-Chip-R236-Preto-ZTE-349210.aspx/p&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
-                                                                                            </p>
-                                                                                            <p class="share">
-
-                                                                                                <script type="text/javascript">var addthis_pub = "MegaMamute - celular-desbloqueado-dual-chip-r236-preto-zte";</script>
-                                                                                                <a href="http://www.addthis.com/bookmark.php?v=250&pub=xa-4a7316a16a9a6dd7" onmouseover="return addthis_open(this, '', 'http://www.megamamute.com.br/Celular-Desbloqueado-Dual-Chip-R236-Preto-ZTE-349210.aspx/p', 'celular-desbloqueado-dual-chip-r236-preto-zte on MegaMamute')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" alt="Bookmark and Share" /></a>
-                                                                                                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a7316a16a9a6dd7"></script>
-
-                                                                                            </p>
-                                                                                            <div class="rating" itemtype="http://data-vocabulary.org/Review-aggregate" itemscope="" itemprop="review">
-                                                                                                <dl class="note_to_view">
-                                                                                                    <dt class="dn">
-                                                                                                        Celular Desbloqueado Dual Chip R236 Preto ZTE
-                                                                                                    </dt>
-                                                                                                    <dd class="note">
-                                                                                                        <span itemprop="count" style="margin-left: 4px;">0  Avaliação</span>  
-                                                                                                        <a href="#Avalie">
-                                                                                                            <span class='rating-foreground' style='width:0%'>0%<meta content=0 itemprop='rating'></span>
-                                                                                                        </a>
-                                                                                                    </dd>
-                                                                                                </dl>
-                                                                                                <ul class="lstAvaliacao">
-
-                                                                                                    <li class="fst icoAvaliacaoCliente">
-                                                                                                        <a href="#Avalie">
-                                                                                                            Seja o primeiro a avaliar este produto!
-                                                                                                        </a>
-                                                                                                    </li>								
-
-                                                                                                </ul>
-
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                    <div id="chaordic_frequentlybought"> 
-                                                                        <!-- Local onde sera posicionado o Widget. O id do div nao deve ser mudado. --> 
-                                                                    </div>
-
-
-
-                                                                    <script language=javascript>
-
-                                                                        (_csLoader = window._csLoader || []).push(function(I) {
-                                                                            /*
-                                                                             * Instanciacao do Widget e seu respectivo pack (gerada dinamicamente no servidor)  
-                                                                             */
-                                                                            new I.FrequentlyBought({
-                                                                                source : "product details",
-                                                                                pack : "EKMASiRVjbJrKkXDEHPxTAND63mOQCl8YFbpY/lnftzfieMq1D6pNNLD5wdgxyb9V542J90BkowIgkrKBOrHxyy8N9hKULQOAxAl7NpFSNZkFrZnTlDbh4rrKF3iH+JH0gQFKXFdm4pTZfdtrjzXBlpENpBC+bvk+km6b17MVxY5z3FTKbWSFRL331UuTlJalt6pRKwn3duQ6juDDIlKGw==" 
-                                                                            });
-                                                                        });
- 
-                                                                    </script>
-
-                                                                    <!-- exemplo de como chamar o widget para SimilarItems -->
-                                                                    <div id="chaordic_similaritems"> 
-                                                                        <!-- Local onde sera posicionado o Widget. O id do div nao deve ser mudado. --> 
-                                                                    </div>    
-
-
-
-                                                                    <script language=javascript>
-
-                                                                        (_csLoader = window._csLoader || []).push(function(I) {
-                                                                            /*
-                                                                             * Instanciacao do Widget e seu respectivo pack (gerada dinamicamente no servidor)  
-                                                                             */
-                                                                            new I.SimilarItems({
-                                                                                source : "product details",
-                                                                                pack : "EKMASiRVjbJrKkXDEHPxTAND63mOQCl8YFbpY/lnftzfieMq1D6pNNLD5wdgxyb9V542J90BkowIgkrKBOrHxyy8N9hKULQOAxAl7NpFSNZkFrZnTlDbh4rrKF3iH+JH0gQFKXFdm4pTZfdtrjzXBlpENpBC+bvk+km6b17MVxY5z3FTKbWSFRL331UuTlJalt6pRKwn3duQ6juDDIlKGw==" 
-                                                                            });
-                                                                        });
- 
-                                                                    </script>
-
-                                                                    <div id="chaordic_ultimatebuy"> 
-
-                                                                        <!-- Local onde sera posicionado o Widget. O id do div nao deve ser mudado. --> 
-                                                                    </div>
-
-
-
-                                                                    <script language=javascript>
-
-                                                                        (_csLoader = window._csLoader || []).push(function(I) {
-                                                                            /*
-                                                                             * Instanciacao do Widget e seu respectivo pack (gerada dinamicamente no servidor)  
-                                                                             */
-                                                                            new I.UltimateBuy({
-                                                                                source : "product details",
-                                                                                pack : "EKMASiRVjbJrKkXDEHPxTAND63mOQCl8YFbpY/lnftzfieMq1D6pNNLD5wdgxyb9V542J90BkowIgkrKBOrHxyy8N9hKULQOAxAl7NpFSNZkFrZnTlDbh4rrKF3iH+JH0gQFKXFdm4pTZfdtrjzXBlpENpBC+bvk+km6b17MVxY5z3FTKbWSFRL331UuTlJalt6pRKwn3duQ6juDDIlKGw==" 
-                                                                            });
-                                                                        });
- 
-                                                                    </script>
-
-
-
-                                                                    <div id="description"> 
-                                                                        <a name="D"></a>
-                                                                        <div class="title">
-                                                                            <span>
-                                                                                <h2>Descrição</h2>
-                                                                            </span>
-                                                                        </div>
-                                                                        <div class="box_content">
-                                                                            <P> Celular ZTE R236 compacto e ideal para seu dia a dia!  Com teclado QWERTY e diplay de 2.0" o ZTE R236 é feito na medida para você! Ele é Dual Chip, compacto e possui funções para ajudar você nos seus contatos diários. Também oferece Câmera 1.3MP, Radio FM, MP3 e Bluetooth.  <br><br><STRONG>Características Gerais</STRONG> <br>Modelo: ZTE R236 <br>Cor: Preto  <br><br><em>Frequência:</em> <br>GSM: GSM: 900 / 1800 MHz <br>WCDMA: Não especificado  <br><br><em>Display: </em><br>Tamanho: 2.0" TFT <br>Resolução: 220 x 176 <br>Touchscreen: Não <br>Teclado: QWERTY  <br>Câmera: 1.3 MP <br>Captura de Vídeo: Sim <br>Memória Interna: Não Especificado <br>Cartão de Memória externo: Micro SD (Até 2GB) (Não Incluso)<br>Leitor de Música: MP3/eAAC+ <br>Rádio FM: Sim <br>Formato de Vídeo: MP4/H.264 <br>Formato de Imagem: Jpeg <br>Bluetooth: Sim <br>Leitor de Documentos: Não <br>Modem EDGE/GPRS: Sim  <br><br><STRONG>Recursos</STRONG> <br><EM>Teclado QWERTY</EM> <br>Um teclado completo para rápidas mensagens de texto em um telefone fácil e simples de usar. Com R236 você pode desfrutar do conforto de um teclado qwerty, digite mais rápido do que nunca. envio de mms, sms e até mesmo e-mails, agora é simples e fácil. basta tentar! você nunca vai deixá-lo!  <br><br><br><STRONG>Conexões</STRONG> <br>USB  <br><br><STRONG>Informações Adicionais</STRONG> <br>Bateria: Não Especificado <br>Tempo de Conversação: 360 min <br>Tempo em Stand-by: 200 Horas  <br><br>*Imagens meramente ilustrativas.  <br><br><STRONG>Itens Inclusos</STRONG> <br>01 x  Aparelho <br>01 x  Bateria <br>01 x  Carregador <br>01 x  Fone de Ouvido <br>01 x  Manual</P>
-                                              </div>
-                                                                        </div>
+                                                  
+					            
+					<div id="breadcrumbs_carrinho_container">
+						<dl id="breadcrumbs_carrinho">
+							<dt>
+								Etapas
+							</dt>
+							<dd class="fst icoPasso1">
+								<span class="selected">
+									Passo 1 - Compra
+								</span>
+							</dd>
+							<dd class="icoPasso2">
+								<span>
+									Passo 2 - Identificação
+								</span>
+							</dd>
+							
+							<dd class="icoPasso3">
+								<span>
+									Passo 3 - Endereço
+								</span>
+							</dd>
+							<dd class="icoPasso4">
+								<span>
+									Passo 4 - Entrega
+								</span>
+							</dd>
+							<dd class="icoPasso5">
+								<span>
+									Passo 5 - Pagamento
+								</span>
+							</dd>							
+							
+						</dl>
+					</div>
+					            
+
+					            <ul class="botoesCarrinho">
+						            <li>
+							            <input name="btnComprarMaisSuperior" id="btnComprarMaisSuperior" title="Comprar mais produtos" alt="Comprar mais produtos" src="http://www.megamamute.com.br/Imagens/bt_comprar_mais_produtos.gif" onclick="document.location.href='http://www.megamamute.com.br';return false;" style="border-width:0px;border:none;" type="image">
+						            </li>
+						            <li>
+							            <a href="javascript:LimparCesta()"><img src="http://www.megamamute.com.br/Imagens/bt_limpar_carrinho.gif" alt="Limpar carrinho" title="Limpar carrinho"></a>
+						            </li>
+					            </ul>
+            					
+					            <ul class="botoesCarrinho_dir">
+            						
+						            <li>
+							            <a href="javascript:FecharPedido('GHDPKwGHDOKwGIDL')"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
+						            </li>
+					            </ul>
+            					
+					            
+            					
+					            <table class="tabelaCarrinho" cellpadding="0" cellspacing="0">
+						            <thead>
+							            <tr>
+								            <td class="tdProduto">
+									            <span>Produto</span>
+								            </td>
+								            <td class="tdDescricao">
+									            <span>Descrição</span>
+								            </td>
+								            <td class="tdQuantidade">
+									            <span>Qtde.</span>
+								            </td>
+								            
+								            <td class="tdPresente">
+									            <span>Presente?</span>
+								            </td>
+								            
+								            <td class="tdExcluir">
+									            <span>Excluir</span>
+								            </td>
+								            								
+								            <td class="tdValorUnitario">
+									            <span>Unit. R$</span>
+								            </td>
+								            <td class="tdSubTotal">
+									            <span>Subtotal R$</span>
+								            </td>
+							            </tr>
+						            </thead>
+						            <tbody>
+							            								<tr class="esc">
+									<td class="tdProduto">
+										<a href="http://www.megamamute.com.br/Celular-Desbloqueado-Dual-Chip-R236-Preto-ZTE-349210.aspx/p"><img src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Thumb.jpg" alt="Celular Desbloqueado Dual Chip R236 Preto ZTE" title="Celular Desbloqueado Dual Chip R236 Preto ZTE" border="0" height="90" width="90"></a>
+									</td>
+									<td class="tdDescricao">
+										<div class="ec-name">
+											<a href="javascript:;">Celular Desbloqueado Dual Chip R236 Preto ZTE</a>
+										</div>
+										<p>
+										    Fabricante: ZTE<br>(#1051-26202-000-000)
+										</p>
+									</td>
+									<td class="tdQuantidade">
+                                     <div class="btnContainer">                                         <a href="javascript:;" onclick="javascript:AlteraQtdeItem('Remover','970528','1',10)">                                             <img class="bt_menos" title="menos" alt="menos" src="http://www.megamamute.com.br/Imagens/bt_menos.gif">                                         </a>										    <input onchange="javascript:AtualizaQtdeItem(this, 10)" onfocus="javascript:ArmazenaValorAntigo(this)" name="970528" id="970528" class="text" value="1" maxlength="3" title="Quantidade" style="text-align:center" type="text">
+                                         <a href="javascript:;" onclick="javascript:AlteraQtdeItem('Adicionar','970528','1',10)">                                             <img class="bt_mais" title="mais" alt="mais" src="http://www.megamamute.com.br/Imagens/bt_mais.gif">                                         </a>                                     </div>									</td>
+									<td class="tdPresente">
+										<span>
+										    <input class="nb" id="ckPresente_970528" name="ckPresente_970528" value="970528" title="Presente?" onclick="javascript:PresenteItem(this)" type="checkbox">
+									        <label for="ckPresente_970528">Sim</label>
+										</span>
+									</td>
+									<td class="tdExcluir">
+										<a href="javascript:ExcluirItem(970528);">
+											<img src="http://www.megamamute.com.br/Imagens/bt_excluir4.gif" alt="Excluir" title="Excluir"><br>
+										</a>
+									</td>
+									<td class="tdValorUnitario">
+										R$&nbsp;<del>234,80</del><br>R$&nbsp;188,00
+									</td>
+									<td class="tdSubTotal">
+										R$&nbsp;<del>234,80</del><br>R$&nbsp;188,00
+									</td>
+								</tr>
+
+						            </tbody>
+						            <tfoot>
+						                
+						                <tr class="subTotal">
+				                            <td class="tdTitSubTotal" colspan="6">Subtotal:</td>
+				                            <td class="tdSubTotal">R$ 188,00</td>
+				                        </tr>
+				                        <tr id="LinhaFrete">
+								            <td class="tdCEP" colspan="6">
+                                                <span>
+                                                    <span class="tdTit">Frete:</span>
+										            <label for="stCEP_1">
+											            Insira o CEP do endereço de entrega
+										            </label>
+										            <input class="stCEP_1" onkeypress="SomenteNumero2(event,this,'#####-###');" id="CEP" onkeyup="javascritp:if(this.value.length == 9) ColocaFocus('CalcularFreteBt', event);" maxlength="9" value="" name="CEP" title="CEP do endereço de entrega" style="text-align:center" type="text">
+										            <a class="btCalcular" href="javascript:CalcularFrete()"><img src="http://www.megamamute.com.br/Imagens/bt_calcular_frete2.gif" id="CalcularFreteBt" name="CalcularFreteBt" title="Calcular"></a>
+                                                </span>
+								            </td>
+								            <td class="tdSubTotal">
+									            R$ 0,00
+								            </td>
+							            </tr>
+							            
+							            <tr class="inputs">
+								            <td class="tdCupom" colspan="6">
+									            <span>
+									                <label for="stCEP_1">
+										                 Insira seu <span>Cupom de Desconto</span> ou <span>Vale-Presente</span>:
+									                </label>
+									                <fieldset>
+										                <input class="stCupom" onkeypress="javascript:Mascara2(event, this, '######-##############################');" id="Cupom" onkeydown="ColocaFocus('CalcularCupomBt', event);" maxlength="37" name="Cupom" title="Código do Cupom ou Vale-Presente" style="text-align:center" type="text">
+										                <a id="CalcularCupomBt" class="btCalcular" href="javascript:CalcularCupom()"><img src="http://www.megamamute.com.br/Imagens/bt_utilizar_cupom.gif" id="btCalcular_2" name="btCalcular_2" title="Calcular"></a>
+									                </fieldset>
+									            </span>
+								            </td>
+								            <td class="tdSubTotal">
+									            
+								            </td>
+							            </tr>
+							            
+							            
+							            <tr>
+								            <td class="tdTitSubTotal" colspan="6">Economia: </td>
+								            <td class="tdSubTotal">
+									            R$ 46,80
+								            </td>
+							            </tr>
+							            
+							            <tr class="trTotal">
+								            <td class="tdTotal" colspan="6">
+									            TOTAL
+								            </td>
+								            <td class="tdSubTotal">
+									            <span class="precoSemJuros">R$ 188,00</span>
+									            <!--
+										            <br /><span class="txtComJuros"></span><br /><span class="precoComJuros"></span>
+									            -->
+								            </td>
+							            </tr>
+						            </tfoot>
+					            </table>
+					            <ul class="botoesCarrinho">
+						            <li>
+							            <input name="btnComprarMaisInferior" id="btnComprarMaisInferior" title="Comprar mais produtos" alt="Comprar mais produtos" src="http://www.megamamute.com.br/Imagens/bt_comprar_mais_produtos.gif" onclick="document.location.href='http://www.megamamute.com.br';return false;" style="border-width:0px;border:none;" type="image">
+						            </li>
+						            <li>
+							            <a href="javascript:LimparCesta()"><img src="http://www.megamamute.com.br/Imagens/bt_limpar_carrinho.gif" alt="Limpar carrinho" title="Limpar carrinho"></a>
+						            </li>
+					            </ul>
+					            <ul class="botoesCarrinho_dir">
+						            <li>
+							            <a href="javascript:FecharPedido('GHDPKwGHDOKwGIDL')"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
+						            </li>
+					            </ul>
+					            
+					        
                                                                                                             <!-- FIM DO CONTEUDO PRINCIPAL -->
                                                                                                             </div>
                                                                                                             </div>
