@@ -58,7 +58,7 @@
         <meta http-equiv="expires" content="Fri, 13 Jul 2001 00:00:01 GMT" />
         <meta name="google-site-verification" content="A7VMWE3s79VxaYXUPOucfFPl1lASf5TGRJETc3YvStM" />
 
-        <link rel="shortcut icon" href="https://www.megamamute.com.br/locales/global/img/favicon.ico" />
+        <link rel="shortcut icon" href="images/faviconTS.ico" />
         <link rel="stylesheet" type="text/css" href="https://www.megamamute.com.br/locales/global/css/reset.css" media="all" />
         <link rel="stylesheet" type="text/css" href="https://www.megamamute.com.br/includes/minify.aspx?main.css" media="screen" />
 
