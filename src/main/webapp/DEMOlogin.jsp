@@ -326,25 +326,13 @@ x.src="IMG/passos2.png"
 							
 						</dl>
 					</div>--%>
-<script>
-function changeImg(x)
-{
-x.src="LogoTS.png"
-}
-
-function backImg(x)
-{
-x.style.height="32px";
-x.style.width="32px";
-}
-</script>
 					<!-- CONTEUDO INTERNO (CENTRO) -->
 				<div id="box_login" class="box_910_container">
 			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
 			            <div class="containerLogin box_login">
-                                        <img src="images/msgcomprapaypal.png" onmouseover="changeImg('end')" onmouseout="backImg('end')" id="comprapaypal">
+                                        <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
