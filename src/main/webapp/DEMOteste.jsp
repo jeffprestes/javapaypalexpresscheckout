@@ -413,55 +413,16 @@
 						            </tbody>
 						            <tfoot>
 						                <tr><td></br></td></tr>
-						                <tr class="subTotal">
-                                                                    
-				                            <td class="tdTitSubTotal" colspan="6">Subtotal:</td>
-				                            <td class="tdSubTotal">R$ 188,00</td>
-				                        </tr>
-				                        <tr id="LinhaFrete">
-								            <td class="tdCEP" colspan="6">
-                                                <span>
-                                                    
-                                                    <span class="tdTit">Frete:</span>
-										            <label for="stCEP_1">
-											            Insira o CEP do endereço de entrega
-										            </label>
-										            <input class="stCEP_1" onkeypress="SomenteNumero2(event,this,'#####-###');" id="CEP" onkeyup="javascritp:if(this.value.length == 9) ColocaFocus('CalcularFreteBt', event);" maxlength="9" value="" name="CEP" title="CEP do endereço de entrega" style="text-align:center" type="text">
-										            <a class="btCalcular" href="javascript:CalcularFrete()"><img src="http://www.megamamute.com.br/Imagens/bt_calcular_frete2.gif" id="CalcularFreteBt" name="CalcularFreteBt" title="Calcular"></a>
-                                                </span>
-								            </td>
-								            <td class="tdSubTotal">
-									            R$ 0,00
-								            </td>
-							            </tr>
-							            
-							            <tr class="inputs">
-								            <td class="tdCupom" colspan="6">
-									            <span>
-									                <label for="stCEP_1">
-										                 Insira seu <span>Cupom de Desconto</span> ou <span>Vale-Presente</span>:
-									                </label>
-									                <fieldset>
-										                <input class="stCupom" onkeypress="javascript:Mascara2(event, this, '######-##############################');" id="Cupom" onkeydown="ColocaFocus('CalcularCupomBt', event);" maxlength="37" name="Cupom" title="Código do Cupom ou Vale-Presente" style="text-align:center" type="text">
-										                <a id="CalcularCupomBt" class="btCalcular" href="javascript:CalcularCupom()"><img src="http://www.megamamute.com.br/Imagens/bt_utilizar_cupom.gif" id="btCalcular_2" name="btCalcular_2" title="Calcular"></a>
-									                </fieldset>
-									            </span>
-								            </td>
-								            <td class="tdSubTotal">
-									            
-								            </td>
-							            </tr>
-							            
-							            
+				
 							            <tr>
-								            <td class="tdTitSubTotal" colspan="6">Economia: </td>
+								            <td class="tdTitSubTotal" colspan="5">Economia: </td>
 								            <td class="tdSubTotal">
 									            R$ 46,80
 								            </td>
 							            </tr>
 							            
 							            <tr class="trTotal">
-								            <td class="tdTotal" colspan="6">
+								            <td class="tdTotal" colspan="5">
 									            TOTAL
 								            </td>
 								            <td class="tdSubTotal">
