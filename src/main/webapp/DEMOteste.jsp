@@ -375,17 +375,9 @@
 								            <td class="tdQuantidade">
 									            <span><h4>Qtde.</h4></span>
 								            </td>
-								            
-								            <td class="tdPresente">
-									            <span><h4>Presente?</h4></span>
-								            </td>
-								            
-								            <td class="tdExcluir">
-									            <span><h4>Excluir</h4></span>
-								            </td>
 								            								
 								            <td class="tdValorUnitario">
-									            <span><h4>Unit. R$</h4></span>
+									            <span><h4>Unit. R$&nbsp;</h4></span>
 								            </td>
 								            <td class="tdSubTotal">
 									            <span><h4>Subtotal R$</h4></span>
@@ -408,22 +400,13 @@
 									<td class="tdQuantidade">
                                      <div class="btnContainer">                                         <a href="javascript:;" onclick="javascript:AlteraQtdeItem('Remover','970528','1',10)">                                             <img class="bt_menos" title="menos" alt="menos" src="http://www.megamamute.com.br/Imagens/bt_menos.gif">                                         </a>										    <input onchange="javascript:AtualizaQtdeItem(this, 10)" onfocus="javascript:ArmazenaValorAntigo(this)" name="970528" id="970528" class="text" value="1" maxlength="3" title="Quantidade" style="text-align:center" type="text">
                                          <a href="javascript:;" onclick="javascript:AlteraQtdeItem('Adicionar','970528','1',10)">                                             <img class="bt_mais" title="mais" alt="mais" src="http://www.megamamute.com.br/Imagens/bt_mais.gif">                                         </a>                                     </div>									</td>
-									<td class="tdPresente">
-										<span>
-										    <input class="nb" id="ckPresente_970528" name="ckPresente_970528" value="970528" title="Presente?" onclick="javascript:PresenteItem(this)" type="checkbox">
-									        <label for="ckPresente_970528">Sim</label>
-										</span>
-									</td>
-									<td class="tdExcluir">
-										<a href="javascript:ExcluirItem(970528);">
-											<img src="http://www.megamamute.com.br/Imagens/bt_excluir4.gif" alt="Excluir" title="Excluir"><br>
-										</a>
-									</td>
+
+					
 									<td class="tdValorUnitario">
-										R$&nbsp;<del>234,80</del><br>R$&nbsp;188,00
+										R$&nbsp;<del>234,80</del>&nbsp;<br>R$&nbsp;188,00
 									</td>
 									<td class="tdSubTotal">
-										R$&nbsp;<del>234,80</del><br>R$&nbsp;188,00
+										R$&nbsp;<del>234,80</del>&nbsp;<br>R$&nbsp;188,00
 									</td>
 								</tr>
 
