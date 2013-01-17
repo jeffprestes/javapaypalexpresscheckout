@@ -15,7 +15,7 @@
 
         <!-- Início do Head -->
 
-        <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Teste Shop</TITLE>
+        <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Test Shop</TITLE>
 
         <script type="text/javascript"> 
             //<![CDATA[[ 
@@ -392,7 +392,7 @@
                                                                                             </h1>
                                                                                             <fieldset class="form_buy">
                                                                                                 </br>
-                                                                                                <input type="submit" value="COMPRAR" src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif"/>
+                                                <a href="DEMOfinalize.jsp"><img src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif"/></a>
                                                                                             </fieldset>
                                                                                             
                                                                                             <dl class="reference">

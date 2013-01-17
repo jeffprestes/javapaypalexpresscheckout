@@ -15,7 +15,7 @@
 
         <!-- Início do Head -->
 
-        <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - MegaMamute</TITLE>
+        <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Test Shop</TITLE>
 
         <script type="text/javascript"> 
             //<![CDATA[[ 

@@ -10,9 +10,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
 <head>
 	
-	<!-- In√≠cio do Head -->
+	<!-- Inicio do Head -->
 
-	<TITLE>Eletr√¥nicos, Inform√°tica, Games  e muito mais! Em at√© 12x - MegaMamute</TITLE>
+	<TITLE>EletrÙnicos, Inform·tica, Games  e muito mais! Em atÈ 12x - Test Shop</TITLE>
 	
 	<script type="text/javascript"> 
         //<![CDATA[[ 

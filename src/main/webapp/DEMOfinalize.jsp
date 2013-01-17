@@ -11,7 +11,7 @@
 	
 	<!-- In√≠cio do Head -->
 
-	<TITLE>Eletr√¥nicos, Inform√°tica, Games  e muito mais! Em at√© 12x - MegaMamute</TITLE>
+	<TITLE>EletrÙnicos, Inform·tica, Games  e muito mais! Em atÈ 12x - Test Shop</TITLE>
 	
 	<script type="text/javascript"> 
         //<![CDATA[[ 
