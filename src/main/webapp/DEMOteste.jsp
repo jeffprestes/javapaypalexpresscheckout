@@ -317,183 +317,213 @@
                                                                 </div>-->				
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
            
-                                                                     
-                        <div class="mid">
-                            <div class="bot">
-					            <div class="product-container">
-
-						            <div id="photo-details">
-                                        		                                                                                    
-							            <img src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" name="ProdutoImagemAux" id="ProdutoImagemAux" style="display:none;">
-
-							                <div id="big_photo_container">
-								                <a title="" id="Zoom1" rel="zoom-width:497px;zoom-height:333px;zoom-position:right;" href="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Ampliada.jpg" class="MagicZoom" style="position: relative; display: block; outline: 0px none; text-decoration: none; width: 410px; -moz-user-select: none;"><img name="ProdutoImagem" id="sim496812" onload="carregaImgAux(this);" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes.jpg" imgamp="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Ampliada.jpg">
-								                <div class="MagicZoomBigImageCont" style="width: 497px; height: 333px; overflow: hidden; z-index: 100; visibility: visible; position: absolute; top: -10000px; left: 448px; margin-top: 0px; border-width: 1px; border-color: rgb(213, 213, 213); display: block;" id="bc496812"><div style="overflow: hidden;"><img style="position: relative; border-width: 0px; padding: 0px; left: -502.439px; top: 0px; display: block; visibility: visible;" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Ampliada.jpg"></div></div><div style="z-index: 10; visibility: hidden; position: absolute; opacity: 0.5; width: 202px; height: 135px; left: 206px; top: 0px;" class="MagicZoomPup"></div></a>
-							                </div>
-                                            <div id="big_video_container" class="big_video_container" style="display:none;"></div>
-
-							                <div class="enlarge">
-							                    <div id="enlargeItens">
-                                                    <p class="cliqueParaAmpliar">
-								                        <a href="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Ampliada.jpg" class="Amplaida" id="lnkAmpliada">Ampliar imagem</a>
-							                        </p>
-							                        <p class="passeMouseParaAmpliar">
-							                            Passe o mouse para ampliar
-							                        </p>
-    							                </div>
-							                </div>							
-<div id="pnlThumbs" class="lstThumbs">
-	
-                                            <a id="lnkThumb1" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe1'))"><img id="ImgDetalhe1" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes1.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" style="border-width:0px;"></a>
-                                            <a id="lnkThumb2" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe2'))"><img id="ImgDetalhe2" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes2.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" style="border-width:0px;"></a>
-                                            <a id="lnkThumb3" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe3'))"><img id="ImgDetalhe3" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes3.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" style="border-width:0px;"></a>
-                                            <a id="lnkThumb4" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe4'))"><img id="ImgDetalhe4" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes4.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" style="border-width:0px;"></a>
-                                            <a id="lnkThumb5" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe5'))"><img id="ImgDetalhe5" title="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" src="http://www.megamamute.com.br/Imagens/produtos/00/29500/29500_Detalhes5.jpg" alt="Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG" style="border-width:0px;"></a>
-	                                    
-</div>
-                                        
-						            </div>
+                                                                                                          <div id="main">
 
 
-						            <div id="info-details">
-						                <div class="header">
-						                    <h1>
-						                        Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG
-					                        </h1>
-					                        <fieldset class="form_buy">
-					                            <span id="spanSKUComprar">		<span id="spanDisponibilidade"><a href="javascript:AdicionarItemCesta(353197, 0)" name="DROP_SKU_Comprar" id="DROP_SKU_Comprar"><img src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif" id="btComprarProduto" name="btComprarProduto" title="Comprar" value="Comprar"></a><img style="display:none" src="http://www.megamamute.com.br/Imagens/bt_aguarde.gif" id="btAguarde" name="btAguarde" title="btAguarde" value="btAguarde"></span>
-</span>
-					                        </fieldset>
-					                        <dl class="reference">
-						                        <dt class="fst">
-							                        Fabricante:
-						                        </dt>
-						                        <dd>
-            							            <a href="http://www.megamamute.com.br/Samsung-532.aspx/x">Samsung</a>
-            							            <!--<a href="http://www.megamamute.com.br/vit_f/532/samsung.aspx"></a>-->
-						                        </dd>
-
-						                        <dt>
-							                        Cód. do produto:
-						                        </dt>
-						                        <dd>
-							                        29500
-						                        </dd>
-
-					                        </dl>
-					                        <div id="delivery">
-								                <p>
-									                <a href="http://www.megamamute.com.br/consultaPrazoEntrega.aspx?Pc=353197" id="lnkSaibaMaisEntrega" class="consultaPrazoEntrega iframe">Saiba mais</a>
-								                </p>
-							                </div>
-						                </div>
+                                                                <ul id="breadcrumbs">
+                                                                    <li>		Celular Desbloqueado Dual Chip R236 Preto ZTE</li>
+                                                                </ul>
 
 
-						                <div class="section">							    
+                                                                <hr />
+                                                                <!-- BANNERS PRINCIPAIS (TOPO) -->
+                                                                <!--
+                                                                        para banners em flash, coloque, mesmo assim o link do banner no div em que o flash será escrito.
+                                                                        caso o banner não seja um flash, remova a chamada de javascript logo abaixo do div
+                                                                -->
+                                                                <div class="banner banner_main" id="banner_content_topo">
+                                                                    <!-- Banner Superior  -->
 
-						                    <p class="price">
-						                        <span id="spanPreco" class="block1-inline">de: R$ 2.108,00</span>
-						                        <span id="spanPrecoPor" class="block2-inline">por: R$ 1.958,00</span>
-						                    </p>
-						                    
-						                    <p class="promocao">
-						                        
-						                    </p>
+                                                                    <script language="javascript">
 
-					                            <p class="condition">
-                                                    <span id="spanParcelamento1" class="block1"><strong>12x</strong> de <strong>R$ 163,17</strong> sem juros</span>
-						                            <span id="spanParcelamento2" class="block2"></span>
-						                            <span id="spanOutroParc" class="block3"></span>
-					                            </p>
-<span class="BolAvista" style="margin: 0;">Pague no boleto: R$ <b>1.820,94</b> (Desconto de <b>7%</b>)</span>
+                                                                    </script>
+                                                                    <!-- Fim Banner Superior -->
+                                                                </div>
+                                                                <!-- FIM DOS BANNERS PRINCIPAIS (TOPO) -->
 
 
-                                            <div id="parcel-selos">
-                                                <div class="parcel-container">    <div id="tituloParcelamento">Parcelamento no cartão de crédito</div>    <div class="mid"><ul class="first">    <li>1x de R$ 1.958,00 sem juros</li>    <li>2x de R$ 979,00 sem juros</li>    <li>3x de R$ 652,67 sem juros</li>    <li>4x de R$ 489,50 sem juros</li>    <li>5x de R$ 391,60 sem juros</li>    <li>6x de R$ 326,33 sem juros</li></ul><ul>    <li>7x de R$ 279,71 sem juros</li>    <li>8x de R$ 244,75 sem juros</li>    <li>9x de R$ 217,56 sem juros</li>    <li>10x de R$ 195,80 sem juros</li>    <li>11x de R$ 178,00 sem juros</li>    <li>12x de R$ 163,17 sem juros</li></ul>    </div></div>
-                                                <!-- SELOS -->
-						                        <ul class="selos_container">
-						                                                        
-                                                                                
-                                                                                
-                                                                                
-                                                    
-                                                    <li class="ec-selo">
-                                                        <span id="spanOutros">
-						                                    <span id="spanSelos" class="listaselos"></span>
-					                                    </span>
-                                                    </li>
-						                        </ul>
 
-                                            </div>
-            							    
 
-					                        <fieldset class="opcoes_produtos">
-						                        <legend>Opções produto</legend>
-						                        <span id="spanSKU">
-						                            <dl>
-							                            
-						                            </dl>
-						                        </span>
-					                        </fieldset>
 
-					                    </div>
+                                                                <div class="content">
+                                                                    <div class="top">
+                                                                        <div class="mid">
+                                                                            <div class="bot">
+                                                                                <div class="product-container">
 
-						                <div class="footer">
-						                    <ul id="user-options">
-						                        <li class="invite">
-							                        <a href="#I">
-								                        Indicar a um amigo
-							                        </a>
-						                        </li>
-						                        <li class="add">
-				                                    <a href="javascript:;" onclick="javascript:AdicionarListaDesejo();return false;">
-				                                        Adicionar a uma lista
-				                                    </a>
-						                        </li>
-					                        </ul>
-					                        <a class="tags" href="#aTags" title="TAG's">
-					                            TAG's
-					                        </a>
-                                            <!-- Aqui aplica o Iframe do FaceBook -->
-                                            <p class="facebook" style="margin-top:-20px; margin-left:50px">
-                                                <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.megamamute.com.br/Smartphone-Desbloqueado-3G-Galaxy-SIII-GT-I9300-Branco-SAMSUNG-353197.aspx/p&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=21" style="border:none; overflow:hidden; width:100px; height:21px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
-                                            </p>
-					                        <p class="share">
+                                                                                    <div id="photo-details">
 
-                                                <script type="text/javascript">var addthis_pub = "MegaMamute - smartphone-desbloqueado-3g-galaxy-siii-gt-i9300-branco-samsung";</script>
-                                                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4a7316a16a9a6dd7" onmouseover="return addthis_open(this, '', 'http://www.megamamute.com.br/Smartphone-Desbloqueado-3G-Galaxy-SIII-GT-I9300-Branco-SAMSUNG-353197.aspx/p', 'smartphone-desbloqueado-3g-galaxy-siii-gt-i9300-branco-samsung on MegaMamute')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" alt="Bookmark and Share"></a>
-                                                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a7316a16a9a6dd7"></script>
+                                                                                        <img src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Detalhes.jpg" alt="Celular Desbloqueado Dual Chip R236 Preto ZTE" title="Celular Desbloqueado Dual Chip R236 Preto ZTE" name="ProdutoImagemAux" id="ProdutoImagemAux" style="display:none;"/>
 
-                                            </p>
-                                            <div class="rating" itemtype="http://data-vocabulary.org/Review-aggregate" itemscope="" itemprop="review">
-								                <dl class="note_to_view">
-									                <dt class="dn">
-										                Smartphone Desbloqueado 3G Galaxy SIII GT-I9300 Branco SAMSUNG
-									                </dt>
-									                <dd class="note">
-									                    <span itemprop="count" style="margin-left: 4px;">0  Avaliação</span>  
-										                <a href="#Avalie">
-											                <span style="width:47%">47%</span>
-										                </a>
-									                </dd>
-								                </dl>
-								                <ul class="lstAvaliacao">
-									                
-										                <li class="fst icoAvaliacaoCliente">
-											                <a href="#Avalie">
-												                Seja o primeiro a avaliar este produto!
-											                </a>
-										                </li>								
-									                
-								                </ul>
-                								
-							                </div>
-						                </div>
-						            </div>
-					            </div>
-                            </div>
-                        </div>
-                    
+                                                                                        <div id="big_photo_container">
+                                                                                            <a title="" id="Zoom1" rel="zoom-width:497px;zoom-height:333px;zoom-position:right;" href="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" class="MagicZoom"  style="cursor:hand;">
+                                                                                                <img name="ProdutoImagem" id="ProdutoImagem" onload="carregaImgAux(this);" src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Detalhes.jpg" imgAmp="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" />
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        <div id="big_video_container" class="big_video_container" style="display:none;"></div>
+
+                                                                                        <div class="enlarge">
+                                                                                            <div id="enlargeItens">
+                                                                                                <p class="cliqueParaAmpliar">
+                                                                                                    <a href="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Ampliada.jpg" class="Amplaida" id="lnkAmpliada">Ampliar imagem</a>
+                                                                                                </p>
+                                                                                                <p class="passeMouseParaAmpliar">
+                                                                                                    Passe o mouse para ampliar
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>							
+                                                                                        <div id="pnlThumbs" class="lstThumbs">
+
+                                                                                            <a id="lnkThumb1" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe1'))" style="display:none;"><img id="ImgDetalhe1" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
+                                                                                            <a id="lnkThumb2" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe2'))" style="display:none;"><img id="ImgDetalhe2" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
+                                                                                            <a id="lnkThumb3" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe3'))" style="display:none;"><img id="ImgDetalhe3" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
+                                                                                            <a id="lnkThumb4" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe4'))" style="display:none;"><img id="ImgDetalhe4" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
+                                                                                            <a id="lnkThumb5" onclick="javascrit:TrocaImagemDetalhe(document.getElementById('ImgDetalhe5'))" style="display:none;"><img id="ImgDetalhe5" src="" alt="&lt;%=PRODUTO_NOME%>" style="border-width:0px;" /></a>
+
+                                                                                        </div>
+
+                                                                                    </div>
+
+
+                                                                                    <div id="info-details">
+                                                                                        <div class="header">
+                                                                                            <h1>
+                                                                                                Celular Desbloqueado Dual Chip R236 Preto ZTE
+                                                                                            </h1>
+                                                                                            <fieldset class="form_buy">
+                                                                                                <input type="submit" value="COMPRAR" src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif"/>
+                                                                                            </fieldset>
+                                                                                            
+                                                                                            <dl class="reference">
+                                                                                                <dt class="fst">
+                                                                                                    Fabricante:
+                                                                                                </dt>
+                                                                                                <dd>
+                                                                                                    <a href="http://www.megamamute.com.br/ZTE-814.aspx/x">ZTE</a>
+                                                                                                    <!--<a href="http://www.megamamute.com.br/vit_f/814/zte.aspx"></a>-->
+                                                                                                </dd>
+
+                                                                                                <dt>
+                                                                                                    Cód. do produto:
+                                                                                                </dt>
+                                                                                                <dd>
+                                                                                                    26202
+                                                                                                </dd>
+
+                                                                                            </dl>
+                                                                                            <div id="delivery">
+                                                                                                <p>
+                                                                                                    <a href="http://www.megamamute.com.br/consultaPrazoEntrega.aspx?Pc=349210" id="lnkSaibaMaisEntrega" class="consultaPrazoEntrega iframe">Saiba mais</a>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+
+
+                                                                                        <div class="section">							    
+
+                                                                                            <p class="price">
+                                                                                                <span id="spanPreco" class="block1-inline">de: R$ 234,80</span>
+                                                                                                <span id="spanPrecoPor" class="block2-inline">por: R$ 188,00</span>
+                                                                                            </p>
+
+                                                                                            <p class="promocao">
+
+                                                                                            </p>
+
+                                                                                            <p class="condition">
+                                                                                                <span id="spanParcelamento1" class="block1"><strong>9x</strong> de <strong>R$ 20,89</strong> sem juros</span>
+                                                                                                <span id="spanParcelamento2" class="block2"></span>
+                                                                                                <span id="spanOutroParc" class="block3"></span>
+                                                                                            </p>
+                                                                                            <span class='BolAvista' style='margin: 0;'>Pague no boleto: R$ <b>174,84</b> (Desconto de <b>7%</b>)</strong></span>
+
+
+                                                                                            <div id="parcel-selos">
+                                                                                                <div class='parcel-container'>    <div id="tituloParcelamento">Parcelamento no cartão de crédito</div>    <div class='mid'><ul class='first'>    <li>1x de R$ 188,00 sem juros</li>    <li>2x de R$ 94,00 sem juros</li>    <li>3x de R$ 62,67 sem juros</li>    <li>4x de R$ 47,00 sem juros</li>    <li>5x de R$ 37,60 sem juros</li></ul><ul>    <li>6x de R$ 31,33 sem juros</li>    <li>7x de R$ 26,86 sem juros</li>    <li>8x de R$ 23,50 sem juros</li>    <li>9x de R$ 20,89 sem juros</li></ul>    </div></div>
+                                                                                                <!-- SELOS -->
+                                                                                                <ul class="selos_container">
+
+
+
+
+
+                                                                                                    <li class="ec-selo">
+                                                                                                        <span id="spanOutros">
+                                                                                                            <span id="spanSelos" class="listaselos"></span>
+                                                                                                        </span>
+                                                                                                    </li>
+                                                                                                </ul>
+
+                                                                                            </div>
+
+
+                                                                                            <fieldset class="opcoes_produtos">
+                                                                                                <legend>Opções produto</legend>
+                                                                                                <span id="spanSKU">
+                                                                                                    <dl>
+
+                                                                                                    </dl>
+                                                                                                </span>
+                                                                                            </fieldset>
+
+                                                                                        </div>
+
+                                                                                        <div class="footer">
+                                                                                            <ul id="user-options">
+                                                                                                <li class="invite">
+                                                                                                    <a href="#I">
+                                                                                                        Indicar a um amigo
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                                <li class="add">
+                                                                                                    <a href="javascript:;" onclick="javascript:AdicionarListaDesejo();return false;">
+                                                                                                        Adicionar a uma lista
+                                                                                                    </a>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <a class="tags" href="#aTags" title="TAG's">
+                                                                                                TAG's
+                                                                                            </a>
+                                                                                            <!-- Aqui aplica o Iframe do FaceBook -->
+                                                                                            <p class="facebook" style="margin-top:-20px; margin-left:50px">
+                                                                                                <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.megamamute.com.br/Celular-Desbloqueado-Dual-Chip-R236-Preto-ZTE-349210.aspx/p&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+                                                                                            </p>
+                                                                                            <p class="share">
+
+                                                                                                <script type="text/javascript">var addthis_pub = "MegaMamute - celular-desbloqueado-dual-chip-r236-preto-zte";</script>
+                                                                                                <a href="http://www.addthis.com/bookmark.php?v=250&pub=xa-4a7316a16a9a6dd7" onmouseover="return addthis_open(this, '', 'http://www.megamamute.com.br/Celular-Desbloqueado-Dual-Chip-R236-Preto-ZTE-349210.aspx/p', 'celular-desbloqueado-dual-chip-r236-preto-zte on MegaMamute')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" alt="Bookmark and Share" /></a>
+                                                                                                <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a7316a16a9a6dd7"></script>
+
+                                                                                            </p>
+                                                                                            <div class="rating" itemtype="http://data-vocabulary.org/Review-aggregate" itemscope="" itemprop="review">
+                                                                                                <dl class="note_to_view">
+                                                                                                    <dt class="dn">
+                                                                                                        Celular Desbloqueado Dual Chip R236 Preto ZTE
+                                                                                                    </dt>
+                                                                                                    <dd class="note">
+                                                                                                        <span itemprop="count" style="margin-left: 4px;">0  Avaliação</span>  
+                                                                                                        <a href="#Avalie">
+                                                                                                            <span class='rating-foreground' style='width:0%'>0%<meta content=0 itemprop='rating'></span>
+                                                                                                        </a>
+                                                                                                    </dd>
+                                                                                                </dl>
+                                                                                                <ul class="lstAvaliacao">
+
+                                                                                                    <li class="fst icoAvaliacaoCliente">
+                                                                                                        <a href="#Avalie">
+                                                                                                            Seja o primeiro a avaliar este produto!
+                                                                                                        </a>
+                                                                                                    </li>								
+
+                                                                                                </ul>
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
 
                                                                     <div id="chaordic_frequentlybought"> 
