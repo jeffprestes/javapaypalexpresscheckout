@@ -278,7 +278,7 @@ function __doPostBack(eventTarget, eventArgument) {
 			<!-- CONTEUDO PRINCIPAL -->
 			<div id="main">
 				
-					<!--<div id="breadcrumbs_carrinho_container">
+					<div id="breadcrumbs_carrinho_container">
 						<dl id="breadcrumbs_carrinho">
 							<dt>
 								Etapas
@@ -290,13 +290,13 @@ function __doPostBack(eventTarget, eventArgument) {
 							</dd>
 							<dd class="icoPasso2">
 								<span  class="selected">
-									Passo 2 - IdentificaÃ§Ã£o
+									Passo 2 - Identificação
 								</span>
 							</dd>
 							
 							<dd class="icoPasso3">
 								<span >
-									Passo 3 - EndereÃ§o
+									Passo 3 - Endereço
 								</span>
 							</dd>
 							<dd class="icoPasso4">
@@ -311,7 +311,7 @@ function __doPostBack(eventTarget, eventArgument) {
 							</dd>							
 							
 						</dl>
-					</div>-->				
+					</div>				
 					<!-- CONTEUDO INTERNO (CENTRO) -->
 				<div id="box_login" class="box_910_container">
 			        <div class="box_910_top"></div>
