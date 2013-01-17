@@ -363,7 +363,7 @@
             					</br>
 					            
             					
-					            <table class="tabelaCarrinho" cellpadding="0" cellspacing="0">
+                                                                <table class="tabelaCarrinho" border="2" cellpadding="1" cellspacing="0">
 						            <thead>
 							            <tr>
 								            <td class="tdProduto">
