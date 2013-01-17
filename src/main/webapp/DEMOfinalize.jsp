@@ -1,3 +1,8 @@
+<%-- 
+    Document   : DEMOfinalize
+    Created on : Jan 17, 2013, 12:28:42 PM
+    Author     : aalonso
+--%>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -2168,7 +2173,7 @@ function __doPostBack(eventTarget, eventArgument) {
 					            <ul class="botoesCarrinho_dir">
             						
 						            <li>
-							            <a href="DEMOlogin.html"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido" /></a>
+							            <a href="DEMOlogin.jsp"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido" /></a>
 						            </li>
 					            </ul>
             					
