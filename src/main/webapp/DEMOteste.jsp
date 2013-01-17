@@ -391,11 +391,13 @@
                                                                                                 Celular Desbloqueado Dual Chip R236 Preto ZTE
                                                                                             </h1>
                                                                                             <fieldset class="form_buy">
+                                                                                                </br>
                                                                                                 <input type="submit" value="COMPRAR" src="http://www.megamamute.com.br/Imagens/bt_comprar_produto.gif"/>
                                                                                             </fieldset>
                                                                                             
                                                                                             <dl class="reference">
                                                                                                 <dt class="fst">
+                                                                                                    </br>
                                                                                                     Fabricante:
                                                                                                 </dt>
                                                                                                 <dd>
@@ -422,8 +424,10 @@
                                                                                         <div class="section">							    
 
                                                                                             <p class="price">
+                                                                                                </br>
                                                                                                 <span id="spanPreco" class="block1-inline">de: R$ 234,80</span>
                                                                                                 <span id="spanPrecoPor" class="block2-inline">por: R$ 188,00</span>
+                                                                                                 </br>
                                                                                             </p>
 
                                                                                             <p class="promocao">
