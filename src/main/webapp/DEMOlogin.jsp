@@ -280,16 +280,16 @@ function __doPostBack(eventTarget, eventArgument) {
                             <script>
 function bigImg(x)
 {
-x.src="IMG/passos4.png"
+x.src="images/passos4.png"
 }
 
 function normalImg(x)
 {
-x.src="IMG/passos2.png"
+x.src="images/passos2.png"
 }
 </script>
 				<div id="breadcrumbs_carrinho_container">
-							<img id="passos2" src="IMG/passos2.png" >
+							<img id="passos2" src="images/passos2.png" >
 							</br>
 					</div>
                             <%--<div id="breadcrumbs_carrinho_container">
