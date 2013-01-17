@@ -53,6 +53,16 @@
         <td>&nbsp;</td>
         <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFácil) </a></td>
     </tr>
+    
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Test Shop DEMO</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="DEMOindex.jsp"><img src="LogoTS.png"></a></td>
+        </tr>
+    
 </table>
 </body>
 </html>
