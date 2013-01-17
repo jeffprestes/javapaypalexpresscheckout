@@ -319,7 +319,7 @@
            
                                                   
 					            
-					<div id="breadcrumbs_carrinho_container">
+                                                                <%--<div id="breadcrumbs_carrinho_container">
 						<dl id="breadcrumbs_carrinho">
 							<dt>
 								Etapas
@@ -352,17 +352,7 @@
 							</dd>							
 							
 						</dl>
-					</div>
-					            
-
-					            <ul class="botoesCarrinho">
-						            <li>
-							            <input name="btnComprarMaisSuperior" id="btnComprarMaisSuperior" title="Comprar mais produtos" alt="Comprar mais produtos" src="http://www.megamamute.com.br/Imagens/bt_comprar_mais_produtos.gif" onclick="document.location.href='http://www.megamamute.com.br';return false;" style="border-width:0px;border:none;" type="image">
-						            </li>
-						            <li>
-							            <a href="javascript:LimparCesta()"><img src="http://www.megamamute.com.br/Imagens/bt_limpar_carrinho.gif" alt="Limpar carrinho" title="Limpar carrinho"></a>
-						            </li>
-					            </ul>
+					</div>--%>
             					
 					            <ul class="botoesCarrinho_dir">
             						
@@ -370,35 +360,35 @@
 							            <a href="javascript:FecharPedido('GHDPKwGHDOKwGIDL')"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
 						            </li>
 					            </ul>
-            					
+            					</br>
 					            
             					
 					            <table class="tabelaCarrinho" cellpadding="0" cellspacing="0">
 						            <thead>
 							            <tr>
 								            <td class="tdProduto">
-									            <span>Produto</span>
+									            <span><h4>Produto</h4></span>
 								            </td>
 								            <td class="tdDescricao">
-									            <span>Descrição</span>
+									            <span><h4>Descrição</h4></span>
 								            </td>
 								            <td class="tdQuantidade">
-									            <span>Qtde.</span>
+									            <span><h4>Qtde.</h4></span>
 								            </td>
 								            
 								            <td class="tdPresente">
-									            <span>Presente?</span>
+									            <span><h4>Presente?</h4></span>
 								            </td>
 								            
 								            <td class="tdExcluir">
-									            <span>Excluir</span>
+									            <span><h4>Excluir</h4></span>
 								            </td>
 								            								
 								            <td class="tdValorUnitario">
-									            <span>Unit. R$</span>
+									            <span><h4>Unit. R$</h4></span>
 								            </td>
 								            <td class="tdSubTotal">
-									            <span>Subtotal R$</span>
+									            <span><h4>Subtotal R$</h4></span>
 								            </td>
 							            </tr>
 						            </thead>
@@ -498,17 +488,13 @@
 							            </tr>
 						            </tfoot>
 					            </table>
+                                                                </br>
 					            <ul class="botoesCarrinho">
 						            <li>
 							            <input name="btnComprarMaisInferior" id="btnComprarMaisInferior" title="Comprar mais produtos" alt="Comprar mais produtos" src="http://www.megamamute.com.br/Imagens/bt_comprar_mais_produtos.gif" onclick="document.location.href='http://www.megamamute.com.br';return false;" style="border-width:0px;border:none;" type="image">
 						            </li>
 						            <li>
 							            <a href="javascript:LimparCesta()"><img src="http://www.megamamute.com.br/Imagens/bt_limpar_carrinho.gif" alt="Limpar carrinho" title="Limpar carrinho"></a>
-						            </li>
-					            </ul>
-					            <ul class="botoesCarrinho_dir">
-						            <li>
-							            <a href="javascript:FecharPedido('GHDPKwGHDOKwGIDL')"><img src="http://www.megamamute.com.br/Imagens/bt_fechar_pedido.gif" alt="Fechar pedido" title="Fechar pedido"></a>
 						            </li>
 					            </ul>
 					            
