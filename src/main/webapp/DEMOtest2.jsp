@@ -2123,12 +2123,6 @@ loja de informatica" />
 					-->
 					<!-- Banner Superior  -->
 					    <div class='banner full-superior'>
-    <ul>
-	<li id='full-banner-1' class='item-banner'></li>
-	<li id='full-banner-2' class='item-banner'></li>
-	<li id='full-banner-3' class='item-banner'></li>
-	<li id='full-banner-4' class='item-banner last'></li>
-    </ul>
 </div>
 <script language="javascript">
 <!--
