@@ -294,8 +294,8 @@ function __doPostBack(eventTarget, eventArgument) {
 								</span>
 							</dd>
 							
-							<dd class="icoPasso3">
-								<span >
+							<dd class="icoPasso3" id="icoPasso3">
+                                                            <span name="end" class="">
 									Passo 3 - Endereço
 								</span>
 							</dd>
@@ -311,14 +311,18 @@ function __doPostBack(eventTarget, eventArgument) {
 							</dd>							
 							
 						</dl>
-					</div>				
+					</div>
+                            <script type="text/javascript">
+                                $('#comprapaypal')
+                                .hover(function() { $('#icoPasso3 span[name=end]').attr('class',"selected");})
+</script>
 					<!-- CONTEUDO INTERNO (CENTRO) -->
 				<div id="box_login" class="box_910_container">
 			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
 			            <div class="containerLogin box_login">
-				            <img src="images/msgcomprapaypal.png">
+                                        <img src="images/msgcomprapaypal.png" id="comprapaypal">
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
