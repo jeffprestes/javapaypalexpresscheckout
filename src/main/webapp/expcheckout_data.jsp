@@ -76,9 +76,9 @@
 
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalItem}"/>' name="TOTALITEM" id="TOTALITEM">
                 
-                <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
-
-                <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalEntrega}"/>' name="TOTALENTREGA" id="TOTALENTREGA">
+                <input type="hidden" value=<%= request.getParameter("ENTREGA")%> size="60" name="ENTREGA" id="ENTREGA" />
+                
+                <input type="hidden" value=<%= request.getParameter("TOTALENTREGA")%> size="60" name="TOTALENTREGA" id="TOTALENTREGA" />
 
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalManuseio}"/>' name="TOTALMANUSEIO" id="TOTALMANUSEIO">
 

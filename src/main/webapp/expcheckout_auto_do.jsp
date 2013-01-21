@@ -28,6 +28,8 @@
             
             <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
 
+            <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="TOTALENTREGA" id="TOTALENTREGA" />
+            
             <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
 
             <input type="hidden" value="DoExpressCheckoutPayment" size="60" name="METHOD" id="METHOD" />
