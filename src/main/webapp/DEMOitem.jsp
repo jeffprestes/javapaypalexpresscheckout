@@ -429,31 +429,7 @@
 
                                                                                             </p>
 
-                                                                                            <p class="condition">
-                                                                                                <span id="spanParcelamento1" class="block1"><strong>9x</strong> de <strong>R$ 20,89</strong> sem juros</span>
-                                                                                                <span id="spanParcelamento2" class="block2"></span>
-                                                                                                <span id="spanOutroParc" class="block3"></span>
-                                                                                            </p>
-                                                                                            <span class='BolAvista' style='margin: 0;'>Pague no boleto: R$ <b>174,84</b> (Desconto de <b>7%</b>)</strong></span>
-
-
-                                                                                            <div id="parcel-selos">
-                                                                                                <div class='parcel-container'>    <div id="tituloParcelamento">Parcelamento no cartão de crédito</div>    <div class='mid'><ul class='first'>    <li>1x de R$ 188,00 sem juros</li>    <li>2x de R$ 94,00 sem juros</li>    <li>3x de R$ 62,67 sem juros</li>    <li>4x de R$ 47,00 sem juros</li>    <li>5x de R$ 37,60 sem juros</li></ul><ul>    <li>6x de R$ 31,33 sem juros</li>    <li>7x de R$ 26,86 sem juros</li>    <li>8x de R$ 23,50 sem juros</li>    <li>9x de R$ 20,89 sem juros</li></ul>    </div></div>
-                                                                                                <!-- SELOS -->
-                                                                                                <ul class="selos_container">
-
-
-
-
-
-                                                                                                    <li class="ec-selo">
-                                                                                                        <span id="spanOutros">
-                                                                                                            <span id="spanSelos" class="listaselos"></span>
-                                                                                                        </span>
-                                                                                                    </li>
-                                                                                                </ul>
-
-                                                                                            </div>
+                                                                                            
 
 
                                                                                             <fieldset class="opcoes_produtos">
