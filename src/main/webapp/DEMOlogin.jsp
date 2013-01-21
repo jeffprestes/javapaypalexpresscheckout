@@ -280,7 +280,7 @@ function __doPostBack(eventTarget, eventArgument) {
                             <script>
 function bigImg(x)
 {
-x.src="images/passos4.png"
+x.src="images/passos6.png"
 }
 
 function normalImg(x)
