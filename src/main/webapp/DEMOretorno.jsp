@@ -319,21 +319,8 @@
                                                                 <div id="box_login" class="box_910_container">
                                                                     <div class="box_910_top"></div>
                                                                     <div class="box_910_mid">
-                                                                        <!-- BOX ESQUERDA (LOGIN) -->
-                                                                        <div class="containerLogin box_login">
-                                                                            <h3 class="titulo" id="">
-                                                                            </h3>
-                                                                            <fieldset class="form_container">
-                                                                                <div class="fld_container">
-                                                                                    <p class="pass_disclaimer">
 
-                                                                                    </p>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </div>
-                                                                        <!-- FIM BOX ESQUERDA (LOGIN) -->
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
-                                                                        <div class="containerCadastro box_login">
                                                                             <img src="images/msgpedido.png">
                                                                                 <fieldset class="form_container">
                                                                                     <div class="fld_container">
@@ -341,7 +328,9 @@
                                                                                         <br>&nbsp;
                                                                                     </div>
                                                                                     <p class="pass_disclaimer">
-                                                                                        DADOS DA COMPRA:</br></br>
+                                                                                        <%-- DADOS DA TRANSAÇÃO --%> 
+                                                                                        
+                                                                                    DADOS DA COMPRA:</br></br>
                                                                                         Token : <%= request.getParameter("TOKEN")%></br>
                                                                                         Status : <%= request.getParameter("STATUS")%></br>
                                                                                         Timestamp : <%= request.getParameter("TIMESTAMP")%></br>
@@ -375,21 +364,10 @@
                                                                                         
                                                                                     </p>
                                                                                 </fieldset>
-                                                                        </div>
                                                                         <!-- FIM BOX DIREITA (CADASTRE-SE) -->
 
                                                                         <!-- BOX PEDIDO SEM CADASTRO -->
-                                                                        <div id="PedidoSemCadastro" class="containerCadastro box_login">
-                                                                            <fieldset class="form_container">
-                                                                                <br>&nbsp;
-                                                                                    <br>&nbsp;
-                                                                                        <br>&nbsp;
-                                                                                            <br>&nbsp;
-                                                                                                <br>&nbsp;
-                                                                                                    <br>&nbsp;
-                                                                                                        <br>&nbsp;
-                                                                                                            </fieldset>
-                                                                                                            </div>
+                                                                       
                                                                                                             </div>
                                                                                                             <div class="box_910_bot"></div>
                                                                                                             </div>
