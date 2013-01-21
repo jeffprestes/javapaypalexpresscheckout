@@ -104,7 +104,7 @@ public class FreteServlet extends HttpServlet {
             item.setValorEntrega(frete.getPreco(item.getCepOrigem(), item.getCepDestino(), item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
             if(item2.getAltura()== 0){
                 
-                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + item.getValorEntrega() + "&L_TAXAMT0=2.20&L_SHIPPINGOPTIONLABEL1=PAC&L_SHIPPINGOPTIONAMOUNT1=4.00&L_TAXAMT1=2.20&L_SHIPPINGOPTIONISDEFAULT0=true");
+                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + item.getValorEntrega() + "&L_SHIPPINGOPTIONLABEL1=PAC&L_SHIPPINGOPTIONAMOUNT1=4.00&L_SHIPPINGOPTIONISDEFAULT0=true");
             }else{
             item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(), item2.getCepDestino(), item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item, item2);
@@ -112,7 +112,7 @@ public class FreteServlet extends HttpServlet {
             valor.setTotal();
             logger.info("TOTAL DA ENTREGA = " + valor.getTotal());
             
-            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + valor.getTotal() + "&L_TAXAMT0=2.20&L_SHIPPINGOPTIONLABEL1=PAC&L_SHIPPINGOPTIONAMOUNT1=4.00&L_TAXAMT1=2.20&L_SHIPPINGOPTIONISDEFAULT0=true");
+            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT0=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL1=PAC&L_SHIPPINGOPTIONAMOUNT1=4.00&L_SHIPPINGOPTIONISDEFAULT0=true");
             }
 
            
