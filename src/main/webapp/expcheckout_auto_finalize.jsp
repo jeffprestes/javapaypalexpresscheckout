@@ -16,7 +16,6 @@
     </head>
     <body>
         <h3>Efetuando Transacao . . .</h3>
-        <%= request.getParameter("ENTREGA")%>
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
             <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
