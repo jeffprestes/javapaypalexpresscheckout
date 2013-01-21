@@ -368,9 +368,11 @@
                                                                                         País : <%= request.getParameter("PAIS")%></br>
                                                                                         Status do endereço : <%= request.getParameter("STATUSENDERECO")%></br>
                                                                                         Moeda: <%= request.getParameter("MOEDA")%></br>
-                                                                                        Total : <%= request.getParameter("TOTAL")%></br>
-                                                                                        Total da entrega : <%= request.getParameter("TOTALENTREGA")%></br>
+                                                                                        Valor do Produto : <%= request.getParameter("TOTALITEM")%></br>
+                                                                                        Taxa de entrega : <%= request.getParameter("TOTALENTREGA")%></br>
                                                                                         Tipo de entrega : <%= request.getParameter("ENTREGA")%></br>
+                                                                                        Total : <%= request.getParameter("TOTAL")%></br>
+                                                                                        
                                                                                     </p>
                                                                                 </fieldset>
                                                                         </div>

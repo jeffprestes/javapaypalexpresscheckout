@@ -22,6 +22,7 @@
             <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
             <input type="hidden" value=<%= request.getParameter("ENTREGA")%> size="60" name="ENTREGA" id="ENTREGA" />
             <input type="hidden" value=<%= request.getParameter("TOTALENTREGA")%> size="60" name="TOTALENTREGA" id="TOTALENTREGA" />
+            <input type="hidden" value=<%= request.getParameter("TOTALITEM")%> size="60" name="TOTALITEM" id="TOTALITEM" />
             <input type="hidden" value="GetExpressCheckoutDetails" size="60" name="METHOD" id="METHOD" />
             <input type="hidden" value="final" size="60" name="SENDPOINT" id="SENDPOINT" />
             <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
