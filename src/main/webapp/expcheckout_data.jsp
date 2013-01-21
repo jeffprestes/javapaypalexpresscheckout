@@ -13,9 +13,9 @@
         <title>Dados da transacao</title>
     </head>
     <body>
-        <h3>Efetuando Transacao . . . .</h3>
-        <h4>Transacao Completa</h4>
-        <h4>Redirecionando...</h4>
+        <h3 align="center">Efetuando Transacao . . . .</h3>
+        <h4 align="center">Transacao Completa</h4>
+        <h4 align="center">Redirecionando...</h4>
         <%-- INICIO dos DADOS --%>
         <table>
             <form action="DEMOretorno.jsp" method="POST">   
