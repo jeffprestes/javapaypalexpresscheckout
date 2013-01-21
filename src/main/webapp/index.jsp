@@ -64,5 +64,6 @@
         </tr>
     
 </table>
+            <img src="images/paypalgif.gif">
 </body>
 </html>
