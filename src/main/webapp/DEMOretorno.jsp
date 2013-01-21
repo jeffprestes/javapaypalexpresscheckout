@@ -330,8 +330,8 @@
                                                                                     </div>
                                                                                     <p class="pass_disclaimer" align="center">
                                                                                         </br>
-                                                                                        <hr></hr>
-                                                                                        <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%>
+                                                                                        <hr>
+                                                                                        <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%></br>
                                                                                         <b>Unidades : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : </b><%= request.getParameter("TOTALITEM")%></br></br>
                                                                                         
                                                                                         <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
@@ -341,7 +341,7 @@
                                                                                         <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
                                                                                         <b>E-mail para contato : </b> <%= request.getParameter("EMAILCOMPRADOR")%>
-                                                                                        <hr></hr>
+                                                                                        <hr>
                                                                                         </br>
                                                                                         <%-- DADOS DA TRANSAÇÃO --%> 
                                                                                         

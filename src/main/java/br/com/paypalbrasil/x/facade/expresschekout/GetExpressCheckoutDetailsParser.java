@@ -352,7 +352,7 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico {
                     }
                     
                     if ("L_NAME0".equals(chave)) {
-                        resp.setNomeItem(chave);
+                        resp.setNomeItem(valor);
                     }
                     
                     
