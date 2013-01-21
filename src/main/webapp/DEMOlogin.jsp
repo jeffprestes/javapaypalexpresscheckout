@@ -331,12 +331,12 @@ x.src="images/passos2.png"
 			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
-			            <div class="containerLogin box_login">
+			            <div class="containerLogin box_login" onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" >
                                         <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
-						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_compra_express.png" onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
+						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_compra_express.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
 								<br>&nbsp;
 								<p class="pass_disclaimer">
 						            Use sua conta PayPal e finalize seu pedido com mais agilidade.
