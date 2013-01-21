@@ -13,7 +13,7 @@
     </head>
     <body>
         <td colspan="2" style="vertical-align: middle; text-align: center">
-        <h4>Redirecionando....</h4><img src="images/LogoTS.png">
+        <h4>Redirecionando....</h4><img src="paypalgif.gif" id="wait" name="wait">
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                         <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
@@ -56,7 +56,14 @@
                     </td>
                 </tr>
             </form>
-                        <script> document.forms[0].submit() </script>
+                        <script>
+                            $('#form').submit(function() {
+    $('#wait').show();
+    $.post('<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController', function() {
+        $('#wait').hide();
+    });
+    return false;
+});</script>
         </table>
     </body>
 </html>
