@@ -346,6 +346,14 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico {
                         }
                         resp.getDadosPagamento().setTotalEntrega(valor);
                     }
+                    
+                    if ("SHIPPINGOPTIONNAME".equals(chave)) {
+                        if (dadosEntrega == null) {
+                            dadosEntrega = new DadosEntrega();
+                            resp.setDadosEntrega(dadosEntrega);
+                        }
+                        resp.getDadosEntrega().setTipoEntrega(valor);
+                    }
 
                     if ("INSURANCEAMT".equals(chave)) {
                         if (dPagto == null) {

@@ -13,6 +13,7 @@ import java.util.Objects;
  */
 public class DadosEntrega {
 
+    private String tipoEntrega;
     private String nomeEntrega;
     private String enderecoEntrega;
     private String complementoEnderecoEntrega;
@@ -173,5 +174,19 @@ public class DadosEntrega {
      */
     public void setNomePaisEntrega(String nomePaisEntrega) {
         this.nomePaisEntrega = nomePaisEntrega;
+    }
+
+    /**
+     * @return the tipoEntrega
+     */
+    public String getTipoEntrega() {
+        return tipoEntrega;
+    }
+
+    /**
+     * @param tipoEntrega the tipoEntrega to set
+     */
+    public void setTipoEntrega(String tipoEntrega) {
+        this.tipoEntrega = tipoEntrega;
     }
 }

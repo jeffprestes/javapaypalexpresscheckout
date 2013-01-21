@@ -167,6 +167,13 @@
     </td>
 </tr>
 <tr>    
+    <td>Entrega escolhida = </td>
+    <td>(SHIPPINGOPTIONNAME): </td>
+    <td>
+<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>
+</td>
+</tr>
+<tr>    
     <td>Endereço de entrega = </td>
     <td>(SHIPTOSTREET): </td>
     <td>
