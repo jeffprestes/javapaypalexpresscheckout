@@ -15,6 +15,7 @@
     <body>
 
 <h3>Efetuando Transacao . . </h3>
+<c:out value="${resposta.dadosPagamento.totalItem}"/>
         
         <%-- INCIO DoCheckout REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  
