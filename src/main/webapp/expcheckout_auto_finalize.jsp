@@ -6,6 +6,8 @@
 
 <%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@page import="javax.servlet.*"%>
+<%@page import="javax.servlet.http.*"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,12 +16,12 @@
     </head>
     <body>
         <h3>Efetuando Transacao . . .</h3>
-        <c:out value="${resposta.dadosEntrega.tipoEntrega}"/>
+        <%= request.getParameter("ENTREGA")%>
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
             <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
             <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
-            <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
+            <input type="hidden" value=<%= request.getParameter("ENTREGA")%> size="60" name="ENTREGA" id="ENTREGA" />
             <input type="hidden" value="GetExpressCheckoutDetails" size="60" name="METHOD" id="METHOD" />
             <input type="hidden" value="final" size="60" name="SENDPOINT" id="SENDPOINT" />
             <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
