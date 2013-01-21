@@ -369,11 +369,7 @@
                                                                                         Status do endereço : <%= request.getParameter("STATUSENDERECO")%></br>
                                                                                         Moeda: <%= request.getParameter("MOEDA")%></br>
                                                                                         Total : <%= request.getParameter("TOTAL")%></br>
-                                                                                        Total do produto : <%= request.getParameter("TOTALITEM")%></br>
                                                                                         Total da entrega : <%= request.getParameter("TOTALENTREGA")%></br>
-                                                                                        Taxa de manuseio : <%= request.getParameter("TOTALMANUSEIO")%></br>
-                                                                                        Imposto : <%= request.getParameter("TOTALIMPOSTO")%></br>
-                                                                                        Seguro : <%= request.getParameter("TOTALSEGURO")%></br>
                                                                                     </p>
                                                                                 </fieldset>
                                                                         </div>

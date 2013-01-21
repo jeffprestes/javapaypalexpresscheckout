@@ -412,7 +412,7 @@ x.src="images/passos2.png"
 				    
 				     
                     <dd class="card">
-					    Cart√µes de Cr√©dito
+					    Cartıes de CrÈdito
 				    </dd>
 				    
 				        
@@ -426,7 +426,7 @@ x.src="images/passos2.png"
 				        
 				        
 				            <dd class="debito">
-					            D√©bito Online
+					            DÈbito Online
 				            </dd>
 				        			    
 			    </dl>
