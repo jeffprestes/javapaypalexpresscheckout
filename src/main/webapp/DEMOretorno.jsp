@@ -318,22 +318,23 @@
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
                                                                 <div id="box_login" class="box_910_container">
                                                                     <div class="box_910_top"></div>
-                                                                    <div class="box_910_mid">
+                                                                    <div class="box_910_mid" align="center">
 
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
                                                                             <img src="images/msgpedido.png" align="center">
                                                                                 <fieldset class="form_container">
                                                                                     <div class="fld_container" align="center">
-                                                                                        <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>;
-                                                                                        &nbsp;&nbsp;&nbsp;Obrigado por comprar com PayPal
-                                                                                        <br>&nbsp;
+                                                                                        <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>,</br>
+                                                                                        Obrigado por comprar com PayPal
+                                                                                        <br>
                                                                                     </div>
                                                                                     <p class="pass_disclaimer" align="center">
-                                                                                        Você comprou : <%= request.getParameter("TOTALITEM")%></br>
-                                                                                        Endereço de entrega :  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
-                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br>
-                                                                                        Atravéz do servico de entrega : <%= request.getParameter("ENTREGA")%>, Valor: <%= request.getParameter("TOTALENTREGA")%></br>
-                                                                                        E-mail para contato: <%= request.getParameter("EMAILCOMPRADOR")%>
+                                                                                        <b>Você comprou :</b> <%= request.getParameter("TOTALITEM")%></br></br>
+                                                                                        <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
+                                                                                        <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
+                                                                                        <b>Valor : </b> <%= request.getParameter("TOTALENTREGA")%></br></br>
+                                                                                        <b>E-mail para contato : </b> <%= request.getParameter("EMAILCOMPRADOR")%>
                                                                                         <%-- DADOS DA TRANSAÇÃO --%> 
                                                                                         
                                                                                    <%-- DADOS DA COMPRA:</br></br>

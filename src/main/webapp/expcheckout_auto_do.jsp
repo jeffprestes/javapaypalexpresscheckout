@@ -15,7 +15,7 @@
     <body>
 
 <h3 align="center">Efetuando Transacao . . </h3>
-        <img src="images/paypalgif.gif"/>
+        <img src="images/paypalgif.gif">
         
         <%-- INCIO DoCheckout REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  
