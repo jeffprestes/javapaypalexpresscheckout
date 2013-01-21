@@ -15,6 +15,8 @@
     <body>
 
 <h3>Efetuando Transacao . . </h3>
+
+<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>
         
         <%-- INCIO DoCheckout REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  
@@ -23,6 +25,8 @@
             <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
 
             <input type="hidden" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
+            
+            <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
 
             <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
 

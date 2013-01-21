@@ -75,6 +75,8 @@
                 <input type="hidden" value='<c:out value="${resposta.total}"/>' name="TOTAL" id="TOTAL">
 
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalItem}"/>' name="TOTALITEM" id="TOTALITEM">
+                
+                <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
 
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalEntrega}"/>' name="TOTALENTREGA" id="TOTALENTREGA">
 

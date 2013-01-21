@@ -370,6 +370,7 @@
                                                                                         Moeda: <%= request.getParameter("MOEDA")%></br>
                                                                                         Total : <%= request.getParameter("TOTAL")%></br>
                                                                                         Total da entrega : <%= request.getParameter("TOTALENTREGA")%></br>
+                                                                                        Tipo de entrega : <%= request.getParameter("TOTALENTREGA")%></br>
                                                                                     </p>
                                                                                 </fieldset>
                                                                         </div>
