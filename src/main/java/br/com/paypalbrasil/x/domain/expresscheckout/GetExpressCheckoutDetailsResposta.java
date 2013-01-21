@@ -39,6 +39,8 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
     private String transactionId;
     private String correlationId;
     private String paymentRequestId;
+    private String nomeItem;
+    private String quantidade;
     private List<ItemVenda> itens;
     private ErroResposta erro;
 
@@ -280,5 +282,33 @@ public class GetExpressCheckoutDetailsResposta extends Resposta {
      */
     public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
+    }
+
+    /**
+     * @return the nomeItem
+     */
+    public String getNomeItem() {
+        return nomeItem;
+    }
+
+    /**
+     * @param nomeItem the nomeItem to set
+     */
+    public void setNomeItem(String nomeItem) {
+        this.nomeItem = nomeItem;
+    }
+
+    /**
+     * @return the quantidade
+     */
+    public String getQuantidade() {
+        return quantidade;
+    }
+
+    /**
+     * @param quantidade the quantidade to set
+     */
+    public void setQuantidade(String quantidade) {
+        this.quantidade = quantidade;
     }
 }

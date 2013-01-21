@@ -347,6 +347,15 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico {
                         resp.getDadosPagamento().setTotalEntrega(valor);
                     }
                     
+                    if ("L_QTY0".equals(chave)) {
+                        resp.setQuantidade(valor);
+                    }
+                    
+                    if ("L_NAME0".equals(chave)) {
+                        resp.setNomeItem(chave);
+                    }
+                    
+                    
                     if ("SHIPPINGOPTIONNAME".equals(chave)) {
                         if (dadosEntrega == null) {
                             dadosEntrega = new DadosEntrega();

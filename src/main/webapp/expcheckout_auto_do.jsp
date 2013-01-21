@@ -25,6 +25,10 @@
 
             <input type="hidden" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
             
+            <input type="hidden" value='<c:out value="${resposta.nomeItem}"/>' size="60" name="NOMEITEM" id="NOMEITEM" />
+            
+            <input type="hidden" value='<c:out value="${resposta.quantidade}"/>' size="60" name="ITEMQTDE" id="ITEMQTDE" />
+            
             <input type="hidden" value='<c:out value="${resposta.dadosEntrega.tipoEntrega}"/>' size="60" name="ENTREGA" id="ENTREGA" />
 
             <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalEntrega}"/>' size="60" name="TOTALENTREGA" id="TOTALENTREGA" />

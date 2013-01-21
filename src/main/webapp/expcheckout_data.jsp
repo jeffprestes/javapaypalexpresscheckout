@@ -74,6 +74,10 @@
 
                 <input type="hidden" value='<c:out value="${resposta.total}"/>' name="TOTAL" id="TOTAL">
                 
+                <input type="hidden" value=<%= request.getParameter("NOMEITEM")%> size="60" name="NOMEITEM" id="NOMEITEM" />
+            
+                <input type="hidden" value=<%= request.getParameter("ITEMQTDE")%> size="60" name="ITEMQTDE" id="ITEMQTDE" />
+                
                 <input type="hidden" value=<%= request.getParameter("TOTALITEM")%> size="60" name="TOTALITEM" id="TOTALITEM" />
                 
                 <input type="hidden" value=<%= request.getParameter("ENTREGA")%> size="60" name="ENTREGA" id="ENTREGA" />

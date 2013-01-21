@@ -331,11 +331,15 @@
                                                                                     <p class="pass_disclaimer" align="center">
                                                                                         </br>
                                                                                         <hr></hr>
-                                                                                        <b>Você comprou :</b> <%= request.getParameter("TOTALITEM")%></br></br>
-                                                                                        <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
-                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
+                                                                                        <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%>
+                                                                                        <b>Unidades : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : </b><%= request.getParameter("TOTALITEM")%></br></br>
+                                                                                        
                                                                                         <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
                                                                                         <b>Valor : </b> <%= request.getParameter("TOTALENTREGA")%></br></br>
+                                    
+                                                                                        <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
+                                                                                        
                                                                                         <b>E-mail para contato : </b> <%= request.getParameter("EMAILCOMPRADOR")%>
                                                                                         <hr></hr>
                                                                                         </br>
