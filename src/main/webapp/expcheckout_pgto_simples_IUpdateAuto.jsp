@@ -13,7 +13,7 @@
     </head>
     <body>
         <td colspan="2" style="vertical-align: middle; text-align: center">
-        <h4>Redirecionando....</h4><img src="images/paypalgif.gif">
+        <h4>Redirecionando....</h4><img src="https://www.sandbox.paypal.com/en_US/i/icon/icon_animated_prog_dkgy_42wx42h.gif">
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                         <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
