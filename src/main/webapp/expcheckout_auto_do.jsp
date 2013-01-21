@@ -14,8 +14,8 @@
     </head>
     <body>
 
-<h3>Efetuando Transacao . . </h3>
-<c:out value="${resposta.dadosPagamento.totalItem}"/>
+<h3 align="center">Efetuando Transacao . . </h3>
+        <img src="images/palpalloading.gif"/>
         
         <%-- INCIO DoCheckout REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  

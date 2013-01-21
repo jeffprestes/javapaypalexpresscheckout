@@ -73,8 +73,6 @@
                 <input type="hidden" value='<c:out value="${resposta.moeda}"/>' name="MOEDA" id="MOEDA">
 
                 <input type="hidden" value='<c:out value="${resposta.total}"/>' name="TOTAL" id="TOTAL">
-
-                <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalItem}"/>' name="TOTALITEM" id="TOTALITEM">
                 
                 <input type="hidden" value=<%= request.getParameter("TOTALITEM")%> size="60" name="TOTALITEM" id="TOTALITEM" />
                 
