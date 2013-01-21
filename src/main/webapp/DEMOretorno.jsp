@@ -321,16 +321,22 @@
                                                                     <div class="box_910_mid">
 
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
-                                                                            <img src="images/msgpedido.png">
+                                                                            <img src="images/msgpedido.png" align="center">
                                                                                 <fieldset class="form_container">
-                                                                                    <div class="fld_container">
+                                                                                    <div class="fld_container" align="center">
+                                                                                        <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>;
                                                                                         &nbsp;&nbsp;&nbsp;Obrigado por comprar com PayPal
                                                                                         <br>&nbsp;
                                                                                     </div>
-                                                                                    <p class="pass_disclaimer">
+                                                                                    <p class="pass_disclaimer" align="center">
+                                                                                        Você comprou : <%= request.getParameter("TOTALITEM")%></br>
+                                                                                        Endereço de entrega :  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br>
+                                                                                        Atravéz do servico de entrega : <%= request.getParameter("ENTREGA")%>, Valor: <%= request.getParameter("TOTALENTREGA")%></br>
+                                                                                        E-mail para contato: <%= request.getParameter("EMAILCOMPRADOR")%>
                                                                                         <%-- DADOS DA TRANSAÇÃO --%> 
                                                                                         
-                                                                                    DADOS DA COMPRA:</br></br>
+                                                                                   <%-- DADOS DA COMPRA:</br></br>
                                                                                         Token : <%= request.getParameter("TOKEN")%></br>
                                                                                         Status : <%= request.getParameter("STATUS")%></br>
                                                                                         Timestamp : <%= request.getParameter("TIMESTAMP")%></br>
@@ -361,7 +367,7 @@
                                                                                         Taxa de entrega : <%= request.getParameter("TOTALENTREGA")%></br>
                                                                                         Tipo de entrega : <%= request.getParameter("ENTREGA")%></br>
                                                                                         Total : <%= request.getParameter("TOTAL")%></br>
-                                                                                        
+                                                                                        --%>
                                                                                     </p>
                                                                                 </fieldset>
                                                                         <!-- FIM BOX DIREITA (CADASTRE-SE) -->
