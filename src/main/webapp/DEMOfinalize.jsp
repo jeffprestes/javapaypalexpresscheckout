@@ -356,7 +356,7 @@
 						            </li>
 					            </ul>
             					</br>
-			        <div class="box_910_mid">
+                                                                <div id="box_login" class="box_910_container">
             					
                                                                 <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
 						             <div class="box_910_top">
