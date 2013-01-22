@@ -358,10 +358,7 @@
             					</br>
 					            <div id="box_login" class="box_910_container">
 			        <div class="box_910_mid">
-            					
-                                                                <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
-						             <div class="box_910_top">
-							            <tr>
+                                    <tr>
 								            <td class="tdProduto">
 									            <span><h4>Produto</h4></span>
 								            </td>
@@ -379,6 +376,10 @@
 									            <span><h4>Subtotal R$</h4></span>
 								            </td>
 							            </tr>
+            					
+                                                                <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
+						             <div class="box_910_top">
+							            
                                                                  </div>
 						            <tbody>
 							            								<tr class="esc">
