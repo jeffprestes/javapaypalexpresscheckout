@@ -356,30 +356,28 @@
 						            </li>
 					            </ul>
             					</br>
-					            <div id="box_login" class="box_910_container">
 			        <div class="box_910_mid">
-                                    <tr>
-								            <td class="tdProduto">
-									            <span><h4>Produto</h4></span>
-								            </td>
-								            <td class="tdDescricao">
-									            <span><h4>Descrição</h4></span>
-								            </td>
-								            <td class="tdQuantidade">
-									            <span><h4>Qtde.</h4></span>
-								            </td>
-								            								
-								            <td class="tdValorUnitario">
-									            <span><h4>Unit. R$&nbsp;</h4></span>
-								            </td>
-								            <td class="tdSubTotal">
-									            <span><h4>Subtotal R$</h4></span>
-								            </td>
-							            </tr>
             					
                                                                 <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
 						             <div class="box_910_top">
-							            
+							            <tr>
+								            <td class="tdProduto">
+									            <span><h4>&nbsp;&nbsp;Produto</h4></span>
+								            </td>
+								            <td class="tdDescricao">
+									            <span><h4>&nbsp;&nbsp;Descrição</h4></span>
+								            </td>
+								            <td class="tdQuantidade">
+									            <span><h4>&nbsp;&nbsp;Qtde.</h4></span>
+								            </td>
+								            								
+								            <td class="tdValorUnitario">
+									            <span><h4>&nbsp;&nbsp;Unit. R$&nbsp;</h4></span>
+								            </td>
+								            <td class="tdSubTotal">
+									            <span><h4>&nbsp;&nbsp;Subtotal R$</h4></span>
+								            </td>
+							            </tr>
                                                                  </div>
 						            <tbody>
 							            								<tr class="esc">
@@ -413,7 +411,7 @@
 						                <tr><td></br></td></tr>
 				
 							            <tr>
-								            <td class="tdTitSubTotal" colspan="5">Economia: </td>
+								            <td class="tdTitSubTotal" colspan="5">&nbsp;&nbsp;Economia: </td>
 								            <td class="tdSubTotal">
 									            R$ 46,80
 								            </td>
@@ -421,7 +419,7 @@
 							            
 							            <tr class="trTotal">
 								            <td class="tdTotal" colspan="5">
-									            TOTAL
+									            &nbsp;&nbsp;TOTAL
 								            </td>
 								            <td class="tdSubTotal">
 									            <span class="precoSemJuros">R$ 188,00</span>
@@ -433,7 +431,6 @@
 						            </tfoot>
 					            </table></div>
                                     </div>
-				</div>
                                                                 </br>
 					            <ul class="botoesCarrinho">
 						            <li>
