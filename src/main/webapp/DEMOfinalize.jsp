@@ -356,7 +356,9 @@
 						            </li>
 					            </ul>
             					</br>
-					            
+					            <div id="box_login" class="box_910_container">
+			        <div class="box_910_top"></div>
+			        <div class="box_910_mid">
             					
                                                                 <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
 						            <thead>
@@ -429,6 +431,9 @@
 							            </tr>
 						            </tfoot>
 					            </table>
+                                    </div>
+				    <div class="box_910_bot"></div>
+				</div>
                                                                 </br>
 					            <ul class="botoesCarrinho">
 						            <li>
