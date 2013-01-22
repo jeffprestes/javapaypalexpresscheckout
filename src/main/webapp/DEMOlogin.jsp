@@ -375,11 +375,6 @@ x.src="images/passos2.png"
 
                                             <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 
-<script>
-    
-    
-</script>
-
 </div>
 			            <!-- FIM BOX DIREITA (CADASTRE-SE) -->
 			            
