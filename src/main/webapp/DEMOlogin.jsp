@@ -331,8 +331,9 @@ x.src="images/passos2.png"
 			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
-			            <div class="containerLogin box_login" onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" >
-                                        <input type="radio" name="usuario" onclick="bigImg(passos2)" value="paypal"  />
+                                    <div class="containerLogin box_login" <!--onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" -->>
+                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" align="center"  />
+                                        </br>
                                         <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
@@ -349,8 +350,9 @@ x.src="images/passos2.png"
 			            <!-- FIM BOX ESQUERDA (LOGIN) -->
 			            <!-- BOX DIREITA (CADASTRE-SE) -->
 			            <div class="containerCadastro box_login">
-                                        <input type="radio" name="usuario" value="loja" />
-				            <img src="images/userloja.png">
+                                        <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" />
+				        </br>    
+                                        <img src="images/userloja.png">
 				            <fieldset class="form_container">
 					            <div class="fld_container">
 						            <label for="fldLoginEmail">
@@ -364,8 +366,8 @@ x.src="images/passos2.png"
 						            </label>
 						            <input name="txtSenha" type="password" maxlength="128" id="txtSenha" tabindex="2" class="fldLogin" onkeydown="ColocaFocus('btnContinuar1', event);" title="Informe sua senha" />
 						            <!--<a href="javascript:Continuar('S')" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_entrar.gif" id="btLoginEntrar" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>-->
-                                                            </br></br>
-                                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
+                                                            </br></br></br>
+                                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 					            </div>
 
 				            </fieldset>
@@ -374,7 +376,8 @@ x.src="images/passos2.png"
 			            
 			            <!-- BOX PEDIDO SEM CADASTRO -->
 			            <div class="containerCadastro box_login">
-                                        <input type="radio" name="usuario" value="novo" />
+                                        <input type="radio" name="usuario" value="novo" onclick="normalImg(passos2)" align="center" />
+                                        </br>
 				            <img src="images/newuser3.png">
 				            <fieldset class="form_container">
 					            <div class="fld_container">
