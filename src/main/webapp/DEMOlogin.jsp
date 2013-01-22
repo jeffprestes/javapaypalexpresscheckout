@@ -332,9 +332,9 @@ x.src="images/passos2.png"
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
                                     <div class="containerLogin box_login" align="center">
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
+                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
                                         </br></br>
-                                        <img src="images/msgcomprapaypal.png"/>
+                                        &nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
@@ -353,12 +353,12 @@ x.src="images/passos2.png"
                                         <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" />
 				        </br></br>    
                                         <img src="images/userloja.png">
-				            <fieldset class="form_container">
+				            <fieldset class="form_container" align="left">
 					            <div class="fld_container">
 						            <label for="fldLoginEmail">
 							            Informe seu e-mail
 						            </label>
-						            <input name="txtEmail" type="text" value="alonso.ariel90@gmail.com" maxlength="128" id="txtEmail" tabindex="1" class="fldEmail" onkeydown="ColocaFocus('btnContinuar1', event);" autocomplete="Off" title="Informe seu e-mail" />
+						            <input name="txtEmail" type="text" value="" maxlength="128" id="txtEmail" tabindex="1" class="fldEmail" onkeydown="ColocaFocus('btnContinuar1', event);" autocomplete="Off" title="Informe seu e-mail" />
 					            </div>
 					            <div class="fld_container">
 						            <label for="fldLoginSenha">
@@ -378,8 +378,8 @@ x.src="images/passos2.png"
 			            <div class="containerCadastro box_login" align="center">
                                         <input type="radio" name="usuario" value="novo" onclick="normalImg(passos2)" align="center" />
                                         </br></br>
-				            <img src="images/newuser3.png">&nbsp;&nbsp;
-				            <fieldset class="form_container">
+				            <img src="images/newuser3.png">
+				            <fieldset class="form_container" align="left">
 					            <div class="fld_container">
 						            <label for="fldCadastreseEmail">
 							            Informe seu e-mail
