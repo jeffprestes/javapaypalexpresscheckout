@@ -361,7 +361,6 @@
             					
                                                                 <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
 						             <div class="box_910_top">
-                                                                    <thead>
 							            <tr>
 								            <td class="tdProduto">
 									            <span><h4>Produto</h4></span>
@@ -380,7 +379,6 @@
 									            <span><h4>Subtotal R$</h4></span>
 								            </td>
 							            </tr>
-						            </thead>
                                                                  </div>
 						            <tbody>
 							            								<tr class="esc">
