@@ -349,7 +349,7 @@ x.src="images/passos2.png"
 			            </div>
 			            <!-- FIM BOX ESQUERDA (LOGIN) -->
 			            <!-- BOX DIREITA (CADASTRE-SE) -->
-			            <div class="containerCadastro box_login">
+			            <div class="containerCadastro box_login" align="center">
                                         <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" />
 				        </br></br>    
                                         <img src="images/userloja.png">
@@ -375,7 +375,7 @@ x.src="images/passos2.png"
 			            <!-- FIM BOX DIREITA (CADASTRE-SE) -->
 			            
 			            <!-- BOX PEDIDO SEM CADASTRO -->
-			            <div class="containerCadastro box_login">
+			            <div class="containerCadastro box_login" align="center">
                                         <input type="radio" name="usuario" value="novo" onclick="normalImg(passos2)" align="center" />
                                         </br></br>
 				            <img src="images/newuser3.png">&nbsp;&nbsp;
