@@ -333,8 +333,8 @@ x.src="images/passos2.png"
 			            <!-- BOX ESQUERDA (LOGIN) -->
                                     <div class="containerLogin box_login" align="center">
                                         <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
-                                        </br></br>
-                                        &nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
+                                        </br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
@@ -367,10 +367,10 @@ x.src="images/passos2.png"
 						            <input name="txtSenha" type="password" maxlength="128" id="txtSenha" tabindex="2" class="fldLogin" onkeydown="ColocaFocus('btnContinuar1', event);" title="Informe sua senha" />
 						            <!--<a href="javascript:Continuar('S')" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_entrar.gif" id="btLoginEntrar" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>-->
                                                             </br></br></br>
-                                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 					            </div>
 
 				            </fieldset>
+                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 			            </div>
 			            <!-- FIM BOX DIREITA (CADASTRE-SE) -->
 			            
