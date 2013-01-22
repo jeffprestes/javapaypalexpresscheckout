@@ -332,8 +332,8 @@ x.src="images/passos2.png"
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
                                     <div class="containerLogin box_login" align="center">
-                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
-                                        </br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
+                                        </br></br>
                                         <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
@@ -351,7 +351,7 @@ x.src="images/passos2.png"
 			            <!-- BOX DIREITA (CADASTRE-SE) -->
 			            <div class="containerCadastro box_login">
                                         <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" />
-				        </br>    
+				        </br></br>    
                                         <img src="images/userloja.png">
 				            <fieldset class="form_container">
 					            <div class="fld_container">
@@ -377,8 +377,8 @@ x.src="images/passos2.png"
 			            <!-- BOX PEDIDO SEM CADASTRO -->
 			            <div class="containerCadastro box_login">
                                         <input type="radio" name="usuario" value="novo" onclick="normalImg(passos2)" align="center" />
-                                        </br>
-				            <img src="images/newuser3.png">
+                                        </br></br>
+				            <img src="images/newuser3.png">&nbsp;&nbsp;
 				            <fieldset class="form_container">
 					            <div class="fld_container">
 						            <label for="fldCadastreseEmail">
