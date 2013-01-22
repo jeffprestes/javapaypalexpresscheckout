@@ -337,7 +337,7 @@ x.src="images/passos2.png"
 				            <fieldset class="form_container">
 							<div class="fld_container">
 					            
-						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_compra_express.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
+						            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_paypal_nf_v01.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
 								<br>&nbsp;
 								<p class="pass_disclaimer">
 						            Use sua conta PayPal e finalize seu pedido com mais agilidade.
@@ -363,7 +363,9 @@ x.src="images/passos2.png"
 							            Informe sua senha
 						            </label>
 						            <input name="txtSenha" type="password" maxlength="128" id="txtSenha" tabindex="2" class="fldLogin" onkeydown="ColocaFocus('btnContinuar1', event);" title="Informe sua senha" />
-						            <a href="javascript:Continuar('S')" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_entrar.gif" id="btLoginEntrar" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
+						            <!--<a href="javascript:Continuar('S')" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_entrar.gif" id="btLoginEntrar" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>-->
+                                                            </br></br>
+                                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 					            </div>
 
 				            </fieldset>
@@ -386,7 +388,7 @@ x.src="images/passos2.png"
 							            Informe seu CEP
 						            </label>
 						            <input name="txtCep1" type="text" maxlength="9" id="txtCep1" tabindex="5" class="fldCep" onkeypress="SomenteNumero2(event,this,'#####-###');" onkeydown="ColocaFocus('btnContinuar2', event);" title="Informe seu CEP" />
-						            <a href="javascript:Continuar('P')" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>								
+						            <!--<a href="javascript:Continuar('P')" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>-->								
 					            </div>
 					            <p class="pass_disclaimer">
 						            Sua senha ser&aacute; criada no pr&oacute;ximo passo
