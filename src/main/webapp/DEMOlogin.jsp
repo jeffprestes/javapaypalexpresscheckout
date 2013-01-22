@@ -279,9 +279,8 @@ function __doPostBack(eventTarget, eventArgument) {
 			<!-- CONTEUDO PRINCIPAL -->
 			<div id="main">
                             <script>
-function bigImg(x,y)
+function bigImg(x)
 {
-y.href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp"
 x.src="images/passos6.png"
 }
 
@@ -334,7 +333,7 @@ x.src="images/passos2.png"
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
                                     <div class="containerLogin box_login" align="center">
-                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2,address)" onchange="bigImg(passos2,address)" align="center"/>
+                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
                                         </br>
                                         &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
@@ -374,7 +373,7 @@ x.src="images/passos2.png"
 				            </fieldset>
                                             </br>
 
-                                            <a href="https://java-ppbrasil.rhcloud.com/DEMOlogin.jsp" id="address" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
+                                            <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 
 <script>
     
