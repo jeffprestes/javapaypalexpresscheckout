@@ -332,6 +332,7 @@ x.src="images/passos2.png"
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
 			            <div class="containerLogin box_login" onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" >
+                                        <input type="radio" name="usuario" onclick="bigImg(passos2)" value="paypal"  />
                                         <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
 							<div class="fld_container">
@@ -343,10 +344,12 @@ x.src="images/passos2.png"
 					            </p>
 								</div>
 				            </fieldset>
+                                        
 			            </div>
 			            <!-- FIM BOX ESQUERDA (LOGIN) -->
 			            <!-- BOX DIREITA (CADASTRE-SE) -->
 			            <div class="containerCadastro box_login">
+                                        <input type="radio" name="usuario" value="loja" />
 				            <img src="images/userloja.png">
 				            <fieldset class="form_container">
 					            <div class="fld_container">
@@ -369,6 +372,7 @@ x.src="images/passos2.png"
 			            
 			            <!-- BOX PEDIDO SEM CADASTRO -->
 			            <div class="containerCadastro box_login">
+                                        <input type="radio" name="usuario" value="novo" />
 				            <img src="images/newuser3.png">
 				            <fieldset class="form_container">
 					            <div class="fld_container">
