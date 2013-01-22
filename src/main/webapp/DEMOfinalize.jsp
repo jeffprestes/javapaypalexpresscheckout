@@ -357,11 +357,11 @@
 					            </ul>
             					</br>
 					            <div id="box_login" class="box_910_container">
-			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
             					
                                                                 <table class="tabelaCarrinho" frame="border" border="3" cellpadding="1" cellspacing="2">
-						            <thead>
+						             <div class="box_910_top">
+                                                                    <thead>
 							            <tr>
 								            <td class="tdProduto">
 									            <span><h4>Produto</h4></span>
@@ -381,6 +381,7 @@
 								            </td>
 							            </tr>
 						            </thead>
+                                                                 </div>
 						            <tbody>
 							            								<tr class="esc">
 									<td class="tdProduto">
@@ -408,6 +409,7 @@
 								</tr>
 
 						            </tbody>
+                                                                    <div class="box_910_bot">
 						            <tfoot>
 						                <tr><td></br></td></tr>
 				
@@ -430,9 +432,8 @@
 								            </td>
 							            </tr>
 						            </tfoot>
-					            </table>
+					            </table></div>
                                     </div>
-				    <div class="box_910_bot"></div>
 				</div>
                                                                 </br>
 					            <ul class="botoesCarrinho">
