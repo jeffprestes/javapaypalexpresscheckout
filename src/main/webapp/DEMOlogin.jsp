@@ -331,8 +331,8 @@ x.src="images/passos2.png"
 			        <div class="box_910_top"></div>
 			        <div class="box_910_mid">
 			            <!-- BOX ESQUERDA (LOGIN) -->
-                                    <div class="containerLogin box_login" <!--onmouseover="bigImg(passos2)" onmouseout="normalImg(passos2)" -->>
-                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" align="center"  />
+                                    <div class="containerLogin box_login" align="center">
+                                        <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2)" onchange="bigImg(passos2)" align="center"/>
                                         </br>
                                         <img src="images/msgcomprapaypal.png"/>
 				            <fieldset class="form_container">
