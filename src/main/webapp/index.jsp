@@ -57,6 +57,10 @@
     <tr>
         <td>&nbsp;</td>
     </tr>
+        <tr>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout Recorrente</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_recorrente.jsp">Express Checkout - Pagamento Recorrente</a></td>
+        </tr>
 
     <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Test Shop DEMO</b></td>
