@@ -115,6 +115,13 @@
                         <input type="text" value='0' name="AMT" id="AMT" size="100" />
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Moeda (CURRENCYCODE) : </td>
+                    <td>
+                        <input type="text" value="BRL" name="CURRENCYCODE" id="CURRENCYCODE" size="6" />
+                    </td>
+                </tr>
                 <!--
                 <tr>
                     <td>
@@ -123,13 +130,7 @@
                         <input type="text" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        Moeda (CURRENCYCODE) : </td>
-                    <td>
-                        <input type="text" value="BRL" name="CURRENCYCODE" id="CURRENCYCODE" size="6" />
-                    </td>
-                </tr>
+                
                 <tr>
                     <td>
                         Moeda (COUNTRYCODE) : </td>
