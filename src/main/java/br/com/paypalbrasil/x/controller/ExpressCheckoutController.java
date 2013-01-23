@@ -92,8 +92,15 @@ public class ExpressCheckoutController extends HttpServlet {
                             } else {
                                 request.setAttribute("resposta", resp);
                                 request.setAttribute("url", url.toString());
+                                if(request.getRequestURI().equals("expcheckout_recorrente.jsp")){
+                                
+                                RequestDispatcher rd = request.getRequestDispatcher("expcheckout_recorrente_retorno.jsp");
+                                rd.forward(request, response);
+                                    
+                                }else{
                                 RequestDispatcher rd = request.getRequestDispatcher("expcheckout_retorno_setEC.jsp");
                                 rd.forward(request, response);
+                                }
                             }
 
                         }
