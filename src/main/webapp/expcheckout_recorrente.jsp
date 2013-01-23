@@ -17,6 +17,15 @@
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                 <tr>
+                    <td>Quer ver os parametros antes de redirecionar? </td>
+                    <td>
+                        <select id="NAOENVIAR_OPCREDIRECT" name="NAOENVIAR_OPCREDIRECT">
+                            <option value="0">NÃO</option>
+                            <option value="1">SIM</option>
+                        </select>
+                    </td>
+                </tr> 
+                <tr>
                     <td>URL do EndPoint: </td>
                     <td>
                         <select id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT">
