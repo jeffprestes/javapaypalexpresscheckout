@@ -115,6 +115,13 @@
                         <input type="text" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Moeda (CURRENCYCODE) : </td>
+                    <td>
+                        <input type="text" value="BRL" name="CURRENCYCODE" id="CURRENCYCODE" size="6" />
+                    </td>
+                </tr>
                 
                 <tr>
                     <td colspan="2" style="vertical-align: middle; text-align: center">
