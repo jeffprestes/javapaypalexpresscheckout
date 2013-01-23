@@ -24,7 +24,16 @@
                             <option value="https://api-3t.paylpal.com/nvp">Produção - api-3t.paypal.com</option>
                         </select>
                     </td>
-                </tr>    
+                </tr>
+                <tr>
+                    <td>Tipo de fluxo (USERACTION): </td>
+                    <td>
+                        <select id="NAOENVIAR_TIPOFLUXO" name="NAOENVIAR_TIPOFLUXO">
+                            <option value="commit" selected="selected">TRADICIONAL</option>
+                            <option value="shortcut">SHORTCUT</option>
+                        </select>
+                    </td>
+                </tr>
                 <tr>
                     <td>Tipo de checkout (CMD): </td>
                     <td>
