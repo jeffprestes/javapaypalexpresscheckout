@@ -64,7 +64,7 @@ public class ExpressCheckoutController extends HttpServlet {
                                 url.append("https://www.paypal.com");
                             }
 
-                            url.append("/br/cgi-bin/webscr?cmd=");
+                            url.append("/br/cgi-bin/webscr?cmd=_express-checkout");
                             url.append(request.getParameter("NAOENVIAR_TIPOCHECKOUT"));
                             /*
                              if (request.getParameter("NAOENVIAR_TIPOCHECKOUT").contains("_express-checkout"))  {
