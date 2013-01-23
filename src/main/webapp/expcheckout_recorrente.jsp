@@ -108,6 +108,13 @@
                         <input type="text" value='http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/expcheckout_recorrente_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        Total(AMT): </td>
+                    <td>
+                        <input type="text" value='0' name="AMT" id="AMT" size="100" />
+                    </td>
+                </tr>
                 <!--
                 <tr>
                     <td>
