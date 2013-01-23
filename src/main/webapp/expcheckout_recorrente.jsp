@@ -15,7 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout - Pagamento Recorrente</h1>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/RecurringController' method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                 <tr>
                     <td>URL do EndPoint: </td>
                     <td>
