@@ -108,6 +108,7 @@
                         <input type="text" value='http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/expcheckout_recorrente_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
                     </td>
                 </tr>
+                <!--
                 <tr>
                     <td>
                         Localização (LOCALECODE) : </td>
@@ -129,7 +130,7 @@
                         <input type="text" value="BR" name="COUNTRYCODE" id="v" size="6" />
                     </td>
                 </tr>
-                <tr>
+                <tr>-->
                     <td colspan="2" style="vertical-align: middle; text-align: center">
                         <input type="submit" name="Submit" value="Submit" />
                     </td>
