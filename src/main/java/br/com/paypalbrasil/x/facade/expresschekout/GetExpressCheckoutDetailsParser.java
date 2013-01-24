@@ -117,7 +117,11 @@ public class GetExpressCheckoutDetailsParser extends ParserBasico {
                     }
 
                     if ("PHONENUM".equals(chave)) {
-                        resp.setTelefone(valor);
+                        if (comprador == null) {
+                            comprador = new Comprador();
+                            resp.setComprador(comprador);
+                        }
+                        resp.getComprador().setTelefone(valor);
                     }
 
                     if ("NOTE".equals(chave)) {
