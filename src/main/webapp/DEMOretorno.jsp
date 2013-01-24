@@ -327,6 +327,7 @@
                                                                                         <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>,</br>
                                                                                         Obrigado por comprar com PayPal
                                                                                         </br>
+                                                                                        </br>
                                                                                         -----------------------------------------------------------
                                                                                         </br>
                                                                                     </div>

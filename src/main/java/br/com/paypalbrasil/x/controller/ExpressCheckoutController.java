@@ -118,7 +118,12 @@ public class ExpressCheckoutController extends HttpServlet {
                     GetExpressCheckoutDetailsResposta resp = ps.getExpressCheckoutDetails(request.getParameterMap());
 
                     request.setAttribute("resposta", resp);
-                    RequestDispatcher rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_resposta.jsp");
+                    RequestDispatcher rd;
+                    if(request.getRequestURI().equals("expcheckout_recorrente_request.jsp")){
+                    rd = request.getRequestDispatcher("/expcheckout_recorrente_getdetails_resposta.jsp");
+                    }else{
+                    rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_resposta.jsp");
+                    }
                     logger.info("TOKEN=" + resp.getToken());
                     logger.info("INVNUM=" + resp.getNroPedido());
                     logger.info("VERSION=" + resp.getVersao());

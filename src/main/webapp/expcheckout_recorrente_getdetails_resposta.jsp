@@ -15,7 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Detalhes da Transação Retorno</h1>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">  
+            <form action='expcheckout_recorrent_createprofile.jsp' method="POST">  
                 <tr>
                 <h2> Dados de Transação </h2>
                 <br>
@@ -83,7 +83,7 @@
         </table>
         <hr>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/RecurringController' method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
                 <tr>
                     </hr>
                 <h2> Dados do Comprador </h2>
