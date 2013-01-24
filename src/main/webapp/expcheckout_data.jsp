@@ -13,7 +13,7 @@
         <title>Dados da transacao</title>
     </head>
     <body>
-        <h3 align="center">Efetuando Transacao . . . .</h3>
+        <h3 align="center">Efetuando Transacao . . .</h3>
         <h4 align="center">Transacao Completa</h4>
         <h4 align="center">Redirecionando...</h4>
         <%-- INICIO dos DADOS --%>
@@ -89,6 +89,8 @@
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalImposto}"/>' name="TOTALIMPOSTO" id="TOTALIMPOSTO">
 
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalSeguro}"/>' name="TOTALSEGURO" id="TOTALSEGURO">
+                
+                <input type="hidden" value='<c:out value="${resposta.comprador.telefone}"/>' name="TELEFONE" id="TELEFONE">
 
             </form>
             <script>document.forms[0].submit();</script>

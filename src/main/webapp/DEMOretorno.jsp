@@ -340,7 +340,8 @@
                                                                                         <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                         <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
-                                                                                        <b>E-mail para contato : </b> <%= request.getParameter("EMAILCOMPRADOR")%>
+                                                                                        <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%>
+                                                                                        <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%>
                                                                                         <hr>
                                                                                         </br>
                                                                                         <%-- DADOS DA TRANSAÇÃO --%> 
