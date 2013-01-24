@@ -16,6 +16,8 @@
         <h3 align="center">Efetuando Transacao . . .</h3>
         <h4 align="center">Transacao Completa</h4>
         <h4 align="center">Redirecionando...</h4>
+        
+        <c:out value="${resposta.comprador.telefone}"/>
         <%-- INICIO dos DADOS --%>
         <table>
             <form action="DEMOretorno.jsp" method="POST">   
