@@ -19,6 +19,10 @@
             <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
         </tr>
         <tr>
+            <td></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps_IU.html">WPS - Com Instant Update</a></td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             </tr>
         <tr>
