@@ -119,7 +119,7 @@ public class ExpressCheckoutController extends HttpServlet {
 
                     request.setAttribute("resposta", resp);
                     RequestDispatcher rd;
-                    if(request.getRequestURI().equals("expcheckout_recorrente_getdetails_request.jsp")){
+                    if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))){
                     rd = request.getRequestDispatcher("/expcheckout_recorrente_getdetails_resposta.jsp");
                     }else{
                     rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_resposta.jsp");
