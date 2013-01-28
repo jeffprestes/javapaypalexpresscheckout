@@ -296,9 +296,9 @@
 <c:out value="${resposta.dadosPagamento.totalDescontoEntrega}"/>
 </td>
 </tr>
-        <input type="submit" value="Create Profile"/>
-</form>
+        
 </table>
+<input type="submit" value="Create Profile"/>
             </form>
         </table>
     </body>
