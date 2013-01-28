@@ -25,7 +25,7 @@
                         </select>
                     </td>
                 </tr>    
-<input type="text" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
+<input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
                 <tr>
                     <td>Metodo (METHOD): </td>
                     <td>
