@@ -32,5 +32,6 @@
             <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODEvinho3.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
         </tr>
         </table>
+       
     </body>
 </html>
