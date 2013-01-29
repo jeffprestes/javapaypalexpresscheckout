@@ -25,14 +25,12 @@
         </script>
         <table align="center" >
         <tr>
-            <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODEvinho1.png" onmouseover="changeimage(vinho1)" onmouseout="returnimage(vinho1)"></a></td>
+            <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODEvinho1.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
             <td >&nbsp;&nbsp;&nbsp;</td>
-            <td ><a href="https://s.paypal.me/nErYN3"><img id="vinho2" src="images/QRCODEvinho2.png" onmouseover="changeimage(vinho2)" onmouseout="returnimage(vinho2)"></a></td>
+            <td ><a href="https://s.paypal.me/nErYN3"><img id="vinho2" src="images/QRCODEvinho2.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
             <td >&nbsp;&nbsp;&nbsp;</td>
-            <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODEvinho3.png" onmouseover="changeimage(vinho3)" onmouseout="returnimage(vinho3)"></a></td>
+            <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODEvinho3.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
         </tr>
         </table>
-        
-        <img id="vinho1" onmouseover="changeimage(this)" onmouseout="returnimage(this)" src="images/QRCODEvinho1.png">
     </body>
 </html>
