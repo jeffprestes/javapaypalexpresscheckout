@@ -14,8 +14,9 @@
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6" >
         <h2 align="center">Exemplos de QRCODE para Express Checkout mobile</h2>
         </br>
-        <script>
-            function changeimage(id){
+        <script type="text/javascript">
+            function changeimage(id)
+            {
                 if(id == vinho1){
                 id.src="images/vinhoQR1.png"
             }else if(id == vinho2){
