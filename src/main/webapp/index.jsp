@@ -12,7 +12,8 @@
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6" >
-            <h1>PayPal Java Testes - Lista de cenário de testes</h1>
+            <h1 align="center">PayPal Java Testes - Lista de cenário de testes</h1>
+            </br>
         <table align="center" >
         <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
