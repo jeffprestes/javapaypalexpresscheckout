@@ -94,7 +94,7 @@
             <tr>
                 <td>Total (AMT): </td>
                 <td>
-                    <input type="text" value="10" size="60" name="PAYMENTREQUEST_0_AMT" id="PAYMENTREQUEST_0_AMT" />
+                    <input type="text" value="10" size="60" name="AMT" id="AMT" />
                 </td>
             </tr>
             <tr>
