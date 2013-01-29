@@ -12,75 +12,77 @@
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6" >
-            <h1 align="center">PayPal Java Testes - Lista de cenário de testes</h1>
-            </br>
+        <h1 align="center">PayPal Java Testes - Lista de cenário de testes</h1>
+        </br>
         <table align="center" >
-        <tr>
-            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
-        </tr>
-        <tr>
+            <tr>
+                <td width="38%" style="background-color: #ffffff; color: #000000;"><b>WPS</b></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="wps.html">WPS - Venda e doação</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="wps_IU.html">WPS - Com Instant Update</a></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout</b></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
+            </tr>
             <td></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="wps_IU.html">WPS - Com Instant Update</a></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
-            </tr>
+            <td><i><small>- GetExpressCheckoutDetails -</small></i></td>
         <tr>
-            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="adaptive_pgto_simples.jsp">Adaptive - Pagamento simples</a></td>
+            <td>&nbsp;</td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout</a></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
-            </tr>
-        <tr>
-            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout</b></td>
-            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_form_completo.jsp">Express Checkout - Pagamento simples - Formulário completo</a></td>
         </tr>
-        <td></td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples.jsp">Express Checkout - Pagamento simples - Formulário simples</a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td><i><small>- GetExpressCheckoutDetails -</small></i></td>
-    <tr>
-        <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Express Checkout - Detalhes da Transação Express Checkout</a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
+        <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout Recorrente</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_recorrente.jsp">Express Checkout - Pagamento Recorrente</a></td>
         </tr>
         <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Fácil </b></td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFácil)</a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFácil) </a></td>
-    </tr>
-    
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-        
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>ExpressCheckout & Frete Fácil </b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_fretefacil.jsp">Express Checkout - Chamada de Exemplo (FreteFácil)</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="expcheckout_pgto_simples_IUpdate.jsp">Express Checkout - Pagamento com Instant Update (FreteFácil) </a></td>
+        </tr>
 
-    <tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+
+
+        <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Test Shop DEMO</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="DEMOindex.jsp"><img src="images/LogoTS.png"></a></td>
         </tr>
-        
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
         <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>QRCODE para Mobile</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="qrcode_EC.jsp">Loja Mobile usando QRCODE</a></td>
         </tr>
-    
-</table>
-    </body>
+
+    </table>
+</body>
 </html>

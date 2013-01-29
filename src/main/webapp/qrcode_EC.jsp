@@ -12,12 +12,14 @@
         <title>Express Checkout via QRCODE</title>
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6" >
-        <h1>Exemplos para lojas móveis de Express Checkout via QRCODE</h1>
+        <h2 align="center">Exemplos de QRCODE para Express Checkout mobile</h2>
         </br>
         <table align="center" >
         <tr>
             <td ><a href="https://s.paypal.me/EzyuUr"><img src="images/QRCODE1.png"/></a></td>
+            <td >&nbsp;&nbsp;&nbsp;</td>
             <td ><a href="https://s.paypal.me/nErYN3"><img src="images/QRCODE2.png"/></a></td>
+            <td >&nbsp;&nbsp;&nbsp;</td>
             <td ><a href="https://s.paypal.me/FVBFJ3"><img src="images/QRCODE3.png"/></a></td>
         </tr>
         </table>
