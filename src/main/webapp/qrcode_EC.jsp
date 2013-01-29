@@ -4,7 +4,7 @@
     Author     : aalonso
 --%>
 
-<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
+<%@page contentType="text/javascript" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,7 +20,8 @@
                 id.src="images/"+id+".png"
             }
             
-             function returnimage(id){
+             function returnimage(id)
+             {
                 id.src="images/QRCODE"+id+".png"
             }
         </script>
