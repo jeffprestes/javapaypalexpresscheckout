@@ -13,14 +13,14 @@
         <h2 align="center">Exemplos de QRCODE para Express Checkout mobile</h2>
         </br>
         <script type="text/javascript">
-            function changeimage(id)
+            function changeimage(x)
             {
-                id.src="images/vinho1.png"
+                x.src="images/vinho1.png"
             }
             
-             function returnimage(id)
+             function returnimage(x)
              {
-                id.src="images/QRCODE"+id+".png"
+                x.src="images/QRCODE"+id+".png"
             }
         </script>
         <table align="center" >
@@ -33,6 +33,6 @@
         </tr>
         </table>
         
-        <img id="vinho1" onmouseover="changeimage(vinho1)" onmouseout="returnimage(vinho1)" src="images/QRCODEvinho1.png">
+        <img id="vinho1" onmouseover="changeimage(this)" onmouseout="returnimage(this)" src="images/QRCODEvinho1.png">
     </body>
 </html>
