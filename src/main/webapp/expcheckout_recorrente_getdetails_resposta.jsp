@@ -15,7 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Detalhes da Transação Retorno</h1>
         <table>
-            <form action='expcheckout_recorrent_createprofile.jsp' method="POST">  
+            <form action='expcheckout_recorrente_createprofile.jsp' method="POST">  
                 <tr>
                 <h2> Dados de Transação </h2>
                 <br>
@@ -296,7 +296,9 @@
 </tr>
 
 </table>
-<input type="submit" value="Create Profile"/>
+</br>
+
+<input type="submit" value="Create Profile" align="center"/>
 </form>
 </table>
 </body>
