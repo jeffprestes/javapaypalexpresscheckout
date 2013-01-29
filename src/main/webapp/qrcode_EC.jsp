@@ -15,13 +15,12 @@
         <script type="text/javascript">
             function changeimage(x)
             {
-                if(x.id == "vinho1")
-                x.src="images/vinho1.png"
+                x.src="images/"+x.id+".png"
             }
             
              function returnimage(x)
              {
-                x.src="images/QRCODE"+x+".png"
+                x.src="images/QRCODE"+x.id+".png"
             }
         </script>
         <table align="center" >
