@@ -6,6 +6,7 @@ package br.com.paypalbrasil.x.controller;
 
 import br.com.paypalbrasil.x.domain.CodigoACK;
 import br.com.paypalbrasil.x.domain.Credenciais;
+import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfileResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
@@ -172,6 +173,57 @@ public class ExpressCheckoutController extends HttpServlet {
                                 request.setAttribute("resposta", resp);
                                 request.setAttribute("url", url.toString());
                                 RequestDispatcher rd = request.getRequestDispatcher("expcheckout_retorno_doEC.jsp");
+                                rd.forward(request, response);
+                            }
+
+                        }
+
+                    } else if (resp.getCabecalho().getAck() == CodigoACK.Failure) {
+                        request.setAttribute("resposta", resp);
+                        RequestDispatcher rd = request.getRequestDispatcher("/expcheckout_erro_chamada.jsp");
+                        rd.forward(request, response);
+                    }
+                }
+                
+                
+                //CreatePaymentProfile
+                if ("CreateRecurringPaymentsProfile".equalsIgnoreCase(request.getParameter("METHOD"))) {
+
+                    Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
+
+                    PagamentoSimples ps = new PagamentoSimples(cr);
+                    CreateRecurringPaymentsProfileResposta resp = ps.createRecurringPaymentsProfile(request.getParameterMap());
+
+                    if (resp.getCabecalho().getAck() == CodigoACK.Success) {
+                        if (ps != null) {
+                            StringBuilder url = new StringBuilder();
+                            if (request.getParameter("NAOENVIAR_ENDPOINT").contains("sandbox")) {
+                                url.append("https://www.sandbox.paypal.com");
+                            } else {
+                                url.append("https://www.paypal.com");
+                            }
+
+                            url.append("/br/cgi-bin/webscr?cmd=");
+                            url.append(request.getParameter("NAOENVIAR_TIPOCHECKOUT"));
+                            /*
+                             if (request.getParameter("NAOENVIAR_TIPOCHECKOUT").contains("_express-checkout"))  {
+                             url.append("_expresscheckout");
+                             }   else if (request.getParameter("NAOENVIAR_TIPOCHECKOUT").contains("_mobile-express-checkout"))  {
+                             url.append("_mobile-express-checkout");
+                             }
+                             */
+
+                            //if (request.getParameter("NAOENVIAR_TIPOFLUXO").contains("commit"))  {
+                            // url.append("&useraction=commit");
+                            //}   
+
+                            //Armazena o token na Sessao
+                            HttpSession sessao = request.getSession();
+
+                            if (resp.getCabecalho().getAck() == CodigoACK.Success) {
+                                request.setAttribute("resposta", resp);
+                                request.setAttribute("url", url.toString());
+                                RequestDispatcher rd = request.getRequestDispatcher("expcheckout_recorrente_createprofile_retorno.jsp");
                                 rd.forward(request, response);
                             }
 

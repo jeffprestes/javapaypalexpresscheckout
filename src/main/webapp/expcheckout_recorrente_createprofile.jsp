@@ -15,6 +15,7 @@
     <body>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Create Profile</h1>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">  
+            <table>
             <tr>
                 <td>URL do EndPoint: </td>
                 <td>
@@ -57,7 +58,7 @@
             <tr>
                 <td>Id do Comprador (PAYERID): </td>
                 <td>
-                    <input type="text" value=<%=request.getParameter("payerId")%> size="60" name="PAYERID" id="PAYERID" />
+                    <input type="text" value=<%=request.getParameter("PAYERID")%> size="60" name="PAYERID" id="PAYERID" />
                 </td>
             </tr>
             <tr>
@@ -99,7 +100,7 @@
             <tr>
                 <td>Moeda (CURRENCYCODE): </td>
                 <td>
-                    <input type="text" value=<%=request.getParameter("moeda")%> size="60" name="CURRENCYCODE" id="CURRENCYCODE" />
+                    <input type="text" value=<%=request.getParameter("CURRENCYCODE")%> size="60" name="CURRENCYCODE" id="CURRENCYCODE" />
                 </td>
             <tr>
                 <td>Codigo do país (COUNTRYCODE): </td>
@@ -121,6 +122,7 @@
                     <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
                 </td>
             </tr>
+            </table>
         </form>
     </body>
 </html>

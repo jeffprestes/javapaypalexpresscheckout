@@ -8,6 +8,7 @@ import br.com.paypalbrasil.x.domain.Credenciais;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfileResposta;
 import br.com.paypalbrasil.x.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -213,6 +214,63 @@ public class PagamentoSimples {
             data = param.toString();
 
             DoExpressCheckoutPaymentParser parser = DoExpressCheckoutPaymentParser.getInstance();
+            resp = parser.parse(data);
+
+            //logger.debug("Resposta do SetExpressCheckout: " + resp.toString());
+
+
+
+        } catch (IOException ex) {
+            logger.fatal("Erro ao executar DoExpressCheckoutPayment: " + ex.getLocalizedMessage(), ex);
+        }
+
+        return resp;
+    }
+    
+    public CreateRecurringPaymentsProfileResposta createRecurringPaymentsProfile(Map<String, String[]> parametros) throws IllegalStateException {
+
+        StringBuilder param = new StringBuilder();
+        CreateRecurringPaymentsProfileResposta resp = null;
+
+        if (this.getCredenciais() == null) {
+            throw new IllegalStateException("As credencais do merchant nao foram informadas.");
+        }
+
+        try {
+            HttpsURLConnection conn = Util.getConexaoHttps((String) parametros.get("NAOENVIAR_ENDPOINT")[0]);
+
+            logger.info("Parametros da chamada:");
+            for (Map.Entry<String, String[]> item : parametros.entrySet()) {
+                if (podeEnviarParametro(item.getKey(), item.getValue()[0])) {
+                    param.append(item.getKey() + "=" + URLEncoder.encode(item.getValue()[0], "UTF-8") + "&");
+                    logger.info("     " + item.getKey() + ": " + item.getValue()[0] + "&");
+                }
+            }
+
+            OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
+            logger.info("Chamada a: " + conn.getURL() + " com os parametros: " + param.toString());
+
+            writer.write(param.toString());
+            writer.flush();
+            writer.close();
+
+            InputStreamReader in = new InputStreamReader(conn.getInputStream());
+
+            param = null;
+            param = new StringBuilder();
+
+            BufferedReader reader = new BufferedReader(in);
+
+            String data;
+
+            logger.info("Retorno da chamada: ");
+            while ((data = reader.readLine()) != null) {
+                param.append(data);
+            }
+
+            data = param.toString();
+
+            CreateRecurringPaymentsProfileParser parser = CreateRecurringPaymentsProfileParser.getInstance();
             resp = parser.parse(data);
 
             //logger.debug("Resposta do SetExpressCheckout: " + resp.toString());
