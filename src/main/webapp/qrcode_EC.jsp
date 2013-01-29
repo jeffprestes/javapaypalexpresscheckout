@@ -15,7 +15,7 @@
         <script type="text/javascript">
             function changeimage(id)
             {
-                id.src="images/"+id+".png"
+                id.src="images/vinho1.png"
             }
             
              function returnimage(id)
