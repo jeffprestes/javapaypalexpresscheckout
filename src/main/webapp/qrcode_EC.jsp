@@ -3,8 +3,6 @@
     Created on : Jan 29, 2013, 2:49:00 PM
     Author     : aalonso
 --%>
-
-<%@page contentType="text/javascript" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
