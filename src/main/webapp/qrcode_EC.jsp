@@ -17,32 +17,20 @@
         <script type="text/javascript">
             function changeimage(id)
             {
-                if(id == vinho1){
-                id.src="images/vinhoQR1.png"
-            }else if(id == vinho2){
-                id.src="images/vinhoQR2.png"
-            }else{
-                id.src="images/vinhoQR3.png"
+                id.src="images/"+id+".png"
             }
-        }
             
              function returnimage(id){
-                if(id == vinho1){
-                id.src="images/QRCODE1.png"
-            }else if(id == vinho2){
-                id.src="images/QRCODE2.png"
-            }else{
-                id.src="images/QRCODE3.png"
-            }
+                id.src="images/QRCODE"+id+".png"
             }
         </script>
         <table align="center" >
         <tr>
-            <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODE1.png" onmouseover="changeimage(vinho1)" onmouseout="returnimage(vinho1)"/></a></td>
+            <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODEvinho1.png" onmouseover="changeimage(vinho1)" onmouseout="returnimage(vinho1)"></a></td>
             <td >&nbsp;&nbsp;&nbsp;</td>
-            <td ><a href="https://s.paypal.me/nErYN3"><img id="vinho2" src="images/QRCODE2.png" onmouseover="changeimage(vinho2)" onmouseout="returnimage(vinho2)"/></a></td>
+            <td ><a href="https://s.paypal.me/nErYN3"><img id="vinho2" src="images/QRCODEvinho2.png" onmouseover="changeimage(vinho2)" onmouseout="returnimage(vinho2)"></a></td>
             <td >&nbsp;&nbsp;&nbsp;</td>
-            <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODE3.png" onmouseover="changeimage(vinho3)" onmouseout="returnimage(vinho3)"/></a></td>
+            <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODEvinho3.png" onmouseover="changeimage(vinho3)" onmouseout="returnimage(vinho3)"></a></td>
         </tr>
         </table>
     </body>
