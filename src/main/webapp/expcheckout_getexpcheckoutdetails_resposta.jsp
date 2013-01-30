@@ -15,7 +15,7 @@
     <body>
         <%!public String ValidaCont(String value){
             String temp;
-            if(value.equals("null")){
+            if(value.equals("null")||value.trim.equals("")){
                 temp="--------";
             }else{
             temp=value;
@@ -51,8 +51,7 @@
                     <td>Status do Pagamento = </td>
                     <td>(PAYMENTINFO_N_PAYMENTSTATUS): </td>
                     <td>
-                <%= ValidaCont(request.getParameter("PAYMENTSTATUS"))
-%>
+                <%= ValidaCont(request.getParameter("PAYMENTSTATUS"))%>
                 </td>
                 </tr>
                 </tr>
@@ -60,7 +59,7 @@
                     <td>Status do Pagamento = </td>
                     <td>(PAYMENTINFO_N_PENDINGREASON): </td>
                     <td>
-                <%= request.getParameter("PENDINGREASON")%>
+                <%= ValidaCont(request.getParameter("PENDINGREASON"))%>
                 </td>
                 </tr>
                 </tr>
@@ -68,7 +67,7 @@
                     <td>Status do Pagamento = </td>
                     <td>(PAYMENTINFO_N_REASONCODE): </td>
                     <td>
-                <%= request.getParameter("REASONCODE")%>
+                <%= ValidaCont(request.getParameter("REASONCODE"))%>
                 </td>
                 </tr>
                 <tr>    
@@ -89,7 +88,7 @@
                     <td>ID da Transação = </td>
                     <td>(TRANSACTIONID): </td>
                     <td>
-                <c:out value="${resposta.transactionId}"/>
+                        <%= ValidaCont(<c:out value="${resposta.transactionId}"/>)%>
                 </td>
                 </tr>
                 <tr>    
