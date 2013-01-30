@@ -93,7 +93,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-        <h2 align="center">Ambiente PHP</h2>
+        <p><b>Ambiente PHP</b></p>
         </tr>
         <tr>
             <td>&nbsp;</td>
