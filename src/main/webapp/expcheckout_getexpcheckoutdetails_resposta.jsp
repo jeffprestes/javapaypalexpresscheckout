@@ -16,7 +16,7 @@
         <%!public String ValidaCont(String value){
             String temp;
             if(value.equals("null")){
-                temp="--------"
+                temp="--------";
             }else{
             temp=value;
             }
