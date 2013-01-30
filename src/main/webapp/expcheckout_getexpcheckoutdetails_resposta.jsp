@@ -14,10 +14,13 @@
     </head>
     <body>
         <%!public String ValidaCont(String value){
-            if(value == null){
-                value="--------";
+            String temp;
+            if(value.equals("null")){
+                temp="--------"
+            }else{
+            temp=value;
             }
-            return value;
+            return temp;
         }
         %>
         <h1>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout - Retorno</h1>
