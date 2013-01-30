@@ -86,8 +86,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td width="38%" style="background-color:#0A0832; color: #0A0832;"></td>
-            <td style="background-color: #0A0832; color: #0A0832;"></td>
+            <td style="background-color:#0A0832; color: #0A0832;"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -96,7 +95,7 @@
         <h3 align="center">Ambiente PHP</h3>
         <table align="center">
             <tr>
-            <td>&nbsp;</td>
+            <td width="38%">&nbsp;</td>
         </tr>
         <tr>
                 <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
