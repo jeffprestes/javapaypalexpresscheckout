@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f6f6f6" >
+    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5" >
         <h1 align="center">PayPal Java Testes - Lista de cenário de testes</h1>
         </br>
         <table align="center" >
@@ -93,7 +93,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive PHP</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptivepayments/samples/index.php">Adaptive Payment</a></td>
         </tr>
         <tr>
