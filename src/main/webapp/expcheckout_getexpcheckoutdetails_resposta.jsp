@@ -13,6 +13,13 @@
         <title>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout - Retorno</title>
     </head>
     <body>
+        <%!public String ValidaCont(String value){
+            if(value == null){
+                value="--------"
+            }
+            return value;
+        }
+        %>
         <h1>PayPal Java Testes - Express Checkout - Detalhes da Transação Express Checkout - Retorno</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">   
@@ -41,7 +48,8 @@
                     <td>Status do Pagamento = </td>
                     <td>(PAYMENTINFO_N_PAYMENTSTATUS): </td>
                     <td>
-                <%= request.getParameter("PAYMENTSTATUS")%>
+                <%= ValidaCont(request.getParameter("PAYMENTSTATUS"))
+%>
                 </td>
                 </tr>
                 </tr>
