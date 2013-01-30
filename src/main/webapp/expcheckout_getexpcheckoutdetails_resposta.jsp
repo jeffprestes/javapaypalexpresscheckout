@@ -49,23 +49,23 @@
                 </tr>
                 <tr>    
                     <td>Status do Pagamento = </td>
-                    <td>(PAYMENTINFO_N_PAYMENTSTATUS): </td>
+                    <td>(PAYMENTINFO_0_PAYMENTSTATUS): </td>
                     <td>
                 <%= ValidaCont(request.getParameter("PAYMENTSTATUS"))%>
                 </td>
                 </tr>
                 </tr>
                 <tr>    
-                    <td>Status do Pagamento = </td>
-                    <td>(PAYMENTINFO_N_PENDINGREASON): </td>
+                    <td>Motivo da pendência (caso haja) = </td>
+                    <td>(PAYMENTINFO_0_PENDINGREASON): </td>
                     <td>
                 <%= ValidaCont(request.getParameter("PENDINGREASON"))%>
                 </td>
                 </tr>
                 </tr>
                 <tr>    
-                    <td>Status do Pagamento = </td>
-                    <td>(PAYMENTINFO_N_REASONCODE): </td>
+                    <td>Código da pendência (caso haja) = </td>
+                    <td>(PAYMENTINFO_0_REASONCODE): </td>
                     <td>
                 <%= ValidaCont(request.getParameter("REASONCODE"))%>
                 </td>
@@ -88,7 +88,7 @@
                     <td>ID da Transação = </td>
                     <td>(TRANSACTIONID): </td>
                     <td>
-                        <%= ValidaCont("${resposta.transactionId}")%>
+                        <%= ValidaCont(${resposta.transactionId})%>
                 </td>
                 </tr>
                 <tr>    
