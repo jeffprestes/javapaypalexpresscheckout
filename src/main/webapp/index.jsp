@@ -92,7 +92,7 @@
             <td>&nbsp;</td>
         </tr>
     </table>
-        <h3 align="center">Ambiente PHP</h3>
+        <h2 align="center">Ambiente PHP</h2>
         <table align="center">
             <tr>
             <td width="38%">&nbsp;</td>
