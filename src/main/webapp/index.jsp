@@ -87,11 +87,14 @@
         </tr>
         <tr>
             <td style="background-color:#0A0832; color: #0A0832;"></td>
+             <td style="background-color:#0A0832; color: #0A0832;"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
         </tr>
+        <tr>
         <h2 align="center">Ambiente PHP</h2>
+        </tr>
         <tr>
             <td>&nbsp;</td>
         </tr>
