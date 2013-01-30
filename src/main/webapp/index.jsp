@@ -82,7 +82,30 @@
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>QRCODE para Mobile</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="qrcode_EC.jsp">Loja Mobile usando QRCODE</a></td>
         </tr>
-
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="38%" style="background-color:#0A0832; color: #0A0832;"></td>
+            <td style="background-color: #0A0832; color: #0A0832;"></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
     </table>
+        <h3 align="center">Ambiente PHP</h3>
+        <table align="center">
+            <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+                <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptivepayments/samples/index.php">Adaptive Payment</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptiveaccounts/samples/index.php">Adaptive Account</a></td>
+            </tr>
+        </table>
 </body>
 </html>
