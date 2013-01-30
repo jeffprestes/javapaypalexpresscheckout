@@ -16,6 +16,9 @@ public class DoExpressCheckoutPaymentResposta extends Resposta {
 
     private String token;
     private ErroResposta erro;
+    private String paymentStatus;
+    private String pendingReason;
+    private String reasonCode;
 
     public DoExpressCheckoutPaymentResposta(CabecalhoResposta envelope) {
         super(envelope);
@@ -66,5 +69,47 @@ public class DoExpressCheckoutPaymentResposta extends Resposta {
     @Override
     public String toString() {
         return "DoExpressCheckoutPaymentResposta{" + "token=" + token + ", Resposta: " + super.toString() + '}';
+    }
+
+    /**
+     * @return the paymentStatus
+     */
+    public String getPaymentStatus() {
+        return paymentStatus;
+    }
+
+    /**
+     * @param paymentStatus the paymentStatus to set
+     */
+    public void setPaymentStatus(String paymentStatus) {
+        this.paymentStatus = paymentStatus;
+    }
+
+    /**
+     * @return the pendingReason
+     */
+    public String getPendingReason() {
+        return pendingReason;
+    }
+
+    /**
+     * @param pendingReason the pendingReason to set
+     */
+    public void setPendingReason(String pendingReason) {
+        this.pendingReason = pendingReason;
+    }
+
+    /**
+     * @return the reasonCode
+     */
+    public String getReasonCode() {
+        return reasonCode;
+    }
+
+    /**
+     * @param reasonCode the reasonCode to set
+     */
+    public void setReasonCode(String reasonCode) {
+        this.reasonCode = reasonCode;
     }
 }

@@ -71,6 +71,24 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>Status do Pagamento (PAYMENTINFO_0_PAYMENTSTATUS): </td>
+                    <td>
+                        <input type="text" value=<%= request.getParameter("PAYMENTSTATUS")%> size="60" name="PAYMENTSTATUS" id="PAYMENTSTATUS" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Motivo da pendência (PAYMENTINFO_0_PENDINGREASON): </td>
+                    <td>
+                        <input type="text" value=<%= request.getParameter("PENDINGREASON")%> size="60" name="PENDINGREASON" id="PENDINGREASON" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Código do motivo (PAYMENTINFO_0_REASONCODE): </td>
+                    <td>
+                        <input type="text" value=<%= request.getParameter("REASONCODE")%> size="60" name="REASONCODE" id="REASONCODE" />
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>

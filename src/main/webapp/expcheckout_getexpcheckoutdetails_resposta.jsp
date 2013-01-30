@@ -38,6 +38,29 @@
                 </td>
                 </tr>
                 <tr>    
+                    <td>Status do Pagamento = </td>
+                    <td>(PAYMENTINFO_N_PAYMENTSTATUS): </td>
+                    <td>
+                <%= request.getParameter("PAYMENTSTATUS")%>
+                </td>
+                </tr>
+                </tr>
+                <tr>    
+                    <td>Status do Pagamento = </td>
+                    <td>(PAYMENTINFO_N_PENDINGREASON): </td>
+                    <td>
+                <%= request.getParameter("PENDINGREASON")%>
+                </td>
+                </tr>
+                </tr>
+                <tr>    
+                    <td>Status do Pagamento = </td>
+                    <td>(PAYMENTINFO_N_REASONCODE): </td>
+                    <td>
+                <%= request.getParameter("REASONCODE")%>
+                </td>
+                </tr>
+                <tr>    
                     <td>Log de Tempo = </td>
                     <td>(TIMESTAMP): </td>
                     <td>
