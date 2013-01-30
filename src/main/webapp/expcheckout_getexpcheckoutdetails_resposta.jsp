@@ -88,7 +88,7 @@
                     <td>ID da Transação = </td>
                     <td>(TRANSACTIONID): </td>
                     <td>
-                        <%= ValidaCont(<c:out value="${resposta.transactionId}"/>)%>
+                    <c:out value="${resposta.transactionId}"/>
                 </td>
                 </tr>
                 <tr>    
