@@ -93,12 +93,6 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-        <p><b>Ambiente PHP</b></p>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
             <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptivepayments/samples/index.php">Adaptive Payment</a></td>
         </tr>
