@@ -15,7 +15,7 @@
     <body>
         <%!public String ValidaCont(String value){
             if(value == null){
-                value="--------"
+                value="--------";
             }
             return value;
         }
