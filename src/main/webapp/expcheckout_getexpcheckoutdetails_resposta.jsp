@@ -15,7 +15,7 @@
     <body>
         <%!public String ValidaCont(String value){
             String temp;
-            if(value.equals("null")||value.trim.equals("")){
+            if(value.equals("null")||value.equals("")){
                 temp="--------";
             }else{
             temp=value;
@@ -88,7 +88,7 @@
                     <td>ID da Transação = </td>
                     <td>(TRANSACTIONID): </td>
                     <td>
-                        <%= ValidaCont(<c:out value="${resposta.transactionId}"/>)%>
+                        <%= ValidaCont("${resposta.transactionId}")%>
                 </td>
                 </tr>
                 <tr>    
