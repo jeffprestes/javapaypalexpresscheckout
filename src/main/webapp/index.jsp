@@ -91,20 +91,18 @@
         <tr>
             <td>&nbsp;</td>
         </tr>
-    </table>
         <h2 align="center">Ambiente PHP</h2>
-        <table align="center">
-            <tr>
-            <td width="38%">&nbsp;</td>
+        <tr>
+            <td>&nbsp;</td>
         </tr>
         <tr>
-                <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
-                <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptivepayments/samples/index.php">Adaptive Payment</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptiveaccounts/samples/index.php">Adaptive Account</a></td>
-            </tr>
-        </table>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Adaptive</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptivepayments/samples/index.php">Adaptive Payment</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptiveaccounts/samples/index.php">Adaptive Account</a></td>
+        </tr>
+    </table>
 </body>
 </html>
