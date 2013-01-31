@@ -14,7 +14,7 @@
     </head>
     <body>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Create Profile</h1>
-        <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">  
+        <form name="createp" action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">  
             <table>
                 <tr>
                     <td>URL do EndPoint: </td>
@@ -82,88 +82,87 @@
                         <input type="text" value="BR" size="60" name="COUNTRYCODE" id="COUNTRYCODE" />
                     </td>
                 </tr>
-                
+
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
             </table>
             </br>
             <h2>Dados da Assinatura</h2>
-                </br>
-                <table>
-                    <tr>
-                        <td>Descrição da assinatura (DESC): </td>
-                        <td>
-                            <input type="text" value='Descrição' size="60" name="DESC" id="DESC" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Inicio da assinatura (PROFILESTARTDATE): </td>
-                        <td>
-                            <input type="text" value='2013-10-01T16:00:00Z' size="60" name="PROFILESTARTDATE" id="PROFILESTARTDATE" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Valor da assinatura (AMT): </td>
-                        <td>
-                            <input type="text" value="10" size="60" name="AMT" id="AMT" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Período de pagamento (BILLINGPERIOD): </td>
-                        <td>
-                            <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
-                                <option value='Day'>Diário</option>
-                                <option value='Week'>Semanal</option>
-                                <option value='SemiMonth'>SemiMonth</option>
-                                <option value='Year'>Anual</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
-                        <td>
-                            <input type="text" value='Número de pagamentos dentro do periodo escolhido' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
-                        </td>
-                    </tr>
-                    <tr>
+            </br>
+            <table>
+                <tr>
+                    <td>Descrição da assinatura (DESC): </td>
+                    <td>
+                        <input type="text" value='Descrição' size="60" name="DESC" id="DESC" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Inicio da assinatura (PROFILESTARTDATE): </td>
+                    <td>
+                        <input type="text" value='2013-10-01T16:00:00Z' size="60" name="PROFILESTARTDATE" id="PROFILESTARTDATE" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Valor da assinatura (AMT): </td>
+                    <td>
+                        <input type="text" value="10" size="60" name="AMT" id="AMT" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Período de pagamento (BILLINGPERIOD): </td>
+                    <td>
+                        <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
+                            <option value='Day'>Diário</option>
+                            <option value='Week'>Semanal</option>
+                            <option value='SemiMonth'>SemiMonth</option>
+                            <option value='Year'>Anual</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
+                    <td>
+                        <input type="text" value='Número de pagamentos dentro do periodo escolhido' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                    </td>
+                </tr>
+                <tr>
                     <td>Máximo de tentativas de pagamento (MAXFAILEDPAYMENTS): </td>
                     <td>
                         <input type="text" value="3" size="60" name="MAXFAILEDPAYMENTS" id="MAXFAILEDPAYMENTS" />
                     </td>
                 </tr>
                 <tr>
-                <td>Opção de Pagamento inicial :</td>
+                    <td>Opção de Pagamento inicial :</td>
                     <td>
-                        <select id="PAG_INI" name="PAG_INI" onclick="openlist()" onchange="openlist()">
-                                <option value='on' onclick="openlist()" onchange="openlist()">Habilitado</option>
-                                <option value='off' onclick="openlist()" onchange="openlist()">Desabilitado</option>
-                            </select>
+                        <select id="PAG_INI" name="PAG_INI" onclick="disable_enable()" onchange="disable_enable()">
+                            <option value='on' >Habilitado</option>
+                            <option value='off' >Desabilitado</option>
+                        </select>
                     </td>
                 </tr>
                 <tr>
-                <td>Campo Teste :</td>
-                <td><input type="text" id="teste" value="teste" disabled></td>
-                </table>
-                
-                <script>
-                    function openlist()
-                    {
-                        $('teste').disabled = false;
-                                        <%--
-                        var input = $('teste');
-                        if($('PAG_INI').value == "on" )
-                        {
-                            
-                        }else{
-                             $('teste').disabled = true;
-                        }--%>
+                    <td>Campo Teste :</td>
+                    <td><input type="text" id="teste" value="teste" disabled></td>
+            </table>
+
+            <script>
+                function openlist()
+                {
+                    function disable_enable(){
+                        if (document.all || document.getElementById){
+                            if (document.createp.teste.disabled==true)
+                                document.createp.teste.disabled=false
+                            else
+                                document.createp.teste.disabled=true
+                        }
                     }
-                </script>
-                
-                <td colspan="2" style="vertical-align: middle; text-align: center">
-                        <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
-                    </td>
+                }
+            </script>
+
+            <td colspan="2" style="vertical-align: middle; text-align: center">
+                <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
+            </td>
         </form>
     </body>
 </html>
