@@ -141,21 +141,19 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
-                    <td>Campo Teste :</td>
-                    <td><input type="text" id="teste" value="teste" disabled="disabled"></td>
+                <div id="campos" name="campos">
+                    <tr>
+                        <td>Campo Teste :</td>
+                        <td><input type="text" id="teste" value=""/></td>
+                    </tr>
+                </div>
             </table>
 
             <script>
                 function openlist()
                 {
                     function disable_enable(){
-                        if (document.all || document.getElementById){
-                            if (document.createp.teste.disabled==true)
-                                document.createp.teste.disabled=false
-                            else
-                                document.createp.teste.disabled=true
-                        }
+                        document.getElementById("campos").style.display="none";
                     }
                 }
             </script>
