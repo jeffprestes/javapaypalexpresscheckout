@@ -104,7 +104,7 @@ public class FreteServlet extends HttpServlet {
             item.setValorEntrega(frete.getPreco(item.getCepOrigem(), item.getCepDestino(), item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
             if(item2.getAltura()== 0){
                 
-                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (item.getValorEntrega()+2) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega2() + "&L_SHIPPINGOPTIONAMOUNT1=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT0=true");
+                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (item.getValorEntrega()+2) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega2() + "&L_SHIPPINGOPTIONAMOUNT1=" + item.getValorEntrega() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT0=true");
             }else{
             item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(), item2.getCepDestino(), item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item, item2);

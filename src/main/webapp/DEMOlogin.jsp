@@ -348,7 +348,7 @@
                                                                         <!-- FIM BOX ESQUERDA (LOGIN) -->
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
                                                                         <div class="containerCadastro box_login" align="center">
-                                                                            <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" />
+                                                                            <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" checked/>
                                                                             </br></br>    
                                                                             <img src="images/userloja.png">
                                                                                 <fieldset class="form_container" align="left">
