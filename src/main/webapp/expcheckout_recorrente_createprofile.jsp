@@ -135,21 +135,30 @@
                         <input type="text" value="3" size="60" name="MAXFAILEDPAYMENTS" id="MAXFAILEDPAYMENTS" />
                     </td>
                 </tr>
-                <td>Opção de Pagamento inicial </td>
+                <tr>
+                <td>Opção de Pagamento inicial :</td>
                     <td>
-                        <select id="PAG_INI" name="PAG_INI" onclick="openlist(teste)" onchange="openlist(teste)">
+                        <select id="PAG_INI" name="PAG_INI" onclick="openlist()" onchange="openlist()">
                                 <option value='on'>Habilitado</option>
                                 <option value='off'>Desabilitado</option>
                             </select>
                     </td>
                 </tr>
-                <input type="text" id="teste" value="teste" disabled="true">
+                <tr>
+                <td>Campo Teste :</td>
+                <td><input type="text" id="teste" value="teste" disabled></td>
                 </table>
                 
                 <script>
-                    function openlist(x)
+                    function openlist()
                     {
-                        x.disabled="false"
+                        var input = $('teste');
+                        if($('PAG_INI').value == "on" )
+                        {
+                            $('teste').disabled = false;
+                        }else{
+                             $('teste').disabled = true;
+                        }
                     }
                 </script>
                 
