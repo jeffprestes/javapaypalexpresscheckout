@@ -152,13 +152,15 @@
                 <script>
                     function openlist()
                     {
+                        $('teste').disabled = false;
+                                        <%--
                         var input = $('teste');
                         if($('PAG_INI').value == "on" )
                         {
-                            $('teste').disabled = false;
+                            
                         }else{
                              $('teste').disabled = true;
-                        }
+                        }--%>
                     }
                 </script>
                 
