@@ -109,12 +109,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Total(AMT): </td>
-                    <td>
-                        <input type="text" value='0' name="AMT" id="AMT" size="100" />
-                    </td>
-                </tr>
+
+                        <input type="hidden" value='0' name="AMT" id="AMT" size="100" />
+
                 <tr>
                     <td>
                         Moeda (CURRENCYCODE) : </td>
