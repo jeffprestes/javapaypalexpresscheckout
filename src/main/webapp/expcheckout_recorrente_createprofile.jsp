@@ -86,12 +86,9 @@
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
-                <tr>
-                    
-                </tr>
             </table>
             </br>
-            <h4>Dados da Assinatura</h3>
+            <h2>Dados da Assinatura</h2>
                 </br>
                 <table>
                     <tr>
@@ -139,8 +136,8 @@
                 <td>Opção de Pagamento inicial :</td>
                     <td>
                         <select id="PAG_INI" name="PAG_INI" onclick="openlist()" onchange="openlist()">
-                                <option value='on'>Habilitado</option>
-                                <option value='off'>Desabilitado</option>
+                                <option value='on' onclick="openlist()" onchange="openlist()">Habilitado</option>
+                                <option value='off' onclick="openlist()" onchange="openlist()">Desabilitado</option>
                             </select>
                     </td>
                 </tr>
