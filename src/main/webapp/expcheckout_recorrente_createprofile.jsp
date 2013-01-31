@@ -141,13 +141,12 @@
                         </select>
                     </td>
                 </tr>
+                </table>
                 <div id="campos" name="campos">
-                    <tr>
-                        <td>Campo Teste :</td>
-                        <td><input type="text" id="teste" value=""/></td>
-                    </tr>
+                        Campo Teste :</br>
+                        <input type="text" id="teste" value=""/>
                 </div>
-            </table>
+            
 
             <script>
                 function openlist()
