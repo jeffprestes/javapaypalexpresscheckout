@@ -143,7 +143,7 @@
                 </tr>
                 <tr>
                     <td>Campo Teste :</td>
-                    <td><input type="text" id="teste" value="teste" disabled></td>
+                    <td><input type="text" id="teste" value="teste" disabled="disabled"></td>
             </table>
 
             <script>
