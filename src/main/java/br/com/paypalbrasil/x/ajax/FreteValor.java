@@ -13,6 +13,8 @@ public class FreteValor {
     private FreteData[] itens;
     private float total;
     private String nomeEntrega = "FreteFacil";
+    private String nomeEntrega1 = "E-Sedex";
+    private String nomeEntrega2 = "Sedex";
 
     /**
      * @return the itens
@@ -49,5 +51,33 @@ public class FreteValor {
      */
     public String getNomeEntrega() {
         return nomeEntrega;
+    }
+
+    /**
+     * @return the nomeEntrega1
+     */
+    public String getNomeEntrega1() {
+        return nomeEntrega1;
+    }
+
+    /**
+     * @param nomeEntrega1 the nomeEntrega1 to set
+     */
+    public void setNomeEntrega1(String nomeEntrega1) {
+        this.nomeEntrega1 = nomeEntrega1;
+    }
+
+    /**
+     * @return the nomeEntrega2
+     */
+    public String getNomeEntrega2() {
+        return nomeEntrega2;
+    }
+
+    /**
+     * @param nomeEntrega2 the nomeEntrega2 to set
+     */
+    public void setNomeEntrega2(String nomeEntrega2) {
+        this.nomeEntrega2 = nomeEntrega2;
     }
 }
