@@ -45,10 +45,9 @@
 <br />
 <div style="text-align: center">
     <form action="expcheckout_getexpcheckoutdetails_request.jsp" method="POST">
-        <input type="text" id="PAYMENTSTATUS" name="PAYMENTSTATUS" value="<c:out value='${resposta.paymentStatus}'/>">
-        <input type="text" id="PENDINGREASON" name="PENDINGREASON" value="<c:out value='${resposta.pendingReason}'/>">
-        <input type="text" id="REASONCODE" name="REASONCODE" value="<c:out value='${resposta.reasonCode}'/>">
-        </br>
+        <input type="hidden" id="PAYMENTSTATUS" name="PAYMENTSTATUS" value="<c:out value='${resposta.paymentStatus}'/>">
+        <input type="hidden" id="PENDINGREASON" name="PENDINGREASON" value="<c:out value='${resposta.pendingReason}'/>">
+        <input type="hidden" id="REASONCODE" name="REASONCODE" value="<c:out value='${resposta.reasonCode}'/>">
         <input type="submit" id="submit" value="GetExpressCheckoutDetails">
     </div>
 </body>
