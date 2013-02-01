@@ -34,6 +34,7 @@ public class LoginVerifier extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+            rd.forward(request, response);
             /*
             if(request.getParameter("login").equals("paypalteste") && request.getParameter("password").equals("java"))
             {
