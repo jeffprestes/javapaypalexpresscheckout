@@ -42,8 +42,6 @@ public class LoginVerifier extends HttpServlet {
             {
                 rd = request.getRequestDispatcher("index.jsp");
             }else{
-                HttpSession sessao = request.getSession();
-                sessao.setAttribute("msgErro", "Login ou senha inválidos, tente novamente.");
                 rd = request.getRequestDispatcher("index2.jsp");
             }
             rd.forward(request, response);
