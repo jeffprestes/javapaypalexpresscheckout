@@ -16,7 +16,7 @@
 </br>
 <h1 align="center">Acesso Restrito</h1>
 </br>
-<div style="float:left; width:61%;">
+<div style="float:left; width:60%;">
 <!--Left  Column-->
 <form action='<c:out value="${pageContext.servletContext.contextPath}" />/LoginVerifier' method="POST">
 <table class="tab1" border="0" cellpadding="0" cellspacing="0" style="margin-top:2px; float:right;">
@@ -36,7 +36,7 @@
 </form>
 <br />
 </div>
-<div style="float:right; width:39%; ">
+<div style="float:right; width:40%; ">
 <br /> 
 </div>
 
