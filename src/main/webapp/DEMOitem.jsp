@@ -378,9 +378,12 @@
                                                                                         </div>
 
                                                                                     </div>
+                                                                                    <style>
+div.info-details {float:left}
+</style>
 
 
-                                                                                    <div id="info-details">
+                                                                                    <div class="info-details">
                                                                                         <div class="header">
                                                                                             <h1>
                                                                                                 Celular Desbloqueado Dual Chip R236 Preto ZTE

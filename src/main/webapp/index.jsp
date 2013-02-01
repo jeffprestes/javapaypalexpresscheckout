@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
-    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5" >
+    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1" >
         <h1 align="center">PayPal Java Testes - Lista de cenário de testes</h1>
         </br>
         <table align="center" >
