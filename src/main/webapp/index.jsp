@@ -101,6 +101,13 @@
             <td></td>
             <td style="background-color: #ffffff; color: #ffffff;"><a href="http://php-ppbrasil.rhcloud.com/adaptiveaccounts/samples/index.php">Adaptive Account</a></td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="38%" style="background-color: #ffffff; color: #000000;"><b>Express Checkout PHP</b></td>
+            <td style="background-color: #ffffff; color: #ffffff;"><a href="https://php-ppbrasil.rhcloud.com/ec/samples/">Outros exemplos de Express Checkout</a></td>
+        </tr>
     </table>
 </body>
 </html>
