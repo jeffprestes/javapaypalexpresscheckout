@@ -8,7 +8,9 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
-<head><title>Ambiente de Demos PayPal</title></head>
+<head><title>Ambiente de Demos PayPal</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+</head>
 <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1; margin: auto 0">
 
 <div style="width:100%;"> 

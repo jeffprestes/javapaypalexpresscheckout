@@ -9,6 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <title>PayPal Java Testes - Lista de cenário de testes</title>
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1" >
