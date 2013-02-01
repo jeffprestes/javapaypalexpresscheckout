@@ -135,10 +135,8 @@
                 <tr>
                     <td>Opção de Pagamento inicial :</td>
                     <td>
-                        <select id="PAG_INI" name="PAG_INI" onclick="disable_enable()" onchange="disable_enable()">
-                            <option value='on' >Habilitado</option>
-                            <option value='off' >Desabilitado</option>
-                        </select>
+                        <input type="radio" value="Habilitado" id="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>
+                        <input type="radio" value="Desabilitado" id="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>
                     </td>
                 </tr>
                 </table>
