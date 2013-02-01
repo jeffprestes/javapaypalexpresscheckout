@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -33,15 +34,16 @@ public class LoginVerifier extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-            RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
-            rd.forward(request, response);
-            /*
+            RequestDispatcher rd;
+            
             if(request.getParameter("login").equals("paypalteste") && request.getParameter("password").equals("java"))
             {
-                 RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+                rd = request.getRequestDispatcher("index.jsp");
             }else{
-                RequestDispatcher rd = request.getRequestDispatcher("index2.jsp");
-            }*/
+                rd = request.getRequestDispatcher("index2.jsp");
+                JOptionPane.showMessageDialog(null, "Usuário ou senha invalidos\nTente novamente","Login Inválido." , 1);
+            }
+            rd.forward(request, response);
         } finally {            
             out.close();
         }
