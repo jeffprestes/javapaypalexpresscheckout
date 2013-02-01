@@ -42,7 +42,7 @@ public class LoginVerifier extends HttpServlet {
             {
                 rd = request.getRequestDispatcher("index.jsp");
             }else{
-                rd = request.getRequestDispatcher("index2.jsp");
+                rd = request.getRequestDispatcher("auth.jsp");
                 HttpSession sessao = request.getSession();
                 sessao.setAttribute("msgErro", "Login invalido, tente novamente.");
             }

@@ -67,6 +67,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/index.jsp</welcome-file>
+        <welcome-file>faces/auth.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
