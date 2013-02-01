@@ -33,12 +33,14 @@ public class LoginVerifier extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
+            RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+            /*
             if(request.getParameter("login").equals("paypalteste") && request.getParameter("password").equals("java"))
             {
                  RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             }else{
                 RequestDispatcher rd = request.getRequestDispatcher("index2.jsp");
-            }
+            }*/
         } finally {            
             out.close();
         }
