@@ -344,9 +344,9 @@
                                                                     <div class="top">
                                                                         <div class="mid">
                                                                             <div class="bot">
-                                                                                <div class="product-container">
+                                                                                <div style="width:100%;">
 
-                                                                                    <div id="photo-details">
+                                                                                    <div style="width:50%; float:left;">
 
                                                                                         <img src="http://www.megamamute.com.br/Imagens/produtos/02/26202/26202_Detalhes.jpg" alt="Celular Desbloqueado Dual Chip R236 Preto ZTE" title="Celular Desbloqueado Dual Chip R236 Preto ZTE" name="ProdutoImagemAux" id="ProdutoImagemAux" style="display:none;"/>
 
@@ -383,7 +383,7 @@ div.info-details {float:left}
 </style>
 
 
-                                                                                    <div class="info-details">
+                                                                                    <div style="width:50%; float:right;">
                                                                                         <div class="header">
                                                                                             <h1>
                                                                                                 Celular Desbloqueado Dual Chip R236 Preto ZTE
