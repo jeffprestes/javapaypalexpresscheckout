@@ -144,6 +144,9 @@
                         Campo Teste :</br>
                         <input type="text" id="teste" value=""/>
                 </div>
+            </br>
+            <input type="radio" value="on" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Habilitado</br>
+                        <input type="radio" value="off" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Desabilidado
             
 
             <script>
