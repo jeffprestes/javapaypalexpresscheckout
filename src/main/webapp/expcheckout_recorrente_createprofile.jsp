@@ -135,8 +135,8 @@
                 <tr>
                     <td>Opção de Pagamento inicial :</td>
                     <td>
-                        <input type="radio" value="Habilitado" id="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>
-                        <input type="radio" value="Desabilitado" id="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>
+                        <input type="radio" value="on" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Habilitado</br>
+                        <input type="radio" value="off" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Desabilidado
                     </td>
                 </tr>
                 </table>
