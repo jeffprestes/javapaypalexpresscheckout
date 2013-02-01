@@ -16,7 +16,7 @@
 </br>
 <h1 align="center">Acesso Restrito</h1>
 </br>
-<div style="float:left; width:54%;">
+<div style="float:left; width:61%;">
 <!--Left  Column-->
 <form action='<c:out value="${pageContext.servletContext.contextPath}" />/LoginVerifier' method="POST">
 <table class="tab1" border="0" cellpadding="0" cellspacing="0" style="margin-top:2px; float:right;">
@@ -26,18 +26,17 @@
 </tr>
 <tr>
 <td><b>PASSWORD : &nbsp;</b></td>
-<td><input type="text" value="" id="password" name="password"/>&nbsp;&nbsp;</td>
+<td><input type="password" value="" id="password" name="password"/>&nbsp;&nbsp;</td>
 </tr>
 <tr>
 <td></td>
-<td><input type="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;Entrar&nbsp;&nbsp;&nbsp;&nbsp;"></td>
+<td><input type="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;Entrar&nbsp;&nbsp;&nbsp;&nbsp;" style="margin-left:45%"></td>
 </tr>
 </table>
 </form>
 <br />
 </div>
-<div style="float:right; width:46%; ">
-<img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_secured_by_pp_2line.png" border="0" alt="Secured by PayPal" style="float:left;">
+<div style="float:right; width:39%; ">
 <br /> 
 </div>
 
