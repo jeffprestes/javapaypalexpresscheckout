@@ -35,7 +35,6 @@
 </table>
 </form>
 <c:out value="${login.login}">
-    <c:out value="${login.senha}">
 <br />
 </div>
 <div style="float:right; width:46%; ">
