@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -40,6 +41,7 @@ public class LoginVerifier extends HttpServlet {
                 rd = request.getRequestDispatcher("index.jsp");
             }else{
                 rd = request.getRequestDispatcher("index2.jsp");
+                JOptionPane.showMessageDialog(null,"Usuário ou senha inválidos.\nTente novamente." ,"Login Inválido." , 1);
             }
             rd.forward(request, response);
         } finally {            
