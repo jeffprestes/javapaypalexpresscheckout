@@ -34,6 +34,7 @@
 </tr>
 </table>
 </form>
+<c:out value="${sessionScope.msgErro}"/>
 <br />
 </div>
 <div style="float:right; width:46%; ">
