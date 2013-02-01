@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.RequestDispatcher;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -18,6 +19,7 @@ import javax.servlet.RequestDispatcher;
  */
 public class LoginVerifier extends HttpServlet {
 
+    
     /**
      * Processes requests for both HTTP
      * <code>GET</code> and
@@ -32,14 +34,19 @@ public class LoginVerifier extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
+        Logger logger = Logger.getLogger(this.getClass());
+        Login login = new Login(request.getParameter("login"),request.getParameter("password"));
+        
         try {
             RequestDispatcher rd;
             
             if(request.getParameter("login").equals("paypalteste") && request.getParameter("password").equals("java"))
             {
                 rd = request.getRequestDispatcher("index.jsp");
+                logger.info("- Acesso liberado redirecionando o usuario para o menu de Testes java -");
             }else{
                 rd = request.getRequestDispatcher("index2.jsp");
+                logger.info("- Tentativa de acesso inválida: Login: "+request.getParameter("login")+" Senha: "+request.getParameter("password"+" -"));
             }
             rd.forward(request, response);
         } finally {            
