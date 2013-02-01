@@ -35,7 +35,6 @@ public class LoginVerifier extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         Logger logger = Logger.getLogger(this.getClass());
-        Login login = new Login(request.getParameter("login"),request.getParameter("password"));
         
         try {
             RequestDispatcher rd;
