@@ -135,7 +135,7 @@
                 <tr>
                     <td>Opção de Pagamento inicial :</td>
                     <td>
-                        <input type="radio" value="on" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Habilitado</br>
+                        <input type="radio" value="on" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Habilitado&nbsp;
                         <input type="radio" value="off" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Desabilidado
                     </td>
                 </tr>
@@ -145,17 +145,11 @@
                         <input type="text" id="teste" value=""/>
                 </div>
             </br>
-            <input type="radio" value="on" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Habilitado</br>
-                        <input type="radio" value="off" id="habilitar" name="habilitar" onclick="disable_enable()" onchange="disable_enable()"/>Desabilidado
-            
 
             <script>
-                function openlist()
-                {
                     function disable_enable(){
                         document.getElementById("campos").style.display="none";
                     }
-                }
             </script>
 
             <td colspan="2" style="vertical-align: middle; text-align: center">

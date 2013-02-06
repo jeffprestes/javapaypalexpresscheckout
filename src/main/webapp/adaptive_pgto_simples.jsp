@@ -86,14 +86,14 @@
                     <td>
                         Url de retorno : </td>
                     <td>
-                        <input type="text" value="http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/retorno.jsp" name="urlRetorno" id="urlRetorno" size="100" />
+                        <input type="text" value="http://<c:out value='${pageContext.servletContext.contextPath}' />/adaptive_retorno.jsp" name="urlRetorno" id="urlRetorno" size="100" />
                     </td>
                 </tr>
                 <tr>
                     <td>
                         Url de cancelamento : </td>
                     <td>
-                        <input type="text" value="http://<c:out value="${pageContext.request.serverName}:${pageContext.request.serverPort}${pageContext.servletContext.contextPath}" />/retorno.jsp" name="urlCancelamento" id="urlCancelamento" size="100" />
+                        <input type="text" value="http://<c:out value='${pageContext.servletContext.contextPath}' />/adaptive_retorno.jsp" name="urlCancelamento" id="urlCancelamento" size="100" />
                     </td>
                 </tr>
                 <tr>

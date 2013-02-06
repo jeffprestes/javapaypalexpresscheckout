@@ -15,7 +15,7 @@
     <body>
         <h1>Retorno do PayPal após pagamento com sucesso</h1>
         <h2>Token: <b><c:out value="${sessionScope.token}" /></b></h2>
-        <br />
+        <br/>
         <h2>Ir para:</h2>
         <div style="text-align: center"><a href="expcheckout_getexpcheckoutdetails_request.jsp">Formulário GetExpressCheckoutDetails</a></div>
     </body>
