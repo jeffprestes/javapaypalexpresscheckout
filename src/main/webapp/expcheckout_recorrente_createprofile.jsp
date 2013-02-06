@@ -148,7 +148,11 @@
 
             <script>
                     function disable_enable(){
+                        if(document.getElementById("habilitar") == "off"){
                         document.getElementById("campos").style.display="none";
+                    }else{
+                        document.getElementById("campos").style.display="inline";
+                    }
                     }
             </script>
 
