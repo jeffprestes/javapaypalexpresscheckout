@@ -215,8 +215,9 @@
                     }
             </script>
 <hr>
+</br>
             <td colspan="2" style="vertical-align: middle; text-align: center">
-                <input type="CRIAR PROFILE" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
+                <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
             </td>
         </form>
     </body>
