@@ -87,6 +87,7 @@
                     <td colspan="2">&nbsp;</td>
                 </tr>
             </table>
+                    <hr>
             </br>
             <h2>Dados da Assinatura</h2>
             </br>
@@ -136,6 +137,7 @@
                     <td colspan="2">&nbsp;</td>
                 </tr>
                 </table>
+            <hr>
             </br>
             <h2>Opções Adicionais</h2>
             </br>
@@ -212,9 +214,9 @@
                         document.getElementById("campos"+num).style.display="inline";
                     }
             </script>
-
+<hr>
             <td colspan="2" style="vertical-align: middle; text-align: center">
-                <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
+                <input type="CRIAR PROFILE" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="Submit" />
             </td>
         </form>
     </body>
