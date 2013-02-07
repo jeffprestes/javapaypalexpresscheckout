@@ -146,7 +146,9 @@
                     <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable()" onchange="disable()"/>Desabilitado</td>
 
                 </tr>
+            </table>
             <div id="campos" name="campos" style="display:none">
+                <table>
                 <tr>
                     <td> Valor do pagamento inicial (INITAMT):</td>
                     <td><input type="text" id="INITAMT" name="INITAMT" size="60" value=""/></td>
@@ -155,12 +157,13 @@
                     <td> Ação em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
                     <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
                             <option value=''>---</option>
-                            <option value='ContinueOnFailure'>ContinueOnFailure (Mesmo se o pagto falhar a profile será criado e o montante será somado ao perfil.)</option>
-                            <option value='CancelOnFailure'>CancelOnFailure (Se o pagto falhar a profile não será criada.)</option>
+                            <option value='ContinueOnFailure'>ContinueOnFailure</option>
+                            <option value='CancelOnFailure'>CancelOnFailure</option>
                         </select></td>
                 </tr>
+                </table>
             </div>
-            </table>
+            
             </br>
 
             <script>
