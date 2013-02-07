@@ -141,13 +141,14 @@
             </br>
             <table>
                 <tr>
-                    <td>Pagamento Inicial</td>
-                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="on" onclick="enable()" onchange="enable()"/>Habilitado</td>
-                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable()" onchange="disable()"/>Desabilitado</td>
+                    <td><b>PAGAMENTO INICIAL :&nbsp;&nbsp;</b></td>
+                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
+                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable(1)" onchange="disable(1)"/>Desabilitado</td>
 
                 </tr>
             </table>
-            <div id="campos" name="campos" style="display:none">
+            </br>
+            <div id="campos1" name="campos1" style="display:none">
                 <table>
                 <tr>
                     <td> Valor do pagamento inicial (INITAMT):</td>
@@ -163,15 +164,50 @@
                 </tr>
                 </table>
             </div>
+            <table>
+                <tr>
+                    <td><b>PERÍODO DE EXPERIÊNCIA :&nbsp;&nbsp;</b></td>
+                    <td><input type="radio" id="trial" name="trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
+                    <td><input type="radio" id="trial" name="trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)"/>Desabilitado</td>
+
+                </tr>
+            </table>
+            <div id="campos2" name="campos2" style="display:none">
+                <table>
+                <tr>
+                    <td> Periodicidade do período de experiência (INITAMT):</td>
+                    <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
+                            <option value=''>------</option>
+                            <option value='Day'>Diário</option>
+                            <option value='Week'>Semanal</option>
+                            <option value='Month'>Mensal</option>
+                            <option value='Year'>Anual</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> Número de pagamentos dentro do ciclo (TRIALBILLINGFREQUENCY):</td>
+                    <td><input type="text" id="TRIALBILLINGFREQUENCY" name="TRIALBILLINGFREQUENCY" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Valor cobrado no período (TRIALAMT):</td>
+                    <td><input type="text" id="TRIALAMT" name="TRIALAMT" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
+                    <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value=""/></td>
+                </tr>
+                </table>
+            </div>
+            </br>
             
             </br>
 
             <script>
-                    function disable(){
-                        document.getElementById("campos").style.display="none";
+                    function disable(num){
+                        document.getElementById("campos"+num).style.display="none";
                     }
-                    function enable(){
-                        document.getElementById("campos").style.display="inline";
+                    function enable(num){
+                        document.getElementById("campos"+num).style.display="inline";
                     }
             </script>
 
