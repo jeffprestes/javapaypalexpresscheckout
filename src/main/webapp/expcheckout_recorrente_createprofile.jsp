@@ -133,17 +133,34 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Opção de Pagamento inicial :</td>
-                    <td>
-                        <input type="radio" value="on" id="habilitar" name="habilitar" onclick="enable()" onchange="enable()"/>Habilitado&nbsp;
-                        <input type="radio" value="off" id="habilitar" name="habilitar" onclick="disable()" onchange="disable()" checked/>Desabilidado
-                    </td>
+                    <td colspan="2">&nbsp;</td>
                 </tr>
                 </table>
+            </br>
+            <h2>Opções Adicionais</h2>
+            </br>
+            <table>
+                <tr>
+                    <td>Pagamento Inicial</td>
+                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="on" onclick="enable()" onchange="enable()"/>Habilitado</td>
+                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable()" onchange="disable()"/>Desabilitado</td>
+
+                </tr>
             <div id="campos" name="campos" style="display:none">
-                        Campo Teste :</br>
-                        <input type="text" id="teste" value=""/>
-                </div>
+                <tr>
+                    <td> Valor do pagamento inicial (INITAMT):</td>
+                    <td><input type="text" id="INITAMT" name="INITAMT" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Ação em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
+                    <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
+                            <option value=''>---</option>
+                            <option value='ContinueOnFailure'>ContinueOnFailure (Mesmo se o pagto falhar a profile será criado e o montante será somado ao perfil.)</option>
+                            <option value='CancelOnFailure'>CancelOnFailure (Se o pagto falhar a profile não será criada.)</option>
+                        </select></td>
+                </tr>
+            </div>
+            </table>
             </br>
 
             <script>
