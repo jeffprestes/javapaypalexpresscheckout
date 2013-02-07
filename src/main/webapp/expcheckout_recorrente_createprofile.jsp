@@ -140,7 +140,7 @@
                     </td>
                 </tr>
                 </table>
-                <div id="campos" name="campos">
+            <div id="campos" name="campos" style="display:none">
                         Campo Teste :</br>
                         <input type="text" id="teste" value=""/>
                 </div>
@@ -151,7 +151,7 @@
                         document.getElementById("campos").style.display="none";
                     }
                     function enable(){
-                        document.getElementById("campos").style.display="none";
+                        document.getElementById("campos").style.display="inline";
                     }
             </script>
 
