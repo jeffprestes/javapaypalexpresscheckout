@@ -36,7 +36,6 @@
 </tr>
 </table>
 </form>
-<c:out value="${sessionScope.token}"/>
 <br />
 </div>
 <div style="float:right; width:40%; ">
