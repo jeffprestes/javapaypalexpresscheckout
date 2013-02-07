@@ -143,7 +143,7 @@
                 <tr>
                     <td><b>PAGAMENTO INICIAL :&nbsp;&nbsp;</b></td>
                     <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
-                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable(1)" onchange="disable(1)"/>Desabilitado</td>
+                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable(1)" onchange="disable(1)" checked/>Desabilitado</td>
 
                 </tr>
             </table>
@@ -163,16 +163,18 @@
                         </select></td>
                 </tr>
                 </table>
+                </br>
             </div>
             <table>
                 <tr>
                     <td><b>PERÍODO DE EXPERIÊNCIA :&nbsp;&nbsp;</b></td>
                     <td><input type="radio" id="trial" name="trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
-                    <td><input type="radio" id="trial" name="trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)"/>Desabilitado</td>
+                    <td><input type="radio" id="trial" name="trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
 
                 </tr>
             </table>
             <div id="campos2" name="campos2" style="display:none">
+                </br>
                 <table>
                 <tr>
                     <td> Periodicidade do período de experiência (INITAMT):</td>
