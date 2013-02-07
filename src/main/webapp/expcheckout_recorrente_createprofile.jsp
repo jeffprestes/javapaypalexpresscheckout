@@ -159,7 +159,7 @@
                 <tr>
                     <td> Ação em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
                     <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
-                            <option value=''>---</option>
+                            <option value=''>----------------------------</option>
                             <option value='ContinueOnFailure'>ContinueOnFailure</option>
                             <option value='CancelOnFailure'>CancelOnFailure</option>
                         </select></td>
@@ -181,7 +181,7 @@
                 <tr>
                     <td> Periodicidade do período de experiência (INITAMT):</td>
                     <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
-                            <option value=''>------</option>
+                            <option value=''>----------</option>
                             <option value='Day'>Diário</option>
                             <option value='Week'>Semanal</option>
                             <option value='Month'>Mensal</option>
