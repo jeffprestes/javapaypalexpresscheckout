@@ -169,6 +169,67 @@ public class PagamentoSimples {
 
         return resp;
     }
+    
+    
+    public GetExpressCheckoutDetailsResposta getRecurringPaymentsProfileDetails(Map<String, String[]> parametros) throws IllegalStateException {
+
+        StringBuilder param = new StringBuilder();
+        GetExpressCheckoutDetailsResposta resp = null;
+
+        try {
+            HttpsURLConnection conn = Util.getConexaoHttps((String) parametros.get("NAOENVIAR_ENDPOINT")[0]);
+
+            logger.info("Parametros da chamada GetExpressCheckoutDetails:");
+            for (Map.Entry<String, String[]> item : parametros.entrySet()) {
+                if (podeEnviarParametro(item.getKey(), item.getValue()[0])) {
+                    param.append(item.getKey() + "=" + URLEncoder.encode(item.getValue()[0], "UTF-8") + "&");
+                    logger.info("     " + item.getKey() + ": " + item.getValue()[0] + "&");
+                }
+            }
+
+            OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
+            logger.info("Chamada a: " + conn.getURL() + " com os parametros: " + param.toString());
+
+            writer.write(param.toString());
+            writer.flush();
+            writer.close();
+
+            InputStreamReader in = new InputStreamReader(conn.getInputStream());
+
+            param = null;
+            param = new StringBuilder();
+
+            BufferedReader reader = new BufferedReader(in);
+
+            String data;
+
+
+            logger.info("Retorno da chamada: ");
+            while ((data = reader.readLine()) != null) {
+                param.append(data);
+            }
+
+            /*if (data.contains("TOKEN")) {
+             param.append("==================================================");
+             }*/
+
+            data = param.toString();
+
+            GetExpressCheckoutDetailsParser parser = GetExpressCheckoutDetailsParser.getInstance();
+            resp = parser.parse(data);
+
+            logger.info(data);
+
+
+
+        } catch (IOException ex) {
+            logger.fatal("Erro ao executar GetExpressCheckoutDetails: " + ex.getLocalizedMessage(), ex);
+        }
+
+        return resp;
+    }
+    
+    
 
     public DoExpressCheckoutPaymentResposta doExpressCheckoutPayment(Map<String, String[]> parametros) throws IllegalStateException {
 

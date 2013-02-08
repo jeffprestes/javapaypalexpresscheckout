@@ -134,17 +134,11 @@ public class ExpressCheckoutController extends HttpServlet {
                 if ("GetRecurringPaymentsProfileDetails".equalsIgnoreCase(request.getParameter("METHOD"))) {
 
                     PagamentoSimples ps = new PagamentoSimples();
-                    GetExpressCheckoutDetailsResposta resp = ps.getExpressCheckoutDetails(request.getParameterMap());
+                    GetExpressCheckoutDetailsResposta resp = ps.getRecurringPaymentsProfileDetails(request.getParameterMap());
 
                     request.setAttribute("resposta", resp);
                     RequestDispatcher rd;
-                    if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))){
                     rd = request.getRequestDispatcher("/expcheckout_recorrente_getdetails_resposta.jsp");
-                    }else{
-                    rd = request.getRequestDispatcher("/expcheckout_getexpcheckoutdetails_resposta.jsp");
-                    }
-                    logger.info("TOKEN=" + resp.getToken());
-                    logger.info("INVNUM=" + resp.getNroPedido());
                     logger.info("VERSION=" + resp.getVersao());
                     rd.forward(request, response);
                 }
