@@ -47,5 +47,10 @@
 <br />
 <div style="text-align: center">Para mais detalhes veja no log do servidor</div>
 <br />
+<form action="<c:out value='${pageContext.servletContext.contextPath}' />/ExpressCheckoutController" method="POST">
+    <input type="hidden" id="PROFILEID" name="FROFILEID" value="<c:out value='${resposta.profileId}' />">
+    <input type="hidden" id="METHOD" name="METHOD" value="GetRecurringPaymentsProfileDetails">
+    <input type="submit" value="Get Recurring Profile Details">
+</form>
 </body>
 </html>

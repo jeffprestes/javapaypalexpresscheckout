@@ -95,7 +95,7 @@
                 <tr>
                     <td>Descrição da assinatura (DESC): </td>
                     <td>
-                        <input type="text" value='Descrição' size="60" name="DESC" id="DESC" />
+                        <input type="text" value='Exemplo' size="60" name="DESC" id="DESC" />
                     </td>
                 </tr>
                 <tr>
@@ -124,7 +124,7 @@
                 <tr>
                     <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
                     <td>
-                        <input type="text" value='Número de pagamentos dentro do periodo escolhido' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                        <input type="text" value='' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
                     </td>
                 </tr>
                 <tr>
