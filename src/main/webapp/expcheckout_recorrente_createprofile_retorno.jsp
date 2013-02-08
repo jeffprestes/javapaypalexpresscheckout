@@ -50,6 +50,7 @@
 <form action="<c:out value='${pageContext.servletContext.contextPath}' />/ExpressCheckoutController" method="POST">
     <input type="hidden" id="PROFILEID" name="FROFILEID" value="<c:out value='${resposta.profileId}' />">
     <input type="hidden" id="METHOD" name="METHOD" value="GetRecurringPaymentsProfileDetails">
+    <input type="hidden" id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT" value="https://api-3t.sandbox.paypal.com/nvp">
     <input type="submit" value="Get Recurring Profile Details">
 </form>
 </body>

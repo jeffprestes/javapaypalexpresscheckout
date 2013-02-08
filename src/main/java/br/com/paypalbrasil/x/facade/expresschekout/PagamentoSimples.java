@@ -180,7 +180,7 @@ public class PagamentoSimples {
         try {
             HttpsURLConnection conn = Util.getConexaoHttps((String) parametros.get("NAOENVIAR_ENDPOINT")[0]);
 
-            logger.info("Parametros da chamada GetExpressCheckoutDetails:");
+            logger.info("Parametros da chamada GetRecurringPaymentsProfileDetails:");
             for (Map.Entry<String, String[]> item : parametros.entrySet()) {
                 if (podeEnviarParametro(item.getKey(), item.getValue()[0])) {
                     param.append(item.getKey() + "=" + URLEncoder.encode(item.getValue()[0], "UTF-8") + "&");
