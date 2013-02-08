@@ -10,6 +10,7 @@ import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfi
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.GetRecurringPaymentsProfileDetailsResposta;
 import br.com.paypalbrasil.x.facade.expresschekout.PagamentoSimples;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -134,7 +135,7 @@ public class ExpressCheckoutController extends HttpServlet {
                 if ("GetRecurringPaymentsProfileDetails".equalsIgnoreCase(request.getParameter("METHOD"))) {
 
                     PagamentoSimples ps = new PagamentoSimples();
-                    GetExpressCheckoutDetailsResposta resp = ps.getRecurringPaymentsProfileDetails(request.getParameterMap());
+                    GetRecurringPaymentsProfileDetailsResposta resp = ps.getRecurringPaymentsProfileDetails(request.getParameterMap());
 
                     request.setAttribute("resposta", resp);
                     RequestDispatcher rd;

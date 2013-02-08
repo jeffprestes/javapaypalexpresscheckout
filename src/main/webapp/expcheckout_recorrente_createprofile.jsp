@@ -144,8 +144,8 @@
             <table>
                 <tr>
                     <td><b>PAGAMENTO INICIAL :&nbsp;&nbsp;</b></td>
-                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
-                    <td><input type="radio" id="pagto_ini" name="pagto_ini" size="60" value="off" onclick="disable(1)" onchange="disable(1)" checked/>Desabilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="off" onclick="disable(1)" onchange="disable(1)" checked/>Desabilitado</td>
 
                 </tr>
             </table>
@@ -170,8 +170,8 @@
             <table>
                 <tr>
                     <td><b>PERÍODO DE EXPERIÊNCIA :&nbsp;&nbsp;</b></td>
-                    <td><input type="radio" id="trial" name="trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
-                    <td><input type="radio" id="trial" name="trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
 
                 </tr>
             </table>

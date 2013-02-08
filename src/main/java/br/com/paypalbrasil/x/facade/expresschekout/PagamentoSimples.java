@@ -9,6 +9,7 @@ import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsRes
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.DoExpressCheckoutPaymentResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfileResposta;
+import br.com.paypalbrasil.x.domain.expresscheckout.GetRecurringPaymentsProfileDetailsResposta;
 import br.com.paypalbrasil.x.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -171,10 +172,10 @@ public class PagamentoSimples {
     }
     
     
-    public GetExpressCheckoutDetailsResposta getRecurringPaymentsProfileDetails(Map<String, String[]> parametros) throws IllegalStateException {
+    public GetRecurringPaymentsProfileDetailsResposta getRecurringPaymentsProfileDetails(Map<String, String[]> parametros) throws IllegalStateException {
 
         StringBuilder param = new StringBuilder();
-        GetExpressCheckoutDetailsResposta resp = null;
+        GetRecurringPaymentsProfileDetailsResposta resp = null;
 
         try {
             HttpsURLConnection conn = Util.getConexaoHttps((String) parametros.get("NAOENVIAR_ENDPOINT")[0]);
@@ -215,7 +216,7 @@ public class PagamentoSimples {
 
             data = param.toString();
 
-            GetExpressCheckoutDetailsParser parser = GetExpressCheckoutDetailsParser.getInstance();
+            GetRecurringPaymentsProfileDetailsParser parser = GetRecurringPaymentsProfileDetailsParser.getInstance();
             resp = parser.parse(data);
 
             logger.info(data);
@@ -223,7 +224,7 @@ public class PagamentoSimples {
 
 
         } catch (IOException ex) {
-            logger.fatal("Erro ao executar GetExpressCheckoutDetails: " + ex.getLocalizedMessage(), ex);
+            logger.fatal("Erro ao executar GetRecurringPaymentsProfileDetails: " + ex.getLocalizedMessage(), ex);
         }
 
         return resp;
