@@ -139,6 +139,48 @@
 <c:out value="${resposta.recorrencia.outStandingBalance}"/>
 </td>
 </tr>
+<tr>    
+    <td>Valor do periodo de experiência = </td>
+    <td>(TRIALAMTPAID): </td>
+    <td>
+<c:out value="${resposta.recorrencia.trialAmtPaid}"/>
+</td>
+</tr>
+<tr>    
+    <td>Valor de Aquisição = </td>
+    <td>(TRIALAMTPAID): </td>
+    <td>
+<c:out value="${resposta.recorrencia.regularAmtPaid}"/>
+</td>
+</tr>
+<tr>    
+    <td>Data de expiração da Assinatura = </td>
+    <td>(TRIALAMTPAID): </td>
+    <td>
+<c:out value="${resposta.recorrencia.finalPaymentDueDate}"/>
+</td>
+</tr>
+<tr>    
+    <td>Ciclo de pagamento da Assinatura = </td>
+    <td>(TRIALAMTPAID): </td>
+    <td>
+<c:out value="${resposta.recorrencia.billingPeriod}"/>
+</td>
+</tr>
+<tr>    
+    <td>Ciclos totais de Assinatura = </td>
+    <td>(TRIALAMTPAID): </td>
+    <td>
+<c:out value="${resposta.recorrencia.totalBillingCycles}"/>
+</td>
+</tr>
+<tr>    
+    <td>Valor da Assinatura = </td>
+    <td>(AMT): </td>
+    <td>
+<c:out value="${resposta.total}"/>
+</td>
+</tr>
 </table>
 <hr>
 <table>
@@ -214,13 +256,6 @@
     <td>(CURRENCYCODE): </td>
     <td>
 <c:out value="${resposta.moeda}"/>
-</td>
-</tr>
-<tr>    
-    <td>Total = </td>
-    <td>(AMT): </td>
-    <td>
-<c:out value="${resposta.total}"/>
 </td>
 </tr>
 <tr>    
