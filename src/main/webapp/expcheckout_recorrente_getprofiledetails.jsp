@@ -87,7 +87,7 @@
     <td>Descrição da Assinatura = </td>
     <td>(DESC): </td>
     <td>
-<c:out value="${resposta.recorrencia.Desc}"/>
+<c:out value="${resposta.recorrencia.desc}"/>
 </td>
 </tr>
 <tr>    
