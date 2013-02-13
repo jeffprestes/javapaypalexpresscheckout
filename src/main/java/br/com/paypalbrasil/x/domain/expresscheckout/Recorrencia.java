@@ -64,8 +64,8 @@ public class Recorrencia {
     /**
      * @param Desc the Desc to set
      */
-    public void setDesc(String Desc) {
-        this.desc = Desc;
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     /**
