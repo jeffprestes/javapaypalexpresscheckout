@@ -51,6 +51,7 @@ public class GetRecurringPaymentsProfileDetailsParser extends ParserBasico {
         Comprador comprador = null;
         DadosEntrega dadosEntrega = null;
         DadosPagamento dPagto = null;
+        Recorrencia recorrencia = null;
 
         for (String current : pairs) {
 
@@ -103,7 +104,87 @@ public class GetRecurringPaymentsProfileDetailsParser extends ParserBasico {
                     if ("INVNUM".equalsIgnoreCase(chave)) {
                         resp.setNroPedido(valor);
                     }
-
+                    
+                    if ("STATUS".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setStatus(valor);
+                    }
+                    
+                    if ("AUTOBILLOUTAMT".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setAutoBill(valor);
+                    }
+                    
+                    if ("DESC".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setDesc(valor);
+                    }
+                    
+                    if ("MAXFAILEDPAYMENTS".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setMaxFailedPayments(valor);
+                    }
+                    
+                    if ("SUBSCRIBERNAME".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setSubscriberName(valor);
+                    }
+                    
+                    if ("PROFILESTARTDATE".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setProfileStartDate(valor);
+                    }
+                    
+                    if ("NUMCYCLESCOMPLETED".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setNumCyclesCompleted(valor);
+                    }
+                    
+                    if ("NUMCYCLESREMAINING".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setNumCyclesRemaining(valor);
+                    }
+                    
+                    if ("OUTSTANDINGBALANCE".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setOutStandingBalance(valor);
+                    }
+                    
+                    if ("FAILEDPAYMENTCOUNT".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setFailedPaymentCount(valor);
+                    }
+                    
                     if ("TIMESTAMP".equalsIgnoreCase(chave)) {
                         resp.setTimestamp(valor);
                     }
@@ -126,18 +207,6 @@ public class GetRecurringPaymentsProfileDetailsParser extends ParserBasico {
 
                     if ("NOTE".equals(chave)) {
                         resp.setNota(valor);
-                    }
-
-                    if ("GIFTMESSAGE".equals(chave)) {
-                        resp.setMensagemPresente(valor);
-                    }
-
-                    if ("SURVEYQUESTION".equals(chave)) {
-                        resp.setPerguntaOpiniao(valor);
-                    }
-
-                    if ("SURVEYCHOICESELECTED".equals(chave)) {
-                        resp.setRespostaPerguntaOpiniao(valor);
                     }
 
                     if ("BUYERMARKETINGMAIL".equals(chave)) {

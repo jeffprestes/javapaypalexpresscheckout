@@ -27,10 +27,6 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
     private String paypalAdjustment;
     private String nota;
     private CheckoutStatus statusCheckout;
-    private List<Vendedor> vendedor;
-    private String mensagemPresente;
-    private String perguntaOpiniao;
-    private String respostaPerguntaOpiniao;
     private Comprador comprador;
     private DadosEntrega dadosEntrega;
     private String total;
@@ -43,6 +39,7 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
     private String quantidade;
     private List<ItemVenda> itens;
     private ErroResposta erro;
+    private Recorrencia recorrencia;
 
     public GetRecurringPaymentsProfileDetailsResposta() {
     }
@@ -99,14 +96,6 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
         this.itens = itens;
     }
 
-    public String getMensagemPresente() {
-        return mensagemPresente;
-    }
-
-    public void setMensagemPresente(String mensagemPresente) {
-        this.mensagemPresente = mensagemPresente;
-    }
-
     public String getMoeda() {
         return moeda;
     }
@@ -145,22 +134,6 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
 
     public void setPaypalAdjustment(String paypalAdjustment) {
         this.paypalAdjustment = paypalAdjustment;
-    }
-
-    public String getPerguntaOpiniao() {
-        return perguntaOpiniao;
-    }
-
-    public void setPerguntaOpiniao(String perguntaOpiniao) {
-        this.perguntaOpiniao = perguntaOpiniao;
-    }
-
-    public String getRespostaPerguntaOpiniao() {
-        return respostaPerguntaOpiniao;
-    }
-
-    public void setRespostaPerguntaOpiniao(String respostaPerguntaOpiniao) {
-        this.respostaPerguntaOpiniao = respostaPerguntaOpiniao;
     }
 
     public CheckoutStatus getStatusCheckout() {
@@ -239,7 +212,7 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
 
     @Override
     public String toString() {
-        return "GetRecurringPaymentsProfileDetailsResposta{" + "token=" + token + ", textoLivre=" + textoLivre + ", nroPedido=" + nroPedido + ", telefone=" + telefone + ", paypalAdjustment=" + paypalAdjustment + ", nota=" + nota + ", statusCheckout=" + statusCheckout + ", mensagemPresente=" + mensagemPresente + ", perguntaOpiniao=" + perguntaOpiniao + ", respostaPerguntaOpiniao=" + respostaPerguntaOpiniao + ", comprador=" + comprador.toString() + ", dadosEntrega=" + dadosEntrega + ", total=" + total + ", moeda=" + moeda + ", item=" + dadosPagamento + ", transactionId=" + transactionId + ", paymentRequestId=" + paymentRequestId + ", itens=" + itens.toString() + '}';
+        return "GetRecurringPaymentsProfileDetailsResposta{" + "token=" + token + ", textoLivre=" + textoLivre + ", nroPedido=" + nroPedido + ", telefone=" + telefone + ", paypalAdjustment=" + paypalAdjustment + ", nota=" + nota + ", statusCheckout=" + statusCheckout + ", comprador=" + comprador.toString() + ", dadosEntrega=" + dadosEntrega + ", total=" + total + ", moeda=" + moeda + ", item=" + dadosPagamento + ", transactionId=" + transactionId + ", paymentRequestId=" + paymentRequestId + ", itens=" + itens.toString() + '}';
     }
 
     /**
@@ -310,5 +283,19 @@ public class GetRecurringPaymentsProfileDetailsResposta extends Resposta {
      */
     public void setQuantidade(String quantidade) {
         this.quantidade = quantidade;
+    }
+
+    /**
+     * @return the recorrencia
+     */
+    public Recorrencia getRecorrencia() {
+        return recorrencia;
+    }
+
+    /**
+     * @param recorrencia the recorrencia to set
+     */
+    public void setRecorrencia(Recorrencia recorrencia) {
+        this.recorrencia = recorrencia;
     }
 }

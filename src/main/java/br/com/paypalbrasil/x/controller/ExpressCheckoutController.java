@@ -139,7 +139,7 @@ public class ExpressCheckoutController extends HttpServlet {
 
                     request.setAttribute("resposta", resp);
                     RequestDispatcher rd;
-                    rd = request.getRequestDispatcher("/expcheckout_recorrente_getdetails_resposta.jsp");
+                    rd = request.getRequestDispatcher("/expcheckout_recorrente_getprofiledetails.jsp");
                     logger.info("VERSION=" + resp.getVersao());
                     rd.forward(request, response);
                 }
