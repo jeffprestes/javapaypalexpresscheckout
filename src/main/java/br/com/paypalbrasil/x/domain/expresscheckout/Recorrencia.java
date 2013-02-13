@@ -12,7 +12,7 @@ public class Recorrencia {
     
     private String status;
     private String autoBill;
-    private String Desc;
+    private String desc;
     private String maxFailedPayments;
     private String subscriberName;
     private String profileStartDate;
@@ -58,14 +58,14 @@ public class Recorrencia {
      * @return the Desc
      */
     public String getDesc() {
-        return Desc;
+        return desc;
     }
 
     /**
      * @param Desc the Desc to set
      */
     public void setDesc(String Desc) {
-        this.Desc = Desc;
+        this.desc = Desc;
     }
 
     /**
