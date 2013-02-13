@@ -48,7 +48,7 @@
 <div style="text-align: center">Para mais detalhes veja no log do servidor</div>
 <br />
 <form action="<c:out value='${pageContext.servletContext.contextPath}' />/ExpressCheckoutController" method="POST">
-    <input type="hidden" id="PROFILEID" name="FROFILEID" value="${resposta.profileId}">
+    <input type="hidden" id="PROFILEID" name="PROFILEID" value="<c:out value='${resposta.profileId}' />">
     <input type="hidden" id="METHOD" name="METHOD" value="GetRecurringPaymentsProfileDetails">
     <input type="hidden" id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT" value="https://api-3t.sandbox.paypal.com/nvp">
     <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
