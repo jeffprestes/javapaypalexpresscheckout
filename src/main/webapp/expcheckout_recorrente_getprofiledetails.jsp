@@ -274,9 +274,6 @@
 </tr>
 </table>
 </br>
-<input type="hidden" value="<c:out value='${resposta.moeda}'/>" name="CURRENCYCODE" id="CURRENCYCODE">
-<input type="hidden" value="<c:out value='${resposta.comprador.payerId}'/>" name="PAYERID" id="PAYERID">
-<input type="submit" value="Create Profile" align="center"/>
 </form>
 </table>
 </body>
