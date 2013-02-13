@@ -185,6 +185,46 @@ public class GetRecurringPaymentsProfileDetailsParser extends ParserBasico {
                         resp.getRecorrencia().setFailedPaymentCount(valor);
                     }
                     
+                    if ("TRIALAMTPAID".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setTrialAmtPaid(valor);
+                    }
+                    
+                    if ("REGULARAMTPAID".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setRegularAmtPaid(valor);
+                    }
+                    
+                    if ("FINALPAYMENTDUEDATE".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setFinalPaymentDueDate(valor);
+                    }
+                    
+                    if ("BILLINGPERIOD".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setBillingPeriod(valor);
+                    }
+                    
+                    if ("BILLINGPERIOD".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setTotalBillingCycles(valor);
+                    }
+                    
                     if ("TIMESTAMP".equalsIgnoreCase(chave)) {
                         resp.setTimestamp(valor);
                     }

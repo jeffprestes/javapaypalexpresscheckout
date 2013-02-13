@@ -148,28 +148,28 @@
 </tr>
 <tr>    
     <td>Valor de Aquisição = </td>
-    <td>(TRIALAMTPAID): </td>
+    <td>(REGULARAMTPAID): </td>
     <td>
 <c:out value="${resposta.recorrencia.regularAmtPaid}"/>
 </td>
 </tr>
 <tr>    
     <td>Data de expiração da Assinatura = </td>
-    <td>(TRIALAMTPAID): </td>
+    <td>(FINALPAYMENTDUEDATE): </td>
     <td>
 <c:out value="${resposta.recorrencia.finalPaymentDueDate}"/>
 </td>
 </tr>
 <tr>    
     <td>Ciclo de pagamento da Assinatura = </td>
-    <td>(TRIALAMTPAID): </td>
+    <td>(BILLINGPERIOD): </td>
     <td>
 <c:out value="${resposta.recorrencia.billingPeriod}"/>
 </td>
 </tr>
 <tr>    
     <td>Ciclos totais de Assinatura = </td>
-    <td>(TRIALAMTPAID): </td>
+    <td>(TOTALBILLINGCYCLES): </td>
     <td>
 <c:out value="${resposta.recorrencia.totalBillingCycles}"/>
 </td>
