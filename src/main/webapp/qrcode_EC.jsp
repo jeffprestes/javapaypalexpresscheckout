@@ -13,16 +13,16 @@
         <h2 align="center">Exemplos de QRCODE para Express Checkout mobile</h2>
         </br>
         <script type="text/javascript">
-            function changeimage(x)
-            {
-                x.src="images/"+x.id+".png"
+            function changeimage(x) {
+                x.src="images/"+x.id+".png";
             }
             
-             function returnimage(x)
-             {
-                x.src="images/QRCODE"+x.id+".png"
+            function returnimage(x) {
+                x.src="images/QRCODE"+x.id+".png";
             }
         </script>
+        </br>
+        <h4>Mobile / Produção</h2>
         <table align="center" >
         <tr>
             <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODEvinho1.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
@@ -32,6 +32,9 @@
             <td ><a href="https://s.paypal.me/FVBFJ3"><img id="vinho3" src="images/QRCODEvinho3.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
         </tr>
         </table>
+        </br>
+        <hr>
+        <h4>Mobile / Sandbox</h2>
        
     </body>
 </html>
