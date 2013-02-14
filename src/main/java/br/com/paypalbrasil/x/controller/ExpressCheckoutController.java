@@ -6,6 +6,7 @@ package br.com.paypalbrasil.x.controller;
 
 import br.com.paypalbrasil.x.domain.CodigoACK;
 import br.com.paypalbrasil.x.domain.Credenciais;
+import br.com.paypalbrasil.x.domain.Temporario;
 import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfileResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
@@ -201,6 +202,8 @@ public class ExpressCheckoutController extends HttpServlet {
                 
                 //CreatePaymentProfile
                 if ("CreateRecurringPaymentsProfile".equalsIgnoreCase(request.getParameter("METHOD"))) {
+                    
+                    Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"), request.getParameter("BILLINGPERIOD"), request.getParameter("AMT"));
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
 

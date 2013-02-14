@@ -119,6 +119,12 @@
                         <input type="text" value="BRL" name="CURRENCYCODE" id="CURRENCYCODE" size="6" />
                     </td>
                 </tr>
+                <tr>
+                    <td>Valor da assinatura (AMT): </td>
+                    <td>
+                        <input type="text" value="10" size="60" name="AMT" id="AMT" />
+                    </td>
+                </tr>
                 <!--
                 <tr>
                     <td>
