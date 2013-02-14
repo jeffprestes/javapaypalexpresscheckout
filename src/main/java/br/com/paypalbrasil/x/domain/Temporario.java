@@ -14,7 +14,7 @@ public class Temporario {
     private String billingFrequency;
     private String billingPeriod;
     
-    public Temporario(String amt,String billingFrequency, String billingPeriod) {
+    public Temporario(String billingFrequency, String billingPeriod, String amt) {
         this.setAmt(amt);
         this.setBillingFrequency(billingFrequency);
         this.setBillingPeriod(billingPeriod);

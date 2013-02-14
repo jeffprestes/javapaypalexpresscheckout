@@ -52,6 +52,10 @@ public class ExpressCheckoutController extends HttpServlet {
             if (request.getParameter("METHOD") != null && !"".equals(request.getParameter("METHOD"))) {
 
                 if ("SETEXPRESSCHECKOUT".equalsIgnoreCase(request.getParameter("METHOD"))) {
+                    
+                    if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))) {
+                    Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"),request.getParameter("BILLINGPERIOD"),request.getParameter("AMT"));
+                    }
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
 
@@ -202,8 +206,6 @@ public class ExpressCheckoutController extends HttpServlet {
                 
                 //CreatePaymentProfile
                 if ("CreateRecurringPaymentsProfile".equalsIgnoreCase(request.getParameter("METHOD"))) {
-                    
-                    Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"), request.getParameter("BILLINGPERIOD"), request.getParameter("AMT"));
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
 
