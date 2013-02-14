@@ -22,7 +22,7 @@
             }
         </script>
         </br>
-        <h4>Mobile / Produção</h2>
+        <h4 align="center">Mobile / Produção</h2>
         <table align="center" >
         <tr>
             <td ><a href="https://s.paypal.me/EzyuUr"><img id="vinho1" src="images/QRCODEvinho1.png" onmouseover="changeimage(this)" onmouseout="returnimage(this)"></a></td>
@@ -34,7 +34,7 @@
         </table>
         </br>
         <hr>
-        <h4>Mobile / Sandbox</h2>
+        <h4 align="center">Mobile / Sandbox</h2>
        
     </body>
 </html>
