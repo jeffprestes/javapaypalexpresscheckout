@@ -217,6 +217,14 @@ public class GetRecurringPaymentsProfileDetailsParser extends ParserBasico {
                         resp.getRecorrencia().setBillingPeriod(valor);
                     }
                     
+                    if ("BILLINGFREQUENCY".equals(chave)) {
+                        if (recorrencia == null) {
+                            recorrencia = new Recorrencia();
+                            resp.setRecorrencia(recorrencia);
+                        }
+                        resp.getRecorrencia().setBillingFrequency(valor);
+                    }
+                    
                     if ("TOTALBILLINGCYCLES".equals(chave)) {
                         if (recorrencia == null) {
                             recorrencia = new Recorrencia();

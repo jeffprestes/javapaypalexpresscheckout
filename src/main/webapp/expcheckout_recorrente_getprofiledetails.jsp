@@ -146,13 +146,13 @@
 <c:out value="${resposta.recorrencia.trialAmtPaid}"/>
 </td>
 </tr>
-<tr>    
+<%--<tr>    
     <td>Valor de Aquisição = </td>
     <td>(REGULARAMTPAID): </td>
     <td>
 <c:out value="${resposta.recorrencia.regularAmtPaid}"/>
 </td>
-</tr>
+</tr>--%>
 <tr>    
     <td>Data de expiração da Assinatura = </td>
     <td>(FINALPAYMENTDUEDATE): </td>
@@ -165,6 +165,13 @@
     <td>(BILLINGPERIOD): </td>
     <td>
 <c:out value="${resposta.recorrencia.billingPeriod}"/>
+</td>
+</tr>
+<tr>    
+    <td>Frequência de pagamento = </td>
+    <td>(BILLINGFREQUENCY): </td>
+    <td>
+<c:out value="${resposta.recorrencia.billingFrequency}"/>
 </td>
 </tr>
 <tr>    

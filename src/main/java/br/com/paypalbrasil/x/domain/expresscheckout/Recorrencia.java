@@ -24,6 +24,7 @@ public class Recorrencia {
     private String regularAmtPaid;
     private String finalPaymentDueDate;
     private String billingPeriod;
+    private String billingFrequency;
     private String totalBillingCycles;
 
     /**
@@ -234,6 +235,20 @@ public class Recorrencia {
      */
     public void setTotalBillingCycles(String totalBillingCycles) {
         this.totalBillingCycles = totalBillingCycles;
+    }
+
+    /**
+     * @return the billingFrequency
+     */
+    public String getBillingFrequency() {
+        return billingFrequency;
+    }
+
+    /**
+     * @param billingFrequency the billingFrequency to set
+     */
+    public void setBillingFrequency(String billingFrequency) {
+        this.billingFrequency = billingFrequency;
     }
     
     
