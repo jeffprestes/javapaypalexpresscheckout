@@ -122,8 +122,8 @@ public class WSFretesPayPal {
 
         return preco;
     }
-
-    /*public static void main(String argv[]) {
+/*
+    public static void main(String argv[]) {
      final WSFretesPayPal ff = new WSFretesPayPal();
 
      final float preco = ff.getPreco("01419001", "09291230", 12, 5, 20, 1.5f);
