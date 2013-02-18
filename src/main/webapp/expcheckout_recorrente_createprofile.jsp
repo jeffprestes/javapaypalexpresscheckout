@@ -113,18 +113,13 @@
                 <tr>
                     <td>Período de pagamento (BILLINGPERIOD): </td>
                     <td>
-                        <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
-                            <option value='Day'>Diário</option>
-                            <option value='Week'>Semanal</option>
-                            <option value='SemiMonth'>SemiMonth</option>
-                            <option value='Year'>Anual</option>
-                        </select>
+                        <input type="text" value="<c:out value='${temporario.billingPeriod}'/>" size="60" name="BILLINGPERIOD" id="BILLINGPERIOD" />
                     </td>
                 </tr>
                 <tr>
                     <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
                     <td>
-                        <input type="text" value='' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                        <input type="text" value="<c:out value='${temporario.billingFrequency}'/>" size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
                     </td>
                 </tr>
                 <tr>

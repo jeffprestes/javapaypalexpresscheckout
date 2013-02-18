@@ -125,7 +125,7 @@
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
-                        <input type="text" value="10" size="60" name="AMT" id="AMT" />
+                        <input type="text" value="10" size="10" name="AMT" id="AMT" />
                     </td>
                 </tr>
                 <tr>
@@ -142,7 +142,7 @@
                 <tr>
                     <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
                     <td>
-                        <input type="text" value='' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                        <input type="text" value='' size="10" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
                     </td>
                 </tr>
                 <input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
