@@ -10,9 +10,9 @@ package br.com.paypalbrasil.x.domain;
  */
 public class Temporario {
     
-    private String amt;
-    private String billingFrequency;
-    private String billingPeriod;
+    protected String amt;
+    protected String billingFrequency;
+    protected String billingPeriod;
     
     public Temporario(String billingFrequency, String billingPeriod, String amt) {
         this.amt = amt;

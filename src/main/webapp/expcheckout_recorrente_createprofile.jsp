@@ -174,7 +174,7 @@
                 </br>
                 <table>
                 <tr>
-                    <td> Periodicidade do período de experiência (INITAMT):</td>
+                    <td> Periodicidade do período de experiência (TRIALBILLINGPERIOD):</td>
                     <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
                             <option value=''>----------</option>
                             <option value='Day'>Diário</option>
