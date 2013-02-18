@@ -107,7 +107,7 @@
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
-                        <input type="text" value="<c:out value='${temp.amt}'/>" size="60" name="AMT" id="AMT" />
+                        <input type="text" value="<c:out value='${temporario.amt}'/>" size="60" name="AMT" id="AMT" />
                     </td>
                 </tr>
                 <tr>
