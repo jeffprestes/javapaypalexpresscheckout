@@ -14,8 +14,9 @@
     </head>
     <body>
         <h1>PayPal Java Testes - Express Checkout - Pagamento Recorrente</h1>
-        <table>
+        
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
+                <table>
                 <tr>
                     <td>Quer ver os parametros antes de redirecionar? </td>
                     <td>
@@ -109,16 +110,18 @@
                     </td>
                 </tr>
                 <tr>
-
-                        <input type="hidden" value='0' name="AMT" id="AMT" size="100" />
-
-                <tr>
                     <td>
                         Moeda (CURRENCYCODE) : </td>
                     <td>
                         <input type="text" value="BRL" name="CURRENCYCODE" id="CURRENCYCODE" size="6" />
                     </td>
                 </tr>
+                </table>
+              <hr>
+            </br>
+            <h2>Dados da Assinatura</h2>
+            </br>
+                    <table>
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
@@ -164,7 +167,7 @@
                         <input type="submit" name="Submit" value="Submit" />
                     </td>
                 </tr>
-            </form>
-        </table>
+            </table>
+        </form>
     </body>
 </html>
