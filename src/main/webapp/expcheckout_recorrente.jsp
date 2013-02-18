@@ -125,6 +125,23 @@
                         <input type="text" value="10" size="60" name="AMT" id="AMT" />
                     </td>
                 </tr>
+                <tr>
+                    <td>Período de pagamento (BILLINGPERIOD): </td>
+                    <td>
+                        <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
+                            <option value='Day'>Diário</option>
+                            <option value='Week'>Semanal</option>
+                            <option value='SemiMonth'>SemiMonth</option>
+                            <option value='Year'>Anual</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
+                    <td>
+                        <input type="text" value='' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                    </td>
+                </tr>
                 <input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
                 <!--
                 <tr>
