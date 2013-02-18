@@ -119,7 +119,7 @@
                 <tr>
                     <td>Frequência de pagamento dentro do período (BILLINGFREQUENCY): </td>
                     <td>
-                        <input type="text" value="<c:out value='${temporario.billingFrequency}'/>" size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
+                        <input type="text" value='<c:out value="${sessionScope.BILLINGFREQUENCY}" />' size="60" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
                     </td>
                 </tr>
                 <tr>

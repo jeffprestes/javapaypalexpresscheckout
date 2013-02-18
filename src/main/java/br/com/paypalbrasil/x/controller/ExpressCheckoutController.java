@@ -54,6 +54,7 @@ public class ExpressCheckoutController extends HttpServlet {
                 if ("SETEXPRESSCHECKOUT".equalsIgnoreCase(request.getParameter("METHOD"))) {
                     
                     HttpSession sessao = request.getSession();
+                    sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
                     
                     if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))) {
                     Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"),request.getParameter("BILLINGPERIOD"),request.getParameter("AMT"));
