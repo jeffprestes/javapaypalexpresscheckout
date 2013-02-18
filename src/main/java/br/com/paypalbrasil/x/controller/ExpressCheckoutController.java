@@ -57,7 +57,7 @@ public class ExpressCheckoutController extends HttpServlet {
                     
                     if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))) {
                     Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"),request.getParameter("BILLINGPERIOD"),request.getParameter("AMT"));
-                    logger.info("Dados temporarios : AMT = "+temp.getAmt()+", FREQUENCY = "+temp.getBillingFrequency()+", PERIOD"+temp.getBillingPeriod());
+                    logger.info("Dados temporarios : AMT = "+temp.getAmt()+", FREQUENCY = "+temp.getBillingFrequency()+", PERIOD = "+temp.getBillingPeriod());
                     }
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
