@@ -146,7 +146,7 @@
                     </td>
                 </tr>
                 <input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
-                <input type="hidden" value="0" size="60" name="AMT" id="AMT" />
+                <input type="hidden" value="0" name="AMT" id="AMT" />
                 <!--
                 <tr>
                     <td>
