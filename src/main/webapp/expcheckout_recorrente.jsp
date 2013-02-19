@@ -21,7 +21,7 @@
                 document.getElementById("campos"+num).style.display="inline";
             }
             function concat(){
-                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +"</br> Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+""; 
+                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +" <br> Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+""; 
             }
             
         </script>
