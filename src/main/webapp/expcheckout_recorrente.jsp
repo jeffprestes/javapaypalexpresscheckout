@@ -122,12 +122,14 @@
             <h2>Dados da Assinatura</h2>
             </br>
                     <table>
+                        <%--
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
                         <input type="text" value="10" size="10" name="AMT_SIG" id="AMT_SIG" />
                     </td>
                 </tr>
+                        --%>
                 <tr>
                     <td>Período de pagamento (BILLINGPERIOD): </td>
                     <td>
