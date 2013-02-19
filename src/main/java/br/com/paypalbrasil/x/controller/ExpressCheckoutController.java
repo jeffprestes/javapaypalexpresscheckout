@@ -6,7 +6,6 @@ package br.com.paypalbrasil.x.controller;
 
 import br.com.paypalbrasil.x.domain.CodigoACK;
 import br.com.paypalbrasil.x.domain.Credenciais;
-import br.com.paypalbrasil.x.domain.Temporario;
 import br.com.paypalbrasil.x.domain.expresscheckout.CreateRecurringPaymentsProfileResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.GetExpressCheckoutDetailsResposta;
 import br.com.paypalbrasil.x.domain.expresscheckout.SetExpressCheckoutResposta;
@@ -55,12 +54,11 @@ public class ExpressCheckoutController extends HttpServlet {
                     
                     HttpSession sessao = request.getSession();
                     
-                    
                     if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))) {
                         sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
                         sessao.setAttribute("BILLINGPERIOD", request.getParameter("BILLINGPERIOD"));
                         sessao.setAttribute("AMT_SIG", request.getParameter("AMT_SIG"));
-                        
+                        /*
                         //OPCOES ADICIONAIS
                         //Pagamento inicial
                         if("off".equalsIgnoreCase(request.getParameter("NAOENVIAR_pagtoini"))){
@@ -85,6 +83,7 @@ public class ExpressCheckoutController extends HttpServlet {
                         //FIM DAS OPCOES ADICIONAIS
                         
                         //CONCATENAÇÃO DOS VALORES DA ASSINATURA NA DESCRIÇÃO DO PEDIDO.
+                        */
                     }
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));
