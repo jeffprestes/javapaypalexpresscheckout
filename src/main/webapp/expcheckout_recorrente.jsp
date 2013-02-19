@@ -212,7 +212,6 @@
                     <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
                     <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value=""/></td>
                 </tr>
-                
                 </table>
                 </div>
                 <hr>
@@ -224,11 +223,6 @@
                     </td>
                 </tr>
                 </table>
-            
-            </br>
-            
-            </br>
-
             <script>
                     function disable(num){
                         document.getElementById("campos"+num).style.display="none";
@@ -237,7 +231,6 @@
                         document.getElementById("campos"+num).style.display="inline";
                     }
             </script>
-                
         </form>
     </body>
 </html>
