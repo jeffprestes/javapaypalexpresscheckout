@@ -29,7 +29,7 @@
                     periodo = "Semanal";
                 }
                 if(document.getElementById("BILLINGPERIOD").value == "SemiMonth"){
-                    periodo = "Mensal";
+                    periodo = "Quinzenal";
                 }
                 if(document.getElementById("BILLINGPERIOD").value == "Year"){
                     periodo = "Anual";
