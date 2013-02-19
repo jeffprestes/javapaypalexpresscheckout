@@ -61,9 +61,6 @@
                         <input type="text" value=<%=request.getParameter("PAYERID")%> size="60" name="PAYERID" id="PAYERID" />
                     </td>
                 </tr>
-
-
-
                 <tr>
                     <td>Versão (VERSION): </td>
                     <td>
@@ -87,7 +84,7 @@
                     <td colspan="2">&nbsp;</td>
                 </tr>
             </table>
-                    <hr>
+            <hr>
             </br>
             <h2>Dados da Assinatura</h2>
             </br>
@@ -131,12 +128,12 @@
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
-                </table>
+            </table>
             <hr>
             </br>
             <h2>Opções Adicionais</h2>
             </br>
-                <table>
+            <table>
                 <tr>
                     <td> Valor do pagamento inicial (INITAMT):</td>
                     <td><input type="text" id="INITAMT" name="INITAMT" size="60" value='<c:out value="${sessionScope.INITAMT}" />'/></td>
@@ -161,10 +158,10 @@
                     <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
                     <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value='<c:out value="${sessionScope.TRIALTOTALBILLINGCYCLES}" />'/></td>
                 </tr>
-</br>
-            <td colspan="2" style="vertical-align: middle; text-align: center">
-                <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
-            </td>
+                </br>
+                <td colspan="2" style="vertical-align: middle; text-align: center">
+                    <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
+                </td>
             </table>
         </form>
     </body>
