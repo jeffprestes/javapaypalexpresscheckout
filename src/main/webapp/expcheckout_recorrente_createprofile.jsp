@@ -136,79 +136,33 @@
             </br>
             <h2>Opções Adicionais</h2>
             </br>
-            <table>
-                <tr>
-                    <td><b>PAGAMENTO INICIAL :&nbsp;&nbsp;</b></td>
-                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
-                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="off" onclick="disable(1)" onchange="disable(1)" checked/>Desabilitado</td>
-
-                </tr>
-            </table>
-            </br>
-            <div id="campos1" name="campos1" style="display:none">
                 <table>
                 <tr>
                     <td> Valor do pagamento inicial (INITAMT):</td>
-                    <td><input type="text" id="INITAMT" name="INITAMT" size="60" value=""/></td>
+                    <td><input type="text" id="INITAMT" name="INITAMT" size="60" value='<c:out value="${sessionScope.INITAMT}" />'/></td>
                 </tr>
                 <tr>
                     <td> Ação em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
-                    <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
-                            <option value=''>----------------------------</option>
-                            <option value='ContinueOnFailure'>ContinueOnFailure</option>
-                            <option value='CancelOnFailure'>CancelOnFailure</option>
-                        </select></td>
+                    <td><input type="text" id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" size="60" value='<c:out value="${sessionScope.FAILEDINITAMTACTION}" />'/></td>
                 </tr>
-                </table>
-                </br>
-            </div>
-            <table>
-                <tr>
-                    <td><b>PERÍODO DE EXPERIÊNCIA :&nbsp;&nbsp;</b></td>
-                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
-                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
-
-                </tr>
-            </table>
-            <div id="campos2" name="campos2" style="display:none">
-                </br>
-                <table>
                 <tr>
                     <td> Periodicidade do período de experiência (TRIALBILLINGPERIOD):</td>
-                    <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
-                            <option value=''>----------</option>
-                            <option value='Day'>Diário</option>
-                            <option value='Week'>Semanal</option>
-                            <option value='Month'>Mensal</option>
-                            <option value='Year'>Anual</option>
-                        </select></td>
+                    <td><input type="text" id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" size="60" value='<c:out value="${sessionScope.TRIALBILLINGPERIOD}" />'/></td>
                 </tr>
                 <tr>
                     <td> Número de pagamentos dentro do ciclo (TRIALBILLINGFREQUENCY):</td>
-                    <td><input type="text" id="TRIALBILLINGFREQUENCY" name="TRIALBILLINGFREQUENCY" size="60" value=""/></td>
+                    <td><input type="text" id="TRIALBILLINGFREQUENCY" name="TRIALBILLINGFREQUENCY" size="60" value='<c:out value="${sessionScope.TRIALBILLINGFREQUENCY}" />'/></td>
                 </tr>
                 <tr>
                     <td> Valor cobrado no período (TRIALAMT):</td>
-                    <td><input type="text" id="TRIALAMT" name="TRIALAMT" size="60" value=""/></td>
+                    <td><input type="text" id="TRIALAMT" name="TRIALAMT" size="60" value='<c:out value="${sessionScope.TRIALAMT}" />'/></td>
                 </tr>
                 <tr>
                     <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
-                    <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value=""/></td>
+                    <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value='<c:out value="${sessionScope.TRIALTOTALBILLINGCYCLES}" />'/></td>
                 </tr>
                 </table>
-            </div>
             </br>
-            
-            </br>
-
-            <script>
-                    function disable(num){
-                        document.getElementById("campos"+num).style.display="none";
-                    }
-                    function enable(num){
-                        document.getElementById("campos"+num).style.display="inline";
-                    }
-            </script>
 <hr>
 </br>
             <td colspan="2" style="vertical-align: middle; text-align: center">

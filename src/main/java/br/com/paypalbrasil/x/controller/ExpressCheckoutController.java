@@ -60,6 +60,28 @@ public class ExpressCheckoutController extends HttpServlet {
                         sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
                         sessao.setAttribute("BILLINGPERIOD", request.getParameter("BILLINGPERIOD"));
                         sessao.setAttribute("AMT_SIG", request.getParameter("AMT_SIG"));
+                        
+                        //OPCOES ADICIONAIS
+                        //Pagamento inicial
+                        if("off".equalsIgnoreCase(request.getParameter("NAOENVIAR_pagtoini"))){
+                            sessao.setAttribute("INITAMT", "-----------------");
+                            sessao.setAttribute("FAILEDINITAMTACTION", "-----------------");
+                        }else{
+                            sessao.setAttribute("INITAMT", request.getParameter("INITAMT"));
+                            sessao.setAttribute("FAILEDINITAMTACTION", request.getParameter("FAILEDINITAMTACTION"));
+                        }
+                        //Periodo de experiencia
+                        if("off".equalsIgnoreCase(request.getParameter("NAOENVIAR_trial"))){
+                            sessao.setAttribute("TRIALBILLINGPERIOD", "-----------------");
+                            sessao.setAttribute("TRIALBILLINGFREQUENCY", "-----------------");
+                            sessao.setAttribute("TRIALAMT", "-----------------");
+                            sessao.setAttribute("TRIALTOTALBILLINGCYCLES", "-----------------");
+                        }else{
+                            sessao.setAttribute("TRIALBILLINGPERIOD", request.getParameter("TRIALBILLINGPERIOD"));
+                            sessao.setAttribute("TRIALBILLINGFREQUENCY", request.getParameter("TRIALBILLINGFREQUENCY"));
+                            sessao.setAttribute("TRIALAMT", request.getParameter("TRIALAMT"));
+                            sessao.setAttribute("TRIALTOTALBILLINGCYCLES", request.getParameter("TRIALTOTALBILLINGCYCLES"));
+                        }
 
                     }
 

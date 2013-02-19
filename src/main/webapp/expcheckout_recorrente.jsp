@@ -149,28 +149,95 @@
                 </tr>
                 <input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
                 <input type="hidden" value="0" name="AMT" id="AMT" />
-                <!--
+                </table>
+                 <hr>
+            </br>
+            <h2>Opções Adicionais</h2>
+            </br>
+            <table>
                 <tr>
-                    <td>
-                        Localização (LOCALECODE) : </td>
-                    <td>
-                        <input type="text" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
-                    </td>
+                    <td><b>PAGAMENTO INICIAL :&nbsp;&nbsp;</b></td>
+                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="on" onclick="enable(1)" onchange="enable(1)"/>Habilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_pagtoini" name="NAOENVIAR_pagtoini" size="60" value="off" onclick="disable(1)" onchange="disable(1)" checked/>Desabilitado</td>
+
+                </tr>
+            </table>
+            </br>
+            <div id="campos1" name="campos1" style="display:none">
+                <table>
+                <tr>
+                    <td> Valor do pagamento inicial (INITAMT):</td>
+                    <td><input type="text" id="INITAMT" name="INITAMT" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Ação em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
+                    <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
+                            <option value=''>----------------------------</option>
+                            <option value='ContinueOnFailure'>ContinueOnFailure</option>
+                            <option value='CancelOnFailure'>CancelOnFailure</option>
+                        </select></td>
+                </tr>
+                </table>
+                </br>
+            </div>
+            <table>
+                <tr>
+                    <td><b>PERÍODO DE EXPERIÊNCIA :&nbsp;&nbsp;</b></td>
+                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
+                    <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
+
+                </tr>
+            </table>
+            <div id="campos2" name="campos2" style="display:none">
+                </br>
+                <table>
+                <tr>
+                    <td> Periodicidade do período de experiência (TRIALBILLINGPERIOD):</td>
+                    <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
+                            <option value=''>----------</option>
+                            <option value='Day'>Diário</option>
+                            <option value='Week'>Semanal</option>
+                            <option value='Month'>Mensal</option>
+                            <option value='Year'>Anual</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> Número de pagamentos dentro do ciclo (TRIALBILLINGFREQUENCY):</td>
+                    <td><input type="text" id="TRIALBILLINGFREQUENCY" name="TRIALBILLINGFREQUENCY" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Valor cobrado no período (TRIALAMT):</td>
+                    <td><input type="text" id="TRIALAMT" name="TRIALAMT" size="60" value=""/></td>
+                </tr>
+                <tr>
+                    <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
+                    <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value=""/></td>
                 </tr>
                 
-                <tr>
-                    <td>
-                        Moeda (COUNTRYCODE) : </td>
-                    <td>
-                        <input type="text" value="BR" name="COUNTRYCODE" id="v" size="6" />
-                    </td>
-                </tr>-->
+                </table>
+                <hr>
+                </br>
+                <table>
                 <tr>
                     <td colspan="2" style="vertical-align: middle; text-align: center">
                         <input type="submit" name="Submit" value="Submit" />
                     </td>
                 </tr>
-            </table>
+                </table>
+            </div>
+            </br>
+            
+            </br>
+
+            <script>
+                    function disable(num){
+                        document.getElementById("campos"+num).style.display="none";
+                    }
+                    function enable(num){
+                        document.getElementById("campos"+num).style.display="inline";
+                    }
+            </script>
+                
         </form>
     </body>
 </html>
