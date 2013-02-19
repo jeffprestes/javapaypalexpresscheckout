@@ -125,9 +125,6 @@
                         <input type="text" value="3" size="60" name="MAXFAILEDPAYMENTS" id="MAXFAILEDPAYMENTS" />
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2">&nbsp;</td>
-                </tr>
             </table>
             <hr>
             </br>
@@ -158,11 +155,10 @@
                     <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
                     <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value='<c:out value="${sessionScope.TRIALTOTALBILLINGCYCLES}" />'/></td>
                 </tr>
-                </br>
-                <td colspan="2" style="vertical-align: middle; text-align: center">
-                    <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
-                </td>
+                
             </table>
+                </br>
+                    <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
         </form>
     </body>
 </html>
