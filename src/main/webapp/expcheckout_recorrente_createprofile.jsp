@@ -161,13 +161,11 @@
                     <td> Ciclos de pagamento (TRIALTOTALBILLINGCYCLES):</td>
                     <td><input type="text" id="TRIALTOTALBILLINGCYCLES" name="TRIALTOTALBILLINGCYCLES" size="60" value='<c:out value="${sessionScope.TRIALTOTALBILLINGCYCLES}" />'/></td>
                 </tr>
-                </table>
-            </br>
-<hr>
 </br>
             <td colspan="2" style="vertical-align: middle; text-align: center">
                 <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
             </td>
+            </table>
         </form>
     </body>
 </html>
