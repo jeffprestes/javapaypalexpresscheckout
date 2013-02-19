@@ -20,6 +20,10 @@
             function enable(num){
                 document.getElementById("campos"+num).style.display="inline";
             }
+            function concat(){
+                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +", Valor da Assinatura: "+ document.getElementById("AMT_SIG").value; 
+            }
+            
         </script>
 
         <h1>PayPal Java Testes - Express Checkout - Pagamento Recorrente</h1>
@@ -228,7 +232,7 @@
             <table>
                 <tr>
                     <td colspan="2" style="vertical-align: middle; text-align: center">
-                        <input type="submit" name="Submit" value="Submit" />
+                        <input type="submit" name="Submit" value="Submit" onclick="concat()"/>
                     </td>
                 </tr>
             </table>
