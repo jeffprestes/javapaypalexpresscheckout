@@ -58,6 +58,7 @@ public class ExpressCheckoutController extends HttpServlet {
                         sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
                         sessao.setAttribute("BILLINGPERIOD", request.getParameter("BILLINGPERIOD"));
                         sessao.setAttribute("AMT_SIG", request.getParameter("AMT_SIG"));
+                        sessao.setAttribute("DESC", request.getParameter("L_BILLINGAGREEMENTDESCRIPTION0"));
 
                         //OPCOES ADICIONAIS
                         //Pagamento inicial

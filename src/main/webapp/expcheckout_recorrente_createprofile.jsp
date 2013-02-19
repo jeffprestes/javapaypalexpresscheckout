@@ -13,6 +13,20 @@
         <title>PayPal Java Testes - Express Checkout Recorrente -</title>
     </head>
     <body>
+        <script>
+            function clear(){
+                if(document.getElementById("INITAMT").value == "-----------------"){
+                    document.getElementById("INITAMT").value = "";
+                    document.getElementById("FAILEDINITAMTACTION").value = "";
+                }
+                if(document.getElementById("TRIALAMT").value == "-----------------"){
+                    document.getElementById("TRIALAMT").value = "";
+                    document.getElementById("TRIALBILLINGPERIOD").value = "";
+                    document.getElementById("TRIALBILLINGFREQUENCY").value = "";
+                    document.getElementById("TRIALTOTALBILLINGCYCLES").value = "";
+                }
+            }
+        </script>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Create Profile</h1>
         <form name="createp" action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">  
             <table>
@@ -92,7 +106,7 @@
                 <tr>
                     <td>Descrição da assinatura (DESC): </td>
                     <td>
-                        <input type="text" value='Exemplo' size="60" name="DESC" id="DESC" />
+                        <input type="text" value="<c:out value='${sessionScope.DESC}'/>" size="60" name="DESC" id="DESC" />
                     </td>
                 </tr>
                 <tr>
@@ -158,7 +172,8 @@
                 
             </table>
                 </br>
-                    <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" />
+                <input type="button" value="clear" onclick="clear()">
+                <input type="submit" id="NAOENVIAR_Submit" name="NAOENVIAR_Submit" value="CRIAR PROFILE" onclick="clear()"/>
         </form>
     </body>
 </html>
