@@ -125,7 +125,7 @@
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
-                        <input type="text" value="10" size="10" name="AMT" id="AMT" />
+                        <input type="text" value="10" size="10" name="AMT_SIG" id="AMT_SIG" />
                     </td>
                 </tr>
                 <tr>

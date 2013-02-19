@@ -54,11 +54,13 @@ public class ExpressCheckoutController extends HttpServlet {
                 if ("SETEXPRESSCHECKOUT".equalsIgnoreCase(request.getParameter("METHOD"))) {
                     
                     HttpSession sessao = request.getSession();
-                    sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
+                    
                     
                     if("recorrente".equalsIgnoreCase(request.getParameter("SOURCE"))) {
-                    Temporario temp = new Temporario(request.getParameter("BILLINGFREQUENCY"),request.getParameter("BILLINGPERIOD"),request.getParameter("AMT"));
-                    logger.info("Dados temporarios : AMT = "+temp.getAmt()+", FREQUENCY = "+temp.getBillingFrequency()+", PERIOD = "+temp.getBillingPeriod());
+                        sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
+                        sessao.setAttribute("BILLINGPERIOD", request.getParameter("BILLINGPERIOD"));
+                        sessao.setAttribute("AMT_SIG", request.getParameter("AMT_SIG"));
+
                     }
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));

@@ -107,13 +107,13 @@
                 <tr>
                     <td>Valor da assinatura (AMT): </td>
                     <td>
-                        <input type="text" value="<c:out value='${temporario.amt}'/>" size="60" name="AMT" id="AMT" />
+                        <input type="text" value="<c:out value='${sessionScope.AMT_SIG}'/>" size="60" name="AMT" id="AMT" />
                     </td>
                 </tr>
                 <tr>
                     <td>Período de pagamento (BILLINGPERIOD): </td>
                     <td>
-                        <input type="text" value="<c:out value='${temporario.billingPeriod}'/>" size="60" name="BILLINGPERIOD" id="BILLINGPERIOD" />
+                        <input type="text" value="<c:out value='${sessionScope.BILLINGPERIOD}'/>" size="60" name="BILLINGPERIOD" id="BILLINGPERIOD" />
                     </td>
                 </tr>
                 <tr>
