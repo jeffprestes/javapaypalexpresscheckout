@@ -21,7 +21,21 @@
                 document.getElementById("campos"+num).style.display="inline";
             }
             function concat(){
-                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +". | Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+". | Periodo da assinatura : "+document.getElementById("BILLINGPERIOD").value; 
+                var periodo;
+                if(document.getElementById("BILLINGPERIOD").value == "Day"){
+                    periodo = "Diário";
+                }
+                if(document.getElementById("BILLINGPERIOD").value == "Week"){
+                    periodo = "Semanal";
+                }
+                if(document.getElementById("BILLINGPERIOD").value == "SemiMonth"){
+                    periodo = "Mensal";
+                }
+                if(document.getElementById("BILLINGPERIOD").value == "Year"){
+                    periodo = "Anual";
+                }
+            
+                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +" | Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+" | Periodo da assinatura : "+periodo; 
             }
             
         </script>
