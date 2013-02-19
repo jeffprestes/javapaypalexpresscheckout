@@ -58,7 +58,7 @@ public class ExpressCheckoutController extends HttpServlet {
                         sessao.setAttribute("BILLINGFREQUENCY", request.getParameter("BILLINGFREQUENCY"));
                         sessao.setAttribute("BILLINGPERIOD", request.getParameter("BILLINGPERIOD"));
                         sessao.setAttribute("AMT_SIG", request.getParameter("AMT_SIG"));
-                        /*
+
                         //OPCOES ADICIONAIS
                         //Pagamento inicial
                         if("off".equalsIgnoreCase(request.getParameter("NAOENVIAR_pagtoini"))){
@@ -83,7 +83,7 @@ public class ExpressCheckoutController extends HttpServlet {
                         //FIM DAS OPCOES ADICIONAIS
                         
                         //CONCATENAÇÃO DOS VALORES DA ASSINATURA NA DESCRIÇÃO DO PEDIDO.
-                        */
+
                     }
 
                     Credenciais cr = new Credenciais(request.getParameter("USER"), request.getParameter("PWD"), request.getParameter("SIGNATURE"));

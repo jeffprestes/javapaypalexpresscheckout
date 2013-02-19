@@ -2,7 +2,7 @@
     Document   : expcheckout_recorrente
     Created on : Jan 23, 2013, 1:04:51 PM
     Author     : aalonso
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -30,7 +30,7 @@
                     <td>Quer ver os parametros antes de redirecionar? </td>
                     <td>
                         <select id="NAOENVIAR_OPCREDIRECT" name="NAOENVIAR_OPCREDIRECT">
-                            <option value="0">N√ÉO</option>
+                            <option value="0">N√O</option>
                             <option value="1">SIM</option>
                         </select>
                     </td>
@@ -40,7 +40,7 @@
                     <td>
                         <select id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT">
                             <option value="https://api-3t.sandbox.paypal.com/nvp">Sandbox - api-3t.sandbox.paypal.com/nvp</option>
-                            <option value="https://api-3t.paylpal.com/nvp">Produ√ß√£o - api-3t.paypal.com</option>
+                            <option value="https://api-3t.paylpal.com/nvp">ProduÁ„o - api-3t.paypal.com</option>
                         </select>
                     </td>
                 </tr>
@@ -75,13 +75,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Descri√ß√£o do contrato de pagamento (L_BILLINGAGREEMENTDESCRIPTION0): </td>
+                    <td>DescriÁ„o do contrato de pagamento (L_BILLINGAGREEMENTDESCRIPTION0): </td>
                     <td>
                         <input type="text" value="Exemplo" size="60" name="L_BILLINGAGREEMENTDESCRIPTION0" id="L_BILLINGAGREEMENTDESCRIPTION0" />
                     </td>
                 </tr>
                 <tr>
-                    <td>Versao (VERSION - Para saber a ultima vers√£o v√° a pagina paypal.com e veja no fonte da pagina os 3 primeiros digitos do campo webversion) : </td>
+                    <td>Versao (VERSION - Para saber a ultima vers„o v· a pagina paypal.com e veja no fonte da pagina os 3 primeiros digitos do campo webversion) : </td>
                     <td>
                         <input type="text" value="91.0" size="10" name="VERSION" id="VERSION" />
                     </td>
@@ -140,10 +140,10 @@
                 </tr>
 
                 <tr>
-                    <td>Per√≠odo de pagamento (BILLINGPERIOD): </td>
+                    <td>PerÌodo de pagamento (BILLINGPERIOD): </td>
                     <td>
                         <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
-                            <option value='Day'>Di√°rio</option>
+                            <option value='Day'>Di·rio</option>
                             <option value='Week'>Semanal</option>
                             <option value='SemiMonth'>SemiMonth</option>
                             <option value='Year'>Anual</option>
@@ -151,7 +151,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Frequ√™ncia de pagamento dentro do per√≠odo (BILLINGFREQUENCY): </td>
+                    <td>FrequÍncia de pagamento dentro do perÌodo (BILLINGFREQUENCY): </td>
                     <td>
                         <input type="text" value='' size="10" name="BILLINGFREQUENCY" id="BILLINGFREQUENCY" />
                     </td>
@@ -160,7 +160,7 @@
                 <input type="hidden" value="0" name="AMT" id="AMT" />
             </table>
             </br>
-            <h2>Op√ß√µes Adicionais</h2>
+            <h2>OpÁıes Adicionais</h2>
             </br>
             <table>
                 <tr>
@@ -178,7 +178,7 @@
                         <td><input type="text" id="INITAMT" name="INITAMT" size="60" value=""/></td>
                     </tr>
                     <tr>
-                        <td> A√ß√£o em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
+                        <td> AÁ„o em caso de falha no pagamento inicial (FAILEDINITAMTACTION):</td>
                         <td><select id="FAILEDINITAMTACTION" name="FAILEDINITAMTACTION" >
                                 <option value=''>----------------------------</option>
                                 <option value='ContinueOnFailure'>ContinueOnFailure</option>
@@ -190,7 +190,7 @@
             </div>
             <table>
                 <tr>
-                    <td><b>PER√çODO DE EXPERI√äNCIA :&nbsp;&nbsp;</b></td>
+                    <td><b>PERÕODO DE EXPERI NCIA :&nbsp;&nbsp;</b></td>
                     <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="on" onclick="enable(2)" onchange="enable(2)"/>Habilitado</td>
                     <td><input type="radio" id="NAOENVIAR_trial" name="NAOENVIAR_trial" size="60" value="off" onclick="disable(2)" onchange="disable(2)" checked/>Desabilitado</td>
 
@@ -200,21 +200,21 @@
                 </br>
                 <table>
                     <tr>
-                        <td> Periodicidade do per√≠odo de experi√™ncia (TRIALBILLINGPERIOD):</td>
+                        <td> Periodicidade do perÌodo de experiÍncia (TRIALBILLINGPERIOD):</td>
                         <td><select id="TRIALBILLINGPERIOD" name="TRIALBILLINGPERIOD" >
                                 <option value=''>----------</option>
-                                <option value='Day'>Di√°rio</option>
+                                <option value='Day'>Di·rio</option>
                                 <option value='Week'>Semanal</option>
                                 <option value='Month'>Mensal</option>
                                 <option value='Year'>Anual</option>
                             </select></td>
                     </tr>
                     <tr>
-                        <td> N√∫mero de pagamentos dentro do ciclo (TRIALBILLINGFREQUENCY):</td>
+                        <td> N˙mero de pagamentos dentro do ciclo (TRIALBILLINGFREQUENCY):</td>
                         <td><input type="text" id="TRIALBILLINGFREQUENCY" name="TRIALBILLINGFREQUENCY" size="60" value=""/></td>
                     </tr>
                     <tr>
-                        <td> Valor cobrado no per√≠odo (TRIALAMT):</td>
+                        <td> Valor cobrado no perÌodo (TRIALAMT):</td>
                         <td><input type="text" id="TRIALAMT" name="TRIALAMT" size="60" value=""/></td>
                     </tr>
                     <tr>
@@ -235,3 +235,4 @@
         </form>
     </body>
 </html>
+--%>
