@@ -150,7 +150,6 @@
                 <input type="hidden" value="recorrente" size="60" name="SOURCE" id="SOURCE" />
                 <input type="hidden" value="0" name="AMT" id="AMT" />
                 </table>
-                 <hr>
             </br>
             <h2>Opções Adicionais</h2>
             </br>
@@ -215,6 +214,7 @@
                 </tr>
                 
                 </table>
+                </div>
                 <hr>
                 </br>
                 <table>
@@ -224,7 +224,7 @@
                     </td>
                 </tr>
                 </table>
-            </div>
+            
             </br>
             
             </br>

@@ -82,6 +82,11 @@ public class ExpressCheckoutController extends HttpServlet {
                             sessao.setAttribute("TRIALAMT", request.getParameter("TRIALAMT"));
                             sessao.setAttribute("TRIALTOTALBILLINGCYCLES", request.getParameter("TRIALTOTALBILLINGCYCLES"));
                         }
+                        //FIM DAS OPCOES ADICIONAIS
+                        
+                        //CONCATENAÇÃO DOS VALORES DA ASSINATURA NA DESCRIÇÃO DO PEDIDO.
+                        
+                        
 
                     }
 
