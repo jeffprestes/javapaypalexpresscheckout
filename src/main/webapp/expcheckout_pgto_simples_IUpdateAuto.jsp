@@ -28,7 +28,7 @@
                         <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
                         <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_auto.jsp' name="RETURNURL" id="RETURNURL" size="100" />
                         <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
-                        <input type="hidden" value='http://ppbrasil.tecnologia.ws/SetEC_InstantUpdate_CallRequest2.php' name="CALLBACK" id="CALLBACK" size="100" />
+                        <input type="hidden" value='<c:out value="${pageContext.servletContext.contextPath}" />/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />
                         <input type="hidden" value='6' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
                         <input type="hidden" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
                         <input type="hidden" value="BRL" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" size="100" />
