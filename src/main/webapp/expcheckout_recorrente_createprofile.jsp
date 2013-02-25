@@ -15,11 +15,11 @@
     <body>
         <script>
             function clear(){
-                if(document.getElementById("INITAMT").value == "-----------------"){
+                if(document.getElementById("INITAMT").value != null){
                     document.getElementById("INITAMT").value = "";
                     document.getElementById("FAILEDINITAMTACTION").value = "";
                 }
-                if(document.getElementById("TRIALAMT").value == "-----------------"){
+                if(document.getElementById("TRIALAMT").value != null){
                     document.getElementById("TRIALAMT").value = "";
                     document.getElementById("TRIALBILLINGPERIOD").value = "";
                     document.getElementById("TRIALBILLINGFREQUENCY").value = "";
