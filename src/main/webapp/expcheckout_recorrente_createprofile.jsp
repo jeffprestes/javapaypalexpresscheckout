@@ -16,7 +16,7 @@
         <script>
             function clear(){
                 /*if(document.getElementById("INITAMT").value == "-----------------"){*/
-                    document.getElementById("INITAMT").value = "";
+                    document.getElementById("INITAMT").value = "a";
                     document.getElementById("FAILEDINITAMTACTION").value = "";
                 /*}
                 if(document.getElementById("TRIALAMT").value == "-----------------"){*/
