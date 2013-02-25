@@ -366,7 +366,7 @@ public class PagamentoSimples {
 
         if (chave != null) {
             if (!chave.startsWith("NAOENVIAR_")) {
-                if (valor != null) {
+                if (valor != null && !"-----------------".equals(valor)) {
                     if (valor.trim().length() > 0) {
                         retorno = true;
                     }
