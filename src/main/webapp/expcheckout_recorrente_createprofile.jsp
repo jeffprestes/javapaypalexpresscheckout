@@ -15,16 +15,16 @@
     <body>
         <script>
             function clear(){
-                if(document.getElementById("INITAMT").value != null){
+                /*if(document.getElementById("INITAMT").value == "-----------------"){*/
                     document.getElementById("INITAMT").value = "";
                     document.getElementById("FAILEDINITAMTACTION").value = "";
-                }
-                if(document.getElementById("TRIALAMT").value != null){
+                /*}
+                if(document.getElementById("TRIALAMT").value == "-----------------"){*/
                     document.getElementById("TRIALAMT").value = "";
                     document.getElementById("TRIALBILLINGPERIOD").value = "";
                     document.getElementById("TRIALBILLINGFREQUENCY").value = "";
                     document.getElementById("TRIALTOTALBILLINGCYCLES").value = "";
-                }
+               /* }*/
             }
         </script>
         <h1>PayPal Java Testes - Express Checkout Recorrente - Create Profile</h1>
