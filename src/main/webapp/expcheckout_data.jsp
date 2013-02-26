@@ -91,6 +91,8 @@
                 <input type="hidden" value='<c:out value="${resposta.dadosPagamento.totalSeguro}"/>' name="TOTALSEGURO" id="TOTALSEGURO">
                 
                 <input type="hidden" value='<c:out value="${resposta.comprador.telefone}"/>' name="TELEFONE" id="TELEFONE">
+                
+                <input type="hidden" value="SS342555328BR" size="10" name="NAOENVIAR_TRACKING" id="NAOENVIAR_TRACKING" />
 
             </form>
             <script>document.forms[0].submit();</script>

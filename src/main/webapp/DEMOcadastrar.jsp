@@ -189,7 +189,7 @@
                     </head>
                     <body>
 
-                        <form name="frm" method="post" action="login.aspx" id="frm">
+
                             <div>
                                 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
                                 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -331,13 +331,13 @@
                                                                                     <b>Endereço : </b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                     <b>Cidade : </b><%= request.getParameter("CIDADE")%></br>
                                                                                     <b>Estado : </b><%= request.getParameter("ESTADO")%></br>
-                                                                                    <b>CEP : </b><%= request.getParameter("CEP")%></br></br>
+                                                                                    <b>CEP : </b><%= request.getParameter("CEP")%></br>
                                                                                     -----------------------------------------------------------
                                                                                     </br>
-                                                                                    Para finalizar seu cadastro crie uma senha : 
+                                                                                    Para finalizar seu cadastro crie uma senha : </br></br>
                                                                                     <b>Login : </b><%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                     <form action="DEMOcadastrado.jsp" method="POST">
-                                                                                        <b>Senha : </b><input type="text" value="" name="SENHA" id="SENHA">
+                                                                                        <b>Senha : </b><input type="text" value="" name="SENHA" id="SENHA"></br>
                                                                                             <b>Confirme sua senha : </b><input type="text" value="" name="SENHA2" id="SENHA2"></br></br>
 
                                                                                                 <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
@@ -522,7 +522,7 @@
 
                                                                                                     <!-- FIM DO RODAPE -->		 
 
-                                                                                                    </form>
+                                                                                               
 
 
                                                                                                     <script type="text/javascript">
