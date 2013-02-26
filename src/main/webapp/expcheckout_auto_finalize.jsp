@@ -33,6 +33,7 @@
             <input type="hidden" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
             <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
             <input type="hidden" value="91.0" size="10" name="VERSION" id="VERSION" />
+            <input type="hidden" value="SS342555328BR" size="10" name="NAOENVIAR_TRACKING" id="NAOENVIAR_TRACKING" />
             <input type="hidden" value='<c:out value="${sessionScope.token}" />' size="60" name="TOKEN" id="TOKEN" />
             <tr>
                 <td colspan="2" style="vertical-align: middle; text-align: center">

@@ -189,7 +189,7 @@
                     </head>
                     <body>
 
-                        <form name="frm" method="post" action="login.aspx" id="frm">
+                      
                             <div>
                                 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
                                 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -339,14 +339,36 @@
                                                                                         
                                                                                         <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
                                                                                         <b>Valor : R$</b> <%= request.getParameter("TOTALENTREGA")%></br></br>
+                                                                                        <b>Tracking ID : </b> <%= request.getParameter("NAOENVIAR_TRACKING")%></br></br>
                                     
                                                                                         <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                         <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                         <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%>
-                                                                                        <hr>
+                                                                                        
                                                                                         </br>
+                                                                                        -----------------------------------------------------------
+                                                                                        </br>
+                                                                                        
+                                                                                        Notamos que você é um novo usuário na nossa loja</br></br>
+                                                                                        Gostaria de cadastrar seus dados na loja ?</br>
+                                                                                        <form action="DEMOcadastrar.jsp" method="POST">
+                                                                                        <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
+                                                                                        <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("ULTIMONOME")%> name="ULTIMONOME" id="ULTIMONOME" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("ENDERECO")%> name="ENDERECO" id="ENDERECO" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("ENDERECO2")%> name="ENDERECO2" id="ENDERECO2" />
+                                                                                        <input type="hidden" value=<%= request.getParameter("ESTADO")%> name="ESTADO" id="ESTADO" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("CEP")%> name="CEP" id="CEP" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("CIDADE")%> name="CIDADE" id="CIDADE" />
+                                                                                        <input type="hidden" value=<%= request.getParameter("TELEFONE")%> name="TELEFONE" id="TELEFONE" />
+                                                                                        <input type="hidden" value=<%= request.getParameter("IDTYPE")%> name="IDTYPE" id="IDTYPE" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("IDNUMBER")%> name="IDNUMBER" id="IDNUMBER" />
+                                                                                        <input type="submit" value="CADASTRAR">
+                                                                                        </form>
+                                                                                      
+                                                                                        
                                                                                         <%-- DADOS DA TRANSAÇÃO --%> 
                                                                                         
                                                                                    <%-- DADOS DA COMPRA:</br></br>
@@ -497,7 +519,7 @@
 
                                                                                                             <!-- FIM DO RODAPE -->		 
 
-                                                                                                            </form>
+                                                                                                            
 
 
                                                                                                             <script type="text/javascript">
