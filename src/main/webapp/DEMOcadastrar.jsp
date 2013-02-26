@@ -337,8 +337,8 @@
                                                                                     Para finalizar seu cadastro crie uma senha : </br></br>
                                                                                     <b>Login : </b><%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                     <form action="DEMOcadastrado.jsp" method="POST">
-                                                                                        <b>Senha : </b><input type="text" value="" name="SENHA" id="SENHA"></br>
-                                                                                            <b>Confirme sua senha : </b><input type="text" value="" name="SENHA2" id="SENHA2"></br></br>
+                                                                                        <b>Senha : </b><input type="password" value="" name="SENHA" id="SENHA"></br>
+                                                                                            <b>Confirme sua senha : </b><input type="password" value="" name="SENHA2" id="SENHA2"></br></br>
 
                                                                                                 <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
                                                                                                 <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
