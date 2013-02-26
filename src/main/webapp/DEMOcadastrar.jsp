@@ -321,7 +321,7 @@
                                                                     <div class="box_910_mid" align="center">
 
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
-                                                                        <img src="images/msgpedido.png" align="center">
+                                                                        </br>
                                                                             <fieldset class="form_container">
                                                                                 <div class="fld_container" align="center">
                                                                                     <b>Nome: </b> <%= request.getParameter("PRIMEIRONOME")%></br>
