@@ -347,13 +347,13 @@
                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                         <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%></br>
                                                                                         
-                                                                                        </br>
+                                                                                        
                                                                                         -----------------------------------------------------------
                                                                                         </br>
                                                                                         </br>
                                                                                         
                                                                                         <b>Notamos que você é um novo usuário na nossa loja</b></br>
-                                                                                        Gostaria de cadastrar seus dados ?</br>
+                                                                                        Gostaria de cadastrar seus dados ?</br></br>
                                                                                         <form action="DEMOcadastrar.jsp" method="POST">
                                                                                         <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
                                                                                         <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
