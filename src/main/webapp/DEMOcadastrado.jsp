@@ -324,36 +324,16 @@
                                                                         <img src="images/msgpedido.png" align="center">
                                                                             <fieldset class="form_container">
                                                                                 <div class="fld_container" align="center">
-                                                                                    <b>Nome: </b> <%= request.getParameter("PRIMEIRONOME")%></br>
-                                                                                    <b>Sobrenome: </b> <%= request.getParameter("ULTIMONOME")%></br>
-                                                                                    <b><%= request.getParameter("IDTYPE")%>: </b> <%= request.getParameter("IDNUMBER")%></br>
-                                                                                    </br>
-                                                                                    <b>Endereço : </b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
-                                                                                    <b>Cidade : </b><%= request.getParameter("CIDADE")%></br>
-                                                                                    <b>Estado : </b><%= request.getParameter("ESTADO")%></br>
-                                                                                    <b>CEP : </b><%= request.getParameter("CEP")%></br></br>
+                                                                                    <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>,</br>
+                                                                                    Obrigado por se cadastrar na TestShop !!!
+                                                                                    </br></br>
+                                                                                    <b>Dados de Usuário : </b></br>
+                                                                                    Login : <%= request.getParameter("EMAILCOMPRADOR")%></br>
+                                                                                    Senha : <%= request.getParameter("SENHA")%></br>
+                                                                
                                                                                     -----------------------------------------------------------
                                                                                     </br>
-                                                                                    Para finalizar seu cadastro crie uma senha : 
-                                                                                    <b>Login : </b><%= request.getParameter("EMAILCOMPRADOR")%></br>
-                                                                                    <form action="DEMOcadastrado.jsp" method="POST">
-                                                                                        <b>Senha : </b><input type="text" value="" name="SENHA" id="SENHA">
-                                                                                            <b>Confirme sua senha : </b><input type="text" value="" name="SENHA2" id="SENHA2"></br></br>
-
-                                                                                                <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
-                                                                                                <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("ULTIMONOME")%> name="ULTIMONOME" id="ULTIMONOME" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("ENDERECO")%> name="ENDERECO" id="ENDERECO" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("ENDERECO2")%> name="ENDERECO2" id="ENDERECO2" />
-                                                                                                <input type="hidden" value=<%= request.getParameter("ESTADO")%> name="ESTADO" id="ESTADO" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("CEP")%> name="CEP" id="CEP" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("CIDADE")%> name="CIDADE" id="CIDADE" />
-                                                                                                <input type="hidden" value=<%= request.getParameter("TELEFONE")%> name="TELEFONE" id="TELEFONE" />
-                                                                                                <input type="hidden" value=<%= request.getParameter("IDTYPE")%> name="IDTYPE" id="IDTYPE" /> 
-                                                                                                <input type="hidden" value=<%= request.getParameter("IDNUMBER")%> name="IDNUMBER" id="IDNUMBER" />
-                                                                                                <input type="submit" value="CADASTRAR">
-                                                                                                    </form>
-
+                                                                                   
                                                                                                     </div>
                                                                                                     <p class="pass_disclaimer" align="center">
                                                                                                         <%--</br>

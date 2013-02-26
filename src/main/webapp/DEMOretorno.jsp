@@ -345,14 +345,15 @@
                                                                                         <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
-                                                                                        <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%>
+                                                                                        <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%></br>
                                                                                         
                                                                                         </br>
                                                                                         -----------------------------------------------------------
                                                                                         </br>
+                                                                                        </br>
                                                                                         
-                                                                                        Notamos que você é um novo usuário na nossa loja</br></br>
-                                                                                        Gostaria de cadastrar seus dados na loja ?</br>
+                                                                                        <b>Notamos que você é um novo usuário na nossa loja</b></br>
+                                                                                        Gostaria de cadastrar seus dados ?</br>
                                                                                         <form action="DEMOcadastrar.jsp" method="POST">
                                                                                         <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
                                                                                         <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
