@@ -163,7 +163,8 @@
                         <select id="BILLINGPERIOD" name="BILLINGPERIOD" >
                             <option value='Day'>Diário</option>
                             <option value='Week'>Semanal</option>
-                            <option value='SemiMonth'>SemiMonth</option>
+                            <option value='SemiMonth'>Quinzenal</option>
+                            <option value='Month'>Mensal</option>
                             <option value='Year'>Anual</option>
                         </select>
                     </td>
