@@ -319,7 +319,7 @@
                                                                 <div id="box_login" class="box_910_container">
                                                                     <div class="box_910_top"></div>
                                                                     <div class="box_910_mid" align="center">
-
+                                                                        <b><big>CADASTRO EFETUADO COM SUCESSO !!!</big></b></br>
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
                                                                         </br>
                                                                             <fieldset class="form_container">
@@ -327,7 +327,7 @@
                                                                                     <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>,</br>
                                                                                     Obrigado por se cadastrar na TestShop !!!
                                                                                     </br></br>
-                                                                                    -----------------------------------------------------------
+                                                                                    -----------------------------------------------------------</br>
                                                                                     <b>Dados de Usuário : </b></br></br>
                                                                                     <b>Login :</b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                     <b>Senha :</b> <%= request.getParameter("SENHA")%></br>

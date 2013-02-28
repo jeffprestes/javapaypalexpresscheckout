@@ -332,7 +332,7 @@
                                                                                         
                                                                                     </div>
                                                                                     <p class="pass_disclaimer" align="center">
-                                                                                        </br>
+                                                                                       
                                                                                         <hr>
                                                                                         <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%></br>
                                                                                         <b>Unidade(s) : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : R$</b><%= request.getParameter("TOTALITEM")%></br></br>

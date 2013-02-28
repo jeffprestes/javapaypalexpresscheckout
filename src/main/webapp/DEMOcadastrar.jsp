@@ -339,9 +339,9 @@
                                                                                     <b>Seu Login : </b><%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                     <form action="DEMOcadastrado.jsp" method="POST">
                                                                                         </br>
-                                                                                        Para finalizar seu cadastro crie uma senha : </br></br>
-                                                                                        <b>Sua Senha : </b><input type="password" value="" name="SENHA" id="SENHA"></br>
-                                                                                            <b>Confirme a senha : </b><input type="password" value="" name="SENHA2" id="SENHA2"></br></br>
+                                                                                        Para finalizar seu cadastro crie uma senha : </br>
+                                                                                        <b>Sua Senha : &nbsp;&nbsp;</b><input type="password" value="" name="SENHA" id="SENHA"></br>
+                                                                                            <b>Confirme a senha : </b><input type="password" value="" name="SENHA2" id="SENHA2"></br>
 
                                                                                                 <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
                                                                                                 <input type="hidden" value=<%= request.getParameter("PRIMEIRONOME")%> name="PRIMEIRONOME" id="PRIMEIRONOME" /> 
@@ -354,9 +354,10 @@
                                                                                                 <input type="hidden" value=<%= request.getParameter("TELEFONE")%> name="TELEFONE" id="TELEFONE" />
                                                                                                 <input type="hidden" value=<%= request.getParameter("IDTYPE")%> name="IDTYPE" id="IDTYPE" /> 
                                                                                                 <input type="hidden" value=<%= request.getParameter("IDNUMBER")%> name="IDNUMBER" id="IDNUMBER" />
-                                                                                                <input type="submit" value="CADASTRAR">
+                                                                                                
+ -----------------------------------------------------------</br></br>
+ <input type="submit" value="CADASTRAR">
                                                                                                     </form>
- -----------------------------------------------------------
                                                                                                     </div>
                                                                                                     <p class="pass_disclaimer" align="center">
                                                                                                         <%--</br>
