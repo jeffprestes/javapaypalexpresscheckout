@@ -332,7 +332,7 @@
                                                                                     <b>Endereço : </b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                     <b>Cidade : </b><%= request.getParameter("CIDADE")%></br>
                                                                                     <b>Estado : </b><%= request.getParameter("ESTADO")%></br>
-                                                                                    <b>CEP : </b><%= request.getParameter("CEP")%></br>
+                                                                                    <b>CEP : </b><%= request.getParameter("CEP")%></br></br>
                                                                                     -----------------------------------------------------------
                                                                                     </br>
                                                                                     
@@ -340,7 +340,7 @@
                                                                                     <form action="DEMOcadastrado.jsp" method="POST">
                                                                                         </br>
                                                                                         Para finalizar seu cadastro crie uma senha : </br>
-                                                                                        <b>Sua Senha : &nbsp;&nbsp;</b><input type="password" value="" name="SENHA" id="SENHA"></br>
+                                                                                        <b>Sua Senha : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="password" value="" name="SENHA" id="SENHA"></br>
                                                                                             <b>Confirme a senha : </b><input type="password" value="" name="SENHA2" id="SENHA2"></br>
 
                                                                                                 <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
