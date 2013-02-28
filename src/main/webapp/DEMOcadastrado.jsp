@@ -327,9 +327,10 @@
                                                                                     <%= request.getParameter("PRIMEIRONOME")%>&nbsp;<%= request.getParameter("ULTIMONOME")%>,</br>
                                                                                     Obrigado por se cadastrar na TestShop !!!
                                                                                     </br></br>
-                                                                                    <b>Dados de Usuário : </b></br>
-                                                                                    Login : <%= request.getParameter("EMAILCOMPRADOR")%></br>
-                                                                                    Senha : <%= request.getParameter("SENHA")%></br>
+                                                                                    -----------------------------------------------------------
+                                                                                    <b>Dados de Usuário : </b></br></br>
+                                                                                    <b>Login :</b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
+                                                                                    <b>Senha :</b> <%= request.getParameter("SENHA")%></br>
                                                                 
                                                                                     -----------------------------------------------------------
                                                                                     </br>
