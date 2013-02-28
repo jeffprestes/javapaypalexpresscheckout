@@ -13,9 +13,27 @@
         <title>Efetuando Transacao</title>
     </head>
     <body>
+        <script>
+        $(document).ready(function() {
+    $("body").prepend("<div id='PleaseWait' style='display: none;'><img src='/images/paypalgif.gif'/></div>");
+});
+
+$('#form').submit(function() {
+    var pass = true;
+    //some validations
+
+    if(pass == false){
+        return false;
+    }
+    $("#PleaseWait").show();
+
+    return true;
+});
+        </script>
 
 <h3 align="center">Efetuando Transacao .</h3>
-        <img src="images/paypalgif.gif"/>
+<div id="PleaseWait">
+        <img src="images/paypalgif.gif"/></div>
 
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
