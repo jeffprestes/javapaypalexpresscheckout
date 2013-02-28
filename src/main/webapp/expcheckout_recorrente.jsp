@@ -35,7 +35,7 @@
                     periodo = "Anual";
                 }
             
-                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +" | Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+" | Periodo da assinatura : "+periodo+" | Pagamentos dentro do Período: "+ document.getElementById("BILLINGFREQUENCY").value; 
+                document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value = document.getElementById("L_BILLINGAGREEMENTDESCRIPTION0").value +" | Valor da Assinatura: R$ "+ document.getElementById("AMT_SIG").value+" | Periodicidade : "+periodo+" | Numero de pagamentos: "+ document.getElementById("BILLINGFREQUENCY").value; 
             }
             
         </script>
