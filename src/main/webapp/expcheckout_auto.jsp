@@ -15,19 +15,7 @@
     <body>
         <script>
         $(document).ready(function() {
-    $("body").prepend("<div id='PleaseWait' style='display: none;'><img src='/images/paypalgif.gif'/></div>");
-});
-
-$('#form').submit(function() {
-    var pass = true;
-    //some validations
-
-    if(pass == false){
-        return false;
-    }
-    $("#PleaseWait").show();
-
-    return true;
+    $("body").prepend("<img src='/images/paypalgif.gif'/>");
 });
         </script>
 
