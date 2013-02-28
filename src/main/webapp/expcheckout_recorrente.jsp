@@ -31,6 +31,9 @@
                 if(document.getElementById("BILLINGPERIOD").value == "SemiMonth"){
                     periodo = "Quinzenal";
                 }
+                if(document.getElementById("BILLINGPERIOD").value == "Month"){
+                    periodo = "Mensal";
+                }
                 if(document.getElementById("BILLINGPERIOD").value == "Year"){
                     periodo = "Anual";
                 }
