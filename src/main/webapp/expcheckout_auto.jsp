@@ -12,7 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>Efetuando Transacao</title>
     </head>
-    <body>
+    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
         <script>
         $(document).ready(function() {
     $("body").prepend("<img src='/images/paypalgif.gif'/>");
@@ -20,8 +20,7 @@
         </script>
 
 <h3 align="center">Efetuando Transacao .</h3>
-<div id="PleaseWait">
-        <img src="images/paypalgif.gif"/></div>
+
 
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
@@ -37,9 +36,14 @@
             <tr>
                 <td colspan="2" style="vertical-align: middle; text-align: center"></td>
             </tr>
+            <div id="loadingImg" style="visibility:hidden" >
+      <img src="/images/paypalgif.gif" border=0/>
+   </div>
         </form>
             
-            <script> document.forms[0].submit(); </script>
+            <script>
+                document.getElementById(loadingImg).style.visibility="visible";
+                document.forms[0].submit(); </script>
         <%-- FIM GetDetails REQUEST --%>
          
     </body>
