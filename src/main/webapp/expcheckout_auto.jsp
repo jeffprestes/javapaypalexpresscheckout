@@ -13,11 +13,6 @@
         <title>Efetuando Transacao</title>
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
-        <script>
-        $(document).ready(function() {
-    $("body").prepend("<img src='/images/paypalgif.gif'/>");
-});
-        </script>
 
 <h3 align="center">Efetuando Transacao .</h3>
 
@@ -37,7 +32,7 @@
                 <td colspan="2" style="vertical-align: middle; text-align: center"></td>
             </tr>
             <div id="loadingImg" style="visibility:hidden" >
-      <img src="/images/paypalgif.gif" border=0/>
+      <img src="images/paypalgif.gif" border=0/>
    </div>
         </form>
             
