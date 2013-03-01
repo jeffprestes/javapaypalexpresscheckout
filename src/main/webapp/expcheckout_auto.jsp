@@ -14,11 +14,12 @@
     </head>
     <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
 
-<h3 align="center">Efetuando Transacao .</h3>
+        <h3 align="center">Efetuando Transacao .</h3>
+        <img src="images/paypalgif.gif"/>
 
 
-            <%-- INICIO GetDetails REQUEST --%>
-        <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
+        <%-- INICIO GetDetails REQUEST --%>
+        <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
             <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
             <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
             <input type="hidden" value="GetExpressCheckoutDetails" size="60" name="METHOD" id="METHOD" />
@@ -32,14 +33,12 @@
                 <td colspan="2" style="vertical-align: middle; text-align: center"></td>
             </tr>
             <div id="loadingImg" style="visibility:hidden" >
-      <img src="images/paypalgif.gif" border=0/>
-   </div>
+                <img src="images/paypalgif.gif" border=0/>
+            </div>
         </form>
-            
-            <script>
-                document.getElementById(loadingImg).style.visibility="visible";
-                document.forms[0].submit(); </script>
+
+        <script> document.forms[0].submit(); </script>
         <%-- FIM GetDetails REQUEST --%>
-         
+
     </body>
 </html>

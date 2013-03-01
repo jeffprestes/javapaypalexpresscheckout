@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Test Shop Pagamento</title>
+        <title>Redirecionando...</title>
     </head>
-    <body>
-        <td colspan="2" style="vertical-align: middle; text-align: center">
-        <h4>Redirecionando....</h4>
+    <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
+        <h3>Você está sendo redirecionado para o ambiente seguro PayPal</h3>
+        <img src="images/paypalgif.gif"/>
         <table>
-            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController' method="POST">
+            <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
                         <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
                         <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
                         <input type="hidden" value="_express-checkout" size="60" name="NAOENVIAR_TIPOCHECKOUT" id="NAOENVIAR_TIPOCHECKOUT" />
@@ -57,7 +57,9 @@
                 </tr>
             </form>
                         <script>
-document.forms[0].submit();
+                            function(){
+                               document.forms[0].submit(); 
+                            }
 </script>
         </table>
     </body>
