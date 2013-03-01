@@ -14,7 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>Efetuando Transacao</title>
     </head>
-    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
+    <body onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
         <h3 align="center">Efetuando Transacao . . .</h3>
         <img src="images/paypalgif.gif"/>
         
@@ -40,7 +40,11 @@
                 </td>
             </tr>
         </form>
-            <script> document.forms[0].submit(); </script>
+            <script>
+                            function load(){
+                               document.forms[0].submit(); 
+                            }
+</script>
         
     </body>
 </html>

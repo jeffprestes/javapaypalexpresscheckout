@@ -12,7 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>Dados da transacao</title>
     </head>
-    <body link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
+    <body  onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f1f1f1">
         <h3 align="center">Efetuando Transacao . . .</h3>
         <h4 align="center">Transacao Completa</h4>
         <h4 align="center">Redirecionando...</h4>
@@ -95,7 +95,11 @@
                 <input type="hidden" value="SS342555328BR" name="NAOENVIAR_TRACKING" id="NAOENVIAR_TRACKING" />
 
             </form>
-            <script>document.forms[0].submit();</script>
+            <script>
+                            function load(){
+                               document.forms[0].submit(); 
+                            }
+</script>
         </table>
     </body>
 </html>
