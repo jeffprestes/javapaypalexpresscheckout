@@ -15,7 +15,7 @@
     <body>
         <script>
             function enable(num){
-                for(i = 2;i <= num; i++){
+                for(var i = 2;i <= num; i++){
                     document.getElementById("moreseller"+num).style.display="inline";}
             }
         </script>
