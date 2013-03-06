@@ -12,13 +12,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>PayPal Java Testes - Adaptative - Pagamento simples</title>
     </head>
-    <body>
+    <body><%--
         <script>
             function enable(num){
                 for(i = 2;i <= num; i++){
-                document.getElementById("moreseller"+num).style.display="inline";}
+                    document.getElementById("moreseller"+num).style.display="inline";}
             }
-            </script>
+        </script>--%>
         <h1>PayPal Java Testes - Adaptative - Pagamento simples</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/AdaptiveController' method="POST">
