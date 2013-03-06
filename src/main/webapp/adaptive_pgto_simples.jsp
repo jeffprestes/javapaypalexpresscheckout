@@ -191,6 +191,195 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        Email Recebedor 4: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor4" id="emailRecebedor4" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 4: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor4" id="valorRecebedor4" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario4">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 5: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor5" id="emailRecebedor5" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 5: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor5" id="valorRecebedor5" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario5">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 6: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor6" id="emailRecebedor6" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 6: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor6" id="valorRecebedor6" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario6">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 7: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor7" id="emailRecebedor7" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 7: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor7" id="valorRecebedor7" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario7">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 8: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor8" id="emailRecebedor8" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 8: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor8" id="valorRecebedor8" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario8">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 9: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor9" id="emailRecebedor9" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 9: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor9" id="valorRecebedor9" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario9">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Recebedor 10: 
+                    </td>
+                    <td>
+                        <input type="text" value="" name="emailRecebedor10" id="emailRecebedor10" size="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valor Recebedor 10: 
+                    </td>
+                    <td>
+                        <input type="text" value="100.00" name="valorRecebedor10" id="valorRecebedor10" size="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        É primário? 
+                    </td>
+                    <td>
+                        <select id="ehPrimario10">
+                            <option value="true">true</option>
+                            <option value="false" selected="true">false</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="2"><hr /></td>
                 </tr>
                 <tr>

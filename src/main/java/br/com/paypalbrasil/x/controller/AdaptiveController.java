@@ -73,18 +73,13 @@ public class AdaptiveController extends HttpServlet {
             ArrayList<Recebedor> recebedores = new ArrayList<Recebedor>();
             recebedores.add(rb);
 
-            if ("".equals(request.getParameter("emailRecebedor2")) == false && request.getParameter("emailRecebedor2").trim().contains("@")) {
-                rb = new Recebedor(Double.valueOf(request.getParameter("valorRecebedor2")),
-                        request.getParameter("emailRecebedor2"),
-                        Boolean.parseBoolean(request.getParameter("ehPrimario2")));
-                recebedores.add(rb);
-            }
-
-            if ("".equals(request.getParameter("emailRecebedor3")) == false && request.getParameter("emailRecebedor3").trim().contains("@")) {
-                rb = new Recebedor(Double.valueOf(request.getParameter("valorRecebedor3")),
-                        request.getParameter("emailRecebedor3"),
-                        Boolean.parseBoolean(request.getParameter("ehPrimario3")));
-                recebedores.add(rb);
+            for (int i = 2; i <= 5; i++) {
+                if ("".equals(request.getParameter("emailRecebedor" + i)) == false && request.getParameter("emailRecebedor" + i).trim().contains("@")) {
+                    rb = new Recebedor(Double.valueOf(request.getParameter("valorRecebedor" + i)),
+                            request.getParameter("emailRecebedor" + i),
+                            Boolean.parseBoolean(request.getParameter("ehPrimario" + i)));
+                    recebedores.add(rb);
+                }
             }
 
             OperacaoPagar op = new OperacaoPagar(credenciais, pra, recebedores, ResponsavelPagamentoTaxa.EACHRECEIVER);
