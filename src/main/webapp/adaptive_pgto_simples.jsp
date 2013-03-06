@@ -15,8 +15,14 @@
     <body>
         <script>
             function enable(num){
-                for(var i = 2;i <= num; i++){
-                    document.getElementById("moreseller"+num).style.display="inline";}
+                for(var i = 0;i < 10; i++)
+                {
+                    document.getElementById("moreseller"+i).style.display="none";
+                }
+                for(var i = 2;i <= num; i++)
+                {
+                    document.getElementById("moreseller"+i).style.display="inline";
+                }
             }
         </script>
         <h1>PayPal Java Testes - Adaptative - Pagamento simples</h1>
