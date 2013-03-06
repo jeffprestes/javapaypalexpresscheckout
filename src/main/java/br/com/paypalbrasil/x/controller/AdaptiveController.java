@@ -73,7 +73,7 @@ public class AdaptiveController extends HttpServlet {
             ArrayList<Recebedor> recebedores = new ArrayList<Recebedor>();
             recebedores.add(rb);
 
-            for (int i = 2; i <= 5; i++) {
+            for (int i = 2; i <= 10; i++) {
                 if ("".equals(request.getParameter("emailRecebedor" + i)) == false && request.getParameter("emailRecebedor" + i).trim().contains("@")) {
                     rb = new Recebedor(Double.valueOf(request.getParameter("valorRecebedor" + i)),
                             request.getParameter("emailRecebedor" + i),
