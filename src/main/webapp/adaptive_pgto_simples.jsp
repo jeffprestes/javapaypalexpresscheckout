@@ -13,6 +13,12 @@
         <title>PayPal Java Testes - Adaptative - Pagamento simples</title>
     </head>
     <body>
+        <script>
+            function enable(num){
+                for(i = 2;i <= num; i++){
+                document.getElementById("moreseller"+num).style.display="inline";}
+            }
+            </script>
         <h1>PayPal Java Testes - Adaptative - Pagamento simples</h1>
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/AdaptiveController' method="POST">
@@ -105,6 +111,28 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        Número de vendedores adicionais : 
+                    </td>
+                    <td>
+                        <select id="maisvendedores" name="maisvendedores">
+                            <option value="0" selected="--">--</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                            <option value="6">5</option>
+                            <option value="7">6</option>
+                            <option value="8">7</option>
+                            <option value="9">8</option>
+                            <option value="10">9</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="button" id="habilitaseller" onclick="enable(maisvendedores)">
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="2">
                         <hr />
                     </td>
@@ -136,6 +164,9 @@
                         </select>
                     </td>
                 </tr>
+        </table>
+        <div id="moreseller2" name="moreseller2" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -166,6 +197,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller3" name="moreseller3" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -196,6 +231,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller4" name="moreseller4" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -226,6 +265,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller5" name="moreseller5" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -256,6 +299,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller6" name="moreseller6" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -286,6 +333,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller7" name="moreseller7" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -316,6 +367,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller8" name="moreseller8" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -346,6 +401,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller9" name="moreseller9" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -376,6 +435,10 @@
                         </select>
                     </td>
                 </tr>
+            </table>
+        </div>
+        <div id="moreseller10" name="moreseller10" style="display:none">
+            <table>
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -406,56 +469,28 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>
-                        Email Recebedor 11: 
-                    </td>
-                    <td>
-                        <input type="text" value="" name="emailRecebedor11" id="emailRecebedor11" size="100" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Valor Recebedor 11: 
-                    </td>
-                    <td>
-                        <input type="text" value="100.00" name="valorRecebedor11" id="valorRecebedor11" size="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        É primário? 
-                    </td>
-                    <td>
-                        <select id="ehPrimario11">
-                            <option value="true">true</option>
-                            <option value="false" selected="true">false</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2"><hr /></td>
-                </tr>
-                <tr>
-                    <td>
-                        Comentario (memo): 
-                    </td>
-                    <td>
-                        <input type="text" value="Teste de adaptive payment com Java" name="memo" id="memo" size="100" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td colspan="2" style="vertical-align: middle; text-align: center">
-                        <input type="submit" name="Submit" value="Submit" />
-                    </td>
-                </tr>
-            </form>
-        </table>
-    </body>
+            </table>
+        </div>
+    <tr>
+        <td colspan="2"><hr /></td>
+    </tr>
+    <tr>
+        <td>
+            Comentario (memo): 
+        </td>
+        <td>
+            <input type="text" value="Teste de adaptive payment com Java" name="memo" id="memo" size="100" />
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="vertical-align: middle; text-align: center">
+            <input type="submit" name="Submit" value="Submit" />
+        </td>
+    </tr>
+</form>
+</table>
+</body>
 </html>
