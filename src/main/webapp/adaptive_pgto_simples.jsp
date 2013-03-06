@@ -137,6 +137,9 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
                     <td>
                         Email Recebedor 2: 
                     </td>
@@ -162,6 +165,9 @@
                             <option value="false" selected="true">false</option>
                         </select>
                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
                 </tr>
                 <tr>
                     <td>
@@ -191,6 +197,9 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
                     <td>
                         Email Recebedor 4: 
                     </td>
@@ -216,6 +225,9 @@
                             <option value="false" selected="true">false</option>
                         </select>
                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
                 </tr>
                 <tr>
                     <td>
@@ -245,6 +257,9 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
                     <td>
                         Email Recebedor 6: 
                     </td>
@@ -270,6 +285,9 @@
                             <option value="false" selected="true">false</option>
                         </select>
                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
                 </tr>
                 <tr>
                     <td>
@@ -299,6 +317,9 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
                     <td>
                         Email Recebedor 8: 
                     </td>
@@ -326,6 +347,9 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
                     <td>
                         Email Recebedor 9: 
                     </td>
@@ -351,6 +375,9 @@
                             <option value="false" selected="true">false</option>
                         </select>
                     </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
                 </tr>
                 <tr>
                     <td>
