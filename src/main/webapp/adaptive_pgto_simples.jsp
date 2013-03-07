@@ -15,6 +15,11 @@
     <body>
         <script>
             function enable(num){
+                for(var j=0; j< 10; j++)
+                {
+                    document.getElementById("moreseller"+j).style.display="none";
+                }
+                
                 for(var i = 2;i <= num; i++)
                 {
                     document.getElementById("moreseller"+i).style.display="inline";
@@ -140,33 +145,35 @@
                         <hr />
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        Email Recebedor 1: 
-                    </td>
-                    <td>
-                        <input type="text" value="jeffprestes_api1@gmail.com" name="emailRecebedor1" id="emailRecebedor1" size="100" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Valor Recebedor 1: 
-                    </td>
-                    <td>
-                        <input type="text" value="100.00" name="valorRecebedor1" id="valorRecebedor1" size="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        É primário? 
-                    </td>
-                    <td>
-                        <select id="ehPrimario1">
-                            <option value="true" selected="true">true</option>
-                            <option value="false">false</option>
-                        </select>
-                    </td>
-                </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    Email Recebedor 1: 
+                </td>
+                <td>
+                    <input type="text" value="jeffprestes_api1@gmail.com" name="emailRecebedor1" id="emailRecebedor1" size="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Valor Recebedor 1: 
+                </td>
+                <td>
+                    <input type="text" value="100.00" name="valorRecebedor1" id="valorRecebedor1" size="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    É primário? 
+                </td>
+                <td>
+                    <select id="ehPrimario1">
+                        <option value="true" selected="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </td>
+            </tr>
         </table>
         <div id="moreseller2" name="moreseller2" style="display:none">
             <table>
@@ -474,26 +481,27 @@
                 </tr>
             </table>
         </div>
-    <tr>
-        <td colspan="2"><hr /></td>
-    </tr>
-    <tr>
-        <td>
-            Comentario (memo): 
-        </td>
-        <td>
-            <input type="text" value="Teste de adaptive payment com Java" name="memo" id="memo" size="100" />
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-        <td colspan="2" style="vertical-align: middle; text-align: center">
-            <input type="submit" name="Submit" value="Submit" />
-        </td>
-    </tr>
-</form>
-</table>
+        <table
+            <tr>
+                <td colspan="2"><hr /></td>
+            </tr>
+            <tr>
+                <td>
+                    Comentario (memo): 
+                </td>
+                <td>
+                    <input type="text" value="Teste de adaptive payment com Java" name="memo" id="memo" size="100" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="vertical-align: middle; text-align: center">
+                    <input type="submit" name="Submit" value="Submit" />
+                </td>
+            </tr>
+        </form>
+    </table>
 </body>
 </html>
