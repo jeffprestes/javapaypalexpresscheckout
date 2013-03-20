@@ -329,7 +329,7 @@
                                                                     <div class="box_910_top"></div>
                                                                     <div class="box_910_mid" style="width:100%">
                                                                         <!-- BOX ESQUERDA (LOGIN) -->
-                                                                        <div class="containerLogin box_login" align="center" style="width:20%">
+                                                                        <div class="containerLogin box_login" align="center" style="width:28%">
                                                                             <input type="radio" name="usuario" value="paypal" onclick="bigImg(pa"ssos2,address)" onchange="bigImg(passos2,address)" align="center"/>
                                                                             </br>
                                                                             &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
@@ -347,7 +347,7 @@
                                                                         </div>
                                                                         <!-- FIM BOX ESQUERDA (LOGIN) -->
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
-                                                                        <div class="containerCadastro box_login" align="center" style="width:20%">
+                                                                        <div class="containerCadastro box_login" align="center" style="width:28%">
                                                                             <input type="radio" name="usuario" value="loja" onclick="normalImg(passos2)" align="center" checked/>
                                                                             </br></br>    
                                                                             <img src="images/userloja.png">
@@ -376,7 +376,7 @@
                                                                         <!-- FIM BOX DIREITA (CADASTRE-SE) -->
 
                                                                         <!-- BOX PEDIDO SEM CADASTRO -->
-                                                                        <div class="containerCadastro box_login" align="center" style="width:20%">
+                                                                        <div class="containerCadastro box_login" align="center" style="width:28%">
                                                                             <input type="radio" name="usuario" value="novo" onclick="normalImg(passos2)" align="center" />
                                                                             </br></br>
                                                                             <img src="images/newuser3.png">
