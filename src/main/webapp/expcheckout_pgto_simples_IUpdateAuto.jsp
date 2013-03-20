@@ -21,6 +21,9 @@
                 <input type="hidden" value="_express-checkout" size="60" name="NAOENVIAR_TIPOCHECKOUT" id="NAOENVIAR_TIPOCHECKOUT" />
                 <input type="hidden" value="commit" size="60" name="NAOENVIAR_TIPOFLUXO" id="NAOENVIAR_TIPOFLUXO" />
                 <input type="hidden" value="SetExpressCheckout" size="60" name="METHOD" id="METHOD" />
+                <input type="hidden" value="https://java-ppbrasil.rhcloud.com/images/loja_demo.jpg" size="60" name="HDRIMG" id="HDRIMG" />
+                <input type="hidden" value="191964" size="60" name="HDRBORDERCOLOR" id="HDRBORDERCOLOR" />
+                <input type="hidden" value="336699" size="60" name="PAYFLOWCOLOR" id="PAYFLOWCOLOR" />
                 <input type="hidden" value="SALE" size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
                 <input type="hidden" value="91.0" size="10" name="VERSION" id="VERSION" />
                 <input type="hidden" value="campanf-test_api1.paypal.com" size="60" name="USER" id="USER" />
