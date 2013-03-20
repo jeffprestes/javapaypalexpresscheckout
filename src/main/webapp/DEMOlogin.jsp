@@ -325,18 +325,18 @@
                                                                                     </dl>
                                                                             </div>--%>
                                                                 <!-- CONTEUDO INTERNO (CENTRO) -->
-                                                                <div id="box_login" class="box_910_container"style="width:100%">
+                                                                <div id="box_login" class="box_910_container">
                                                                     <div class="box_910_top"></div>
-                                                                    <div class="box_910_mid" style="width:33%">
+                                                                    <div class="box_910_mid" style="width:100%">
                                                                         <!-- BOX ESQUERDA (LOGIN) -->
-                                                                        <div class="containerLogin box_login" align="center">
+                                                                        <div class="containerLogin box_login" align="center" style="width:33%">
                                                                             <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2,address)" onchange="bigImg(passos2,address)" align="center"/>
                                                                             </br>
                                                                             &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
                                                                             <fieldset class="form_container">
                                                                                 <div class="fld_container">
 
-                                                                                    <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_paypal_nf_v01.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_paypal_nf_v01.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
                                                                                     <br>&nbsp;
                                                                                         <p class="pass_disclaimer">
                                                                                             Use sua conta PayPal e finalize seu pedido com mais agilidade.
