@@ -336,7 +336,7 @@
                                                                             <fieldset class="form_container">
                                                                                 <div class="fld_container">
 
-                                                                                    <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_paypal_nf_v01.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>
+                                                                                    <a href="https://java-ppbrasil.rhcloud.com/expcheckout_pgto_simples_IUpdateAuto.jsp" tabindex="3" name="btnContinuar1" id="btnContinuar1" class='blue_bt bt_continuar' style="width:80;"><img src="https://www.paypalobjects.com/webstatic/mktg/br/botoes_paypal_nf_v01.png" title="Comprar usando conta PayPal" value="Comprar usando conta PayPal"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     <br>&nbsp;
                                                                                         <p class="pass_disclaimer">
                                                                                             Use sua conta PayPal e finalize seu pedido com mais agilidade.
@@ -368,7 +368,7 @@
                                                                                     </div>
 
                                                                                 </fieldset>
-                                                                                </br>
+                                                                                
 
                                                                                 <a href="https://java-ppbrasil.rhcloud.com/DEMOlogin.jsp" id="address" align="center" tabindex="6" name="btnContinuar2" id="btnContinuar2" class='blue_bt bt_continuar'><img class="btEnviar nb" src="https://www.megamamute.com.br/Imagens/bt_continuar.gif" id="Img1" name="btLoginEntrar" title="Entrar" value="Entrar" /></a>
 
