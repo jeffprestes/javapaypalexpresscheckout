@@ -330,7 +330,7 @@
                                                                     <div class="box_910_mid" style="width:100%">
                                                                         <!-- BOX ESQUERDA (LOGIN) -->
                                                                         <div class="containerLogin box_login" align="center" style="width:28%">
-                                                                            <input type="radio" name="usuario" value="paypal" onclick="bigImg(pa"ssos2,address)" onchange="bigImg(passos2,address)" align="center"/>
+                                                                            <input type="radio" name="usuario" value="paypal" onclick="bigImg(passos2,address)" onchange="bigImg(passos2,address)" align="center"/>
                                                                             </br>
                                                                             &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/msgcomprapaypal.png"/>
                                                                             <fieldset class="form_container">
