@@ -30,6 +30,7 @@
                         <select id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT">
                             <option value="https://api-3t.sandbox.paypal.com/nvp">Sandbox - api-3t.sandbox.paypal.com/nvp</option>
                             <option value="https://api-3t.paylpal.com/nvp">Produção - api-3t.paypal.com</option>
+                            <option value="https://api.stage2cp07.stage.paypal.com/sd/nvp">Stage - api.stage2cp07.stage.paypal.com/sd/nvp</option>
                         </select>
                     </td>
                 </tr>    
