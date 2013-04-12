@@ -20,15 +20,15 @@
                 <td><c:out value="${resposta.cabecalho.ack}" /> </td>
             </tr>
             <tr>
-                <td>Timestamp : </td>
+                <td>%Timestamp : </td>
                 <td><c:out value="${resposta.cabecalho.timestamp}" /></td>
             </tr>
             <tr>
-                <td>CorrelationID : </td>
+                <td>|CorrelationID : </td>
                 <td><c:out value="${resposta.cabecalho.idCorrelacao}" /></td>
             </tr>
             <tr>
-                <td>TransactionID : </td>
+                <td>|TransactionID : </td>
                 <td><c:out value="---" /></td>
             </tr>
             <tr>
@@ -40,8 +40,8 @@
                 <td><c:out value="${resposta.versao}" /></td>
             </tr>
             <tr>
-                <td>Token : </td>
-                <td><c:out value="${resposta.token}" /></td>
+                <td>|Token : </td>
+                <td><c:out value="${resposta.token}" />%</td>
             </tr>
             <tr>
                 <td>URL a redirecionar : </td>
