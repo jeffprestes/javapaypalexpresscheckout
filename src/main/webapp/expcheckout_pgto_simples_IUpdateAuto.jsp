@@ -26,9 +26,9 @@
                 <input type="hidden" value="336699" size="60" name="PAYFLOWCOLOR" id="PAYFLOWCOLOR" />
                 <input type="hidden" value="SALE" size="60" name="PAYMENTREQUEST_0_PAYMENTACTION" id="PAYMENTREQUEST_0_PAYMENTACTION" />
                 <input type="hidden" value="91.0" size="10" name="VERSION" id="VERSION" />
-                <input type="hidden" value="campanf-test_api1.paypal.com" size="60" name="USER" id="USER" />
-                <input type="hidden" value="SXS7NYBJ2Z9U3LU6" size="60" name="PWD" id="PWD" />
-                <input type="hidden" value="A746oPRhIEP5EYCEBYnfQMllldSMA9m61wQ.ky-GqjljTwoRudtB2LgS" size="60" name="SIGNATURE" id="SIGNATURE" />
+                <input type="hidden" value="troller_api1.testshop.com" size="60" name="USER" id="USER" />
+                <input type="hidden" value="8PVRHA9CM62XSWVE" size="60" name="PWD" id="PWD" />
+                <input type="hidden" value="AbNWZXE66qE2PAuijmsW1PWxYKOoAbo9e-Uz2zGWcQSuoGalkiw6rCK1" size="60" name="SIGNATURE" id="SIGNATURE" />
                 <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_auto.jsp' name="RETURNURL" id="RETURNURL" size="100" />
                 <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
                 <input type="hidden" value='https://java-ppbrasil.rhcloud.com//FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />

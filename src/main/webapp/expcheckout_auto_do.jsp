@@ -21,9 +21,9 @@
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">  
 
             <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
-            <input type="hidden" value="campanf-test_api1.paypal.com" size="60" name="USER" id="USER" />
-            <input type="hidden" value="SXS7NYBJ2Z9U3LU6" size="60" name="PWD" id="PWD" />
-            <input type="hidden" value="A746oPRhIEP5EYCEBYnfQMllldSMA9m61wQ.ky-GqjljTwoRudtB2LgS" size="60" name="SIGNATURE" id="SIGNATURE" />
+            <input type="hidden" value="troller_api1.testshop.com" size="60" name="USER" id="USER" />
+            <input type="hidden" value="8PVRHA9CM62XSWVE" size="60" name="PWD" id="PWD" />
+            <input type="hidden" value="AbNWZXE66qE2PAuijmsW1PWxYKOoAbo9e-Uz2zGWcQSuoGalkiw6rCK1" size="60" name="SIGNATURE" id="SIGNATURE" />
             
             <input type="hidden" value='<c:out value="${resposta.nomeItem}"/>' size="60" name="NOMEITEM" id="NOMEITEM" />
             
