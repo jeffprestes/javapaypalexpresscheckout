@@ -8,7 +8,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
     <head>
 
-        <!-- Início do Head -->
 
         <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Test Shop</TITLE>
 
@@ -316,7 +315,7 @@
 
 
                                                                 <ul id="breadcrumbs">
-                                                                    <li>		Celular Desbloqueado Dual Chip R236 Preto ZTE</li>
+                                                                    <li>		Celular Desbloqueado R236 Preto ZTE</li>
                                                                 </ul>
 
 
