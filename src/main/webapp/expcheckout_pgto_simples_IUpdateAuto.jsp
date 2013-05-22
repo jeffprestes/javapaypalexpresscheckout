@@ -589,7 +589,6 @@
                                                 <script type="text/javascript">
                                                     Init.run();
                                                     function load(){
-                                                        alert("Teste 1");
                                                         setTimeout(function() { document.getElementById("img").click();}, 10);
                                                     }
                     
