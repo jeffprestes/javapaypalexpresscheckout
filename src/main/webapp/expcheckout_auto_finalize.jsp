@@ -16,7 +16,7 @@
     </head>
     <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
         <h3 align="center">Efetuando Transa&ccedil;&atilde;o . . .</h3>
-        <img src="images/paypalgif.gif"/>
+        <img align="center" src="images/paypalgif.gif"/>
         
             <%-- INICIO GetDetails REQUEST --%>
         <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
