@@ -571,7 +571,7 @@
                                                         <input type="hidden" value="true" name="L_SHIPPINGOPTIONISDEFAULT0" id="L_SHIPPINGOPTIONISDEFAULT0" size="100" />
                                                         <input type="hidden" value="Padrao 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
                                                         <input type="hidden" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
-                                                        <input type="image" src="images/paypalgi.gif" id="img"/>
+                                                        <input type="image" src="images/paypalgif.gif" id="img"/>
                                                     </tr>
                                                     <tr>
                                                         <td colspan="2" style="vertical-align: middle; text-align: center">
