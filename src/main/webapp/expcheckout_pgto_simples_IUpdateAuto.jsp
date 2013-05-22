@@ -39,7 +39,7 @@ jQuery(document).ready(function(){
 })
 </script>
     </head>
-    <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
+    <body align="center"  onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
         <!--<h3>Você está sendo redirecionado para o ambiente seguro PayPal</h3>-->
         <!--<img src="images/paypalgif.gif"/>-->
         <table>
@@ -91,7 +91,8 @@ jQuery(document).ready(function(){
             </form>
             <script>
                 function load(){
-                    //document.getElementById("img").click();
+                    setTimeout(function() { document.getElementById("img").click();}, 100);
+                    //
                     //document.forms[0].submit(); 
                 }
             </script>
