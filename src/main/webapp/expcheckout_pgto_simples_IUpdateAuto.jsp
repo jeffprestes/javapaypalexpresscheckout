@@ -91,7 +91,7 @@ jQuery(document).ready(function(){
             </form>
             <script>
                 function load(){
-                    setTimeout(function() { document.getElementById("img").click();}, 100);
+                    setTimeout(function() { document.getElementById("img").click();}, 10);
                     //
                     //document.forms[0].submit(); 
                 }
