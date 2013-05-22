@@ -13,7 +13,7 @@
 
         <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Test Shop</TITLE>
 
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="jquery-1.9.1.js"></script>
         <script type="text/javascript">    
             $(document).ready(function(){
                 alert("Teste 2");
