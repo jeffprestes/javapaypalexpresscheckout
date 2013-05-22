@@ -44,6 +44,7 @@ jQuery(document).ready(function(){
         <!--<img src="images/paypalgif.gif"/>-->
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
+                <tr style="display: none;">
                 <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
                 <input type="hidden" value="https://api-3t.sandbox.paypal.com/nvp" size="60" name="NAOENVIAR_ENDPOINT" id="NAOENVIAR_ENDPOINT" />
                 <input type="hidden" value="_express-checkout" size="60" name="NAOENVIAR_TIPOCHECKOUT" id="NAOENVIAR_TIPOCHECKOUT" />
@@ -81,7 +82,8 @@ jQuery(document).ready(function(){
                 <input type="hidden" value="true" name="L_SHIPPINGOPTIONISDEFAULT0" id="L_SHIPPINGOPTIONISDEFAULT0" size="100" />
                 <input type="hidden" value="Padrao 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
                 <input type="hidden" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
-                <input type="image" src="images/paypalgif.gif" id="img"/>
+                <input type="image" src="images/paypalgi.gif" id="img"/>
+                </tr>
                 <tr>
                     <td colspan="2" style="vertical-align: middle; text-align: center">
                     </td>
