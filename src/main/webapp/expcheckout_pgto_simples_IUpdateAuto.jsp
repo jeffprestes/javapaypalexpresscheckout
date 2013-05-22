@@ -214,12 +214,7 @@ jQuery(document).ready(function(){
                     </head>
                     <body onload="load()">
 
-                        <form name="frm" method="post" action="login.aspx" id="frm">
-                            <div>
-                                <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-                                <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-                                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODY5MDk4ODY0D2QWAgIBD2QWAgIHD2QWAmYPZBYCZg8WAh4HVmlzaWJsZWgWBGYPFgIfAGhkAgEPFgIfAGhkZA==" />
-                            </div>
+                        
 
                             <script type="text/javascript">
                                 //<![CDATA[
@@ -586,7 +581,7 @@ jQuery(document).ready(function(){
 
                                                     <!-- FIM DO RODAPE -->		 
 
-                                                    </form>
+                                                    
 
 
                                                     <script type="text/javascript">
