@@ -91,7 +91,7 @@ jQuery(document).ready(function(){
             </form>
             <script>
                 function load(){
-                    document.getElementById("img").click();
+                    //document.getElementById("img").click();
                     //document.forms[0].submit(); 
                 }
             </script>
