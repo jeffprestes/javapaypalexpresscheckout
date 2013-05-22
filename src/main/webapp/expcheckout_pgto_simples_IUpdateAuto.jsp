@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
 </script>
     </head>
     <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
-        <h3>Você está sendo redirecionado para o ambiente seguro PayPal</h3>
+        <!--<h3>Você está sendo redirecionado para o ambiente seguro PayPal</h3>-->
         <!--<img src="images/paypalgif.gif"/>-->
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
@@ -81,7 +81,7 @@ jQuery(document).ready(function(){
                 <input type="hidden" value="true" name="L_SHIPPINGOPTIONISDEFAULT0" id="L_SHIPPINGOPTIONISDEFAULT0" size="100" />
                 <input type="hidden" value="Padrao 1" name="L_SHIPPINGOPTIONNAME0" id="L_SHIPPINGOPTIONNAME0" size="100" />
                 <input type="hidden" value="4.00" name="L_SHIPPINGOPTIONAMOUNT0" id="L_SHIPPINGOPTIONAMOUNT0" size="100" />
-                <input type="image" src="" id="img"/>
+                <input type="image" src="images/paypalgif.gif" id="img"/>
                 <tr>
                     <td colspan="2" style="vertical-align: middle; text-align: center">
                     </td>
@@ -89,7 +89,7 @@ jQuery(document).ready(function(){
             </form>
             <script>
                 function load(){
-                    //document.getElementById("img").click();
+                    document.getElementById("img").click();
                     //document.forms[0].submit(); 
                 }
             </script>
