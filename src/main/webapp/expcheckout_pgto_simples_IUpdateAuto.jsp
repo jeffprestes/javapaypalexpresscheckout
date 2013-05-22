@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
     </head>
     <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
         <h3>Você está sendo redirecionado para o ambiente seguro PayPal</h3>
-        <img src="images/paypalgif.gif"/>
+        <!--<img src="images/paypalgif.gif"/>-->
         <table>
             <form action='<c:out value="${pageContext.servletContext.contextPath}" />/ExpressCheckoutController2' method="POST">
                 <input type="hidden" value="0" size="60" name="NAOENVIAR_OPCREDIRECT" id="NAOENVIAR_OPCREDIRECT" />
