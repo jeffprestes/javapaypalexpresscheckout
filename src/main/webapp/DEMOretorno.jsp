@@ -9,13 +9,15 @@
 
 <%@page import="javax.servlet.http.*"%>
 
+<%@ page contentType="text/html; charset=UTF-8" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
     <head>
 
-        <!-- Início do Head -->
+        <!-- InÃ­cio do Head -->
 
-        <TITLE>Eletrônicos, Informática, Games  e muito mais! Em até 12x - Test Shop</TITLE>
+        <TITLE>EletrÃ´nicos, InformÃ¡tica, Games  e muito mais! Em atÃ© 12x - Test Shop</TITLE>
 
         <script type="text/javascript"> 
             //<![CDATA[[ 
@@ -40,12 +42,12 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
 
-        <meta name="description" content="Compre no MegaMamute Eletrônicos, Informática, Eletrodomésticos, Games, Celulares e Smartphones. Tudo em até 12x ou 7% de desconto à vista. Confira!" />
+        <meta name="description" content="Compre no MegaMamute EletrÃ´nicos, InformÃ¡tica, EletrodomÃ©sticos, Games, Celulares e Smartphones. Tudo em atÃ© 12x ou 7% de desconto Ã  vista. Confira!" />
         <meta name="keywords" content="site de compras
               loja virtual 
-              informática
-              produtos de informárica
-              eletrônicos
+              informÃ¡tica
+              produtos de informÃ¡rica
+              eletrÃ´nicos
               computador
               loja de informatica online
               loja de informatica" />
@@ -99,7 +101,7 @@
 
         <meta http-equiv="imagetoolbar" content="no" />
 
-        <META NAME="itemName" CONTENT="Eletrônicos, Informática, Games  e muito mais! Em até 12x">
+        <META NAME="itemName" CONTENT="EletrÃ´nicos, InformÃ¡tica, Games  e muito mais! Em atÃ© 12x">
             <META NAME="itemId" CONTENT="">
 
                 <script type="text/javascript" charset="iso-8859-1" src="https://www.megamamute.com.br/script/allinOptin719.js"></script>
@@ -221,7 +223,7 @@
 
 
 
-                            <!-- INÍCIO DO CABEÇALHO -->
+                            <!-- INÃCIO DO CABEÃ‡ALHO -->
                             <div id="header">
                                 <div class="container compra">		
 
@@ -245,7 +247,7 @@
 
 
                                                         <script language='javascript'>function vopenw() {	tbar='location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535';	sw =  window.open('https://www.certisign.com.br/seal/splashcerti.htm','CRSN_Splash',tbar);	sw.focus();}</script>
-                                                        <li><a href='javascript:vopenw()'><img src='https://www.megamamute.com.br/imagens/100x46_fundo_branco.gif' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domínio validado é de propriedade ou se encontra registrado por uma empresa ou organização autorizada a negociar por ela ou exercer qualquer atividade lícita em seu nome.'></a></li>
+                                                        <li><a href='javascript:vopenw()'><img src='https://www.megamamute.com.br/imagens/100x46_fundo_branco.gif' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domÃ­nio validado Ã© de propriedade ou se encontra registrado por uma empresa ou organizaÃ§Ã£o autorizada a negociar por ela ou exercer qualquer atividade lÃ­cita em seu nome.'></a></li>
                                                         <li><script src='https://seal.verisign.com/getseal?host_name=www.megamamute.com.br&size=S&use_flash=NO&use_transparent=getsealjs_b.js&lang=pt'></script></li>
 
 
@@ -254,7 +256,7 @@
                                                     </div>
 
                                                     </div>
-                                                    <!-- FIM DO CABEÇALHO -->
+                                                    <!-- FIM DO CABEÃ‡ALHO -->
 
                                                     <!-- Google Code for Tag de remarketing -->
                                                     <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup 
@@ -293,13 +295,13 @@
                                                                                 </dd>
                                                                                 <dd class="icoPasso2">
                                                                                         <span  class="selected">
-                                                                                                Passo 2 - Identificação
+                                                                                                Passo 2 - IdentificaÃ§Ã£o
                                                                                         </span>
                                                                                 </dd>
                                                                                 
                                                                                 <dd class="icoPasso3">
                                                                                         <span >
-                                                                                                Passo 3 - Endereço
+                                                                                                Passo 3 - EndereÃ§o
                                                                                         </span>
                                                                                 </dd>
                                                                                 <dd class="icoPasso4">
@@ -333,25 +335,17 @@
                                                                                     </div>
                                                                                     <p class="pass_disclaimer" align="center">
                                                                                        
-                                                                                        <% String cidade = request.getParameter("CIDADE");
-                                                                                        String estado = request.getParameter("ESTADO");
-cidade.replace("%c3%a3", "ã");
-cidade.replace("%c3%a9", "é");
-cidade.replace("%20", " ");
-estado.replace("%c3%a3", "ã");
-estado.replace("%c3%a9", "é");
-estado.replace("%20", " ");
-%>
+                                                                                       
                                                                                         <hr>
-                                                                                        <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%></br>
+                                                                                        <b>VocÃª comprou : </b><%= request.getParameter("NOMEITEM")%></br>
                                                                                         <b>Unidade(s) : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : R$</b><%= request.getParameter("TOTALITEM")%></br></br>
                                                                                         
                                                                                         <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
                                                                                         <b>Valor : R$</b> <%= request.getParameter("TOTALENTREGA")%></br></br>
                                                                                         <b>Tracking ID : </b> <%= request.getParameter("NAOENVIAR_TRACKING")%></br></br>
                                     
-                                                                                        <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
-                                                                                        <%= cidade%>, <%= estado%>, <%= request.getParameter("CEP")%></br></br>
+                                                                                        <b>EndereÃ§o de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                         <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%></br>
@@ -361,7 +355,7 @@ estado.replace("%20", " ");
                                                                                         </br>
                                                                                         </br>
                                                                                         
-                                                                                        <b>Notamos que você é um novo usuário na nossa loja</b></br>
+                                                                                        <b>Notamos que vocÃª Ã© um novo usuÃ¡rio na nossa loja</b></br>
                                                                                         Gostaria de cadastrar seus dados ?</br></br>
                                                                                         <form action="DEMOcadastrar.jsp" method="POST">
                                                                                         <input type="hidden" value=<%= request.getParameter("EMAILCOMPRADOR")%> name="EMAILCOMPRADOR" id="EMAILCOMPRADOR" />
@@ -379,34 +373,34 @@ estado.replace("%20", " ");
                                                                                         </form>
                                                                                       
                                                                                         
-                                                                                        <%-- DADOS DA TRANSAÇÃO --%> 
+                                                                                        <%-- DADOS DA TRANSAÃ‡ÃƒO --%> 
                                                                                         
                                                                                    <%-- DADOS DA COMPRA:</br></br>
                                                                                         Token : <%= request.getParameter("TOKEN")%></br>
                                                                                         Status : <%= request.getParameter("STATUS")%></br>
                                                                                         Timestamp : <%= request.getParameter("TIMESTAMP")%></br>
-                                                                                        ID de correlação : <%= request.getParameter("CORRELATIONID")%></br>
-                                                                                        ID de transação : <%= request.getParameter("TRANSACTIONID")%></br>
+                                                                                        ID de correlaÃ§Ã£o : <%= request.getParameter("CORRELATIONID")%></br>
+                                                                                        ID de transaÃ§Ã£o : <%= request.getParameter("TRANSACTIONID")%></br>
                                                                                         ACK :<%= request.getParameter("ACK")%></br>
-                                                                                        Versão : <%= request.getParameter("VERSAO")%></br>
+                                                                                        VersÃ£o : <%= request.getParameter("VERSAO")%></br>
                                                                                         BUILD : <%= request.getParameter("BUILD")%></br>
                                                                                         E-mail do comprador: <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                         PAYERID : <%= request.getParameter("PAYERID")%></br>
                                                                                         Status do pagador : <%= request.getParameter("STATUSPAGADOR")%></br>
                                                                                         Nome : <%= request.getParameter("PRIMEIRONOME")%></br>
                                                                                         Sobrenome : <%= request.getParameter("ULTIMONOME")%></br>
-                                                                                        País da compra : <%= request.getParameter("PAISCOMPRADOR")%></br>
-                                                                                        Tipo de identificação : <%= request.getParameter("IDTYPE")%></br>
-                                                                                        Número de indentificação : <%= request.getParameter("IDNUMBER")%></br>
+                                                                                        PaÃ­s da compra : <%= request.getParameter("PAISCOMPRADOR")%></br>
+                                                                                        Tipo de identificaÃ§Ã£o : <%= request.getParameter("IDTYPE")%></br>
+                                                                                        NÃºmero de indentificaÃ§Ã£o : <%= request.getParameter("IDNUMBER")%></br>
                                                                                         Nome da entrega : <%= request.getParameter("NOMEENTREGA")%></br>
-                                                                                        Endereço : <%= request.getParameter("ENDERECO")%></br>
-                                                                                        Complemento do endereço : <%= request.getParameter("ENDERECO2")%></br>
+                                                                                        EndereÃ§o : <%= request.getParameter("ENDERECO")%></br>
+                                                                                        Complemento do endereÃ§o : <%= request.getParameter("ENDERECO2")%></br>
                                                                                         Cidade : <%= request.getParameter("CIDADE")%></br>
                                                                                         Estado : <%= request.getParameter("ESTADO")%></br>
                                                                                         CEP : <%= request.getParameter("CEP")%></br>
-                                                                                        Código do País : <%= request.getParameter("CODPAIS")%></br>
-                                                                                        País : <%= request.getParameter("PAIS")%></br>
-                                                                                        Status do endereço : <%= request.getParameter("STATUSENDERECO")%></br>
+                                                                                        CÃ³digo do PaÃ­s : <%= request.getParameter("CODPAIS")%></br>
+                                                                                        PaÃ­s : <%= request.getParameter("PAIS")%></br>
+                                                                                        Status do endereÃ§o : <%= request.getParameter("STATUSENDERECO")%></br>
                                                                                         Moeda: <%= request.getParameter("MOEDA")%></br>
                                                                                         Valor do Produto : <%= request.getParameter("TOTALITEM")%></br>
                                                                                         Taxa de entrega : <%= request.getParameter("TOTALENTREGA")%></br>
@@ -441,7 +435,7 @@ estado.replace("%20", " ");
 
 
                                                                                                                         <dd class="card">
-                                                                                                                            Cartões de Crédito
+                                                                                                                            CartÃµes de CrÃ©dito
                                                                                                                         </dd>
 
 
@@ -450,12 +444,12 @@ estado.replace("%20", " ");
                                                                                                                         </dd>
                                                                                                                         <dd class="paypal">
                                                                                                                             <!-- PayPal Logo --><table style="padding-top:5px; padding-right:3px;" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="center"></td></tr>
-                                                                                                                                <tr ><td align="left"><a rel="nofollow" href="#" onclick="javascript:window.open('https://www.paypal.com/br/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal-brasil.com.br/logocenter/util/img/ikeda/ikeda/seloPayPal1.png" border="0" alt="Imagens de solução" width="50"></a></td></tr></table><!-- PayPal Logo -->						
+                                                                                                                                <tr ><td align="left"><a rel="nofollow" href="#" onclick="javascript:window.open('https://www.paypal.com/br/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal-brasil.com.br/logocenter/util/img/ikeda/ikeda/seloPayPal1.png" border="0" alt="Imagens de soluÃ§Ã£o" width="50"></a></td></tr></table><!-- PayPal Logo -->						
                                                                                                                         </dd>
 
 
                                                                                                                         <dd class="debito">
-                                                                                                                            Débito Online
+                                                                                                                            DÃ©bito Online
                                                                                                                         </dd>
 
                                                                                                                     </dl>
@@ -481,12 +475,12 @@ estado.replace("%20", " ");
 
                                                                                                                         <dd class="coluna">
                                                                                                                             <div class="ebit">
-                                                                                                                                <a id="seloEbit" href="http://www.ebit.com.br/#megamamute" target="_blank" onclick="redir(this.href);">Avaliação de Lojas e-bit</a>
+                                                                                                                                <a id="seloEbit" href="http://www.ebit.com.br/#megamamute" target="_blank" onclick="redir(this.href);">AvaliaÃ§Ã£o de Lojas e-bit</a>
                                                                                                                                 <script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?4941" ></script>   
                                                                                                                             </div>
 
                                                                                                                             <div class="ebit">
-                                                                                                                                <img src="https://www.megamamute.com.br/Imagens/Informatica_MegaMamute.png" alt="MegaMamute - Informártica" title="MegaMamute - Informártica" />
+                                                                                                                                <img src="https://www.megamamute.com.br/Imagens/Informatica_MegaMamute.png" alt="MegaMamute - InformÃ¡rtica" title="MegaMamute - InformÃ¡rtica" />
                                                                                                                             </div> 				        
                                                                                                                         </dd>
 

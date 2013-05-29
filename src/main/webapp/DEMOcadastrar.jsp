@@ -9,13 +9,15 @@
 
 <%@page import="javax.servlet.http.*"%>
 
+<%@ page contentType="text/html; charset=UTF-8" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
     <head>
 
-        <!-- InÌcio do Head -->
+        <!-- In√≠cio do Head -->
 
-        <TITLE>EletrÙnicos, Inform·tica, Games  e muito mais! Em atÈ 12x - Test Shop</TITLE>
+        <TITLE>Eletr√¥nicos, Inform√°tica, Games  e muito mais! Em at√© 12x - Test Shop</TITLE>
 
         <script type="text/javascript"> 
             //<![CDATA[[ 
@@ -40,12 +42,12 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
 
-        <meta name="description" content="Compre no MegaMamute EletrÙnicos, Inform·tica, EletrodomÈsticos, Games, Celulares e Smartphones. Tudo em atÈ 12x ou 7% de desconto ‡ vista. Confira!" />
+        <meta name="description" content="Compre no MegaMamute Eletr√¥nicos, Inform√°tica, Eletrodom√©sticos, Games, Celulares e Smartphones. Tudo em at√© 12x ou 7% de desconto √† vista. Confira!" />
         <meta name="keywords" content="site de compras
               loja virtual 
-              inform·tica
-              produtos de inform·rica
-              eletrÙnicos
+              inform√°tica
+              produtos de inform√°rica
+              eletr√¥nicos
               computador
               loja de informatica online
               loja de informatica" />
@@ -99,7 +101,7 @@
 
         <meta http-equiv="imagetoolbar" content="no" />
 
-        <META NAME="itemName" CONTENT="EletrÙnicos, Inform·tica, Games  e muito mais! Em atÈ 12x">
+        <META NAME="itemName" CONTENT="Eletr√¥nicos, Inform√°tica, Games  e muito mais! Em at√© 12x">
             <META NAME="itemId" CONTENT="">
 
                 <script type="text/javascript" charset="iso-8859-1" src="https://www.megamamute.com.br/script/allinOptin719.js"></script>
@@ -221,7 +223,7 @@
 
 
 
-                            <!-- INÕCIO DO CABE«ALHO -->
+                            <!-- IN√çCIO DO CABE√áALHO -->
                             <div id="header">
                                 <div class="container compra">		
 
@@ -245,7 +247,7 @@
 
 
                                                         <script language='javascript'>function vopenw() {	tbar='location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535';	sw =  window.open('https://www.certisign.com.br/seal/splashcerti.htm','CRSN_Splash',tbar);	sw.focus();}</script>
-                                                        <li><a href='javascript:vopenw()'><img src='https://www.megamamute.com.br/imagens/100x46_fundo_branco.gif' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domÌnio validado È de propriedade ou se encontra registrado por uma empresa ou organizaÁ„o autorizada a negociar por ela ou exercer qualquer atividade lÌcita em seu nome.'></a></li>
+                                                        <li><a href='javascript:vopenw()'><img src='https://www.megamamute.com.br/imagens/100x46_fundo_branco.gif' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o dom√≠nio validado √© de propriedade ou se encontra registrado por uma empresa ou organiza√ß√£o autorizada a negociar por ela ou exercer qualquer atividade l√≠cita em seu nome.'></a></li>
                                                         <li><script src='https://seal.verisign.com/getseal?host_name=www.megamamute.com.br&size=S&use_flash=NO&use_transparent=getsealjs_b.js&lang=pt'></script></li>
 
 
@@ -254,7 +256,7 @@
                                                     </div>
 
                                                     </div>
-                                                    <!-- FIM DO CABE«ALHO -->
+                                                    <!-- FIM DO CABE√áALHO -->
 
                                                     <!-- Google Code for Tag de remarketing -->
                                                     <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup 
@@ -293,13 +295,13 @@
                                                                                 </dd>
                                                                                 <dd class="icoPasso2">
                                                                                         <span  class="selected">
-                                                                                                Passo 2 - IdentificaÁ„o
+                                                                                                Passo 2 - Identifica√ß√£o
                                                                                         </span>
                                                                                 </dd>
                                                                                 
                                                                                 <dd class="icoPasso3">
                                                                                         <span >
-                                                                                                Passo 3 - EndereÁo
+                                                                                                Passo 3 - Endere√ßo
                                                                                         </span>
                                                                                 </dd>
                                                                                 <dd class="icoPasso4">
@@ -320,7 +322,7 @@
                                                                     <div class="box_910_top"></div>
                                                                     
                                                                     <div class="box_910_mid" align="center">
-                                                                        <b><big>DADOS DO USU¡RIO</big></b></br>
+                                                                        <b><big>DADOS DO USU√ÅRIO</big></b></br>
                                                                         <!-- BOX DIREITA (CADASTRE-SE) -->
                                                                         </br>
                                                                             <fieldset class="form_container">
@@ -329,7 +331,7 @@
                                                                                     <b>Sobrenome: </b> <%= request.getParameter("ULTIMONOME")%></br>
                                                                                     <b><%= request.getParameter("IDTYPE")%>: </b> <%= request.getParameter("IDNUMBER")%></br>
                                                                                     </br>
-                                                                                    <b>EndereÁo : </b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                    <b>Endere√ßo : </b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                     <b>Cidade : </b><%= request.getParameter("CIDADE")%></br>
                                                                                     <b>Estado : </b><%= request.getParameter("ESTADO")%></br>
                                                                                     <b>CEP : </b><%= request.getParameter("CEP")%></br></br>
@@ -362,48 +364,48 @@
                                                                                                     <p class="pass_disclaimer" align="center">
                                                                                                         <%--</br>
                                                                                                         <hr>
-                                                                                                            <b>VocÍ comprou : </b><%= request.getParameter("NOMEITEM")%></br>
+                                                                                                            <b>Voc√™ comprou : </b><%= request.getParameter("NOMEITEM")%></br>
                                                                                                             <b>Unidade(s) : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : R$</b><%= request.getParameter("TOTALITEM")%></br></br>
 
                                                                                                         <b>Servico de entrega escolhido :</b> <%= request.getParameter("ENTREGA")%></br>
                                                                                                         <b>Valor : R$</b> <%= request.getParameter("TOTALENTREGA")%></br></br>
                                                                                                         <b>Tracking ID : </b> <%= request.getParameter("NAOENVIAR_TRACKING")%></br></br>
 
-                                                                                                        <b>EndereÁo de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
+                                                                                                        <b>Endere√ßo de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
                                                                                                         <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
 
                                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                                         <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%>
                                                                                                         <hr>
                                                                                                             </br>--%> 
-                                                                                                        <%-- DADOS DA TRANSA«√O --%> 
+                                                                                                        <%-- DADOS DA TRANSA√á√ÉO --%> 
 
                                                                                                         <%-- DADOS DA COMPRA:</br></br>
                                                                                                              Token : <%= request.getParameter("TOKEN")%></br>
                                                                                                              Status : <%= request.getParameter("STATUS")%></br>
                                                                                                              Timestamp : <%= request.getParameter("TIMESTAMP")%></br>
-                                                                                                             ID de correlaÁ„o : <%= request.getParameter("CORRELATIONID")%></br>
-                                                                                                             ID de transaÁ„o : <%= request.getParameter("TRANSACTIONID")%></br>
+                                                                                                             ID de correla√ß√£o : <%= request.getParameter("CORRELATIONID")%></br>
+                                                                                                             ID de transa√ß√£o : <%= request.getParameter("TRANSACTIONID")%></br>
                                                                                                              ACK :<%= request.getParameter("ACK")%></br>
-                                                                                                             Vers„o : <%= request.getParameter("VERSAO")%></br>
+                                                                                                             Vers√£o : <%= request.getParameter("VERSAO")%></br>
                                                                                                              BUILD : <%= request.getParameter("BUILD")%></br>
                                                                                                              E-mail do comprador: <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                                              PAYERID : <%= request.getParameter("PAYERID")%></br>
                                                                                                              Status do pagador : <%= request.getParameter("STATUSPAGADOR")%></br>
                                                                                                              Nome : <%= request.getParameter("PRIMEIRONOME")%></br>
                                                                                                              Sobrenome : <%= request.getParameter("ULTIMONOME")%></br>
-                                                                                                             PaÌs da compra : <%= request.getParameter("PAISCOMPRADOR")%></br>
-                                                                                                             Tipo de identificaÁ„o : <%= request.getParameter("IDTYPE")%></br>
-                                                                                                             N˙mero de indentificaÁ„o : <%= request.getParameter("IDNUMBER")%></br>
+                                                                                                             Pa√≠s da compra : <%= request.getParameter("PAISCOMPRADOR")%></br>
+                                                                                                             Tipo de identifica√ß√£o : <%= request.getParameter("IDTYPE")%></br>
+                                                                                                             N√∫mero de indentifica√ß√£o : <%= request.getParameter("IDNUMBER")%></br>
                                                                                                              Nome da entrega : <%= request.getParameter("NOMEENTREGA")%></br>
-                                                                                                             EndereÁo : <%= request.getParameter("ENDERECO")%></br>
-                                                                                                             Complemento do endereÁo : <%= request.getParameter("ENDERECO2")%></br>
+                                                                                                             Endere√ßo : <%= request.getParameter("ENDERECO")%></br>
+                                                                                                             Complemento do endere√ßo : <%= request.getParameter("ENDERECO2")%></br>
                                                                                                              Cidade : <%= request.getParameter("CIDADE")%></br>
                                                                                                              Estado : <%= request.getParameter("ESTADO")%></br>
                                                                                                              CEP : <%= request.getParameter("CEP")%></br>
-                                                                                                             CÛdigo do PaÌs : <%= request.getParameter("CODPAIS")%></br>
-                                                                                                             PaÌs : <%= request.getParameter("PAIS")%></br>
-                                                                                                             Status do endereÁo : <%= request.getParameter("STATUSENDERECO")%></br>
+                                                                                                             C√≥digo do Pa√≠s : <%= request.getParameter("CODPAIS")%></br>
+                                                                                                             Pa√≠s : <%= request.getParameter("PAIS")%></br>
+                                                                                                             Status do endere√ßo : <%= request.getParameter("STATUSENDERECO")%></br>
                                                                                                              Moeda: <%= request.getParameter("MOEDA")%></br>
                                                                                                              Valor do Produto : <%= request.getParameter("TOTALITEM")%></br>
                                                                                                              Taxa de entrega : <%= request.getParameter("TOTALENTREGA")%></br>
@@ -438,7 +440,7 @@
 
 
                                                                                                                 <dd class="card">
-                                                                                                                    Cartıes de CrÈdito
+                                                                                                                    Cart√µes de Cr√©dito
                                                                                                                 </dd>
 
 
@@ -447,12 +449,12 @@
                                                                                                                 </dd>
                                                                                                                 <dd class="paypal">
                                                                                                                     <!-- PayPal Logo --><table style="padding-top:5px; padding-right:3px;" border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="center"></td></tr>
-                                                                                                                        <tr ><td align="left"><a rel="nofollow" href="#" onclick="javascript:window.open('https://www.paypal.com/br/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal-brasil.com.br/logocenter/util/img/ikeda/ikeda/seloPayPal1.png" border="0" alt="Imagens de soluÁ„o" width="50"></a></td></tr></table><!-- PayPal Logo -->						
+                                                                                                                        <tr ><td align="left"><a rel="nofollow" href="#" onclick="javascript:window.open('https://www.paypal.com/br/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img  src="https://www.paypal-brasil.com.br/logocenter/util/img/ikeda/ikeda/seloPayPal1.png" border="0" alt="Imagens de solu√ß√£o" width="50"></a></td></tr></table><!-- PayPal Logo -->						
                                                                                                                 </dd>
 
 
                                                                                                                 <dd class="debito">
-                                                                                                                    DÈbito Online
+                                                                                                                    D√©bito Online
                                                                                                                 </dd>
 
                                                                                                             </dl>
@@ -478,12 +480,12 @@
 
                                                                                                                 <dd class="coluna">
                                                                                                                     <div class="ebit">
-                                                                                                                        <a id="seloEbit" href="http://www.ebit.com.br/#megamamute" target="_blank" onclick="redir(this.href);">AvaliaÁ„o de Lojas e-bit</a>
+                                                                                                                        <a id="seloEbit" href="http://www.ebit.com.br/#megamamute" target="_blank" onclick="redir(this.href);">Avalia√ß√£o de Lojas e-bit</a>
                                                                                                                         <script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?4941" ></script>   
                                                                                                                     </div>
 
                                                                                                                     <div class="ebit">
-                                                                                                                        <img src="https://www.megamamute.com.br/Imagens/Informatica_MegaMamute.png" alt="MegaMamute - Inform·rtica" title="MegaMamute - Inform·rtica" />
+                                                                                                                        <img src="https://www.megamamute.com.br/Imagens/Informatica_MegaMamute.png" alt="MegaMamute - Inform√°rtica" title="MegaMamute - Inform√°rtica" />
                                                                                                                     </div> 				        
                                                                                                                 </dd>
 
