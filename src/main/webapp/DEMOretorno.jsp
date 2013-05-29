@@ -333,6 +333,15 @@
                                                                                     </div>
                                                                                     <p class="pass_disclaimer" align="center">
                                                                                        
+                                                                                        <% String cidade = request.getParameter("CIDADE");
+                                                                                        String estado = request.getParameter("ESTADO");
+cidade.replace("%c3%a3", "ã");
+cidade.replace("%c3%a9", "é");
+cidade.replace("%20", " ");
+estado.replace("%c3%a3", "ã");
+estado.replace("%c3%a9", "é");
+estado.replace("%20", " ");
+%>
                                                                                         <hr>
                                                                                         <b>Você comprou : </b><%= request.getParameter("NOMEITEM")%></br>
                                                                                         <b>Unidade(s) : </b><%= request.getParameter("ITEMQTDE")%><b> , SubTotal : R$</b><%= request.getParameter("TOTALITEM")%></br></br>
@@ -342,7 +351,7 @@
                                                                                         <b>Tracking ID : </b> <%= request.getParameter("NAOENVIAR_TRACKING")%></br></br>
                                     
                                                                                         <b>Endereço de entrega :</b>  <%= request.getParameter("ENDERECO")%>, <%= request.getParameter("ENDERECO2")%></br>
-                                                                                        <%= request.getParameter("CIDADE")%>, <%= request.getParameter("ESTADO")%>, <%= request.getParameter("CEP")%></br></br>
+                                                                                        <%= cidade%>, <%= estado%>, <%= request.getParameter("CEP")%></br></br>
                                                                                         
                                                                                         <b>E-mail do comprador : </b> <%= request.getParameter("EMAILCOMPRADOR")%></br>
                                                                                         <b>Telefone para contato : </b> <%= request.getParameter("TELEFONE")%></br>
@@ -360,9 +369,9 @@
                                                                                         <input type="hidden" value=<%= request.getParameter("ULTIMONOME")%> name="ULTIMONOME" id="ULTIMONOME" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("ENDERECO")%> name="ENDERECO" id="ENDERECO" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("ENDERECO2")%> name="ENDERECO2" id="ENDERECO2" />
-                                                                                        <input type="hidden" value=<%= request.getParameter("ESTADO")%> name="ESTADO" id="ESTADO" /> 
+                                                                                        <input type="hidden" value=<%= estado%> name="ESTADO" id="ESTADO" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("CEP")%> name="CEP" id="CEP" /> 
-                                                                                        <input type="hidden" value=<%= request.getParameter("CIDADE")%> name="CIDADE" id="CIDADE" />
+                                                                                        <input type="hidden" value=<%= cidade%> name="CIDADE" id="CIDADE" />
                                                                                         <input type="hidden" value=<%= request.getParameter("TELEFONE")%> name="TELEFONE" id="TELEFONE" />
                                                                                         <input type="hidden" value=<%= request.getParameter("IDTYPE")%> name="IDTYPE" id="IDTYPE" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("IDNUMBER")%> name="IDNUMBER" id="IDNUMBER" />
