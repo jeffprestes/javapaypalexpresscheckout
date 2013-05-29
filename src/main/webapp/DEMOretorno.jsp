@@ -363,9 +363,9 @@
                                                                                         <input type="hidden" value=<%= request.getParameter("ULTIMONOME")%> name="ULTIMONOME" id="ULTIMONOME" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("ENDERECO")%> name="ENDERECO" id="ENDERECO" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("ENDERECO2")%> name="ENDERECO2" id="ENDERECO2" />
-                                                                                        <input type="hidden" value=<%= estado%> name="ESTADO" id="ESTADO" /> 
+                                                                                        <input type="hidden" value=<%= request.getParameter("ESTADO")%> name="ESTADO" id="ESTADO" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("CEP")%> name="CEP" id="CEP" /> 
-                                                                                        <input type="hidden" value=<%= cidade%> name="CIDADE" id="CIDADE" />
+                                                                                        <input type="hidden" value=<%= request.getParameter("CIDADE")%> name="CIDADE" id="CIDADE" />
                                                                                         <input type="hidden" value=<%= request.getParameter("TELEFONE")%> name="TELEFONE" id="TELEFONE" />
                                                                                         <input type="hidden" value=<%= request.getParameter("IDTYPE")%> name="IDTYPE" id="IDTYPE" /> 
                                                                                         <input type="hidden" value=<%= request.getParameter("IDNUMBER")%> name="IDNUMBER" id="IDNUMBER" />
