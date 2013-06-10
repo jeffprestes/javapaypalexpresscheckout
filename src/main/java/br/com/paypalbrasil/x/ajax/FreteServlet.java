@@ -103,8 +103,8 @@ public class FreteServlet extends HttpServlet {
             logger.info(item2.getCepOrigem() + ", " + item2.getCepDestino() + ", " + item2.getLargura() + ", " + item2.getAltura() + ", " + item2.getProfundidade() + ", " + item2.getPeso());
             item.setValorEntrega(frete.getPreco(item.getCepOrigem(), item.getCepDestino(), item.getLargura(), item.getAltura(), item.getProfundidade(), item.getPeso()));
             if(item2.getAltura()== 0){
-                
-                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (item.getValorEntrega()+(item.getValorEntrega()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + item.getValorEntrega() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
+                out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=Entrega Expressa (4 dias)&L_SHIPPINGOPTIONAMOUNT0=5.64&L_SHIPPINGOPTIONISDEFAULT0=false&L_SHIPPINGOPTIONLABEL1=Entrega Turbo (12 horas)&L_SHIPPINGOPTIONAMOUNT1=10.00&L_SHIPPINGOPTIONISDEFAULT1=true&L_SHIPPINGOPTIONLABEL2=Entrega Economica (6 dias)&L_SHIPPINGOPTIONAMOUNT2=0.00&L_SHIPPINGOPTIONISDEFAULT2=false");
+                //out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (item.getValorEntrega()+(item.getValorEntrega()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + item.getValorEntrega() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
             }else{
             item2.setValorEntrega(frete.getPreco(item2.getCepOrigem(), item2.getCepDestino(), item2.getLargura(), item2.getAltura(), item2.getProfundidade(), item2.getPeso()));
             valor.setItens(item, item2);
@@ -112,7 +112,8 @@ public class FreteServlet extends HttpServlet {
             valor.setTotal();
             logger.info("TOTAL DA ENTREGA = " + valor.getTotal());
             
-            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (valor.getTotal()+(valor.getTotal()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
+            out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=Entrega Expressa (4 dias)&L_SHIPPINGOPTIONAMOUNT0=5.64&L_SHIPPINGOPTIONISDEFAULT0=false&L_SHIPPINGOPTIONLABEL1=Entrega Turbo (12 horas)&L_SHIPPINGOPTIONAMOUNT1=10.00&L_SHIPPINGOPTIONISDEFAULT1=true&L_SHIPPINGOPTIONLABEL2=Entrega Economica (6 dias)&L_SHIPPINGOPTIONAMOUNT2=0.00&L_SHIPPINGOPTIONISDEFAULT2=false");
+            //out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (valor.getTotal()+(valor.getTotal()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
             }
 
            
