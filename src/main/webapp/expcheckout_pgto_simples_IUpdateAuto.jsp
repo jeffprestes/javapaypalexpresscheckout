@@ -547,7 +547,7 @@
                                                         <input type="hidden" value="AbNWZXE66qE2PAuijmsW1PWxYKOoAbo9e-Uz2zGWcQSuoGalkiw6rCK1" size="60" name="SIGNATURE" id="SIGNATURE" />
                                                         <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_auto.jsp' name="RETURNURL" id="RETURNURL" size="100" />
                                                         <input type="hidden" value='https://java-ppbrasil.rhcloud.com/expcheckout_retorno.jsp' name="CANCELURL" id="CANCELURL" size="100" />
-                                                        <input type="hidden" value='https://java-ppbrasil.rhcloud.com/FreteIU.jsp' name="CALLBACK" id="CALLBACK" size="100" />
+                                                        <input type="hidden" value='https://java-ppbrasil.rhcloud.com/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />
                                                         <input type="hidden" value='6' name="CALLBACKTIMEOUT" id="CALLBACKTIMEOUT" size="100" />
                                                         <input type="hidden" value="pt_BR" name="LOCALECODE" id="LOCALECODE" size="6" />
                                                         <input type="hidden" value="BRL" name="PAYMENTREQUEST_0_CURRENCYCODE" id="PAYMENTREQUEST_0_CURRENCYCODE" size="100" />
