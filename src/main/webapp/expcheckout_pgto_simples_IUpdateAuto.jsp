@@ -469,7 +469,7 @@
 
                                                         <dl id="lst_site_seguro">
                                                             <dt>
-                                                                Site Seguro
+                                                                Site Seguro PayPal
                                                             </dt>
                                                             <dd class="coluna">
                                                                 <div class="first">
