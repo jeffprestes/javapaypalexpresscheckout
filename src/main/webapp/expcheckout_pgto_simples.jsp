@@ -207,6 +207,17 @@
                         <input type="text" value="1" name="L_PAYMENTREQUEST_0_QTY0" id="L_PAYMENTREQUEST_0_QTY0" size="100" />
                     </td>
                 </tr> 
+                <tr>                
+                    <td>
+                        Categoria do item, Digital ou Fisico (L_PAYMENTREQUEST_0_ITEMCATEGORY0)
+                    </td>
+                    <td>
+                        <select name="L_PAYMENTREQUEST_0_ITEMCATEGORY0" id="L_PAYMENTREQUEST_0_ITEMCATEGORY0">
+                            <option value="Physical" selected="selected">Physical</option>
+                            <option value="Digital">Digital</option>
+                        </select>
+                    </td>
+                </tr> 
                 <tr>
                     <td colspan="2">&nbsp;</td>
                 </tr>
@@ -251,6 +262,17 @@
                     </td>
                     <td>
                         <input type="text" value="1" name="L_PAYMENTREQUEST_0_QTY1" id="L_PAYMENTREQUEST_0_QTY1" size="100" />
+                    </td>
+                </tr> 
+                <tr>                
+                    <td>
+                        Categoria do item, Digital ou Fisico (L_PAYMENTREQUEST_0_ITEMCATEGORY1)
+                    </td>
+                    <td>
+                        <select name="L_PAYMENTREQUEST_0_ITEMCATEGORY1" id="L_PAYMENTREQUEST_0_ITEMCATEGORY1">
+                            <option value="Physical" selected="selected">Physical</option>
+                            <option value="Digital">Digital</option>
+                        </select>
                     </td>
                 </tr> 
                 <tr>
