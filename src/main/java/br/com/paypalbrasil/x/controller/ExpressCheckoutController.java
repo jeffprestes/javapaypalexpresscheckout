@@ -94,6 +94,8 @@ public class ExpressCheckoutController extends HttpServlet {
                             StringBuilder url = new StringBuilder();
                             if (request.getParameter("NAOENVIAR_ENDPOINT").contains("sandbox")) {
                                 url.append("https://www.sandbox.paypal.com");
+                            }   else if (request.getParameter("NAOENVIAR_ENDPOINT").contains("api.stage2cp07.stage.paypal.com"))    {
+                                url.append("https://api.stage2cp07.stage.paypal.com");
                             } else {
                                 url.append("https://www.paypal.com");
                             }
