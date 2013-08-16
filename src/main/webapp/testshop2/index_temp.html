@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PayPal teste shop</title>
+	<link rel="stylesheet" href="css/main.css">	
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript">
+	function nextpage(){
+	document.getElementById("produtopost").submit();
+	}
+	</script>
+	<!--[if lt IE 9]>
+	   <script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body class="front">
+	<div class="wrapper">
+		<header id="header">
+			<section class="container">	
+				<h1 title="PayPal teste shop"><a href="">PayPal teste shop</a></h1>
+				<nav id="menu-primario">
+					<ul>
+						<li class="first"><a title="Meus pedidos" href="">Meus pedidos</a></li>
+						<li class="first"><a href="" title="Minha conta">Minha conta</a></li>
+						<li class="last"><a href="" title="Meu carrinho" class"meu-carrinho">Meu carrinho (00)</a></li>
+					</ul>
+					
+				</nav>
+				<div id="block-atendimento"><span class="atendimento" title="Atendimento: 0800-892-1555">Atendimento: 0800-892-1555</span>
+				
+				</div>
+				<div class="block-search">
+				
+					<form action="" method="">
+						<input type="text">
+					</form>
+				</div>
+				<div class="block-loginwith" style="float:left; padding: 8px 0 0 15px;">
+				
+					<span id="myContainer"></span><script src="https://www.paypalobjects.com/js/external/api.js"></script>
+<script>
+paypal.use( ["login"], function(login) {
+  login.render ({
+    "appid": "AS1weBAIF3qm6IPUqt0GoY7QyhZzipNdjEgIlwfBUDhIx1gIcsWezcFz1cnU",
+    "authend": "sandbox",
+    "scopes": "profile email address phone https://uri.paypal.com/services/paypalattributes",
+    "containerid": "myContainer",
+    "locale": "en-us",
+    "returnurl": "http://ppbrasil.tecnologia.ws/ariel/testshop/"
+  });
+});
+</script>
+				</div>
+			</section>	
+		</header>
+		<main id="main">		
+			<section class="container">
+				<div class="destaque"><img src="images/marcacao-destaque-home.jpg" alt="" /></div>
+				
+				<aside class="sidebar-left">
+					<h4 class="title">Categorias</h4>
+					<nav>
+						<ul>
+							<li><a href="">Eletrodomésticos &amp; Portáteis</a></li>
+							<li><a href="">Eletrônicos</a></li>
+							<li><a href="">Games</a></li>
+							<li><a href="">Hardware</a></li>
+							<li><a href="">Impressão</a></li>
+							<li><a href="">Informática</a></li>
+							<li><a href="">Saúde &amp; Beleza</a></li>
+							<li><a href="">Telefonia</a></li>
+							<li><a href="">Utilidades Domésticas</a></li>
+						</ul>
+					</nav>
+				</aside>
+				<div id="content">
+					<h4 class="title">As melhores ofertas</h4>
+					<div class="bloco-produtos">
+					<a href = "produto.html">
+						<div class="foto-produto" onclick="nextpage()"><img src="images/marcacao-produto-destaque-home2.jpg" alt=""></div>
+						<div class="conteudo-produto" onclick="nextpage()">
+							<h4>Celular ZTE Desbloqueado</h4>
+							<h5>R236 Dual Chip Preto </h5>
+							<p>
+								<span class="valor1">de R$ 225,00</span><br />
+								<span class="valor2">por r$ 199,00</span><br />
+								<span class="juros">Em até 12x sem juros</span>
+							</p>
+						</div>
+						</a>
+					</div>
+					<div class="bloco-produtos last">
+						<div class="foto-produto"><img src="images/marcacao-produto-home.jpg" alt=""></div>
+						<div class="conteudo-produto">
+							<h4>multifuncional
+							deskjet link</h4>
+							<h5>Advantage 5525 wireless
+							e all-in-one HP</h5>
+							<p>
+								<span class="valor1">de R$ 528,00</span><br />
+								<span class="valor2">por r$ 358,20</span><br />
+								<span class="juros">Em até 12x sem juros</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<aside class="sidebar-right">
+					<h4 class="title">veja também</h4>
+					<div class="bloco-produtos">
+						<div class="foto-produto"><img src="images/marcacao-produto-veja.jpg" alt=""></div>
+						<div class="conteudo-produto">
+							<h4>TV LED 40' SmartTV</h4>						
+							<p>
+								<span class="valor1">de R$ 650,00</span><br />
+								<span class="valor2">por R$ 599,00</span><br />
+								<span class="juros">Em até 12x sem juros</span>
+							</p>
+						</div>
+					</div>
+					<div class="bloco-produtos last">
+						<div class="foto-produto"><img src="images/marcacao-produto-veja.jpg" alt=""></div>
+						<div class="conteudo-produto">
+							<h4>TV LED 40' SmartTV</h4>						
+							<p>
+								<span class="valor1">de R$ 650,00</span><br />
+								<span class="valor2">por r$ 599,00</span><br />
+								<span class="juros">Em até 12x sem juros</span>
+							</p>
+						</div>
+					</div>				
+				</aside>
+			</section>
+		</main>
+		<div class="push"></div>
+	</div>
+	<footer id="footer">
+		<section class="container">			
+			<div id="block-search-footer">
+				<div class="block-search">
+					<form action="" method="">
+						<input type="text">
+					</form>
+				</div>				
+				<span class="atendimento24" title="Atendimento: 24h">Atendimento: 24h</span>
+				<span class="atendimento" title="Atendimento: 0800-892-1555">Atendimento: 0800-892-1555</span>
+			</div>
+
+			<div id="forma-de-pagamento">
+				<h3 title="Formas de Pagamento">Formas de Pagamento</h3>
+				<div class="boleto">
+					<div class="blocos">
+						<h4>PayPal</h4>
+						<img alt="" src="images/Selo_Aceitacao/Principal/selo-aceitacao_VERTICAL2.png" />
+					</div>
+				</div>
+			</div>
+
+			<div id="acompanhe">
+				<h3 title="Acompanhe">Acompanhe</h3>
+				<nav>
+					<ul>
+						<li><a class="twitter" title="Twitter" href="">Twitter</a></li>
+						<li><a class="facebook" title="Facebook" href="">Facebook</a></li>
+						<li><a class="orkut" title="Orkut" href="">Orkut</a></li>
+						<li><a class="blog" title="Blog" href="">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="ajuda">
+				<h3 title="Ajuda e Suporte">Ajuda e Suporte</h3>
+				<nav>
+					<ul>
+						<li><a title="Autoatendimento" href="">Autoatendimento</a></li>
+						<li><a title="Trocas e Devoluções" href="">Trocas e Devoluções</a></li>
+						<li><a title="Compra Segura" href="">Compra Segura</a></li>
+						<li><a title="Envio e Entrega" href="">Envio e Entrega</a></li>
+						<li><a title="Navegando e Comprando" href="">Navegando e Comprando</a></li>
+						<li><a title="Promoções e Serviços" href="">Promoções e Serviços</a></li>
+						<li><a title="Televendas XXXX-XXXX" href="">Televendas XXXX-XXXX</a></li>						
+					</ul>
+				</nav>
+			</div>
+
+			<div id="institucional">
+				<h3 title="Institucional">Institucional</h3>
+				<nav>
+					<ul>						
+						<li><a title="Quem Somos" href="">Quem Somos</a></li>
+						<li><a title="Serviços" href="">Serviços</a></li>
+						<li><a title="Política e privacidade" href="">Política e privacidade</a></li>
+						<li><a title="Afiliados" href="">Afiliados</a></li>
+						<li><a title="Parcerias" href="">Parcerias</a></li>
+						<li><a title="Negócios Corporativos" href="">Negócios Corporativos</a></li>
+						<li><a title="Programa Fidelidade" href="">Programa Fidelidade</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div id="site-seguro">
+				<h3 title="Site Seguro">Site Seguro</h3>
+				<a href=""><img alt="Site seguro" src="images/Selo_Seguranca/Principal/compra_segura_VERTICAL.png" /></a>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
