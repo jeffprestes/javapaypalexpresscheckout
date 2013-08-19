@@ -27,7 +27,7 @@
                     jQuery('img[id="concluirpp"]').click(function(){
                         setTimeout(function(){
                             jQuery('.sa_payPal_overlay').css('visibility', 'visible');
-                            return false;
+                            return true;
                         },100)
                     })
                 };
@@ -261,10 +261,10 @@
 			</div>
 		</section>
 	</footer>
-    <script type="text/javascript">
-        function sendform(){
-            document.forms["formpp"].submit();
-        }            
+        <script type="text/javascript">
+            function sendform(){
+                document.forms["formpp"].submit();
+            }            
         </script>
 </body>
 </html>
