@@ -27,7 +27,7 @@
                     jQuery('img[id="concluirpp"]').click(function(){
                         setTimeout(function(){
                             jQuery('.sa_payPal_overlay').css('visibility', 'visible');
-                            return true;
+                            return false;
                         },100)
                     })
                 };
@@ -235,7 +235,7 @@
 	</footer>
     <script type="text/javascript">
         function sendform(){
-            document.getElementById('formpp').submit();
+            document.forms["formpp"].submit();
         }            
         </script>
 </body>
