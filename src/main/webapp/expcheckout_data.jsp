@@ -43,7 +43,7 @@ jQuery(document).ready(function(){
     <body align="center" onload="load()" link="#0b0b6f" alink="#0b0b6f" vlink="#0b0b6f" style="font-family: arial, helvetica; background-color: #f5f5f5">
         <%-- INICIO dos DADOS --%>
         <table>
-            <form action="DEMOretorno.jsp" method="POST">   
+            <form action="testshop2/acompanhamento_pedido.jsp" method="POST">   
 
                 <input type="hidden" value='<c:out value="${resposta.token}"/>' name="TOKEN" id="TOKEN">
 
