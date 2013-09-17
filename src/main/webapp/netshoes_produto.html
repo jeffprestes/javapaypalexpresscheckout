@@ -16193,7 +16193,7 @@ var _gaq = _gaq || [];
 								</div>								
 								<div class="productDetailBox">
 									
-										<form action="../checkout/addItemToCart.jsp" method="post" id="frmProduto">
+										<form action="http://java-ppbrasil.rhcloud.com/netshoes_carrinho.html" method="post" id="frmProduto">
 											
 	
 	
@@ -17673,7 +17673,7 @@ var _gaq = _gaq || [];
 		$( '.bundle-product' ).each( function(i) {
 			bundles[i] = new netshoes.Bundle( $( this ), {
 				ajaxOptions: {
-					url: '../produto/productBundlePriceInfoAjax.jsp'
+					url: 'http://www.netshoes.com.br/produto/productBundlePriceInfoAjax.jsp'
 				},
 				data: data,
 				dataModel: {
@@ -17709,7 +17709,7 @@ var _gaq = _gaq || [];
 	function getVisibleRecommendedProducts( divId, bnMap) {
 		$.ajax({
 			type: 'GET',
-			url: '/produto/productRecommendationsAjax.jsp?productId=017-2136&skuCode=017-2136-028-37&guideParameter=bnMap:' + bnMap,
+			url: 'http://www.netshoes.com.br/produto/productRecommendationsAjax.jsp?productId=017-2136&skuCode=017-2136-028-37&guideParameter=bnMap:' + bnMap,
 		  	error: function(response,ioArgs) {
 		  		$("#" + divId).html("<B>Erro ao obter produtos recomendados para Chuteira Umbro Prime League Sola Turbo CP. Por favor, tente novamente mais tarde");
 		  	},
@@ -17722,7 +17722,7 @@ var _gaq = _gaq || [];
 	function getVisibleRecommendedProductsFirstRow(divId, bnMap) {
 		$.ajax({
 			type: 'GET',
-			url: '/produto/productRecommendationsAjax.jsp?productId=017-2136&skuCode=017-2136-028-37&guideParameter=bnMap:' + bnMap,
+			url: 'http://www.netshoes.com.br/produto/productRecommendationsAjax.jsp?productId=017-2136&skuCode=017-2136-028-37&guideParameter=bnMap:' + bnMap,
 		  	error: function(response,ioArgs) {
 		  		$("#" + divId).html("<B>Erro ao obter produtos recomendados para Chuteira Umbro Prime League Sola Turbo CP. Por favor, tente novamente mais tarde");
 		  	},
@@ -18156,7 +18156,7 @@ var _gaq = _gaq || [];
 						<script type="text/javascript">
 							$(function(){
 								var host = (("https:" == document.location.protocol) ? "https" : "http");
-								$('.likeFacebookBox').html('<iframe src="http://www.netshoes.com.br//www.facebook.com/plugins/like.php?href=' + host + '%3A%2F%2Fwww.facebook.com%2FNetshoes&amp;send=false&amp;layout=standard&amp;width=214&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=135157493206678" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:214px;" allowTransparency="true"></iframe>')
+								$('.likeFacebookBox').html('<iframe src="http://www.facebook.com/plugins/like.php?href=' + host + '%3A%2F%2Fwww.facebook.com%2FNetshoes&amp;send=false&amp;layout=standard&amp;width=214&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=135157493206678" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:214px;" allowTransparency="true"></iframe>')
 							})
 						</script>
 					</div>
