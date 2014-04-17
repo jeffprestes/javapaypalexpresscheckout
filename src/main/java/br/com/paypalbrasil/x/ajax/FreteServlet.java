@@ -117,6 +117,7 @@ public class FreteServlet extends HttpServlet {
                 logger.info("TOTAL DA ENTREGA = " + valor.getTotal());
 
                 out.print("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (valor.getTotal()+(valor.getTotal()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
+                logger.info("METHOD=CallbackResponse&OFFERINSURANCEOPTION=false&L_SHIPPINGOPTIONLABEL0=" + valor.getNomeEntrega1() + "&L_SHIPPINGOPTIONAMOUNT0=" + (valor.getTotal()+(valor.getTotal()*0.3)) +"&L_SHIPPINGOPTIONLABEL1=" + valor.getNomeEntrega() + "&L_SHIPPINGOPTIONAMOUNT1=" + valor.getTotal() + "&L_SHIPPINGOPTIONLABEL2=PAC&L_SHIPPINGOPTIONAMOUNT2=6.00&L_SHIPPINGOPTIONISDEFAULT1=true");
             }
 
            
