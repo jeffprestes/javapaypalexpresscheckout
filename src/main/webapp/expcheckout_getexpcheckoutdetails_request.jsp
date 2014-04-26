@@ -61,7 +61,7 @@
                 <tr>
                     <td>Versao (VERSION - Para saber a ultima versão vá a pagina paypal.com e veja no fonte da pagina os 3 primeiros digitos do campo webversion) : </td>
                     <td>
-                        <input type="text" value="91.0" size="10" name="VERSION" id="VERSION" />
+                        <input type="text" value="109.0" size="10" name="VERSION" id="VERSION" />
                     </td>
                 </tr>
                 <tr>

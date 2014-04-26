@@ -69,7 +69,7 @@
                 </tr>
                 <td>Versão (VERSION): </td>
                 <td>
-                    <input type="text" value="91.0" size="60" name="VERSION" id="VERSION" />
+                    <input type="text" value="109.0" size="60" name="VERSION" id="VERSION" />
                 </td>
                 </tr>
                 </tr>
