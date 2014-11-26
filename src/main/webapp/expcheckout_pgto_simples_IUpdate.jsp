@@ -111,7 +111,7 @@
                     <td>
                         Url de callback (CALLBACK): </td>
                     <td>
-                        <input type="text" value='http://java-ppbrasil.rhcloud.com/FreteServlet' name="CALLBACK" id="CALLBACK" size="100" />
+                        <input type="text" value='FreteIU.jsp' name="CALLBACK" id="CALLBACK" size="100" />
                         <%--<input type="text" value='http://ppbrec-ggodoi.rhcloud.com/SetEC_InstantUpdate_CallRequest.php' name="CALLBACK" id="CALLBACK" size="100" />--%>
                     </td>
                 </tr>
