@@ -42,19 +42,19 @@
                 <tr>
                     <td>Usuario (USER): </td>
                     <td>
-                        <input type="text" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
+                        <input type="text" value="test_receiver_api1.paypal.com" size="60" name="USER" id="USER" />
                     </td>
                 </tr>
                 <tr>
                     <td>Senha (PWD): </td>
                     <td>
-                        <input type="text" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
+                        <input type="text" value="1390483509" size="60" name="PWD" id="PWD" />
                     </td>
                 </tr>
                 <tr>
                     <td>Assinatura (SIGNATURE): </td>
                     <td>
-                        <input type="text" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
+                        <input type="text" value="AxsydGcjKwrQPpQn0mX3dm-eVkpbAxRvIWDS5F42-iy5C.59vYMO2gZi" size="60" name="SIGNATURE" id="SIGNATURE" />
                     </td>
                 </tr>
                 <tr>

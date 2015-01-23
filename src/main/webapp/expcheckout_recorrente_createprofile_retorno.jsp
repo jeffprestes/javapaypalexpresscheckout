@@ -51,9 +51,9 @@
     <input type="hidden" id="PROFILEID" name="PROFILEID" value="<c:out value='${resposta.profileId}' />">
     <input type="hidden" id="METHOD" name="METHOD" value="GetRecurringPaymentsProfileDetails">
     <input type="hidden" id="NAOENVIAR_ENDPOINT" name="NAOENVIAR_ENDPOINT" value="https://api-3t.sandbox.paypal.com/nvp">
-    <input type="hidden" value="jeffprestes_api1.gmail.com" size="60" name="USER" id="USER" />
-    <input type="hidden" value="3SZKBPGTTLMVQ66B" size="60" name="PWD" id="PWD" />
-    <input type="hidden" value="ATutHe2f5sqGdXTHx0Gdsr3F4EnaAPbdeidoBxokDfl3cK.mR1XmuSHH" size="60" name="SIGNATURE" id="SIGNATURE" />
+    <input type="hidden" value="test_receiver_api1.paypal.com" size="60" name="USER" id="USER" />
+    <input type="hidden" value="1390483509" size="60" name="PWD" id="PWD" />
+    <input type="hidden" value="AxsydGcjKwrQPpQn0mX3dm-eVkpbAxRvIWDS5F42-iy5C.59vYMO2gZi" size="60" name="SIGNATURE" id="SIGNATURE" />
     <input type="hidden" value="91.0" size="10" name="VERSION" id="VERSION" />
     <input type="submit" value="Get Recurring Profile Details">
 </form>
